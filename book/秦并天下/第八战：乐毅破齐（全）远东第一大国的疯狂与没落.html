@@ -1,0 +1,674 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>第八战：乐毅破齐 - 渤海小吏的封建脉络百战</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../序.html">序</a></li><li class="chapter-item expanded affix "><li class="part-title">一、秦并天下</li><li class="chapter-item expanded "><a href="../秦并天下/第一战：三家分晋（加量修订版）韩赵魏崛起，自春秋来到战国.html"><strong aria-hidden="true">1.</strong> 第一战：三家分晋</a></li><li class="chapter-item expanded "><a href="../秦并天下/第二战：马陵之战（国防成本修订版）战略方向错误导致的魏盛转衰.html"><strong aria-hidden="true">2.</strong> 第二战：马陵之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第三战：商鞅变法（变法始末修订版）秦并天下的战争机器，开动起来了.html"><strong aria-hidden="true">3.</strong> 第三战：商鞅变法</a></li><li class="chapter-item expanded "><a href="../秦并天下/第四战：“合纵”与“连横”（“战国纵横家书”辨别修订版）诸子百家走四方的美好时代.html"><strong aria-hidden="true">4.</strong> 第四战：“合纵”与“连横”</a></li><li class="chapter-item expanded "><a href="../秦并天下/第五战：秦并巴蜀（蜀道修订篇）百年一遇的机会，你怎么选？.html"><strong aria-hidden="true">5.</strong> 第五战：秦并巴蜀</a></li><li class="chapter-item expanded "><a href="../秦并天下/第六战：胡服骑射（全）赵国崛起的关键三十年.html"><strong aria-hidden="true">6.</strong> 第六战：胡服骑射</a></li><li class="chapter-item expanded "><a href="../秦并天下/第七战：伊阙之战（豫西重镇修订版）杀神登场.html"><strong aria-hidden="true">7.</strong> 第七战：伊阙之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第八战：乐毅破齐（全）远东第一大国的疯狂与没落.html" class="active"><strong aria-hidden="true">8.</strong> 第八战：乐毅破齐</a></li><li class="chapter-item expanded "><a href="../秦并天下/第九战：鄢郢之战（全）杀神横扫汉江平原.html"><strong aria-hidden="true">9.</strong> 第九战：鄢郢之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十战：秦为什么冒险发动长平之战.html"><strong aria-hidden="true">10.</strong> 第十战：长平之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十一战：嫪毐之乱（全）秦灭六国的隐藏大线.html"><strong aria-hidden="true">11.</strong> 第十一战：嫪毐之乱</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十二战：王翦灭楚（全）秦国搬开最后的大石.html"><strong aria-hidden="true">12.</strong> 第十二战：王翦灭楚</a></li><li class="chapter-item expanded affix "><li class="part-title">二、楚汉双雄</li><li class="chapter-item expanded "><a href="../楚汉双雄/第十三战：揭竿大泽乡（全）秦“崩”在了哪？.html"><strong aria-hidden="true">13.</strong> 第十三战：揭竿大泽乡</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十四战：破釜沉舟（全）力拔山兮气盖世！.html"><strong aria-hidden="true">14.</strong> 第十四战：破釜沉舟</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十五战：先入关者为王上（全）刘主任的西行漫记.html"><strong aria-hidden="true">15.</strong> 第十五战：先入关者为王上</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十六战：鸿门宴（修订版）刘邦集团的内在升级.html"><strong aria-hidden="true">16.</strong> 第十六战：鸿门宴</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十七战：暗度陈仓（全）月下追回来的“汉中对”.html"><strong aria-hidden="true">17.</strong> 第十七战：暗度陈仓</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十八战：彭城大屠杀（全）楚霸王的闪电战.html"><strong aria-hidden="true">18.</strong> 第十八战：彭城大屠杀</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十九战：背水一战（全）兵仙的一路向北.html"><strong aria-hidden="true">19.</strong> 第十九战：背水一战</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第二十战：拉锯荥阳（全）东奔西走的霸王.html"><strong aria-hidden="true">20.</strong> 第二十战：拉锯荥阳</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第二十一战：会战垓下（全）兵仙与霸王的巅峰对决.html"><strong aria-hidden="true">21.</strong> 第二十一战：会战垓下</a></li><li class="chapter-item expanded affix "><li class="part-title">三、强汉开疆</li><li class="chapter-item expanded "><a href="../强汉开疆/第二十二战：白登之围（全）疑雾重重的汉初顶级大案.html"><strong aria-hidden="true">22.</strong> 第二十二战：白登之围</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十三战：灭诸王（全）既然离别难免，今生何必相会.html"><strong aria-hidden="true">23.</strong> 第二十三战：灭诸王</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十四战：诸吕之变（全）摄政女皇的伟大与悲哀.html"><strong aria-hidden="true">24.</strong> 第二十四战：诸吕之变</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十五战：七国之乱（全）文景之治的缺憾美.html"><strong aria-hidden="true">25.</strong> 第二十五战：七国之乱</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十六战：马邑阴谋（全）儒教、长城、草原的逻辑.html"><strong aria-hidden="true">26.</strong> 第二十六战：马邑阴谋</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十七战：漠南无王庭（全）跨时代的伟大战术革命.html"><strong aria-hidden="true">27.</strong> 第二十七战：漠南无王庭</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十八战：打通河西走廊（全）匈奴梦魇的冠军侯.html"><strong aria-hidden="true">28.</strong> 第二十八战：打通河西走廊</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十九战：漠北大决战（修订版）农耕民族的荣耀之巅.html"><strong aria-hidden="true">29.</strong> 第二十九战：漠北大决战</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十战：定南疆灭朝鲜（全）专治各种不服.html"><strong aria-hidden="true">30.</strong> 第三十战：定南疆灭朝鲜</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十一战：征大宛（全）汗血马的蝴蝶效应.html"><strong aria-hidden="true">31.</strong> 第三十一战：征大宛</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十二战：孤愤之战（全）史家之绝唱，无韵之离骚.html"><strong aria-hidden="true">32.</strong> 第三十二战：孤愤之战</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十三战：巫蛊之乱（全）生生世世莫生帝王家.html"><strong aria-hidden="true">33.</strong> 第三十三战：巫蛊之乱</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十四战：霍光废帝（全）大司马大将军的反噬.html"><strong aria-hidden="true">34.</strong> 第三十四战：霍光废帝</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十五战：王莽篡汉（全）戏精的艺术人生.html"><strong aria-hidden="true">35.</strong> 第三十五战：王莽篡汉</a></li><li class="chapter-item expanded "><a href="../强汉开疆/“强汉开疆”篇总结（1）西汉的脉络梳理.html"><strong aria-hidden="true">36.</strong> “强汉开疆”篇总结</a></li><li class="chapter-item expanded affix "><li class="part-title">四、光武中兴</li><li class="chapter-item expanded "><a href="../光武中兴/第三十六战：王莽复古（全）陨灭三千万人的“德之贼”表演.html"><strong aria-hidden="true">37.</strong> 第三十六战：王莽复古</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十七战：昆阳大逆转（全）天选之子的神话之战.html"><strong aria-hidden="true">38.</strong> 第三十七战：昆阳大逆转</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十八战：河北惊魂记（全）二十八宿召唤神龙.html"><strong aria-hidden="true">39.</strong> 第三十八战：河北惊魂记</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十九战：两京堵赤眉（全）汉末最强匪帮退场.html"><strong aria-hidden="true">40.</strong> 第三十九战：两京堵赤眉</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十战：定关东（全）东南西北的将星闪耀.html"><strong aria-hidden="true">41.</strong> 第四十战：定关东</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十一战：得陇望蜀（全）陇山难，蜀山悲，天下定.html"><strong aria-hidden="true">42.</strong> 第四十一战：得陇望蜀</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十二战：班超通西域（全）小冰期下汉匈博弈的个人英雄主义巅峰.html"><strong aria-hidden="true">43.</strong> 第四十二战：班超通西域</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十三战：党锢之祸（全）东汉王莽们和死太监集团的皇权角逐巅峰战.html"><strong aria-hidden="true">44.</strong> 第四十三战：党锢之祸</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十四战：黄巾起义（全）大乱四百年的开端.html"><strong aria-hidden="true">45.</strong> 第四十四战：黄巾起义</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十五战：189年汉末崩塌（全）顶级谋篇布局下的“为他人作嫁衣裳”.html"><strong aria-hidden="true">46.</strong> 第四十五战：189年汉末崩塌</a></li><li class="chapter-item expanded affix "><li class="part-title">五、三国争霸</li><li class="chapter-item expanded "><a href="../三国争霸/第四十六战：群雄讨董（全）璀璨纷杂的时代开篇.html"><strong aria-hidden="true">47.</strong> 第四十六战：群雄讨董</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十七战：兖州风云（全）年少时的无心插柳，成荫后的阶级背叛.html"><strong aria-hidden="true">48.</strong> 第四十七战：兖州风云</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十八战：挟天子令诸侯（全）曹操巅峰升级的公元196年.html"><strong aria-hidden="true">49.</strong> 第四十八战：挟天子令诸侯</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十九战：官渡之战（全）汉末双神决战到最后一秒的巅峰对决.html"><strong aria-hidden="true">50.</strong> 第四十九战：官渡之战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十战：火烧赤壁（全）曹操不会放过的刘备，士族不会放过的孙权.html"><strong aria-hidden="true">51.</strong> 第五十战：火烧赤壁</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十一战：刘备入川（全）曹操换房本之路上的“点炮”盛宴.html"><strong aria-hidden="true">52.</strong> 第五十一战：刘备入川</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十二战：汉中会战（全）汉末诸神黄昏的上半集.html"><strong aria-hidden="true">53.</strong> 第五十二战：汉中会战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十三战：襄樊惊天大逆转（全）孙权背刺逻辑；关公威震华夏；糜芳叛变之谜.html"><strong aria-hidden="true">54.</strong> 第五十三战：襄樊惊天大逆转</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十四战：夷陵之战（全）先主伐吴始末，永安举国托孤.html"><strong aria-hidden="true">55.</strong> 第五十四战：夷陵之战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十五战：失街亭（全）一步也不能走错的弱者悲哀.html"><strong aria-hidden="true">56.</strong> 第五十五战：失街亭</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十六战：秋风五丈原（全）大梦谁先觉，平生我自知，秋风星落日，光耀天地间.html"><strong aria-hidden="true">57.</strong> 第五十六战：秋风五丈原</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十七战：高平陵之变（全）三百年大悲哀的逻辑原点.html"><strong aria-hidden="true">58.</strong> 第五十七战：高平陵之变</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十八战：淮南三叛（全）人事、利益、威慑、恐吓、荣耀······的政治博弈算法.html"><strong aria-hidden="true">59.</strong> 第五十八战：淮南三叛</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十九战：二士争蜀（全）赚得英雄头似雪，万般回首化尘埃.html"><strong aria-hidden="true">60.</strong> 第五十九战：二士争蜀</a></li><li class="chapter-item expanded affix "><li class="part-title">六、两晋悲歌</li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十战：西晋平吴（全）十分伶俐都使尽，远在儿孙近在身.html"><strong aria-hidden="true">61.</strong> 第六十战：西晋平吴</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十一战：凛冬将至（全）草蛇灰线，伏脉千里的长城内外.html"><strong aria-hidden="true">62.</strong> 第六十一战：凛冬将至</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十二战：八王之乱时无英雄显竖子.html"><strong aria-hidden="true">63.</strong> 第六十二战：八王之乱时无英雄显竖子</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十三战：永嘉之乱（全）善恶到头终有报，只争来早与来迟.html"><strong aria-hidden="true">64.</strong> 第六十三战：永嘉之乱</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十四战：石勒霸北（全）超越种族永远靠的是仇恨，团结群众永远靠的是阶级.html"><strong aria-hidden="true">65.</strong> 第六十四战：石勒霸北</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第65战：东晋立国（全）“光腚北士”与“散装江东”博弈下的门阀政治开端.html"><strong aria-hidden="true">66.</strong> 第65战：东晋立国</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第66战：王敦、苏峻之乱（全）多股真气的冲突下，走火入魔的门阀政治自救之路.html"><strong aria-hidden="true">67.</strong> 第66战：王敦、苏峻之乱</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第67战：桓温灭蜀（1）“血亲复仇”千百年来对于古代社会的深远意义.html"><strong aria-hidden="true">68.</strong> 第67战：桓温灭蜀</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十八战：石虎肆虐（全）超长待机的五胡“狮驼岭”吃人算法之谜.html"><strong aria-hidden="true">69.</strong> 第六十八战：石虎肆虐</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第69战：冉闵屠羯（全）少年闵的奇幻漂流.html"><strong aria-hidden="true">70.</strong> 第69战：冉闵屠羯</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第70战：桓温北伐（上）风云际会后的北国兴与衰.html"><strong aria-hidden="true">71.</strong> 第70战：桓温北伐</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第71战：雄主的膨胀之路（全）天欲福之，必开其慧；天欲毁之，必助其狂.html"><strong aria-hidden="true">72.</strong> 第71战：雄主的膨胀之路</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第72战：淝水之战（全）“摆拍仁主”与“网红门阀”的春秋笔法.html"><strong aria-hidden="true">73.</strong> 第72战：淝水之战</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第73战：兴复大燕（全）：燃烧的北境，爆炸的关中.html"><strong aria-hidden="true">74.</strong> 第73战：兴复大燕</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第74战：拓跋珪复国之谜（全）借我借我一双慧眼吧······.html"><strong aria-hidden="true">75.</strong> 第74战：拓跋珪复国之谜</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第75战：参合悲（全）眼看他起朱楼，眼看他宴宾客，眼看他楼塌了.html"><strong aria-hidden="true">76.</strong> 第75战：参合悲</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第76战：桓玄篡晋（两晋季终章）早悟夜宴终有散，当初赌甚英雄汉.html"><strong aria-hidden="true">77.</strong> 第76战：桓玄篡晋</a></li><li class="chapter-item expanded affix "><li class="part-title">七、南北归一</li><li class="chapter-item expanded "><a href="../南北归一/《南北归一》序：北人南下，为六朝盛衰之总纲！.html"><strong aria-hidden="true">78.</strong> 《南北归一》序</a></li><li class="chapter-item expanded "><a href="../南北归一/第77战：气吞万里如虎（1）每段英雄之旅的开始，都是不拼就死的悲哀.html"><strong aria-hidden="true">79.</strong> 第77战：气吞万里如虎</a></li><li class="chapter-item expanded "><a href="../南北归一/第78战：刘老虎的西征梦（1）《东游记》开场.html"><strong aria-hidden="true">80.</strong> 第78战：刘老虎的西征梦</a></li><li class="chapter-item expanded "><a href="../南北归一/第79战：拓跋珪的心魔（1）“代人集团”登场，弱化版的汉初丰沛集团.html"><strong aria-hidden="true">81.</strong> 第79战：拓跋珪的心魔</a></li><li class="chapter-item expanded "><a href="../南北归一/第80战：后青春的诗（1）刘裕托孤的算盘.html"><strong aria-hidden="true">82.</strong> 第80战：后青春的诗</a></li><li class="chapter-item expanded "><a href="../南北归一/第81战：南龙有悔，北龙在天（1）“亢龙”伐“飞龙”，结局早定.html"><strong aria-hidden="true">83.</strong> 第81战：南龙有悔，北龙在天</a></li><li class="chapter-item expanded "><a href="../南北归一/第82战：冰血暴.html"><strong aria-hidden="true">84.</strong> 第82战：冰血暴</a></li><li class="chapter-item expanded "><a href="../南北归一/第83战：女王的棋局（1）被史官掩盖的北魏版“巫蛊之祸”.html"><strong aria-hidden="true">85.</strong> 第83战：女王的棋局</a></li><li class="chapter-item expanded "><a href="../南北归一/第84战：隐秘的元宏（1）不会哭，咋上权力牌桌？.html"><strong aria-hidden="true">86.</strong> 第84战：隐秘的元宏</a></li><li class="chapter-item expanded "><a href="../南北归一/第85战：时来天地皆同力（1）雍州教父而立之年的奇幻漂流.html"><strong aria-hidden="true">87.</strong> 第85战：时来天地皆同力</a></li><li class="chapter-item expanded "><a href="../南北归一/第86战：六镇之乱（1）北魏统一天下的窗口突然被打开了.html"><strong aria-hidden="true">88.</strong> 第86战：六镇之乱</a></li><li class="chapter-item expanded "><a href="../南北归一/第87战：后三国开篇.html"><strong aria-hidden="true">89.</strong> 第87战：后三国开篇</a></li><li class="chapter-item expanded "><a href="../南北归一/第八十九战：运去英雄不自由.html"><strong aria-hidden="true">90.</strong> 第八十九战：运去英雄不自由</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十战：最后的三国.html"><strong aria-hidden="true">91.</strong> 第九十战：最后的三国</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十一战：东西合拢.html"><strong aria-hidden="true">92.</strong> 第九十一战：东西合拢</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十二战：南北归一.html"><strong aria-hidden="true">93.</strong> 第九十二战：南北归一</a></li><li class="chapter-item expanded affix "><li class="part-title">深度系列</li><li class="chapter-item expanded "><a href="../深度系列/深度系列.html"><strong aria-hidden="true">94.</strong> 深度系列</a></li><li class="chapter-item expanded "><a href="../深度系列/神留言回答.html"><strong aria-hidden="true">95.</strong> 神留言回答</a></li><li class="chapter-item expanded "><a href="../深度系列/改变未来.html"><strong aria-hidden="true">96.</strong> 改变未来</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">渤海小吏的封建脉络百战</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="第八战乐毅破齐全远东第一大国的疯狂与没落"><a class="header" href="#第八战乐毅破齐全远东第一大国的疯狂与没落">第八战：乐毅破齐（全）远东第一大国的疯狂与没落</a></h1>
+<p>公元前284年，中原大地发生了重大事件。</p>
+<p>乐毅破齐，呼吸间下70余城。</p>
+<p>东方第一大国，能跟秦国掰腕子的齐国，被打的仅仅还有即墨，莒城两座城。</p>
+<p>燕弱而齐强，但蛇真的吞象了。</p>
+<p>乐毅也因此一战而奠定历史地位。</p>
+<p>后世堪称中国最伟大的丞相楷模诸葛亮在青年时候就总自比为经济大师管仲与军事大师乐毅。</p>
+<p>一个兴齐，一个灭齐，都是了不起的人物。</p>
+<p>当然，立志高总是好的，诸葛丞相在自身的努力下就比他俩的后世之名大的太多了，远销世界各个角落，有华人的地方就没有不知道空城计与借东风的，虽然这两段都是罗贯中编的。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812034.jpeg" alt="图片" /></p>
+<p>偶像往往是无所不能的，各种各样的神话会帖到你身上，不管你愿不愿意接受。</p>
+<p>大多数时候，历史的真像往往没有流传下来的那么精彩，那么传奇。</p>
+<p>诸葛丞相的两个偶像，其实其中有一个是名不太符实的，就像他自己一样，“多智近于妖”的那些光辉很多都是后人给加上去的，他的真正功绩意义比“大法师”可大得多。</p>
+<p>到了三国时代我们会详细说一下诸葛丞相的全满格才能与伟大人格以及人生无可复制的传奇性。</p>
+<p>上述三点综合于一人，两千年来我目力所及只有本朝先总理周公能与之相提并论。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812055.jpeg" alt="图片" /></p>
+<p>这也应该是孔明先生的真正样子</p>
+<p>诸葛丞相的两个偶像中，管仲是实的那个，在这里有必要介绍一下这位大神。</p>
+<p>管仲的伟大，在于他在几千年前就明白并展示了商业与经济的重要性。</p>
+<p>他强调士、农、工、商四民平等，而不是后来的重农抑商。</p>
+<p>他主张放活微观，管制宏观，活跃市井。</p>
+<p>他鼓励全民做买卖，而且还大搞国际贸易，修建了专门招待外国商人的客舍，只要你来做买卖，齐国人民就欢迎你，他甚至开办了国营妓院来吸引外来商旅。（今天那个圈不知怎样，估计是谈不上祭祖了，反正几千年来娼妓业内供拜的祖师爷一直是管仲）</p>
+<p>不仅如此，他还首次瞄准了盐铁专营，打造了有史以来的第一台国有企业。</p>
+<p>关于盐铁的威力，我们会在汉武大帝那章中详细讲述。</p>
+<p>在他的一系列改革下，齐国自春秋起就是东方第一强国，经济实力与综合国力都排在第一梯队上，几百年没掉下来过。</p>
+<p>管仲的那些做法，是具有跨时代意义的，即便是千年以后的今天，依然具有高度。</p>
+<p>这一套市场经济的做法，会让我们产生一种错觉：这位爷不是从现在穿越过去的吧。</p>
+<p><strong>他的改革，可谓顺应了人性</strong>，也成为了有史以来比较少见的成功改革，后来的王安石如果有他一半的知行合一，北宋也许就真的能做到“民不加赋而国用饶”，而且还能避免北宋毁灭的根源：党争。</p>
+<p>乐毅，当然也是大才，但和管仲一比，就有点显得虚了。</p>
+<p>他的一系列功绩，却并没有那么实，所谓的灭齐之功，其实是有多方面原因的，或者说如果换个人带队，应该是也能“蛇吞象”的。</p>
+<p>燕之所以能够创造一年灭齐的这个奇迹，其实是有着极其多方面的综合原因的。</p>
+<p>有国仇。</p>
+<p>有家恨。</p>
+<p>有齐主无道。</p>
+<p>有国际默许。</p>
+<p>有齐民拥护。</p>
+<p>有战前脑残助攻。</p>
+<p>等等等等。</p>
+<p>上述缺一，都灭不了。</p>
+<p><strong>可以说当时的燕灭齐，是符合全世界范围内最广大人民的根本利益的。</strong></p>
+<p><strong>这也是一段战国版的“卧薪尝胆”。</strong></p>
+<p>苦心人，天不负，三十年后，燕国君民终复仇。</p>
+<p>这段复仇的故事，要从三十年前说起。</p>
+<p>三十年前，燕王哙当政。</p>
+<p>他提拔了一个人当国相，这个人叫子之。</p>
+<p>子之很能干，办事果断，善于监督考核臣属，没有辜负燕王哙的赏识和重用，后来渐渐位高权重。</p>
+<p>燕王哙逐渐年老后不在过问政事，大权就渐渐旁落到了子之的手中。</p>
+<p>后来苏代为齐国出使燕国面见燕王哙，苏代就是著名的苏秦导师的弟弟，燕王哙问他:&quot;你家齐王近来如何?&quot;</p>
+<p>苏代回答说:&quot;没啥前途，必定不能称霸。&quot;</p>
+<p>燕王哙问:“为什么？”</p>
+<p>苏代回答说:&quot;因为不信任他的大臣。&quot;</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812079-7843492.jpeg" alt="图片" /></p>
+<p>燕王哙听完后觉得他得更加信任子之了，要不国际口碑太差了。</p>
+<p>子之因此以百金赠送苏代，并声称“咱爷们今后事儿上见”。</p>
+<p>燕王哙的脑子高低是有点问题，苏秦苏代这不忠不仁不义的哥俩能够横行，也多亏了市场上买家好糊弄。</p>
+<p>苏代作为子之的第一个托儿完成任务后，第二个托儿鹿毛寿上场。</p>
+<p>鹿毛寿对燕王哙说:“您应该将国家禅让给国相子之。”</p>
+<p>燕王哙问：为啥？</p>
+<p>鹿先生是这么说的：人们称道尧贤圣，就是因为他要将天下禅让给许由。</p>
+<p>许由不接受，君臣两相让，舜既有让天下的美名而实际上没有失去天下。</p>
+<p>现在大王将国家让给子之，子之必然不敢接受，这样，大王与尧就具有同样的德行。&quot;</p>
+<p>燕王哙再次印证了他的智商指数，将国家托付给子之。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812239.gif" alt="图片" /></p>
+<p>不过子之却并按剧本走，人家没有推却。</p>
+<p>后来第三个托上场，此人是谁，史书没有记载。</p>
+<p>此人说:“夏禹举荐伯夷，此后仍以夏启的人做官吏。</p>
+<p>等禹年老时，认为夏启不能够担当天下重任，而将天下传给伯益。</p>
+<p>不久夏启与其同党攻打伯益，夺回天下。</p>
+<p>天下人说夏禹名义上将天下传给伯益，实际上过后便让夏启自行夺取天下。”</p>
+<p>现在大王名义上将国家托付给了子之，但官吏全是太子平的人，这就是名义上交付给子之而实际上还是让太子平当权。&quot;</p>
+<p>子之轮番派历史老师给燕王哙上生动的禅让专业课，燕王哙于是又比狗还听话的将俸禄三百石以上官吏的印信收起来交给子之。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812072.jpeg" alt="图片" /></p>
+<p>我看谁还说我假禅让！我要名垂青史跟尧舜同列！</p>
+<p>子之由此掌控了人事大权，基本完成了抢班夺权。</p>
+<p>除了上古的那些神话外，没有经营多年的根基却能得位禅让的，古往今来，仅此一例。</p>
+<p>一个万乘大国的政权如此儿戏的完成了交接，名不正，言不顺，继位者无民望基础，无累世积淀，传位者昏聩儿戏，并不按权利的规则行事。</p>
+<p>这种胡闹，为燕的灭亡，埋下了祸根。</p>
+<p>有句话叫做“德不配位，必有灾殃”。</p>
+<p>说的是如果这人德行不够，坐在高位上，是会有大灾殃的。</p>
+<p>这个灾殃不仅会祸害自己，还会祸害自己位置下所能影响到的所有人。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812044.jpeg" alt="图片" /></p>
+<p><strong>这里面的“德”，不仅仅是指道德品质，还指你要有能驾驭住那个位置的能力。</strong></p>
+<p>综合起来，统称为“德”。</p>
+<p><strong>你天天五讲四美三热爱，狗屁也不会却当一万个人的领导，你就等着这个单位黄吧。</strong></p>
+<p>**
+**</p>
+<p><strong>黄了还是小事，你这个单位要是因为你的领导不善为祸社会，你丫真的万死难辞其咎！</strong></p>
+<p>你不仅坑的是你自己，千万个家庭也因为你倒大霉了。</p>
+<p>一个好领导，会让一个平庸的团队产生合力，干出业绩，每个人越来越多的正能量，每个人不断地展现出自己人性中光辉的一面。</p>
+<p>一个“缺德的领导”，会让自己所在的地方内外全是窟窿陷入人民战争的汪洋大海。</p>
+<p><strong>给立志当领导的同学们一个建议：你要养好你的品德，你要养好你的能力。</strong></p>
+<p><strong>你要以身作则的做一个好人，更要有让身边每个人都变好的能力。</strong></p>
+<p><strong>沉迷厚黑学，办公室政治的的同学们换个思路吧，无德无能的靠着那些边角料真的是蹉跎人生。</strong></p>
+<p>尊敬你的领导，踏实肯干团结同志的日积月累壮大自己吧，想想许三多，人生会豁达很多。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812130.jpeg" alt="图片" /></p>
+<p>说了这么多，我就是想引出燕王哙。</p>
+<p>这个“德不配位”的人，把自己的国家坑惨了。</p>
+<p>你不仅对不起列祖列宗，最重要的，你对不起广大燕国人民。</p>
+<p>他的初衷不好吗？</p>
+<p>他可是想比肩尧舜的。</p>
+<p>但你的智商却真的担不起这么重大的一个位置。</p>
+<p><strong>“德之贼”是最可怕的。</strong></p>
+<p><strong>人民公敌的破坏力永远是有限的，因为人们会对他设防止损。</strong></p>
+<p><strong>最可怕的就是打着“为你好”旗号的大混蛋</strong>，再过250年，历史的巅峰大混蛋该现世了。</p>
+<p>那可是著名的道德模范。</p>
+<p>拿下燕国大权的子之当权了三年，由于心虚，也为了消化他的窃国所得，开始在国内展开了种种高压统治，燕国大乱，百姓恐惧。</p>
+<p>原定的合法继位人太子平联合了将军市被，并联络外国势力齐国，向反革命势力子之开战。</p>
+<p>大战之后，第一次反子之同盟失败了，窃国大盗打退了太子党。</p>
+<p>不过太子平并不气馁，在第二年迅速又组织了第二次反子之同盟，这次反攻很顺利，眼看就推翻反革命政权了，但这次老盟友市被却在临门一脚时突然反水，反攻太子平。</p>
+<p>混战了好几个月，燕国大乱，死伤数万人之多，百姓水深火热。</p>
+<p>这里没有记载为何市被会反水，但应该是子之收买了市被，许诺了更大的收益。</p>
+<p>这时，著名思想家，亚圣，民贵君轻推行者，儒学教育带头人，善养浩然之气的齐国客座教授孟子对齐宣王讲：现在应该攻打燕国，这是武王伐纣的时机，不可失去。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812079.jpeg" alt="图片" /></p>
+<p>此时孟子在齐国游说儒学，讲以德治国，但当时已经是法家的天下了，<strong>王霸之术是最能够看出效果的富国强兵之术。</strong></p>
+<p><strong>儒学是统一王朝的保健品，却远不是乱世的特效药</strong>，此时已接近战国后期，兼并之惨烈越发严重，所以孟子的游说比起一百多年前的孔子，市场更加狭小。</p>
+<p>齐宣王于是命令大奖章子率领五都之兵，加上北方边防守军，攻打燕国。</p>
+<p>齐国是五都制，五都之兵基本上就相当于全国之力了。</p>
+<p>当年管仲把齐国分为五个大区，每个大区既是行政大区，也是军事大区。每个大区设有一名都大夫，主管辖区内的军政事务。五个大区各设有一个都城，是大区的军政中心，都大夫就在此办公，首都临淄同时也是全国的军政中心。</p>
+<p>齐国的五都分别是：中都临淄，东都即墨，西都平陆，南都莒城，北都高唐。</p>
+<p>燕国士兵如同孟子所言，压根都不应战，城门不关闭，燕民夹道欢迎齐国解放军进城。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812116.jpeg" alt="图片" /></p>
+<p>齐军一路直捣燕国都，杀死了子之和燕王哙。</p>
+<p>不过没多久，燕国老百姓被再次伤害了。</p>
+<p>齐军获胜后，没有满足齐国老百姓的美好想象，开始大肆掳掠，将整个燕国当做了提款机，燕人就像后来的苏联人民，以为希特勒是来解放他的，没想到希特勒比斯大林还不是东西。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812112.jpeg" alt="图片" /></p>
+<p>齐宣王在扫平燕国后，在思考一个问题，燕国是自己留着呢？还是扶植一个傀儡国呢？</p>
+<p>他还是将他的想法咨询了客座教授思想家孟子。</p>
+<p>亚圣说的很智慧：如果吞并燕国，他的百姓快乐，那就吞并它，如果他的百姓不高兴，就别吞并它。</p>
+<p>齐宣王没解风情，问：啥意思？</p>
+<p>亚圣道：当初我们能够势如破竹，在于燕国百姓以为我们可以救他们于水火，所以夹道欢迎。</p>
+<p>但如今我们的队伍成了流氓军，屠杀他们的父兄，抢劫他们的财宝，破坏他们的祭坛，您说我们还具备统治的基础吗？</p>
+<p>况且现在全世界都已经很畏惧齐国了，如今领土再扩大了一倍，又没有实行仁政，势必会吸引天下的攻击。</p>
+<p>如果现在退军，还可以扶植一个政权，让新君主感恩，让齐国还能保持国际威信。</p>
+<p>齐宣王听完后很不以为然，认为一个一万辆战车的国家迅速的灭亡了另一个一万辆战车的国家，是天意，天予不取，必受其咎。</p>
+<p>天是不是这么想不一定，但他肯定不想把到嘴的肥肉吐出来。</p>
+<p>圣人是有大智慧的，正如孟圣人所说的，齐军的臭流氓行径不仅引起燕人的极大不满，也引起了国际上的诸多妒忌，比如西部强人赵武灵王就很妒忌。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812108.jpeg" alt="图片" /></p>
+<p>赵武灵王觉得燕被齐吞并后对赵很不利，决心插手燕国内政，不能让齐人自己多吃多占，派大将乐池入韩迎立作为人质的燕国公子职。</p>
+<p>赵武灵王的这个政治干预是多赢的局面，比较乱，我来给大家捋一下哈。</p>
+<p>燕国与韩国对赵国曾经有夹击的盟约。</p>
+<p>但赵国后来和韩国结盟了。</p>
+<p>虽然是盟军，但乱世多小心，韩国为了制约赵国，还是与燕国结盟，形成对赵国的夹击之势，以防备赵国哪天突然翻脸对韩不利。</p>
+<p>韩燕双方互换公子为质，燕公子职就是应这个盟约入韩的。</p>
+<p>赵武灵王想通过迎立新的燕王，使燕王能够对赵国感恩，既而与赵国结成稳固的联盟，与此同时，还能破坏燕国与韩国对赵国的夹击盟约，拆开了韩燕联盟后，便有利于赵国对韩燕这两个邻国分别进行控制了。</p>
+<p>韩国那边的想法几乎与赵国一样，只是角度不同。</p>
+<p>韩国认为燕公子职虽然是赵国主张立的新燕王，但作为对燕公子职有质押权的韩国对于能否让公子职归国，却有着最直接的决定权。</p>
+<p>韩国本可以当初应燕太子平和齐国的要求杀死公子职，但韩国没有这么做，公子职是非常感激韩国的。</p>
+<p>韩国同意赵国接公子职归国，主要是考虑韩国对公子职有不杀之恩，日后，两国必然亲善，韩国可以利用燕国制约齐国和赵国。</p>
+<p>可乱死我了。</p>
+<p><strong>通过这段描写，也可以看出来，合纵有多可笑，生命会自己寻找出路，每家都会根据自身的条件与状况选择活法，刚刚我们所说的这堆心眼儿是每个国家都会上的一道又一道的保险。</strong></p>
+<p>赵武灵王以平叛驱齐为号召，派乐池奉公子职之名引军入燕，与太子平和匡章的齐军交战。</p>
+<p>燕国的百姓受够了齐军的掳掠，对太子平的引狼入室也很不满，抬眼望见启明星，老百姓们又寄希望于赵韩盟军，在诺曼底登陆后，对公子职的盟军非常拥护。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812112-7843492.jpeg" alt="图片" /></p>
+<p>齐宣王见赵插手燕国内政，与齐国为敌，便派遣齐军精锐燕地迎战，意图啤酒在自家喝，火上别人家放，在本土之外与赵国决战，燕赵一锅烩。</p>
+<p>赵武灵王却又不想因为这事损害自家的利益，没有主动应战，双方进入到了相持状态。</p>
+<p>不过赵武灵王的脑子精明，他突然想到公子职是燕易王后的儿子，他妈妈易王后是秦惠王的女儿，于是赵武灵王对公子职假称齐军强硬，赵军打不过齐军，请公子职向姥爷秦惠王求救。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812122.jpeg" alt="图片" /></p>
+<p>他姥爷也看不得东边的齐国得势，于是派出了大军，兵分两路攻齐救燕。</p>
+<p>与此同时，燕国到处发生抗暴战争，齐军在大败后灰溜溜的退出了燕国，燕国复国成功。</p>
+<p>由于有复国大恩，燕国后来在相当长的时间里都是赵国，韩国和秦国的稳固盟友，公子职正式登上王位。</p>
+<p>千万别欺负人，保不齐人家的后人中回来几个出息的。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812959.gif" alt="图片" /></p>
+<p>这位公子职就是后来的燕国中兴之主，燕昭王。</p>
+<p>整个燕国在经历了子之乱政，公子平内战，齐人劫掠三场大浩劫后，整个国家残破凋敝。</p>
+<p>背负着国仇家恨的人往往都会有大志向，燕昭王立志要让燕国强大起来，下决心物色治国的人才，可是一直没找到合适的人，这时有人提醒他，老臣郭隗有大见识，不如去找他商量一下。</p>
+<p>郭隗给燕昭王讲了个“千金买骨”的故事，用千金买千里马的骨头，一年后四面八方就送来了千里马。</p>
+<p>对你有什么启发吗？</p>
+<p>你没感觉我就是那匹死千里马吗？</p>
+<p>燕昭王听了二话没说马上派人造了一座很精致的房子给郭隗住，还拜郭隗做老师。</p>
+<p>榜样的力量是无穷的，千里马们开始上门自荐，其中有一个人叫做乐毅（祖籍中山），自魏国（魏国啊魏国，出来多少人了）前来。</p>
+<p>昭王觉得此人不俗，拜他为亚卿（国相副手），请他整顿国政，训练兵马。</p>
+<p>复仇的种子，开始发芽。</p>
+<p>时间飞逝，来到了三十年后。</p>
+<p>这三十年，燕国发生了很大变化。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812297.jpeg" alt="图片" /></p>
+<p>这是刚复国时的燕国版图，感恩图作者布哈林</p>
+<p>燕昭王十二年，燕国由秦开带队，率军攻袭东胡，打败东胡各族并将他们向北驱逐，开拓大片北方领土，修筑了起于河北北部、止于辽东东部的燕长城以守护北方，并建立了上谷、渔阳、右北平、辽西、辽东五郡以治理这一地区，领土变成了仅次于秦、楚的世界第三。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812146.jpeg" alt="图片" /></p>
+<p>开拓疆域后的燕国版图</p>
+<p>燕国国力蒸蒸日上，燕昭王复仇的梦想也一直没有忘怀，但现实和梦想往往是有差距的，齐国作为老牌强国，燕昭王寻思了一下，觉得实力还是不够开战，选择了继续蛰伏。</p>
+<p><strong>这就是明白人和妄人间的区别，明白人知道自己有几斤几两，妄人则觉得自己无所不能，看谁家媳妇都像是自己的。</strong></p>
+<p>老天没有让燕昭王白等。</p>
+<p>随后的几年，妄人辈出，东方开始轮番上演花样作死大戏。</p>
+<p>先是号称五千乘之国的小强国宋国的国都城墙拐角处的麻雀窝里发现了一只刚孵出来的雏鹰。</p>
+<p>对于这种老鹰下错蛋的现象，在那个没有手机与网络的年代却像插了翅膀一样的传遍了宋境，下至田间地头，上至庙堂之上，全都在议论这是怎么一回事。</p>
+<p>后来劳烦到了宋国的首席大巫师对它进行了官方认证，认证的占卜的结果显示：小生大，弱要变强，这是我主要成霸主的先兆哇！</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812138.jpeg" alt="图片" /></p>
+<p>当时的宋主是宋康王，此时已经是宋康王在位的第四十三年了。</p>
+<p>在那个年代，老宋绝对迈进了老寿星行列了。</p>
+<p>按说一个在位多年的老领导，尤其已经是老同志了，应该是分的清楚童话故事和现实之间的区别的，但宋康王却没有把它当童话听，他认为自己苦心孤诣的忍耐终于得到了上天的认可，老天指明宋国将通往称霸之路。</p>
+<p>宋康王老爷子于是奋起余勇在风烛残年像吃了伟哥一样的遍地播种仇恨。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812177.jpeg" alt="图片" /></p>
+<p>他先是灭了小国滕国，顺道打了薛国。</p>
+<p>打小国觉得不过瘾，老宋向东又打了远东第一强国齐国，夺了五个城，自信心暴涨。</p>
+<p>转头又向南打巨无霸楚国，又拿下三百里，自信心已经爆棚。</p>
+<p>向西又跟魏国开战，又将魏国军队击败，宋老爷子觉得自己此时已经是天下之主，无敌于天下，谁来都白给，我们可是麻雀生老鹰的国家！</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812152.jpeg" alt="图片" /></p>
+<p>取得一连串军事胜利的宋康王开始对自我进行包装，先是拿弓箭射苍天，然后拿鞭子抽大地，然后摧毁自己的社稷（祭祀天地祖宗的祭坛）。</p>
+<p>这在中国五千年历史上只有宋康王干过如此对不起祖宗的事，表明我命由我不由天。</p>
+<p>这个败家玩意啊！</p>
+<p>他开始彻夜饮酒，逼着全国的人高喊万岁，最牛的时候，全城会出现万岁大和唱，万岁之声响彻云霄。</p>
+<p>此时的宋康王，其实已经有老年痴呆的前兆了，<strong>他忘了自己的国家几百年能够活下来，是因为尾巴夹的好，是因为能够利用列强间的矛盾。</strong></p>
+<p>如今他伟哥吃多了，纵欲过度，很快就该X尽国亡了。</p>
+<p>被宋国夺走五个城的齐国就不是善茬，齐湣王对富庶的宋一直在流口水，之前兴兵了好几次，但都因为国际势力干预等诸多原因无功而返。</p>
+<p>这次齐湣王联合楚、魏，兴大兵攻打宋国，战斗过程一边倒，宋康王被齐兵杀掉，具有悠久历史建国827年的古老宋国，灭亡在了纵欲过度的宋康王手里。</p>
+<p>可能是那只麻雀孵出鹰的故事具有传染性，齐国在得到了宋地之后，齐湣王也被神经病传染了。</p>
+<p>他也开始了花样作死。</p>
+<p>他发现自从灭了宋之后，自我感觉也开始超级良好，觉得智慧超人一等，看事物透彻无比，要不这么老的国家咱能这么轻易地就给他灭了吗？</p>
+<p>他忽略了宋老爷子自己的作死助攻，宋在当时国虽小，但经济实力非常强，陶邑等地是有名的中原商业中心，而且有各大国可以博弈，所以活了八百年始终屹立不倒。</p>
+<p>但凡不作死，其实宋的牌并不那么难打。</p>
+<p><strong>看这个人有没有出息，要看他怎样对待人生前几次的成功，成功是好东西，有时会激励人，但有时会毁了人。</strong></p>
+<p>宋康王就是被毁了的那个人。</p>
+<p>齐湣王也是。</p>
+<p>他在灭宋后，先是攻击楚国，然后攻击三晋，注意是三晋，韩赵魏三家一个没落下，而且将目标指向了周王国，扬言要让周天子滚蛋，自己当天下共主。</p>
+<p>他的死，作的可比宋康王大多了。</p>
+<p><strong>能力越大，死作的也越大。</strong></p>
+<p>看到他的荒唐，国家有忠良，大臣狐咺劝他，被他斩首，陈举继续劝他，也被斩首。</p>
+<p>国力因穷兵黩武而损耗，国际关系因利令智昏而全部破裂，国中忠良因暴虐昏庸而不敢直言。</p>
+<p>又一次“武王伐纣”似的机会展现在了各国面前。</p>
+<p>北方的那双眼睛，终于放出了精锐的光芒。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141813042.gif" alt="图片" /></p>
+<p>燕昭王认为复仇的时机到了，三十年的隐忍终于等到了机会，于是找来一干心腹大臣进行商议，讨论攻齐大计。</p>
+<p>乐毅认为，虽然我们励精图治，国力渐强，但和齐比，还是有差距，但由于齐自己满世界乱咬，我们可以联络全世界被他咬过的人一起去攻击他。</p>
+<p>燕昭王授予乐毅首席外交官的头衔，让他周游列国。</p>
+<p>乐毅先是去赵，赵由于对燕昭王有复国大恩，多年来一直关系不错，而且被齐湣王咬过，赵国同意出兵。</p>
+<p>韩国由于也是燕昭王恩人之国，一直是关系户，再加上也被齐湣王咬过，也同意出兵。</p>
+<p>魏国和齐那是一天二地恨，三江四海仇。虽然所谓的“合纵”过，但当年将魏从老大位置拉下来的就是齐，而且同样被齐湣王咬过，也同意出兵。</p>
+<p>楚国由于同样被咬过，决定陈兵淮南，随时准备夺取齐国的淮北之地。</p>
+<p>你瞅瞅，全被咬过。</p>
+<p>乐毅又去游说燕昭王的舅舅秦昭王，说有肉吃，有地分，还能打击东方老大齐国，大舅自然也同意出兵。</p>
+<p>在齐湣王自己的作死铺垫和燕昭王多年经营的好人缘下，天时已备。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812173.jpeg" alt="图片" /></p>
+<p>就这样，首席外交官乐毅兼任了盟军总司令，率领五国大军前来向齐国决战。</p>
+<p>在得知乐毅带着全世界来讨伐他后，齐湣王还没有觉得恐惧，他认为齐国像秦国那样击败世界联军的机会到来了。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812200.jpeg" alt="图片" /></p>
+<p>他忽略了人家秦国有函谷关，你有吗？</p>
+<p>你虽然也有济水泰山之险，但你可并没有人家秦国的黄河函谷关那么瓷实。</p>
+<p>人家秦国在打一个国家时，给另外的国家好处，让自己一次只对付一个敌人，你这是一口气怼了多少个国家？</p>
+<p>齐湣王表示无压力，省的我挨个找了，挺好！</p>
+<p>起全国之兵前来决战。</p>
+<p>并在决战前送上作死助攻大礼。</p>
+<p>灭宋名将触子率齐军与五国联军对峙于济水边，触子本想借着济水之险与联军对峙，待联军有变，但业余军事爱好者齐湣王却催促他决战：我大齐将士天下无敌，我是要赶跑周天子的人，跟那帮乌合之众还用这么费劲吗！</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812224.jpeg" alt="图片" /></p>
+<p>给我打！狠狠地打！</p>
+<p>齐湣王还派使者辱骂呵斥道：“你要是不尽力作战，我就灭你的族，掘你家的坟！”</p>
+<p>齐湣王再次神助攻，居然对出征大将如此态度。</p>
+<p>触子十分寒心。</p>
+<p>触子不在僵持，开拔来找联军决战，两军刚一交战，齐军刚冲了一半，触子就鸣锣收兵，战场上剩下了一群蒙圈的齐军士兵。</p>
+<p>被夺了士气的齐军开始扭头快跑，兵无斗志，联军乘胜追击。</p>
+<p>触子踢完假球后早早就驾一辆车而去，不知去向，联军杀猪宰羊一样的攻破了齐军精锐，突破了济水防线。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812985.gif" alt="图片" /></p>
+<p>在得到兵败消息后，齐湣王派触子的副将达子聚敛残兵继续阻击五国联军。</p>
+<p>情势危急，为了激励战士，达子派人向湣王请求赏金。</p>
+<p>齐湣王大怒：“你们这些无用的东西，怎能给你们赏钱！”</p>
+<p>唉，这人要是得了神经病啊···</p>
+<p>齐军最后的力量被联军血洗，达子战死沙场。</p>
+<p>齐军主力被灭后，乐毅开始主持外援四国的利益分割，因为齐地远不能守，乐毅先是重赏路远的韩，秦两国，令其撤军，还将富庶的陶邑分给了秦国，再请魏国去攻打齐占据的宋地，赵攻打原来齐占领中山国的东边河间之地。</p>
+<p><strong>记住这个陶邑，这个富裕的小地方最终成为了后面那场决定战国时代大结局的旷世之战的总源头。</strong></p>
+<p>四国都安排完后，乐毅自率燕军长驱直入，深入齐国境内。</p>
+<p>在此时，燕国司令部产生了两种意见。</p>
+<p>将领剧辛说：齐强而燕弱，此时幸运得到了他国相助，我们打败了齐国，我们应该见好就收，把和我们临界的齐国北部城池拿下来，扩张我们的实力，而不应该再进行追击了。</p>
+<p><strong>乐毅则持不同意见并做出了他职业生涯最精准的一次判断</strong>，也是此次伐齐含金量最高的一次抉择。</p>
+<p>乐毅指出，齐湣王自认为功勋盖世，向来一意孤行，这些年更是横征暴敛，闹得天怒人怨，现在我们如果乘胜再给他施加压力，它的内部必然破裂，整个齐国内部必然乱成一团。</p>
+<p>齐国虽大，却并非不能征服！</p>
+<p>如果我们现在不乘胜追击，将来他一定会觉悟到自己曾经的作死之处，再励精图治，那个时候我们就前功尽弃了。</p>
+<p>乐毅说服了剧辛，率大军深入，围攻齐国首都临淄。</p>
+<p>齐湣王没有了继续玩下去的筹码，仓促逃跑，逃到了齐国的南都莒城。</p>
+<p>乐毅攻破了临淄，将齐国王室多年的财宝，祭品包括三十年前齐国从燕国抢来的那些宝物统统的打包运回了燕国。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812277.jpeg" alt="图片" /></p>
+<p>得到捷报后的燕昭王欣喜若狂，三十年国仇家恨得报，兴奋地亲自到济水以西劳军，大赏三军，并封乐毅昌国君，命他继续扫平齐国。</p>
+<p>乐毅在进入临淄之后，有三十年前齐国鬼子的教训警示，乐毅做了这么几件事：</p>
+<p>一：禁止侵掠。</p>
+<p>二：访求齐国在野的人才，给他们官爵，敬以上宾之礼。</p>
+<p>三：减少人民的赋税。</p>
+<p>四：取消齐湣王时的暴政，恢复齐国的旧政（田氏代齐前，一下子倒退了近百年）</p>
+<p>五：祭祀齐桓公，管仲。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812309.jpeg" alt="图片" /></p>
+<p>乐毅的种种举措，不仅在安抚当地百姓，更是在昭告天下，你们老田家压根就是非法的！</p>
+<p>在乐毅对齐都进行安抚后，兵分五路，乘胜追击，六个月内，齐国的七十余座城池被燕国攻下并改造成了燕的郡县，有二十多有功之人在燕国获得了采邑，被封爵的有100多人，只有东都即墨和南都莒城两座城还在齐国人手里。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812371.jpeg" alt="图片" /></p>
+<p>感恩图作者布哈林</p>
+<p>我们先来说一下齐湣王的下场，齐湣王在主力大败后曾求救于想要夹攻他的楚，但还没等回信燕国人就打进来了，他开始了逃亡。</p>
+<p>他先是逃到了曾经的傀儡卫国，卫候很够意思的让出了自己的皇宫让他下榻，但他在混成那样的时候，还不忘四处嘚瑟，口出恶言，很快，他在卫国呆不下去了，让人家踢出来了。</p>
+<p>他接着又投奔邹国，鲁国，态度依旧牛气哄哄，也被人家给轰出来了。</p>
+<p>最后，他逃到了自己的最后归宿，南都莒城。</p>
+<p>楚国收到齐国求救消息后权衡了一下，还是派将领淖齿带兵去救齐，因为楚又不愿意燕做大。</p>
+<p>淖齿被齐湣王任命为相，但淖齿却有了自己的打算，他无心救齐而是派人与燕国勾结，打算瓜分齐国。</p>
+<p>最终齐湣王被淖齿所杀。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812498.jpeg" alt="图片" /></p>
+<p>关于他的被杀，还是倒霉在自己的嘴上，本已穷途末路，却还在耍大牌，对救星淖齿极尽傲慢。</p>
+<p>见面不久本无大仇的淖齿最后是将他吊起来扒皮抽筋的，可见他是有多么的招人恨。</p>
+<p>说完这个现世报，我们再来看一下燕国的大好形势，此时的燕国，围困两个孤岛，似乎只需要临门一脚就可以彻底踢散齐国这个只剩最后一口气的连国君都被杀了的无头之国。</p>
+<p>但这一脚，一踢，就是五年。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812720.gif" alt="图片" /></p>
+<p>**
+**</p>
+<p><strong>中国史上最大的“敦刻尔克”谜案，即将上演。</strong></p>
+<p>**
+**</p>
+<p>中国历史上的“敦刻尔克谜案”。</p>
+<p>1940年5月，高歌猛进的德国将40万英法联军逼入敦刻尔克马上就能包饺子的时候，上演了世界战争史的谜之一刻。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812858.gif" alt="图片" /></p>
+<p>德国的装甲部队在最后即将把英法联军赶入英吉利海的最后一刻戛然而止，希特勒神奇的宣布赶紧给我打住。</p>
+<p>古德里安仰天长叹！</p>
+<p>这给英法联军留了关键的两天调整时间。</p>
+<p>英国人民也在这之后的九天里内展示了为何大英帝国之所以可以称霸世界三百年的伟大民族人格。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812942.gif" alt="图片" /></p>
+<p>载入史册的“发电机行动计划”实施，英国所有能出动的军舰，私人游艇，渔船，只要能漂上海的船全部开往敦刻尔克港，上演了世界战争史上可歌可泣的敦刻尔克大撤退。</p>
+<p>九天时间中，英国父老接回了33万8226个英法老兵，其中大约英军21.5万人。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812897.jpeg" alt="图片" /></p>
+<p><strong>这此莫名其妙的“打住”也成为了希特勒有生之年犯下的两个最大的错误之一。</strong>（另一个是英国还没拔出腿来去打另一个独裁者朋友斯大林同志）</p>
+<p>用丘吉尔的话讲：如果这二十万英国老兵全折进去了，那么我们就只能派童子兵上战场了。</p>
+<p>如果这20万英国老兵被消灭，也许那道短短的英吉利海峡拦不住希特勒。</p>
+<p>世界历史就会被改写。</p>
+<p>对于此案，有诸多说法。</p>
+<p>有说法是戈林的空军看不得陆军的辉煌战绩要争功。</p>
+<p>有说法是希特勒怕敦刻尔克的沙滩坑了他的宝贵装甲军。</p>
+<p>有说法是希特勒不想跟英国彻底撕破脸。</p>
+<p>说法有很多，具体啥原因，淹没在历史的黄沙里了，谁也不知道那位独裁者先生是咋想的了。</p>
+<p>总之，那个命令，彻底的改变了历史。</p>
+<p>**
+**</p>
+<p><strong>此时的乐毅，就好像当年的希特勒令人看不懂。</strong></p>
+<p>首先，他在六个月里席卷了齐国的七十余座城，但最后的这两座城池却一打一年多，始终攻不下来。</p>
+<p>那么问题就来了，这两座城并不接壤，是两座孤城，不应该一年多内两座孤城都打不下来。</p>
+<p>有可能是这两个城市是人家的东都和南都，是上海和深圳，人家是大城市，不好打。</p>
+<p>大城市没问题，不过即便真的打不下来，就剩最后两座城了，直接围城战术，饿死城中守军，或者和里面的人去谈条件投降。</p>
+<p>不投降其实是很不合理的，要知道此时齐国基本上已经亡国了，你根本没有意义再抵抗。</p>
+<p>在全部退路被封死的情况下，根本没有理由拿不下来这两座城。</p>
+<p>如果说莒城因为离楚国近，可能有楚国势力外援，那么即墨也完全没有理由打不下来，此时的即墨就是个标标准准的孤岛，连指定的国家公务员长官都战死了。</p>
+<p><strong>要知道，四年后的最炫民族风可是从标准孤岛即墨刮起来的。</strong></p>
+<p>紧接着第二个看不懂来了，围城一年后，乐毅命围城守军解围，距城九里驻营，并下令：居民出城，不许侵犯，生活困难的一律赈济。</p>
+<p>有的人会说：这是乐毅想感化齐人。</p>
+<p>但这一点，其实并不成立，他的这五年占领军的感化效果其实并不好，我们在将田单复国时会分析阐述。</p>
+<p>以当时的条件，无论这两座城有多么的固若金汤，只要围上一段时间，里面的粮食一尽，自然守军会束手就擒，为什么乐毅在围了一年多城后也许是城里即将粮尽的时候莫名其妙的下令解围？</p>
+<p><strong>这道解围命令，是齐国最终剩下一口气的关键原因！</strong></p>
+<p>**
+**</p>
+<p>也许他的想法并不单纯。</p>
+<p><strong>唯一合理的解释，就是乐毅像吴三桂那样，既剿匪，又养匪。</strong></p>
+<p>两千年后，三桂领兵南下去，我国大清坐金銮。</p>
+<p>随后就是三藩耗天下之半。</p>
+<p>两千年前，其实历史上，也演过类似的这么一出。</p>
+<p>乐毅留给后世的，是一个有能力，受迫害的大忠臣形象，但他当初的种种做法，却真的让人难以不对此人产生极大地怀疑。</p>
+<p>乐毅也许很明白鸟尽弓藏的道理，开始以还打算以未灭齐的借口争取时间，但战争的过程太过于顺利，随着他在齐地的势力越来越大，他对齐地有了想法。</p>
+<p>他的这份心思也并不是引不起别人怀疑，燕国国内很多人都在谈论乐毅的动机。</p>
+<p>燕昭王的太子就对昭王说过：乐毅智谋过人，短短时间便连克七十余城，现在剩下两座孤城，却没有办法，并不是他没有能力攻取，而是他三年来压根就没有打！</p>
+<p>他要靠着我们燕国的军威，使齐国人心服口服拥护他当国王罢了，他现在所顾虑的，是自己的妻子老小还在我们这，您得抓紧想办法，齐国美女多，不久他就该又置办一个家了。</p>
+<p>人家太子其实分析的没错，搁谁都会这么想。</p>
+<p>不过燕昭王的招法却万分高明，几百年后，刘备也用过这么一次。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812964.jpeg" alt="图片" /></p>
+<p>燕昭王先是把太子打了一顿，大骂道：没有人家乐毅，咱家的大仇能报吗？忘恩负义的东西！乐毅就是当了齐王，也是他应得的！</p>
+<p>打完太子，昭王还将乐毅的家小用王室的待遇进行装扮并派宰相带着一百辆战车护送送到了乐毅处，封乐毅为齐国国王。</p>
+<p>多高明的一招，我把你的想法都给你挑明了，不用你说我给你都送过去，把你架的高高的，看你怎么办。</p>
+<p>你要是没这想法，你会下死命效忠于我，那两座城还不快拿下来吗？</p>
+<p>你要是真有自立这想法，我这样做你将来也会感我的恩。</p>
+<p>杜月笙死之前在他儿女面前烧欠条时说的那句非常经典的话：<strong>“感我们杜家恩的，没有这欠条也会报答我们，不感我们家恩的，这欠条反而会害了你们。”</strong></p>
+<p><strong>恩要等着他人主动报，千万别去要！</strong></p>
+<p><strong>如果你对某人有大恩义，千万要闭紧嘴，并争取忘掉此事。</strong></p>
+<p><strong>否则你大概率会有奇祸。</strong></p>
+<p>**
+**</p>
+<p><strong>千载无不如此。</strong></p>
+<p><strong>做好人，要积阴德。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812939.jpeg" alt="图片" /></p>
+<p><strong>啥叫阴德？</strong></p>
+<p>**
+**</p>
+<p><strong>干了好事不让别人知道，帮了人不让人心里有压力，永远不提这茬。</strong></p>
+<p>**
+**</p>
+<p><strong>总结起来，施恩不图报。</strong></p>
+<p>**
+**</p>
+<p><strong>天道自然公平。</strong></p>
+<p>**
+**</p>
+<p><strong>千载无不如此！</strong></p>
+<p>杜月笙用自己一生的智慧给他的子女们上了最后一课，燕昭王也是如此。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812978.jpeg" alt="图片" /></p>
+<p>乐毅接到封王的这个烫手的山芋后诚惶诚恐，表示誓死拒绝，燕昭王用他最后的智慧成全了乐毅的忠勇之名。</p>
+<p><strong>相比绝大多数的历史人物，乐毅是幸运的，得其主，得其时，也得到了身后之名。</strong></p>
+<p>在演完封王这一出之后，很快，燕昭王就死了。</p>
+<p>燕昭王这一生，就像一个一直在上涨的股票一样，在他人生的最后一刻，燕国的大盘涨到了历史的最高点。</p>
+<p>他虽没有赵武灵王那般上马管军，下马管民的雄才大略将赵国的整体实力提了一档，但他却也将一个接手时残破不堪的燕国打造成了一个壮大的北方大国，并最终报了灭国之仇。</p>
+<p>燕国中兴之主的离世也正式宣布：乐毅的时间不多了。</p>
+<p>因为乐毅问题挨过打的太子继位了，也就是后来的燕惠王。</p>
+<p>与此同时，齐国人似乎看到了希望，即墨城中的田单趁燕国即将刮起的政治风暴前进行着最后的准备。</p>
+<p>我们先来介绍一下田单，田单本是齐国王室的远亲，在燕围临淄时，他感到了危险即将降临，用铁罩住了车的轴，在别人家车轮子因为逃跑时车太多都挤散架的时候，田单率领家族在高质量车队的保护下于城破之时一路逃到了即墨。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141813276.gif" alt="图片" /></p>
+<p>即墨的最高长官大夫早在第一年乐毅围攻即墨的时候就已经战死了，即墨人推选出了撤退高手田单做他们的领头人。</p>
+<p>田单一直在等待，他发现乐毅并没有把他们逼得太狠，所以一直也就配合着不投降。</p>
+<p>他在等待时局的变化。</p>
+<p>这个变化，终于等来了。</p>
+<p>燕国那边忙着办国丧，齐国人民看到了希望。</p>
+<p>即墨民选最高长官田单是一个做局高手，他下了四步棋，每一步都高妙无比，环环相扣。</p>
+<p>第一步，田单在燕昭王死后，先是派出了间谍在燕国散播谣言，把曾经大家怀疑的那堆车轱辘话又都说了一遍，但最后画龙点睛的加了一笔，说乐毅一直就有自立之心，但老王尚在时，乐毅一直不忍心。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141812989.jpeg" alt="图片" /></p>
+<p>其实有没有这谣言，燕惠王都会对乐毅动手，国家不会无限期的等着你围这两座城。</p>
+<p>**
+**</p>
+<p><strong>毕竟就像是这谣言中最贴心的那句话说的那样：老王尚在时，乐毅一直不忍心。</strong></p>
+<p>燕惠王的心理其实很好推测：你手握大兵在他乡经营这么多年，谁知道你是什么心思。</p>
+<p>你又不是我的人，我是不允许有这样大的不确定威胁的。</p>
+<p>燕惠王派大将骑劫去接替乐毅，让乐毅回国受封赏。</p>
+<p>乐毅并没有像吴三桂那样被削藩后就反了，也许他想到了自己的知遇之主燕昭王的封王之义，也许他也知道，这几年他并没有预想的那样，在齐地播下多少恩泽。</p>
+<p>最终，他选择了逝如冬雪般的离开齐国这片自己的传奇之地。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141813037.jpeg" alt="图片" /></p>
+<p>他虽然选择了离开，但他同样不傻，他知道燕惠王是什么意思，他没有北上回燕，而是西去奔赵。</p>
+<p>乐毅一走，燕国军心大变。</p>
+<p>田单的第一步棋走完，走了第二步。</p>
+<p>他搞起了封建迷信。</p>
+<p>他单命令城里百姓每家吃饭的时候必须在庭院中摆出饭菜来祭祀他们的祖先。</p>
+<p>祖先吃没吃到不一定，反正即墨的各种鸟因此都被吸引到即墨城上空盘旋，时不时飞下来和人抢食。</p>
+<p>城外的燕军对此开始感到奇怪，各种传言开始流传。</p>
+<p>田单扬言说:&quot;这是有神仙来教导我，让我拯救孤城。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141813272.gif" alt="图片" /></p>
+<p>这时，有一名士兵没有控制住自己的幽默情绪，说:&quot;我可以当你的神仙导师吗?&quot;</p>
+<p>这个大兵说完就意识到自己闯祸了，于是回身就跑。</p>
+<p>田单马上以百米冲刺的速度将那个士兵拽了回来，倒头便拜，还请他面朝东坐着，导师长导师短的侍奉他。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141813021.jpeg" alt="图片" /></p>
+<p>那个士兵傻眼了，说:&quot;我闹着玩的。&quot;</p>
+<p>田单说:&quot;小点声！别废话！说你是你就是，说破了我就宰了你！&quot;</p>
+<p>今后，每当田单发布约束军民的命令，一定宣称是他这位神仙导师的旨意。</p>
+<p>**第二步棋，增加了己方的信念，打击了城外面燕军的信心，**<strong>毕竟人家有神仙下凡，这仗还怎么打？</strong></p>
+<p>第三步，同仇敌忾。</p>
+<p>他先是派人扬言说:&quot;齐国人非常在乎鼻子，死不怕，但鼻子没了就活不了了。</p>
+<p>大将骑劫于是下命令，把所有齐军的俘虏鼻子都给我割了。</p>
+<p>即墨城中的百姓们愤怒异常，民意被激发了出来，誓与城池共存亡。</p>
+<p>紧接着田单又散播谣言说:&quot;燕军如果挖掘我们城外的坟墓，侮辱我们的祖先，齐人就失去了精神支柱，更活不下去了。</p>
+<p>骑劫拿到剧本后，马上命令燕军挖掘城外的全部坟墓，焚烧死尸。</p>
+<p>被抛坟掘墓的即墨人从城上望见，都流泪哭泣，恨得咬牙切齿，纷纷向田单请求：咱们爷们誓与燕军决一死战！</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141813056.jpeg" alt="图片" /></p>
+<p>田单一看，民意可用，下了最后一步棋。</p>
+<p>田单先是麻痹燕军，命精壮甲士隐伏城内，用老弱﹑妇女登城守望。又派出使者诈降，并让一个城内富豪持重金贿赂燕将，假称即墨守不下去了，准备投降，希望到时能够保全他的妻小。</p>
+<p>此时围城已经三年多的燕军，急欲停战回乡，见大功将成，只等受降，更加懈怠。</p>
+<p>在一个漆黑的夜晚，田单集中了即墨城中的千余头牛，牛角缚利刃，牛尾扎浸油芦苇，牛身画上了五彩花纹。</p>
+<p>准备完毕后，田单下令点燃牛尾芦苇。</p>
+<p>牛负痛从城脚预挖的数十个通道狂奔燕营，即墨五千勇士紧随于后，城内军民擂鼓击器，呐喊助威，一时间，杀声震天。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141813040.jpeg" alt="图片" /></p>
+<p>燕军见火光中无数角上有刀﹑身后冒火的怪物直冲而来，惊惶失措，以为真的神兵天降。即墨勇士乘势冲杀，城内军民能上战场的全部尾随出战，燕军大乱，夺路逃命，互相践踏，骑劫在混乱中被杀。</p>
+<p>田单率军乘胜追击，所经过的城市纷纷起义，田单的部队像滚雪球一样的迅速壮大，节节进击，很快燕军被逐出了齐境，尽复失地70余城。</p>
+<p><strong>田单的复国过程，其实比乐毅破齐更为传奇</strong>，但这也有另一个重大的疑点。</p>
+<p><strong>为什么齐人会纷纷响应？</strong></p>
+<p><strong>战国时期，其实祖国的这个概念在人们心中并不明显</strong>。</p>
+<p><strong>那时候，除了各国王室，人们都是以天下为概念的</strong>，这个国呆不下去了，就去那个国。</p>
+<p>之前我们在第四战中“战国的士”中详细介绍过了。</p>
+<p>比如说乐毅在燕混不下去了就跑到了赵，并没有丝毫犹豫，比如说各国前线的那些城，今天秦国打来了，我们就是秦人，明年魏国光复了，我们又变成了魏人，</p>
+<p>无所谓，只要能吃饱，有田种，剩下都好说。</p>
+<p>我们在这一章中说了两场迅速灭国的战争，<strong>之所以可以如此迅速的齐灭燕，燕破齐，这二者都有一个最重要的原因，百姓离心离德。</strong></p>
+<p>燕国内乱多年，所以齐宣王可以钻了空子。</p>
+<p>齐国穷兵黩武，所以乐毅可以半年下七十余城。</p>
+<p><strong>在古代，所有的“闪电战”，其实都是因为失了民心。</strong></p>
+<p>如今，燕国人，也是如此。</p>
+<p>我们在乐毅拿下临淄后说过，颁布了各项法令，新政，削减赋税，任用贤能，将齐国的所有占领地变成了燕国的郡县。</p>
+<p>看起来很美好，但真正这五年燕国的占领军是怎样做的，史书上却没有记载。</p>
+<p>我们从乐毅的法令中看到，虽然他选拔了齐国在野的人才，但也冷落了那些曾经的既得利益者。他一直打出的口号，是恢复旧法，但那都是上百年前的制度了，根本不适应现在的日常生活。</p>
+<p>但这都并非最重要的。</p>
+<p><strong>秦国每占领一个地方也是将过去的贵族等既得利益者连根拔起，但秦国治下的老百姓始终有饭吃，有地种，而且想奋发向上还有渠道，你去砍脑袋嘛！有那扯淡的功夫早成战斗英雄了！</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141813086.jpeg" alt="图片" /></p>
+<p>所以秦国每打下一个地方，都能巩固住那个地方，也从没见那个地方的百姓配合前政府去反对秦国侵略者。</p>
+<p><strong>所以说到底，但还是那句话，燕国人做的，和乐毅他说的并不一致，在那五年多，燕国人早已失去了民心。</strong></p>
+<p>乐毅的这五年占领军总司令，并没有像麦克阿瑟那样在日本变成了夹道欢迎的“太上天皇”，而是相当失败。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AB%E6%88%98%EF%BC%9A%E4%B9%90%E6%AF%85%E7%A0%B4%E9%BD%90%EF%BC%88%E5%85%A8%EF%BC%89%E8%BF%9C%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%A4%A7%E5%9B%BD%E7%9A%84%E7%96%AF%E7%8B%82%E4%B8%8E%E6%B2%A1%E8%90%BD.assets/640-20220321141813099.jpeg" alt="图片" /></p>
+<p>这是麦克阿瑟离开日本时的欢送场景。</p>
+<p>说到底，他乐毅这几年并没有让齐国人民过上好日子。</p>
+<p>再来复盘一下乐毅破齐，<strong>除了当初力主深入攻齐的决定外，所有攻齐的天时地利人和都是提前摆好的，中期的攻齐变成了劳民伤财的围而不困，让燕军一直兵老于外，后期对于开疆拓土后的消化吸收也做的并不成功。</strong></p>
+<p>这也是为什么，诸葛亮每每自比管仲乐毅，他的这个自比，其实有点自污的效果。</p>
+<p>这乐毅是大才，但却并非顶尖高手。</p>
+<p>最后说说乐毅的结局吧。</p>
+<p>毕竟田单是从骑劫手上复的国，所以乐毅还是那尊“神”，赵国非常看重乐毅这位灭国名将，将乐毅封在了燕赵交界的观津。</p>
+<p>颇有知根知底的前男友拿着硬盘恐怖威慑的意味。</p>
+<p>燕惠王有点怕这位他得罪过的名将带着赵国人再灭他来，于是让他的儿子乐闲继承了他之前在燕国的昌国君爵位，乐毅也乐得忠臣之名，与燕王和好，最终在赵国逝世。</p>
+<p>每提到乐毅，我的脑海中总是浮现出白居易先生曾经在《放言》中写过的这么一段：</p>
+<p>试玉需烧三日满，辩材需待七年期。</p>
+<p>周公恐惧流言日，王莽谦恭未篡时，</p>
+<p>向使当初身便死，一生真伪复谁知。</p>
+<p>齐虽然复国了，但元气经此五年大耗，再也没缓过来。</p>
+<p>“东秦”的趴蛋，让西秦开始了肆无忌惮，有一个“巨无霸”，就要被咬成“吉士蛋”了。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../秦并天下/第七战：伊阙之战（豫西重镇修订版）杀神登场.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../秦并天下/第九战：鄢郢之战（全）杀神横扫汉江平原.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../秦并天下/第七战：伊阙之战（豫西重镇修订版）杀神登场.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../秦并天下/第九战：鄢郢之战（全）杀神横扫汉江平原.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

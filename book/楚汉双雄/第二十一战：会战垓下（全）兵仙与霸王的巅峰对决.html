@@ -1,0 +1,593 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>第二十一战：会战垓下 - 渤海小吏的封建脉络百战</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../序.html">序</a></li><li class="chapter-item expanded affix "><li class="part-title">一、秦并天下</li><li class="chapter-item expanded "><a href="../秦并天下/第一战：三家分晋（加量修订版）韩赵魏崛起，自春秋来到战国.html"><strong aria-hidden="true">1.</strong> 第一战：三家分晋</a></li><li class="chapter-item expanded "><a href="../秦并天下/第二战：马陵之战（国防成本修订版）战略方向错误导致的魏盛转衰.html"><strong aria-hidden="true">2.</strong> 第二战：马陵之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第三战：商鞅变法（变法始末修订版）秦并天下的战争机器，开动起来了.html"><strong aria-hidden="true">3.</strong> 第三战：商鞅变法</a></li><li class="chapter-item expanded "><a href="../秦并天下/第四战：“合纵”与“连横”（“战国纵横家书”辨别修订版）诸子百家走四方的美好时代.html"><strong aria-hidden="true">4.</strong> 第四战：“合纵”与“连横”</a></li><li class="chapter-item expanded "><a href="../秦并天下/第五战：秦并巴蜀（蜀道修订篇）百年一遇的机会，你怎么选？.html"><strong aria-hidden="true">5.</strong> 第五战：秦并巴蜀</a></li><li class="chapter-item expanded "><a href="../秦并天下/第六战：胡服骑射（全）赵国崛起的关键三十年.html"><strong aria-hidden="true">6.</strong> 第六战：胡服骑射</a></li><li class="chapter-item expanded "><a href="../秦并天下/第七战：伊阙之战（豫西重镇修订版）杀神登场.html"><strong aria-hidden="true">7.</strong> 第七战：伊阙之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第八战：乐毅破齐（全）远东第一大国的疯狂与没落.html"><strong aria-hidden="true">8.</strong> 第八战：乐毅破齐</a></li><li class="chapter-item expanded "><a href="../秦并天下/第九战：鄢郢之战（全）杀神横扫汉江平原.html"><strong aria-hidden="true">9.</strong> 第九战：鄢郢之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十战：秦为什么冒险发动长平之战.html"><strong aria-hidden="true">10.</strong> 第十战：长平之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十一战：嫪毐之乱（全）秦灭六国的隐藏大线.html"><strong aria-hidden="true">11.</strong> 第十一战：嫪毐之乱</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十二战：王翦灭楚（全）秦国搬开最后的大石.html"><strong aria-hidden="true">12.</strong> 第十二战：王翦灭楚</a></li><li class="chapter-item expanded affix "><li class="part-title">二、楚汉双雄</li><li class="chapter-item expanded "><a href="../楚汉双雄/第十三战：揭竿大泽乡（全）秦“崩”在了哪？.html"><strong aria-hidden="true">13.</strong> 第十三战：揭竿大泽乡</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十四战：破釜沉舟（全）力拔山兮气盖世！.html"><strong aria-hidden="true">14.</strong> 第十四战：破釜沉舟</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十五战：先入关者为王上（全）刘主任的西行漫记.html"><strong aria-hidden="true">15.</strong> 第十五战：先入关者为王上</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十六战：鸿门宴（修订版）刘邦集团的内在升级.html"><strong aria-hidden="true">16.</strong> 第十六战：鸿门宴</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十七战：暗度陈仓（全）月下追回来的“汉中对”.html"><strong aria-hidden="true">17.</strong> 第十七战：暗度陈仓</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十八战：彭城大屠杀（全）楚霸王的闪电战.html"><strong aria-hidden="true">18.</strong> 第十八战：彭城大屠杀</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十九战：背水一战（全）兵仙的一路向北.html"><strong aria-hidden="true">19.</strong> 第十九战：背水一战</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第二十战：拉锯荥阳（全）东奔西走的霸王.html"><strong aria-hidden="true">20.</strong> 第二十战：拉锯荥阳</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第二十一战：会战垓下（全）兵仙与霸王的巅峰对决.html" class="active"><strong aria-hidden="true">21.</strong> 第二十一战：会战垓下</a></li><li class="chapter-item expanded affix "><li class="part-title">三、强汉开疆</li><li class="chapter-item expanded "><a href="../强汉开疆/第二十二战：白登之围（全）疑雾重重的汉初顶级大案.html"><strong aria-hidden="true">22.</strong> 第二十二战：白登之围</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十三战：灭诸王（全）既然离别难免，今生何必相会.html"><strong aria-hidden="true">23.</strong> 第二十三战：灭诸王</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十四战：诸吕之变（全）摄政女皇的伟大与悲哀.html"><strong aria-hidden="true">24.</strong> 第二十四战：诸吕之变</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十五战：七国之乱（全）文景之治的缺憾美.html"><strong aria-hidden="true">25.</strong> 第二十五战：七国之乱</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十六战：马邑阴谋（全）儒教、长城、草原的逻辑.html"><strong aria-hidden="true">26.</strong> 第二十六战：马邑阴谋</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十七战：漠南无王庭（全）跨时代的伟大战术革命.html"><strong aria-hidden="true">27.</strong> 第二十七战：漠南无王庭</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十八战：打通河西走廊（全）匈奴梦魇的冠军侯.html"><strong aria-hidden="true">28.</strong> 第二十八战：打通河西走廊</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十九战：漠北大决战（修订版）农耕民族的荣耀之巅.html"><strong aria-hidden="true">29.</strong> 第二十九战：漠北大决战</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十战：定南疆灭朝鲜（全）专治各种不服.html"><strong aria-hidden="true">30.</strong> 第三十战：定南疆灭朝鲜</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十一战：征大宛（全）汗血马的蝴蝶效应.html"><strong aria-hidden="true">31.</strong> 第三十一战：征大宛</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十二战：孤愤之战（全）史家之绝唱，无韵之离骚.html"><strong aria-hidden="true">32.</strong> 第三十二战：孤愤之战</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十三战：巫蛊之乱（全）生生世世莫生帝王家.html"><strong aria-hidden="true">33.</strong> 第三十三战：巫蛊之乱</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十四战：霍光废帝（全）大司马大将军的反噬.html"><strong aria-hidden="true">34.</strong> 第三十四战：霍光废帝</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十五战：王莽篡汉（全）戏精的艺术人生.html"><strong aria-hidden="true">35.</strong> 第三十五战：王莽篡汉</a></li><li class="chapter-item expanded "><a href="../强汉开疆/“强汉开疆”篇总结（1）西汉的脉络梳理.html"><strong aria-hidden="true">36.</strong> “强汉开疆”篇总结</a></li><li class="chapter-item expanded affix "><li class="part-title">四、光武中兴</li><li class="chapter-item expanded "><a href="../光武中兴/第三十六战：王莽复古（全）陨灭三千万人的“德之贼”表演.html"><strong aria-hidden="true">37.</strong> 第三十六战：王莽复古</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十七战：昆阳大逆转（全）天选之子的神话之战.html"><strong aria-hidden="true">38.</strong> 第三十七战：昆阳大逆转</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十八战：河北惊魂记（全）二十八宿召唤神龙.html"><strong aria-hidden="true">39.</strong> 第三十八战：河北惊魂记</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十九战：两京堵赤眉（全）汉末最强匪帮退场.html"><strong aria-hidden="true">40.</strong> 第三十九战：两京堵赤眉</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十战：定关东（全）东南西北的将星闪耀.html"><strong aria-hidden="true">41.</strong> 第四十战：定关东</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十一战：得陇望蜀（全）陇山难，蜀山悲，天下定.html"><strong aria-hidden="true">42.</strong> 第四十一战：得陇望蜀</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十二战：班超通西域（全）小冰期下汉匈博弈的个人英雄主义巅峰.html"><strong aria-hidden="true">43.</strong> 第四十二战：班超通西域</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十三战：党锢之祸（全）东汉王莽们和死太监集团的皇权角逐巅峰战.html"><strong aria-hidden="true">44.</strong> 第四十三战：党锢之祸</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十四战：黄巾起义（全）大乱四百年的开端.html"><strong aria-hidden="true">45.</strong> 第四十四战：黄巾起义</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十五战：189年汉末崩塌（全）顶级谋篇布局下的“为他人作嫁衣裳”.html"><strong aria-hidden="true">46.</strong> 第四十五战：189年汉末崩塌</a></li><li class="chapter-item expanded affix "><li class="part-title">五、三国争霸</li><li class="chapter-item expanded "><a href="../三国争霸/第四十六战：群雄讨董（全）璀璨纷杂的时代开篇.html"><strong aria-hidden="true">47.</strong> 第四十六战：群雄讨董</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十七战：兖州风云（全）年少时的无心插柳，成荫后的阶级背叛.html"><strong aria-hidden="true">48.</strong> 第四十七战：兖州风云</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十八战：挟天子令诸侯（全）曹操巅峰升级的公元196年.html"><strong aria-hidden="true">49.</strong> 第四十八战：挟天子令诸侯</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十九战：官渡之战（全）汉末双神决战到最后一秒的巅峰对决.html"><strong aria-hidden="true">50.</strong> 第四十九战：官渡之战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十战：火烧赤壁（全）曹操不会放过的刘备，士族不会放过的孙权.html"><strong aria-hidden="true">51.</strong> 第五十战：火烧赤壁</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十一战：刘备入川（全）曹操换房本之路上的“点炮”盛宴.html"><strong aria-hidden="true">52.</strong> 第五十一战：刘备入川</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十二战：汉中会战（全）汉末诸神黄昏的上半集.html"><strong aria-hidden="true">53.</strong> 第五十二战：汉中会战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十三战：襄樊惊天大逆转（全）孙权背刺逻辑；关公威震华夏；糜芳叛变之谜.html"><strong aria-hidden="true">54.</strong> 第五十三战：襄樊惊天大逆转</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十四战：夷陵之战（全）先主伐吴始末，永安举国托孤.html"><strong aria-hidden="true">55.</strong> 第五十四战：夷陵之战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十五战：失街亭（全）一步也不能走错的弱者悲哀.html"><strong aria-hidden="true">56.</strong> 第五十五战：失街亭</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十六战：秋风五丈原（全）大梦谁先觉，平生我自知，秋风星落日，光耀天地间.html"><strong aria-hidden="true">57.</strong> 第五十六战：秋风五丈原</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十七战：高平陵之变（全）三百年大悲哀的逻辑原点.html"><strong aria-hidden="true">58.</strong> 第五十七战：高平陵之变</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十八战：淮南三叛（全）人事、利益、威慑、恐吓、荣耀······的政治博弈算法.html"><strong aria-hidden="true">59.</strong> 第五十八战：淮南三叛</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十九战：二士争蜀（全）赚得英雄头似雪，万般回首化尘埃.html"><strong aria-hidden="true">60.</strong> 第五十九战：二士争蜀</a></li><li class="chapter-item expanded affix "><li class="part-title">六、两晋悲歌</li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十战：西晋平吴（全）十分伶俐都使尽，远在儿孙近在身.html"><strong aria-hidden="true">61.</strong> 第六十战：西晋平吴</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十一战：凛冬将至（全）草蛇灰线，伏脉千里的长城内外.html"><strong aria-hidden="true">62.</strong> 第六十一战：凛冬将至</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十二战：八王之乱时无英雄显竖子.html"><strong aria-hidden="true">63.</strong> 第六十二战：八王之乱时无英雄显竖子</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十三战：永嘉之乱（全）善恶到头终有报，只争来早与来迟.html"><strong aria-hidden="true">64.</strong> 第六十三战：永嘉之乱</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十四战：石勒霸北（全）超越种族永远靠的是仇恨，团结群众永远靠的是阶级.html"><strong aria-hidden="true">65.</strong> 第六十四战：石勒霸北</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第65战：东晋立国（全）“光腚北士”与“散装江东”博弈下的门阀政治开端.html"><strong aria-hidden="true">66.</strong> 第65战：东晋立国</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第66战：王敦、苏峻之乱（全）多股真气的冲突下，走火入魔的门阀政治自救之路.html"><strong aria-hidden="true">67.</strong> 第66战：王敦、苏峻之乱</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第67战：桓温灭蜀（1）“血亲复仇”千百年来对于古代社会的深远意义.html"><strong aria-hidden="true">68.</strong> 第67战：桓温灭蜀</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十八战：石虎肆虐（全）超长待机的五胡“狮驼岭”吃人算法之谜.html"><strong aria-hidden="true">69.</strong> 第六十八战：石虎肆虐</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第69战：冉闵屠羯（全）少年闵的奇幻漂流.html"><strong aria-hidden="true">70.</strong> 第69战：冉闵屠羯</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第70战：桓温北伐（上）风云际会后的北国兴与衰.html"><strong aria-hidden="true">71.</strong> 第70战：桓温北伐</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第71战：雄主的膨胀之路（全）天欲福之，必开其慧；天欲毁之，必助其狂.html"><strong aria-hidden="true">72.</strong> 第71战：雄主的膨胀之路</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第72战：淝水之战（全）“摆拍仁主”与“网红门阀”的春秋笔法.html"><strong aria-hidden="true">73.</strong> 第72战：淝水之战</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第73战：兴复大燕（全）：燃烧的北境，爆炸的关中.html"><strong aria-hidden="true">74.</strong> 第73战：兴复大燕</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第74战：拓跋珪复国之谜（全）借我借我一双慧眼吧······.html"><strong aria-hidden="true">75.</strong> 第74战：拓跋珪复国之谜</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第75战：参合悲（全）眼看他起朱楼，眼看他宴宾客，眼看他楼塌了.html"><strong aria-hidden="true">76.</strong> 第75战：参合悲</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第76战：桓玄篡晋（两晋季终章）早悟夜宴终有散，当初赌甚英雄汉.html"><strong aria-hidden="true">77.</strong> 第76战：桓玄篡晋</a></li><li class="chapter-item expanded affix "><li class="part-title">七、南北归一</li><li class="chapter-item expanded "><a href="../南北归一/《南北归一》序：北人南下，为六朝盛衰之总纲！.html"><strong aria-hidden="true">78.</strong> 《南北归一》序</a></li><li class="chapter-item expanded "><a href="../南北归一/第77战：气吞万里如虎（1）每段英雄之旅的开始，都是不拼就死的悲哀.html"><strong aria-hidden="true">79.</strong> 第77战：气吞万里如虎</a></li><li class="chapter-item expanded "><a href="../南北归一/第78战：刘老虎的西征梦（1）《东游记》开场.html"><strong aria-hidden="true">80.</strong> 第78战：刘老虎的西征梦</a></li><li class="chapter-item expanded "><a href="../南北归一/第79战：拓跋珪的心魔（1）“代人集团”登场，弱化版的汉初丰沛集团.html"><strong aria-hidden="true">81.</strong> 第79战：拓跋珪的心魔</a></li><li class="chapter-item expanded "><a href="../南北归一/第80战：后青春的诗（1）刘裕托孤的算盘.html"><strong aria-hidden="true">82.</strong> 第80战：后青春的诗</a></li><li class="chapter-item expanded "><a href="../南北归一/第81战：南龙有悔，北龙在天（1）“亢龙”伐“飞龙”，结局早定.html"><strong aria-hidden="true">83.</strong> 第81战：南龙有悔，北龙在天</a></li><li class="chapter-item expanded "><a href="../南北归一/第82战：冰血暴.html"><strong aria-hidden="true">84.</strong> 第82战：冰血暴</a></li><li class="chapter-item expanded "><a href="../南北归一/第83战：女王的棋局（1）被史官掩盖的北魏版“巫蛊之祸”.html"><strong aria-hidden="true">85.</strong> 第83战：女王的棋局</a></li><li class="chapter-item expanded "><a href="../南北归一/第84战：隐秘的元宏（1）不会哭，咋上权力牌桌？.html"><strong aria-hidden="true">86.</strong> 第84战：隐秘的元宏</a></li><li class="chapter-item expanded "><a href="../南北归一/第85战：时来天地皆同力（1）雍州教父而立之年的奇幻漂流.html"><strong aria-hidden="true">87.</strong> 第85战：时来天地皆同力</a></li><li class="chapter-item expanded "><a href="../南北归一/第86战：六镇之乱（1）北魏统一天下的窗口突然被打开了.html"><strong aria-hidden="true">88.</strong> 第86战：六镇之乱</a></li><li class="chapter-item expanded "><a href="../南北归一/第87战：后三国开篇.html"><strong aria-hidden="true">89.</strong> 第87战：后三国开篇</a></li><li class="chapter-item expanded "><a href="../南北归一/第八十九战：运去英雄不自由.html"><strong aria-hidden="true">90.</strong> 第八十九战：运去英雄不自由</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十战：最后的三国.html"><strong aria-hidden="true">91.</strong> 第九十战：最后的三国</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十一战：东西合拢.html"><strong aria-hidden="true">92.</strong> 第九十一战：东西合拢</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十二战：南北归一.html"><strong aria-hidden="true">93.</strong> 第九十二战：南北归一</a></li><li class="chapter-item expanded affix "><li class="part-title">深度系列</li><li class="chapter-item expanded "><a href="../深度系列/深度系列.html"><strong aria-hidden="true">94.</strong> 深度系列</a></li><li class="chapter-item expanded "><a href="../深度系列/神留言回答.html"><strong aria-hidden="true">95.</strong> 神留言回答</a></li><li class="chapter-item expanded "><a href="../深度系列/改变未来.html"><strong aria-hidden="true">96.</strong> 改变未来</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">渤海小吏的封建脉络百战</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="第二十一战会战垓下全兵仙与霸王的巅峰对决"><a class="header" href="#第二十一战会战垓下全兵仙与霸王的巅峰对决">第二十一战：会战垓下（全）兵仙与霸王的巅峰对决</a></h1>
+<p>项羽派出了武涉前往齐国，对韩信这个曾经根本看不起的手下人生中第一次说出了软话。</p>
+<p>武涉对韩信进行了如下的分析：</p>
+<p>刘邦贪得无厌，不吞并天下绝不会罢休的。</p>
+<p>刘邦不可信，多次落入项王手中，因项王怜悯才活命，而一旦逃脱，就背盟弃约，攻击项王，不可亲近，不能信赖。</p>
+<p>眼下最好的办法，就是三天天下。</p>
+<p>足下没被刘邦干掉，完全是因为项王的牵制，如今楚汉相争，决定天下的筹码，却是在足下的手中。</p>
+<p>如果项王灭亡，下一个就轮到了足下，您与项王有旧日恩情，为何不能三分天下而称王自主呢？</p>
+<p>如果足下放弃眼下的机会，一心投汉而攻楚，恐怕不是智者的作为啊！”</p>
+<p>武涉的分析不可谓不透彻，但韩信却回答的很干脆：</p>
+<p>当初我服侍项王，官位不过郎中，进言不被听从，献策不被采用，但汉王授予我上将印绶，交予我数万士卒，脱下自己的衣服给我穿，分出自己的食物给我吃，言听计从，所以我有今天。</p>
+<p>我韩信受人大恩，背叛不详，我的心意与决定至死不变，请阁下向项王转达谢意。”</p>
+<p>刘邦对韩信的知遇之恩，在这关键的时刻，帮到了自己。</p>
+<p>但刘邦还没有脱离危险，因为整个秦末最危险的说客，再次和韩信进行了深入的沟通。</p>
+<p>这个人，就是蒯通。</p>
+<p>蒯通对韩信说：在下学过看相。</p>
+<p>蒯通扔出了一个任何人都不会拒绝的话引子。</p>
+<p>尤其是大人物，在掌握了太多可掌握的东西后，对于玄之又玄的东西，无限好奇。</p>
+<p>韩信也不例外，对蒯通说：先生给我看看吧。</p>
+<p>蒯通说：这事得单唠。</p>
+<p>韩信屏退了左右，蒯通道：相您的正面，不过封侯，但容易有危险，且不稳当。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150707876-7846427.jpeg" alt="图片" /></p>
+<p>但相您的背面，贵不可言！</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150709916.gif" alt="图片" /></p>
+<p>韩信听出了话里有话，示意蒯通继续说。</p>
+<p>蒯通说：楚汉战争三年了，楚人由彭城开始，转战追击，一路追到荥阳，威震天下，但在荥阳一线军锋已经被阻三年了。</p>
+<p>汉王统领数十万军队，占据绝对地利，凭借山河险要阻击楚军，却无尺寸之功，败走于荥阳，负伤于成皋，往来于宛城叶县之间，疲于奔命。</p>
+<p>眼下这种僵持的局势，应该有一个新的圣贤出来收拾大局。</p>
+<p>这个圣贤，就是您。</p>
+<p>目前，大王助楚则楚胜，助汉则汉胜，但眼下，解决天下最好的方式，就是在齐国的主宰下，三分天下，鼎足而立，造成一种谁也不敢轻举妄动的均势。</p>
+<p>历史有时是很有随机性的，因为中国历史上，曾经有这么一刹那，差点提前四百多年进入了三国时代。</p>
+<p>最后，蒯通说出了那句千百年来，劝人下决定时，最有杀伤力的话：</p>
+<p><strong>天予不取，反受其咎！时至不行，反受其殃！</strong></p>
+<p>韩信在思索良久后，还是在对蒯通说感刘邦大恩的话，但蒯通作为最危险的说客，却从侧面扔出了让人无言以对的二人组，张耳和陈馀。</p>
+<p>张耳和陈馀都是平民布衣时，生死患难是刎颈之交。</p>
+<p>但巨鹿之战后，两人产生了巨大的隔阂。</p>
+<p>关中分封后，两人则变成了巨大的仇恨。</p>
+<p>先是陈馀赶跑了张耳，张耳又在大王的帮助下斩杀了陈馀。</p>
+<p>曾经的刎颈之交变成了天下的笑柄。</p>
+<p>他两人的关系，不可谓不深厚，但最后却落了个自相残杀，这是为什么呢？</p>
+<p><strong>可以同贫贱，不可同富贵，人心难测，祸患生于多欲。</strong></p>
+<p>您对汉王，现在是一厢情愿式的一往情深，您跟汉王的交情远没有张耳和陈馀的深厚，但您和汉王牵扯的利益矛盾，却已经远远是张耳和陈馀所能比的了。</p>
+<p>所以，您认为汉王不会危害于您，在下认为是错误的想法。</p>
+<p>文种在帮勾践称霸后，死于非命，正所谓“飞鸟尽，良弓藏，狡兔死，走狗烹，敌国破，谋臣亡”，况且现在，大王已经功高震主！</p>
+<p>大王灭魏，破代，略赵，服燕，平齐，打下了大半个天下啊！</p>
+<p>功劳天下第一，武略世间无二，人间已经无人可比了。</p>
+<p><strong>如今的足下，头顶震主之威，手握不赏之功，无论归楚归汉，都已经得不到信任了，眼下还有您愿意屈居但别人却不害怕的地方吗！</strong></p>
+<p>蒯通的这段话，水平可比刚刚的武涉高多了，不仅有局势上权衡，更有人性上的推测，最主要的是，他说出了最关键的一点：<strong>你现在的功劳已经大到了无官可赏，无人可制的程度了！</strong></p>
+<p>**
+**</p>
+<p><strong>你韩信并不是萧何与张良，这俩刘邦可以随时弄死，但你韩信不仅谁也弄不死，你心情不好还可以随时弄死别人。</strong></p>
+<p>韩信就像个核武器一样，让身边的每个人都心存不安。</p>
+<p>但核武器却让今天的世界大部享受了罕见的长达几十年的宝贵和平。</p>
+<p>为什么？</p>
+<p>因为各大国间都有核武器。</p>
+<p>但现在，世界上的核武器只有俩，一个项羽，一个你韩信。</p>
+<p>韩信选择了沉思，但韩信还算幸运的，最起码这个道理，有人曾经掰开揉碎的给他讲过，千年后，有一个父亲，却并没有想明白这个道理，身边更加没有人敢这么说，或者说，他想明白了，但左右为难。</p>
+<p>这个父亲，叫李渊。</p>
+<p>并非他是核武器，他只是有个核武器的儿子。</p>
+<p>几天后，韩信依然没有回音，蒯通再次做了一把尝试。</p>
+<p>大体意思表达的是行事果断，是智慧的体现，犹豫不决，是成事的障碍，计较毫厘小事，无视天下大局，认识已经清楚却不敢决断的实时，更是成事的祸害。</p>
+<p><strong>成功难而失败易，时机难得而失去容易，足下三思。</strong></p>
+<p>蒯通对韩信说的这堆话，很有必要多琢磨几遍，极其精彩！</p>
+<p>韩信在这个历史的重大拐点上，面对三足鼎立的可能性而选择了放弃，他选择了赌刘邦这个人。</p>
+<p>我们在“暗度陈仓”那一章中讲了韩信的价值观。</p>
+<p>“但他和刘邦不同的是，虽然他不要脸，但他的脸皮比刘邦薄多了，<strong>他的内心思路中，有一条贯穿了他的一生。</strong></p>
+<p><strong>“士为知己者死”。</strong></p>
+<p><strong>这是这个时代，作为“士”的核心思想。</strong></p>
+<p><strong>三岁定八十，你的内在价值思想，永远是决定你一生命运与选择的最关键依据！”</strong></p>
+<p>不能说这个价值观是错的，但要分情况，分场合。</p>
+<p>刘邦一直以来，在做人主的工作岗位上做的无可挑剔，但是对于蒯通的话，<strong>有一句最重要的话，韩信没有仔细琢磨明白，或者说，韩信明白，但一厢情愿的进行了忽视。</strong></p>
+<p>他的梦想，是“成不世之功，留万世之名”。</p>
+<p><strong>“功”与“名”，是一个“士”终身的最大梦想。</strong></p>
+<p>“功”是拜将封侯荫子孙。</p>
+<p>这个“名” 包括什么呢？</p>
+<p>有直到今天都在谈论的由“背水一战”等神奇战例所撑起来的“武略千古无二”。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150708608.gif" alt="图片" /></p>
+<p>也有并没有发生，但韩信最终希望流传后世的“君臣两相宜”。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150707919.jpeg" alt="图片" /></p>
+<p><strong>一个士终其一生所希望达到的精神状态是：你懂我，用我，我最终也值得你拥有。</strong></p>
+<p>不过韩信现在就像一只谁也栓不上链子的老虎，他自己虽然只想在那趴着，但却没有任何一个人能允许他就在那趴着，要么进笼子，要么被杀死，没有别的出路。</p>
+<p>你认为你拥有我拥有你。</p>
+<p>但那是很久很久以前了。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150714136.gif" alt="图片" /></p>
+<p>韩信，在这最应该做推演的时刻，选择了一厢情愿。</p>
+<p><strong>此时此刻，他和项羽一样，选择了对人却不对事！</strong></p>
+<p>其实不仅仅是他，还有一个人，也没有分清自己能力所带给自己的困境，同样一厢情愿。</p>
+<p>彭大队长，你的愿景是好的，但您这野兔子连项羽都逮不着，刘邦那好狐狸能饶了你吗？</p>
+<p>蒯通在韩信拒绝后，这位明白人装疯做了巫师，退出了历史舞台，并最终得以善终。</p>
+<p>他对韩信献上的两个计策，一个袭齐一个自立，其实是一个连环计，能帮助韩信站上世界之巅。</p>
+<p>但最终韩信从其一而拒其二，也因此，最后的下场极其悲惨。</p>
+<p>韩信就像香港的黑社会电影中的那句经典台词一样：上了路，就不能回头！</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150707876.jpeg" alt="图片" /></p>
+<p>韩信这边，选择了挺刘邦，让刘邦长舒了一口气。</p>
+<p>刘邦自己那，日子过得很费劲，好几年睡不好觉了。</p>
+<p>他和项羽的军事指挥水平完全就是两个维度的，只要是打，就赢不了，只能搁城里窝着，耗来耗去，只要项羽一天不死，他刘邦就一天没有好日子过。</p>
+<p>无论自己手里有多大的实力，人家只要一来，自己就傻眼，刘邦此时，其实已经是打怵了，所以，他想趁现在这个好形势，跟项羽议和。</p>
+<p>由于郦食其已经被韩信坑死在了齐国，所以，刘邦只能派二号辩手陆贾前去出使，希望议和休战，并归还太公与吕雉。</p>
+<p>不过已经处于绝对劣势的项羽，却根本不理那一套，表示没完没了，接着打！</p>
+<p>刘邦很郁闷，你都被三面包围了，咋还是嘴这么硬。</p>
+<p>这就要说一下，啥叫自信了，人家项羽这辈子的凶险场面见得太多了。</p>
+<p>巨鹿以少打多，盟友全都不管，碾压。</p>
+<p>彭城以少打多，盟友全部背叛，碾压。</p>
+<p>楚汉相持三年，未遭一败，还是碾压。</p>
+<p>这三年，楚军将刘邦布置的天险一次次拿下，并一次次将刘邦打的抱头鼠窜，如果不是彭越总是在后面恶心人，刘邦不见得能挺这三年。</p>
+<p>所以说，战局上，虽然不利，但你又能怎么着？</p>
+<p>这是项羽对刘邦一直以来的看法。</p>
+<p>他的不甘心在于，总是能让刘邦溜掉，如果运气好一点，刘邦的追悼会早就办四五场了。</p>
+<p>这几年，项羽的如芒在背让刘邦一直险象环生，精神压力极大，生活质量一直不高。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150707929.jpeg" alt="图片" /></p>
+<p>自始至终，项羽就从来没有瞧得上刘邦。 </p>
+<p>项羽在拒绝了刘邦的和议后，按说刘太公和吕雉就该成渣滓洞里的革命战士了。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150707934.jpeg" alt="图片" /></p>
+<p>这爷俩即将倒在黎明前的最黑暗了。</p>
+<p>但是，神奇的事情还是发生了。</p>
+<p>在这关键当口，一个叫做候公的从来名不见经传的云游闲士毛遂自荐再去说服项羽。</p>
+<p>这位侯公被刘邦瞧不起大骂一顿后先是搞定了刘邦，然后出使楚营再次成功说服项羽与刘邦中分天下，以鸿沟（对峙的广武涧附近，原址已不可考）为界，并归还太公吕雉。</p>
+<p>这个一口气搞定楚汉的神奇之人我翻了很多史料也没能找到这个人的只言片语。</p>
+<p>现在已经无法知道他是用了怎样的方法说动了项羽，而且更为传奇的是，这位立下大功的候公在凯旋之后并没有接受刘邦平国君的封赏，自此归隐再没出现。</p>
+<p>神秘且不可思议。</p>
+<p>他悄悄地走，正如他悄悄地来，他挥一挥衣袖，将乌云拨向了南方。</p>
+<p>议和之后，按照盟约，项羽领军东归，刘邦也罢兵回关中。</p>
+<p>但这时候，张良和陈平劝谏刘邦说：“如今汉国已经拥有天下大半，诸侯各国也大多归附，但楚国现在粮食匮乏，将士疲劳，这正是天亡楚国的时机。</p>
+<p>又是那句话，天予不取，必受其咎，切勿养虎遗患。</p>
+<p>刘邦想了想，马上同意了。</p>
+<p>这特么什么“天予”啊！不就是耍流氓嘛！人家顶在荥阳吓的你窜稀的时候你咋没觉得在养虎呢！</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150713256.gif" alt="图片" /></p>
+<p>这次单方面的撕毁停战协议无论后人多么的遮掩，总是会被能拨清历史障眼法的后人们所不屑与嘲笑。</p>
+<p>天道是好轮回的。</p>
+<p>四百年后，有一个人，以此次汉王挥鞭赶项羽为重要论据蓝本，创造出了<strong>中国历史上非常罕见的讽刺性时政论文。</strong></p>
+<p>**
+**</p>
+<p>这篇论文已极高超的<strong>笔法和论证从信心跟内部彻底的瓦解了一个政权。</strong></p>
+<p>**
+**</p>
+<p><strong>这种文学作品对于一个政权意识形态上的攻坚瓦解，在中国历史上，是极其罕见的。</strong></p>
+<p>比较巧的是，这个政权是老刘家最后可怜的希望。</p>
+<p>那个人叫谯周。</p>
+<p>写的叫《仇国论》。</p>
+<p><strong>这篇论文，是后来邓艾能够率领一万多叫花子完成史上最神奇入川灭蜀的最关键原因。</strong></p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150708004.jpeg" alt="图片" /></p>
+<p>历史是极具对称之美的。</p>
+<p>太美了。</p>
+<p>鸿沟和议后没有多久，刘邦撕毁停战协定，突然对撤退中的楚军展开攻击，楚军仓皇应战。</p>
+<p>楚军几年来第一次被汉军追击，好搞笑。</p>
+<p>这次的背盟偷袭，刘邦经过精心的策划，意图四面合围，聚歼项羽军于撤退途中。</p>
+<p>第一路军，刘邦亲自统领汉军主力从荥阳出发，由西而东尾随项羽军开启攻击，迫使项羽军不得不且战且向东撤退。</p>
+<p>第二路军，彭越南下，截断三川东海道。。</p>
+<p>第三路军，韩信南下，由东、北两个方向攻取楚国首都彭城地区，端掉项羽回归的老巢。</p>
+<p>第四路军，将军刘贾协助新封的淮南王英布回到九江故国，攻取寿春，由南向北推进，堵截项羽南下的退路，力求在淮北地区全歼楚军。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150708100.jpeg" alt="图片" /></p>
+<p>四路齐下的围歼策略布置的非常好，中间却出了大变故。</p>
+<p>由于突然受到汉军的尾随攻击，不得不仓皇应战，项羽撤退到了著名的陈邑。</p>
+<p>以陈邑作依托，项羽命令钟离昧在陈邑北边固陵设防，迅速组建起了两重防线。</p>
+<p>紧紧尾随项羽的刘邦军，追击到固陵时，遭遇钟离味军的阻击，停止了前进。</p>
+<p>楚军在陈邑进行阻击是刘邦之前预料到的，但令刘邦傻眼了的是，原先约定的会师固陵，打算一举全歼楚军的另外两路大军根本就没有出现，刘邦又一次独自面对了大魔王项羽。</p>
+<p>项羽马上对言而无信，单独行动、孤军深人的刘邦军展开攻击。</p>
+<p>被激怒的楚军同仇敌忾，打不死你个臭不要脸的！</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150708594.gif" alt="图片" /></p>
+<p>结果又是刘邦有多大脸，现多大眼，汉军大败，退人阳夏城中坚壁固守。</p>
+<p>一直放别人鸽子的刘邦这回被别人放了鸽子，被打的灰头土脸的刘邦问计于张良：韩信和彭越都不动了，我一个人哪打得过项羽啊，怎么办才能让他们来啊？</p>
+<p>张良回答道：“击破楚军，已经是眼前的事情，但对于诸侯各国来说，他们现在更关心的是自己的利益。</p>
+<p>齐王韩信的册立，出于要挟自请，并非大王的本意，韩信心中也存疑不安。</p>
+<p>彭越平定了魏国地区，大王因为魏王魏豹在的缘故，拜任彭越为魏国相国。如今魏豹己经死了，彭越自然期待能够成为魏王，但大王迟迟未能做出封赏。</p>
+<p>这就是二人没有领军前来会战的原因。</p>
+<p>如果您由睢阳到谷城划归魏国，封彭越魏王，将陈邑以东直到大海，全部划归韩信，这样此二人必定会来。</p>
+<p>刘邦接受了张良的建议，马上派遣使者，对彭越和韩信进行官方认证。</p>
+<p>齐夸党的领导的彭越跟韩信马上答应立即出兵，参加灭楚会战。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150708557.jpeg" alt="图片" /></p>
+<p>韩信命令曹参镇守齐国，让已经多次深人楚国境内作战的灌婴骑兵军团为先锋，大举南下，突破楚军防线，接连攻占薛县、沛县、留县，一举攻克楚国首都彭城，防守彭城的项它兵败被俘。</p>
+<p>攻克彭城以后，韩信军乘胜西进，一路攻克萧县、相县等地，势如破竹，很快就与刘邦军在陈邑附近会师。</p>
+<p>与此同时，彭越军也迅速南下，进人陈邑地区。</p>
+<p>坚壁固守的刘邦军，得到韩信和彭越军的会合后，军势大振，马上由防御转入进攻，首先击败钟离昧，攻克固陵。</p>
+<p>接着包围陈县，守将利几投降。</p>
+<p>在刘邦、韩信、彭越三路大军的联合攻击之下，项羽被迫放弃在陈县地区作战的计划，沿颍水南下，准备渡过淮河，撤退到淮南，在楚国的南部地区重整旗鼓。</p>
+<p>也就在这个时候，淮南地区的形势也发生了变化。</p>
+<p>汉将刘贾领军渡过淮河，包围了寿春，九江郡震动，整个九江在英布的声望下，全部背叛，整个楚国南部已经全部陷落。</p>
+<p>形势一片大好哇！</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150708063.jpeg" alt="图片" /></p>
+<p>得知九江背叛后，项羽引军东去，来到了垓下（今安徽灵璧南），止军设防，做最后的决战准备。</p>
+<p>最后的战役了。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150709488.jpeg" alt="图片" /></p>
+<p>此时的项羽又来到了绝境，他早已经熟悉的绝境。</p>
+<p>此时，他手中的筹码，也是历次绝境中，最多的一次。</p>
+<p>他还有十万楚军。</p>
+<p>项羽选好的战场，是一望无尽的垓下平原，这一次，刘邦必须选择与他进行一场堂堂正正的野战。</p>
+<p>四面逐渐被包围的项羽在不利的情势下，胸口的热血再次汹涌澎湃，又是一次绝境！</p>
+<p>这些年，自打起兵来，只要项王在，军魂就在！</p>
+<p>只要项王指挥，就无往不利！</p>
+<p>只要项王追击，就无坚不摧！</p>
+<p>楚国健儿们，就像两千年后的法国人民一样，哪怕已经打得民穷财尽，哪怕已经打得困苦不堪，但只要拿破仑这个旗帜在，整个法兰西就依旧是铁板一块！</p>
+<p>靠的，这就是这些年，项羽和拿破仑为本国人民所带来的强烈的民族自豪感。</p>
+<p>这种民族自豪，驱使着楚军冲破了一个个险阻，完成了一次次不可能的任务。</p>
+<p>眼下，他们再次面临着绝境的审判，不过没关系，又不是第一次了！只要有项王在，赢就是肯定的，区别就在于，是杀敌多少。</p>
+<p>项羽作为中华民族几千年来罕见的军神，也确实有此自信，昂首睥睨众生。</p>
+<p>但这一次，命运之神给他带来了与他同一个级别的对手，中国历史两千年以来，唯一的一次，两位历史前五的军神，即将在这最后的战役正面对垒。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150708638.jpeg" alt="图片" /></p>
+<p>此时合围项羽的各联军，达到了惊人的三十万。</p>
+<p>对面的刘邦，再次通过近四年不断地战略优势，积累出了大比例的优势。</p>
+<p>项羽再一次让他呼朋喝友的逼到了墙角，似乎再上去补一刀，这个自己的宿世之敌就将灰飞烟灭。</p>
+<p>但这一次，刘邦已经明白了，这种级别的会战，自己是没有这个能力指挥的。</p>
+<p>但好在，自己这里，应该有一个人合适。</p>
+<p>韩信，这位几乎帮助刘邦打下全部天下的“兵仙”，得到了刘邦的全部授权，指挥三十万联军会战垓下。</p>
+<p>刘邦有识人之明，尽管他已经知道此时的韩信有尾大不掉的趋势，但他还是清清楚楚地懂得，与项羽的决战，也只有韩信，才能够担当此任。</p>
+<p>波澜壮阔的楚汉战争即将走向大结局，两个最高级别，最高段位的选手，终于在最后的战役，对阵出场。</p>
+<p>项羽已经摆下了擂台，战场是他最擅长的平原野战。</p>
+<p>韩信自打出道以来，从来都是凭势借力，利用山河大地所有可利用的地方化为自己的胜势。</p>
+<p>这一次，他的优势，是最为直接的兵。</p>
+<p>大有大的难处，三十万在刘邦那里，也许就是自相践踏的劣势，但在韩信这里，却成为了多多益善的巨大优势。</p>
+<p>一贯示弱出强、以奇兵取胜的韩信，经过周密地侦查、慎重地思虑以后，</p>
+<p>决定堂堂正正地接受项羽的挑战，以硬碰硬，双方选定时日，在垓下平野上摆开阵势决战。</p>
+<p>韩信深知面对擅长骑兵突击的项羽，必须要让这三十万人形成层层抵抗的有效战力，尤其是前军，一定要扛住正面的骑兵冲锋，如果前军被项羽冲垮了，军心一乱，三十万大军就会陷入自相践踏的局面。</p>
+<p>鉴于此，韩信排出了前中后的三重纵深，并将三十万大军分成了六个军阵。</p>
+<p>第一重纵深，前军，正面硬扛楚军冲锋的，是他韩信本人。</p>
+<p>第二重纵深，分为三部，中军，刘邦亲自指挥。左军，韩信部将孔熙（死活没查着）护左翼，右军，韩信部将陈贺（刘邦芒砀山老兄弟）护右翼。</p>
+<p>第三重纵深，也是总预备队，周勃护左后翼，柴武（老革命，刘邦西进遇彭越前后入伙）护右后翼。</p>
+<p>此战具体咋打的，史书很精短。</p>
+<p><strong>项羽之卒可十万。淮阴（韩信）先合，不利，却。孔将军、费将军（费候陈贺）纵，楚兵不利，淮阴侯复乘之，大败垓下。</strong></p>
+<p>大体意思就是项羽这十万大军开始总冲锋。</p>
+<p>韩信还是自己当诱饵。</p>
+<p>然后打不过，撤退。</p>
+<p>撤着撤着，孔熙跟陈贺这哥俩人工扮演大水搅入战局。</p>
+<p>韩信再次大嚎一声：兄弟们反攻啦！</p>
+<p>汉军展开合围，把项羽击败了。</p>
+<p>史书中对这大汉立国的最关键一战，寥寥数笔。</p>
+<p>倒是最后项羽带着二十多口子逃跑时却成了短篇小说。</p>
+<p>俩原因。</p>
+<p>一，项羽确实悲壮，刘邦胜之不武，撕毁停战协定臭不要脸，史官有自己的情绪。</p>
+<p>二，这战是韩信指挥的，西楚霸王这辈子就输了这么一战，却是个反贼指挥的，尤其英明神武的皇帝此时还是被指挥的一个编队。</p>
+<p>好说不好听，写的越细，本就臭不要脸的皇帝就越无地自容。</p>
+<p>你看看人家那仗打的！你看看人家，那家伙指挥的！</p>
+<p>咦？上次彭城那指挥官谁来着？</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150708845.gif" alt="图片" /></p>
+<p>史书上没有的，我不好去脑补，因为咱不是写小说，尤其这大平原会战，更是连脑补的空间都没有。</p>
+<p>这场巅峰对决就最终说明了韩信拿到了楚汉第一名将的交椅了吗？</p>
+<p>不见得。</p>
+<p>之前我们说过，项羽和韩信，在军事指挥上，走的是完全不同的两个路子。</p>
+<p>项羽像是洪七公，将外门功夫练到了极致，一套降龙十八掌打遍天下无敌手，战场征战，向来是高山落大石，秋风扫落叶，大军所到之处，劈山裂石。</p>
+<p>而韩信，则更像是将虚虚实实奇门遁甲发挥到了极致的黄老邪，永远有无数的套路，无数的障眼法，虚虚实实的让你猜不到轻重深浅。</p>
+<p>这俩人，如果势均力敌的情况下，谁胜谁负，真的难讲。</p>
+<p>高手对决，往往差距都在毫厘之间。</p>
+<p>如果说项羽再次冲垮了韩信的大规模，楚汉一哥没跑就是项羽。</p>
+<p>如果说韩信在同等规模下平了项羽，兵仙就得踩在霸王身上。</p>
+<p>但现在，韩老邪带着全真七子来了。</p>
+<p>我们只能说，在“彭城大屠杀”之初，就已经写下了这最后的结局。</p>
+<p><strong>秦末楚汉整场大剧，主线就是项羽百战百胜后的力竭而亡。</strong></p>
+<p>中国项羽和法国项羽拿破仑为我们做出了生动的展示：没错，你在赢，你也永远再赢。</p>
+<p><strong>但你每一次的胜利，都在将本该引爆的隐患推迟了。</strong></p>
+<p>**
+**</p>
+<p><strong>隐患只会推迟，却无法自我消除。</strong></p>
+<p>西楚这个本来健壮的身体，在壮阳药项羽的带领下，得谁秃噜谁。</p>
+<p>没有整不死的！</p>
+<p>但总归会有你X尽人亡的那一天！</p>
+<p>这回在同样吃了药的汉军面前，项羽输掉了这场巅峰之战，并失去了他最后的筹码。</p>
+<p>迎接他的，将是中国史上堪称最壮烈的英雄谢幕。</p>
+<p>苦战突出重围的项羽，退守垓下城，坚守不出，大胜后的联军，将垓下的楚军团团围困。</p>
+<p>一生未败的项羽，或者说一生从未败绩的楚军战士，陷入了极大地低沉当中。</p>
+<p>胜利，会一直让你顺利下去，会自动抹平很多隐患。</p>
+<p>但当有一天，你无法再取得胜利时，这些隐患就露出了獠牙，向你疯狂的展开反噬。</p>
+<p>缺医少药，粮食耗尽，大军尽丧的楚军，眼下又迎来了一次巨大的灵魂打击。</p>
+<p>联军唱起了楚歌。</p>
+<p>四面楚歌！</p>
+<p>困守的楚军都已经明白了一个现实，楚国恐怕已经被全部占领，否则哪里来的这么多楚人。</p>
+<p>心情沉重的项羽在这满营的楚歌中长叹：力拔山兮气盖世，时不利兮骓不逝。骓不逝兮可奈何，虞兮虞兮奈若何！</p>
+<p>英雄气概力能拔山，怎奈时运不济，我的宝马与虞姬，你们该将何去何从呢？</p>
+<p>虞姬凄然起舞。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150709122.gif" alt="图片" /></p>
+<p>汉军已略地。</p>
+<p>四面楚歌声。</p>
+<p>大王意气尽。</p>
+<p>贱妾何聊生。</p>
+<p>唱罢，美人自刎。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150709566.gif" alt="图片" /></p>
+<p>霸王的女人，其实出路有很多。</p>
+<p>她甚至是最炙手可热的最终战利品。</p>
+<p>但这位虞姬，最终选择了以死，给自己的男人这最壮烈的体面！</p>
+<p>当晚半夜，项羽率八百近卫骑兵，突出垓下，南下而去。</p>
+<p>项羽突围后，刘邦看到项羽像他一样这么能逃跑，非常愤怒，严令灌婴率五千铁骑急追，务必击杀项羽。</p>
+<p>项羽一行，疾奔南下，渡过淮水，八百骑兵还剩不到百人。</p>
+<p>进入阴陵县（安徽定远西北）境内，迷失方向，找到一个农夫问路。</p>
+<p>和刘邦每次逃跑都如有神助不同，项羽的运气，倒霉到了极处。</p>
+<p>刘邦是专业逃跑运动员，不仅知道怎么跑，怎么藏，还总能得到上天的运气加成，不是狂风就是闪电，这项技能，就好像老天从他出生开始，就为他配备了专属技能包。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150710153.gif" alt="图片" /></p>
+<p>只要你逃跑，你就不愁跑不掉。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150711649.gif" alt="图片" /></p>
+<p>但项羽作为专业追杀者，老天为他配备了天下第一的攻击力后，却并没有给他配上逃跑技能包。</p>
+<p>上天是公平的，不能啥啥都让你占上。</p>
+<p>谁知道他会有一天能用上这个技能包呢？</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150712509.gif" alt="图片" /></p>
+<p>但他到底，还是用上了。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150709919.gif" alt="图片" /></p>
+<p>**
+**</p>
+<p><strong>无论怎样，你逃脱不了客观事物发展的规律，综合实力更强的那个即便十战九不胜，也终究会一把定乾坤！</strong></p>
+<p>**
+**</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150710342.gif" alt="图片" /></p>
+<p>也许真的是应了那句玄之又玄的话：气数已尽。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150711017.gif" alt="图片" /></p>
+<p>这个路人甲农民指了一条错误的道路，把项羽带进了沼泽死路，等项羽走出沼泽后，灌婴已经追上来了。</p>
+<p>又是一番突击，项羽东逃进东城县（安徽定远东南）时，身边仅剩二十八骑。</p>
+<p>在一座无名小山上，项羽望着后面追来的滚滚烟尘，自知难以逃脱，于是集结了二十八名战将，发出了最后的作战动员。</p>
+<p>自起兵来，至今已经八年，大小七十余战，当者破，击者服，未曾一败，霸有天下。</p>
+<p>眼下穷困至此，乃天要亡我，非我征战的过错啊！</p>
+<p>今天，我决意死战于此，绝不生还，愿与诸君痛痛快快的做这最后一战，一战破围，二战斩将，三战夺旗，愿与诸君连胜三战，让大家知道，此乃上天亡我，非战之罪！</p>
+<p>演讲后，项羽如往日临战，将二十八骑为四队，每队七骑，各向一方布阵，静候汉军的到来。</p>
+<p>汉军骑兵聚拢，将项羽一行团团围困，里外数重，水泄不通。</p>
+<p>项羽手指山坡下旌旗晃动的汉军，从容言道：“我领一队先行，首先为诸君斩将。”</p>
+<p>然后远指东方吩咐道：“看清，那里有三块高地，你等三队由另外三个方向驰人敌阵，突围后分别抵达三处高地，等候我的到来。”</p>
+<p>部署完毕，项羽一声高呼，率领二十八骑四个方向突人汉军军阵。</p>
+<p>虽只剩二十八骑，但项羽的自带攻击属性再次将汉军军阵撕开，战神下凡威风凛凛的霸王使汉军猝不及防，阵型散乱，项羽如他承诺一样，斩杀大将一员。</p>
+<p>四队楚军骑士，在这最后的冲击下，分别冲开汉军军阵，抵达项羽指定的三处高地。</p>
+<p>乱了阵脚的汉军骑兵，在灌婴的指挥下重振队列，再次实施包围，由于不知道项羽在何处，于是分五千骑兵为三队，分别包围三处高地。</p>
+<p>“百万军中取上将首级”这是关二爷夸他弟弟张三爷的话，但我们从来没见过。</p>
+<p>不过，项羽为我们真真正正的展示了，什么是冷兵器时代的在身陷重围中的战神突击。</p>
+<p>项羽此时，率领两队骑兵，冲下第一座高地，突入汉军骑阵，再次击破突围，杀数十人，直奔第二块高地而去。</p>
+<p>接上第二块高地的第三队骑兵后，项羽再次飞驰而下，再度杀入汉军骑阵，并杀骑军都尉一员，突入第三块高地。</p>
+<p>四队骑将会和，清点人数，仅仅损失了两名骑将。</p>
+<p>项羽大笑道：今日之战，如何？</p>
+<p>二十六名骑将同下马，跪拜齐声道：如大王所言！</p>
+<p>二十七人再上马，再次突围向东南而去，灌婴是汉军第一骑将，率五千大军却对仅仅二十余骑得项羽束手无策。</p>
+<p>这个一己之力扭转强秦国祚的男人，真的是不世出的军事奇才，如今窘迫到率领二十八人，仍如千军万马一般。</p>
+<p>项羽来到了他最后的归宿，乌江。</p>
+<p>也许是看到了项羽最后依然如此英勇无敌，老天准备给他一次机会。</p>
+<p>乌江亭长已经整船靠岸，等待多时。</p>
+<p>亭长对项羽说：渡过长江，就是江东之地，江东虽然不大，但仍然是地方千里，居民数十万，足以一隅称王。</p>
+<p>大王速速渡江，此时乌江，仅有此船，汉军追至，也无法渡过大江。</p>
+<p>高傲一生的项羽，望这滚滚江水，死志已萌。</p>
+<p><strong>当初他功成名就，要荣归故里，今日一败涂地，自然无颜渡江。</strong></p>
+<p>项羽道：天要亡我，何必渡江！</p>
+<p>当年八千江东子弟陪我渡江，如今无一生还，纵使江东父老怜爱不弃，又有何面目面对江东父老？</p>
+<p>我知你是厚道长者，我这匹乌骓马，五岁正当年，我骑此马，天下无敌，一日千里，不忍它死于阵中，赠与给你。（后投江殉主）</p>
+<p>项羽谢绝渡江后，令部下将战马放生，二十六人背靠乌江列阵，以必死之心，静候最终一战。</p>
+<p>汉军至，血战乌江岸。</p>
+<p>项羽杀数百人，聚贤庄里的群雄无计可施。</p>
+<p>血战中的项羽看到一位汉军，喊道：来者可是吕马童？</p>
+<p>吕马童不敢直视项羽。</p>
+<p>项羽喊道：我这颗头，汉王悬赏千金，封邑万户，成全给你吧！</p>
+<p>说罢，拔剑自刎。</p>
+<p>传奇的西楚霸王，谁也杀不死的万人之敌，终于终结在了自己的手中。</p>
+<p>英雄谢幕，年三十一岁。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150710404.jpeg" alt="图片" /></p>
+<p>汉军将士蜂拥抢夺项羽遗体，数十人自相残杀，项羽遗体，被五人分割抢走。</p>
+<p>五人均得金封侯。</p>
+<p>项羽死后，刘邦，他的这位一生之敌选定了谷城（山东平阴西南）作为他的墓地，以鲁公（楚怀王封项羽之号）的规格，礼仪安葬。</p>
+<p>下葬当日，刘邦亲自为这位当年的结义兄弟治丧，哭泣，哀悼。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150710953.gif" alt="图片" /></p>
+<p>项氏一族，刘邦一律赦免不究，一年后，项伯封为射阳侯，项它为平皋侯，项襄为陶侯。</p>
+<p>项氏一族，后赐姓为刘，纳入皇族。</p>
+<p>很多人说，刘邦对项氏的优待，是源于他的那位余则成，项伯。</p>
+<p>项伯直接间接救了他和他的老爹与妻子很多次。</p>
+<p>但我更认同的是，刘邦实际上一直拿着这位比他小了二十多岁的小伙子，当成了心中的偶像。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150711392.gif" alt="图片" /></p>
+<p>他对于项羽，虽然恨，但心底，更多的是敬佩。</p>
+<p>一生死敌的背后，是骨子里的惺惺相惜。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150711766.gif" alt="图片" /></p>
+<p>葬项羽后，刘邦再次突然袭击，驰入韩信军中，解除了韩信的兵权，全面控制了军队。</p>
+<p>还是那句话，一物降一物，卤水点豆腐。</p>
+<p>韩信虽然连百万军，攻必克，战必取，但对于刘邦，他永远是棋差一招。</p>
+<p>公元前202年，汉五年正月，刘邦大赦天下。</p>
+<p>改韩信为楚王，统淮北之地，定都下邳。</p>
+<p>魏国旧地封彭越，号梁王，定都定陶。</p>
+<p>伐楚多年的两大合伙人都得到了应有的劳动成果，自此，天下皆平。</p>
+<p>随后，楚王韩信，淮南王英布，赵王张敖（张耳之子）等所有诸侯王纷纷劝谏，刘邦军功最大，德行最厚，汉王称号已经不足以相称，一众请求刘邦晋皇帝位。</p>
+<p>公元前202年，二月初三，汉王刘邦在定陶城北汜水北岸，即皇帝位。</p>
+<p>至此，一个伟大的国家，正式登上了历史舞台。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150711551.jpeg" alt="图片" /></p>
+<p>这个国家的伟大，让一个民族以其国号命名。</p>
+<p>汉，自此成为了中华文明的另一个代名词。</p>
+<p>时至今日，汉族人民在这个世界上，分布最广，人数最多。</p>
+<p>说到中国人，我们会说龙的传人，炎黄子孙，但在问及到你的民族时，你大概率，会自豪的说：汉。</p>
+<p>刘邦开创的大汉，蔓延四百多年，成为了中国历史上为数不多的长时间，大一统朝代。</p>
+<p>大汉分为前后两汉，关于两汉的故事，还有很多，依然群英辈出，波澜壮阔，但两汉最精彩的，无疑还是他的头与尾。</p>
+<p>楚汉争霸与三国鼎立，成为了中国历史中，最璀璨的两颗珍珠，历久而不衰。</p>
+<p>这两段故事中的所有头脸人物，几乎全部为华人文化传播的地方所知晓！</p>
+<p>忍无可忍时我们会想到揭竿而起。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150711621.jpeg" alt="图片" /></p>
+<p>提到天命神授你会忆起被斩于芒砀的那条白蛇。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150711724.jpeg" alt="图片" /></p>
+<p>声东击西抖机灵的时候你会微微一笑咱来个“明修栈道，暗度陈仓”。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150711719.jpeg" alt="图片" /></p>
+<p>拿不准的凶险邀请你会反应这别再是鸿门宴吧。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150711835.gif" alt="图片" /></p>
+<p>被逼入绝路之时，你会大吼一声“既已背水，何不奋力一战！”</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150713123.gif" alt="图片" /></p>
+<p>在你孤注一掷搏命时印入脑海的大概率只有四个字：“破釜沉舟”！</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150712602.gif" alt="图片" /></p>
+<p>这一个个浓缩辨识度极高的词汇与人物已经融入到了这个民族，这片土地。</p>
+<p>即便再过千年，依然会被传承，会被后人称颂！</p>
+<p>自公元前209年陈胜起义，到公元前202年刘邦一统，短短的八年时间，神州大地上群雄并起，色彩纷呈，高潮迭起。</p>
+<p>无数英雄豪杰蜂拥而至，奋战国百年之余烈，在秦末的这把大火点燃下，燃烧的精精彩彩，热热烈烈，通通透透。</p>
+<p>这八年时间，可谓说是中华古代史中，最为浓缩，最为精彩的八年。</p>
+<p>刘邦自斩白蛇于芒砀，到追霸王于乌江，为这段八年精彩纷呈的大戏，画上了句号。</p>
+<p>四百年的新帷幕，拉开了。</p>
+<p>下一幕西汉，历史的主旋律，逐渐转向了民族之间的斗争。</p>
+<p>北方，有一个民族，已经等待我们很久了。</p>
+<p><img src="../img/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E4%BC%9A%E6%88%98%E5%9E%93%E4%B8%8B%EF%BC%88%E5%85%A8%EF%BC%89%E5%85%B5%E4%BB%99%E4%B8%8E%E9%9C%B8%E7%8E%8B%E7%9A%84%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B3.assets/640-20220321150712383.gif" alt="图片" /></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../楚汉双雄/第二十战：拉锯荥阳（全）东奔西走的霸王.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../强汉开疆/第二十二战：白登之围（全）疑雾重重的汉初顶级大案.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../楚汉双雄/第二十战：拉锯荥阳（全）东奔西走的霸王.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../强汉开疆/第二十二战：白登之围（全）疑雾重重的汉初顶级大案.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

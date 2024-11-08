@@ -1,0 +1,9 @@
+[book]
+authors = ["easleyclaymore"]
+language = "zh"
+multilingual = false
+src = "src"
+title = "渤海小吏的封建脉络百战"
+
+[output.html]
+default-theme = 'rust'

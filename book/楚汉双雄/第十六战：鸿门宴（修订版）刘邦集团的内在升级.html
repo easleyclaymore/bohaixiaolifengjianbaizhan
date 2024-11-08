@@ -1,0 +1,876 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>第十六战：鸿门宴 - 渤海小吏的封建脉络百战</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../序.html">序</a></li><li class="chapter-item expanded affix "><li class="part-title">一、秦并天下</li><li class="chapter-item expanded "><a href="../秦并天下/第一战：三家分晋（加量修订版）韩赵魏崛起，自春秋来到战国.html"><strong aria-hidden="true">1.</strong> 第一战：三家分晋</a></li><li class="chapter-item expanded "><a href="../秦并天下/第二战：马陵之战（国防成本修订版）战略方向错误导致的魏盛转衰.html"><strong aria-hidden="true">2.</strong> 第二战：马陵之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第三战：商鞅变法（变法始末修订版）秦并天下的战争机器，开动起来了.html"><strong aria-hidden="true">3.</strong> 第三战：商鞅变法</a></li><li class="chapter-item expanded "><a href="../秦并天下/第四战：“合纵”与“连横”（“战国纵横家书”辨别修订版）诸子百家走四方的美好时代.html"><strong aria-hidden="true">4.</strong> 第四战：“合纵”与“连横”</a></li><li class="chapter-item expanded "><a href="../秦并天下/第五战：秦并巴蜀（蜀道修订篇）百年一遇的机会，你怎么选？.html"><strong aria-hidden="true">5.</strong> 第五战：秦并巴蜀</a></li><li class="chapter-item expanded "><a href="../秦并天下/第六战：胡服骑射（全）赵国崛起的关键三十年.html"><strong aria-hidden="true">6.</strong> 第六战：胡服骑射</a></li><li class="chapter-item expanded "><a href="../秦并天下/第七战：伊阙之战（豫西重镇修订版）杀神登场.html"><strong aria-hidden="true">7.</strong> 第七战：伊阙之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第八战：乐毅破齐（全）远东第一大国的疯狂与没落.html"><strong aria-hidden="true">8.</strong> 第八战：乐毅破齐</a></li><li class="chapter-item expanded "><a href="../秦并天下/第九战：鄢郢之战（全）杀神横扫汉江平原.html"><strong aria-hidden="true">9.</strong> 第九战：鄢郢之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十战：秦为什么冒险发动长平之战.html"><strong aria-hidden="true">10.</strong> 第十战：长平之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十一战：嫪毐之乱（全）秦灭六国的隐藏大线.html"><strong aria-hidden="true">11.</strong> 第十一战：嫪毐之乱</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十二战：王翦灭楚（全）秦国搬开最后的大石.html"><strong aria-hidden="true">12.</strong> 第十二战：王翦灭楚</a></li><li class="chapter-item expanded affix "><li class="part-title">二、楚汉双雄</li><li class="chapter-item expanded "><a href="../楚汉双雄/第十三战：揭竿大泽乡（全）秦“崩”在了哪？.html"><strong aria-hidden="true">13.</strong> 第十三战：揭竿大泽乡</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十四战：破釜沉舟（全）力拔山兮气盖世！.html"><strong aria-hidden="true">14.</strong> 第十四战：破釜沉舟</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十五战：先入关者为王上（全）刘主任的西行漫记.html"><strong aria-hidden="true">15.</strong> 第十五战：先入关者为王上</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十六战：鸿门宴（修订版）刘邦集团的内在升级.html" class="active"><strong aria-hidden="true">16.</strong> 第十六战：鸿门宴</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十七战：暗度陈仓（全）月下追回来的“汉中对”.html"><strong aria-hidden="true">17.</strong> 第十七战：暗度陈仓</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十八战：彭城大屠杀（全）楚霸王的闪电战.html"><strong aria-hidden="true">18.</strong> 第十八战：彭城大屠杀</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十九战：背水一战（全）兵仙的一路向北.html"><strong aria-hidden="true">19.</strong> 第十九战：背水一战</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第二十战：拉锯荥阳（全）东奔西走的霸王.html"><strong aria-hidden="true">20.</strong> 第二十战：拉锯荥阳</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第二十一战：会战垓下（全）兵仙与霸王的巅峰对决.html"><strong aria-hidden="true">21.</strong> 第二十一战：会战垓下</a></li><li class="chapter-item expanded affix "><li class="part-title">三、强汉开疆</li><li class="chapter-item expanded "><a href="../强汉开疆/第二十二战：白登之围（全）疑雾重重的汉初顶级大案.html"><strong aria-hidden="true">22.</strong> 第二十二战：白登之围</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十三战：灭诸王（全）既然离别难免，今生何必相会.html"><strong aria-hidden="true">23.</strong> 第二十三战：灭诸王</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十四战：诸吕之变（全）摄政女皇的伟大与悲哀.html"><strong aria-hidden="true">24.</strong> 第二十四战：诸吕之变</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十五战：七国之乱（全）文景之治的缺憾美.html"><strong aria-hidden="true">25.</strong> 第二十五战：七国之乱</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十六战：马邑阴谋（全）儒教、长城、草原的逻辑.html"><strong aria-hidden="true">26.</strong> 第二十六战：马邑阴谋</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十七战：漠南无王庭（全）跨时代的伟大战术革命.html"><strong aria-hidden="true">27.</strong> 第二十七战：漠南无王庭</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十八战：打通河西走廊（全）匈奴梦魇的冠军侯.html"><strong aria-hidden="true">28.</strong> 第二十八战：打通河西走廊</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十九战：漠北大决战（修订版）农耕民族的荣耀之巅.html"><strong aria-hidden="true">29.</strong> 第二十九战：漠北大决战</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十战：定南疆灭朝鲜（全）专治各种不服.html"><strong aria-hidden="true">30.</strong> 第三十战：定南疆灭朝鲜</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十一战：征大宛（全）汗血马的蝴蝶效应.html"><strong aria-hidden="true">31.</strong> 第三十一战：征大宛</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十二战：孤愤之战（全）史家之绝唱，无韵之离骚.html"><strong aria-hidden="true">32.</strong> 第三十二战：孤愤之战</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十三战：巫蛊之乱（全）生生世世莫生帝王家.html"><strong aria-hidden="true">33.</strong> 第三十三战：巫蛊之乱</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十四战：霍光废帝（全）大司马大将军的反噬.html"><strong aria-hidden="true">34.</strong> 第三十四战：霍光废帝</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十五战：王莽篡汉（全）戏精的艺术人生.html"><strong aria-hidden="true">35.</strong> 第三十五战：王莽篡汉</a></li><li class="chapter-item expanded "><a href="../强汉开疆/“强汉开疆”篇总结（1）西汉的脉络梳理.html"><strong aria-hidden="true">36.</strong> “强汉开疆”篇总结</a></li><li class="chapter-item expanded affix "><li class="part-title">四、光武中兴</li><li class="chapter-item expanded "><a href="../光武中兴/第三十六战：王莽复古（全）陨灭三千万人的“德之贼”表演.html"><strong aria-hidden="true">37.</strong> 第三十六战：王莽复古</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十七战：昆阳大逆转（全）天选之子的神话之战.html"><strong aria-hidden="true">38.</strong> 第三十七战：昆阳大逆转</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十八战：河北惊魂记（全）二十八宿召唤神龙.html"><strong aria-hidden="true">39.</strong> 第三十八战：河北惊魂记</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十九战：两京堵赤眉（全）汉末最强匪帮退场.html"><strong aria-hidden="true">40.</strong> 第三十九战：两京堵赤眉</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十战：定关东（全）东南西北的将星闪耀.html"><strong aria-hidden="true">41.</strong> 第四十战：定关东</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十一战：得陇望蜀（全）陇山难，蜀山悲，天下定.html"><strong aria-hidden="true">42.</strong> 第四十一战：得陇望蜀</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十二战：班超通西域（全）小冰期下汉匈博弈的个人英雄主义巅峰.html"><strong aria-hidden="true">43.</strong> 第四十二战：班超通西域</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十三战：党锢之祸（全）东汉王莽们和死太监集团的皇权角逐巅峰战.html"><strong aria-hidden="true">44.</strong> 第四十三战：党锢之祸</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十四战：黄巾起义（全）大乱四百年的开端.html"><strong aria-hidden="true">45.</strong> 第四十四战：黄巾起义</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十五战：189年汉末崩塌（全）顶级谋篇布局下的“为他人作嫁衣裳”.html"><strong aria-hidden="true">46.</strong> 第四十五战：189年汉末崩塌</a></li><li class="chapter-item expanded affix "><li class="part-title">五、三国争霸</li><li class="chapter-item expanded "><a href="../三国争霸/第四十六战：群雄讨董（全）璀璨纷杂的时代开篇.html"><strong aria-hidden="true">47.</strong> 第四十六战：群雄讨董</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十七战：兖州风云（全）年少时的无心插柳，成荫后的阶级背叛.html"><strong aria-hidden="true">48.</strong> 第四十七战：兖州风云</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十八战：挟天子令诸侯（全）曹操巅峰升级的公元196年.html"><strong aria-hidden="true">49.</strong> 第四十八战：挟天子令诸侯</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十九战：官渡之战（全）汉末双神决战到最后一秒的巅峰对决.html"><strong aria-hidden="true">50.</strong> 第四十九战：官渡之战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十战：火烧赤壁（全）曹操不会放过的刘备，士族不会放过的孙权.html"><strong aria-hidden="true">51.</strong> 第五十战：火烧赤壁</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十一战：刘备入川（全）曹操换房本之路上的“点炮”盛宴.html"><strong aria-hidden="true">52.</strong> 第五十一战：刘备入川</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十二战：汉中会战（全）汉末诸神黄昏的上半集.html"><strong aria-hidden="true">53.</strong> 第五十二战：汉中会战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十三战：襄樊惊天大逆转（全）孙权背刺逻辑；关公威震华夏；糜芳叛变之谜.html"><strong aria-hidden="true">54.</strong> 第五十三战：襄樊惊天大逆转</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十四战：夷陵之战（全）先主伐吴始末，永安举国托孤.html"><strong aria-hidden="true">55.</strong> 第五十四战：夷陵之战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十五战：失街亭（全）一步也不能走错的弱者悲哀.html"><strong aria-hidden="true">56.</strong> 第五十五战：失街亭</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十六战：秋风五丈原（全）大梦谁先觉，平生我自知，秋风星落日，光耀天地间.html"><strong aria-hidden="true">57.</strong> 第五十六战：秋风五丈原</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十七战：高平陵之变（全）三百年大悲哀的逻辑原点.html"><strong aria-hidden="true">58.</strong> 第五十七战：高平陵之变</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十八战：淮南三叛（全）人事、利益、威慑、恐吓、荣耀······的政治博弈算法.html"><strong aria-hidden="true">59.</strong> 第五十八战：淮南三叛</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十九战：二士争蜀（全）赚得英雄头似雪，万般回首化尘埃.html"><strong aria-hidden="true">60.</strong> 第五十九战：二士争蜀</a></li><li class="chapter-item expanded affix "><li class="part-title">六、两晋悲歌</li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十战：西晋平吴（全）十分伶俐都使尽，远在儿孙近在身.html"><strong aria-hidden="true">61.</strong> 第六十战：西晋平吴</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十一战：凛冬将至（全）草蛇灰线，伏脉千里的长城内外.html"><strong aria-hidden="true">62.</strong> 第六十一战：凛冬将至</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十二战：八王之乱时无英雄显竖子.html"><strong aria-hidden="true">63.</strong> 第六十二战：八王之乱时无英雄显竖子</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十三战：永嘉之乱（全）善恶到头终有报，只争来早与来迟.html"><strong aria-hidden="true">64.</strong> 第六十三战：永嘉之乱</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十四战：石勒霸北（全）超越种族永远靠的是仇恨，团结群众永远靠的是阶级.html"><strong aria-hidden="true">65.</strong> 第六十四战：石勒霸北</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第65战：东晋立国（全）“光腚北士”与“散装江东”博弈下的门阀政治开端.html"><strong aria-hidden="true">66.</strong> 第65战：东晋立国</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第66战：王敦、苏峻之乱（全）多股真气的冲突下，走火入魔的门阀政治自救之路.html"><strong aria-hidden="true">67.</strong> 第66战：王敦、苏峻之乱</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第67战：桓温灭蜀（1）“血亲复仇”千百年来对于古代社会的深远意义.html"><strong aria-hidden="true">68.</strong> 第67战：桓温灭蜀</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十八战：石虎肆虐（全）超长待机的五胡“狮驼岭”吃人算法之谜.html"><strong aria-hidden="true">69.</strong> 第六十八战：石虎肆虐</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第69战：冉闵屠羯（全）少年闵的奇幻漂流.html"><strong aria-hidden="true">70.</strong> 第69战：冉闵屠羯</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第70战：桓温北伐（上）风云际会后的北国兴与衰.html"><strong aria-hidden="true">71.</strong> 第70战：桓温北伐</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第71战：雄主的膨胀之路（全）天欲福之，必开其慧；天欲毁之，必助其狂.html"><strong aria-hidden="true">72.</strong> 第71战：雄主的膨胀之路</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第72战：淝水之战（全）“摆拍仁主”与“网红门阀”的春秋笔法.html"><strong aria-hidden="true">73.</strong> 第72战：淝水之战</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第73战：兴复大燕（全）：燃烧的北境，爆炸的关中.html"><strong aria-hidden="true">74.</strong> 第73战：兴复大燕</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第74战：拓跋珪复国之谜（全）借我借我一双慧眼吧······.html"><strong aria-hidden="true">75.</strong> 第74战：拓跋珪复国之谜</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第75战：参合悲（全）眼看他起朱楼，眼看他宴宾客，眼看他楼塌了.html"><strong aria-hidden="true">76.</strong> 第75战：参合悲</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第76战：桓玄篡晋（两晋季终章）早悟夜宴终有散，当初赌甚英雄汉.html"><strong aria-hidden="true">77.</strong> 第76战：桓玄篡晋</a></li><li class="chapter-item expanded affix "><li class="part-title">七、南北归一</li><li class="chapter-item expanded "><a href="../南北归一/《南北归一》序：北人南下，为六朝盛衰之总纲！.html"><strong aria-hidden="true">78.</strong> 《南北归一》序</a></li><li class="chapter-item expanded "><a href="../南北归一/第77战：气吞万里如虎（1）每段英雄之旅的开始，都是不拼就死的悲哀.html"><strong aria-hidden="true">79.</strong> 第77战：气吞万里如虎</a></li><li class="chapter-item expanded "><a href="../南北归一/第78战：刘老虎的西征梦（1）《东游记》开场.html"><strong aria-hidden="true">80.</strong> 第78战：刘老虎的西征梦</a></li><li class="chapter-item expanded "><a href="../南北归一/第79战：拓跋珪的心魔（1）“代人集团”登场，弱化版的汉初丰沛集团.html"><strong aria-hidden="true">81.</strong> 第79战：拓跋珪的心魔</a></li><li class="chapter-item expanded "><a href="../南北归一/第80战：后青春的诗（1）刘裕托孤的算盘.html"><strong aria-hidden="true">82.</strong> 第80战：后青春的诗</a></li><li class="chapter-item expanded "><a href="../南北归一/第81战：南龙有悔，北龙在天（1）“亢龙”伐“飞龙”，结局早定.html"><strong aria-hidden="true">83.</strong> 第81战：南龙有悔，北龙在天</a></li><li class="chapter-item expanded "><a href="../南北归一/第82战：冰血暴.html"><strong aria-hidden="true">84.</strong> 第82战：冰血暴</a></li><li class="chapter-item expanded "><a href="../南北归一/第83战：女王的棋局（1）被史官掩盖的北魏版“巫蛊之祸”.html"><strong aria-hidden="true">85.</strong> 第83战：女王的棋局</a></li><li class="chapter-item expanded "><a href="../南北归一/第84战：隐秘的元宏（1）不会哭，咋上权力牌桌？.html"><strong aria-hidden="true">86.</strong> 第84战：隐秘的元宏</a></li><li class="chapter-item expanded "><a href="../南北归一/第85战：时来天地皆同力（1）雍州教父而立之年的奇幻漂流.html"><strong aria-hidden="true">87.</strong> 第85战：时来天地皆同力</a></li><li class="chapter-item expanded "><a href="../南北归一/第86战：六镇之乱（1）北魏统一天下的窗口突然被打开了.html"><strong aria-hidden="true">88.</strong> 第86战：六镇之乱</a></li><li class="chapter-item expanded "><a href="../南北归一/第87战：后三国开篇.html"><strong aria-hidden="true">89.</strong> 第87战：后三国开篇</a></li><li class="chapter-item expanded "><a href="../南北归一/第八十九战：运去英雄不自由.html"><strong aria-hidden="true">90.</strong> 第八十九战：运去英雄不自由</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十战：最后的三国.html"><strong aria-hidden="true">91.</strong> 第九十战：最后的三国</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十一战：东西合拢.html"><strong aria-hidden="true">92.</strong> 第九十一战：东西合拢</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十二战：南北归一.html"><strong aria-hidden="true">93.</strong> 第九十二战：南北归一</a></li><li class="chapter-item expanded affix "><li class="part-title">深度系列</li><li class="chapter-item expanded "><a href="../深度系列/深度系列.html"><strong aria-hidden="true">94.</strong> 深度系列</a></li><li class="chapter-item expanded "><a href="../深度系列/神留言回答.html"><strong aria-hidden="true">95.</strong> 神留言回答</a></li><li class="chapter-item expanded "><a href="../深度系列/改变未来.html"><strong aria-hidden="true">96.</strong> 改变未来</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">渤海小吏的封建脉络百战</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="第十六战鸿门宴修订版刘邦集团的内在升级"><a class="header" href="#第十六战鸿门宴修订版刘邦集团的内在升级">第十六战：鸿门宴（修订版）刘邦集团的内在升级</a></h1>
+<p>如果你问我，刘邦是从何时才开始有点人君模样的，我会说是在入关灭秦后的这一个月。</p>
+<p>这一个月有多重要？</p>
+<p>应该说和他人生中所遇到的所有惊涛骇浪相比，这平淡的一个月反而更重要的多。</p>
+<p>为什么这么说？</p>
+<p>因为这一个月，刘邦彻底的<strong>从眼界和心胸上</strong>跨越了过去50年所惯有的农民思维。</p>
+<p>这一点，难倒了古往今来无数的英雄好汉。</p>
+<p>刘邦的队伍开进咸阳之后，所有人眼珠子都掉地上了。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145048527.gif" alt="图片" /></p>
+<p>秦国经过了一百多年的不断吞并扩张，基本上将山东六国的所有好东西都倒腾到了关中老家，将士们看到秦都宫殿巍峨，街市繁华，顿时忘乎所以，纷纷乘乱抢掠金银财宝。</p>
+<p>刘邦自然也不能免俗，当他看见华丽的宫室，高妙的摆设，成堆的金银珠宝，猎狗骏马，珍奇玩物，更主要的是还有一群一群的美女搁那摆着。</p>
+<p>刘邦眼花缭乱，飘飘然起来，一脑袋扎进了秦宫享受起来。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145050125.gif" alt="图片" /></p>
+<p>这个时候，主迷显忠良，樊哙对刘邦当头棒喝：沛公想取天下，还是想当富家翁？这些奢华之物，正是秦亡的祸根！切勿迷恋于此！</p>
+<p>刘邦对此的反应是，边呆着去！你赶紧忙活去！别耽误我忙活！</p>
+<p>就在此时，刘邦命中的知心哥哥张良也来了，对他说：正是因为秦残暴，我们才能打到这里，我们既然号召天下铲除暴秦，那么更应该对这些东西产生厌恶，这才是将来图大事的资本。</p>
+<p>我们进来才没几天，就已经被这些纸醉金迷的东西弄得头昏脑涨了。</p>
+<p>良药苦口利于病，忠言逆耳利于行，听樊哙的吧。</p>
+<p>在一通心理斗争后，刘邦下了一个非常痛苦的决定，放弃了好不容易到手的物质享受，离开了咸阳，还军灞上。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145051749.gif" alt="图片" /></p>
+<p><strong>这是一次被历史忽视的决定。</strong></p>
+<p><strong>这次决定，是刘邦最终鲤鱼化龙的最关键内核。</strong></p>
+<p>举个例子吧，<strong>泥腿子出身</strong>的穷人乍富后，还能做到<strong>将眼光放的更长远</strong>并最终<strong>打下整个天下</strong>的，中国这几千年的古代史中只出现了俩。</p>
+<p>亭长刘邦和赤贫无产的朱元璋。</p>
+<p>反面的例子就太多了，比如两百年后的赤眉，两千年后的太平天国，中间的这些岁月交替，王朝更迭，每一次的改朝换代，都是大量的穷人乍富后悲惨结局的警示案例。</p>
+<p>为什么呢？</p>
+<p>还是我们之前探讨过的那个案例，<strong>阶层难以突破。</strong></p>
+<p><strong>基因的进化，是缓慢的。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145049023.jpeg" alt="图片" /></p>
+<p>我们的人类社会，基本上是从近半个世纪以来，才算在少数国家解决了饥饿的问题，像强大如我们社会主义中国，也是近三十年来才渐渐告别了饥饿。</p>
+<p><strong>所以我们的基因中，对于吃很看重。</strong></p>
+<p>因为很有可能下顿饭就不知道去哪里找了。</p>
+<p>这个记忆，我们今天大概不会了解，但问问父辈，应该都有感触。</p>
+<p>在青霉素发明出来前，我们对于生命的突然终结也是往往没有任何办法的。</p>
+<p><strong>所以我们的基因中，对于多多交配和多多留下后代很看重。</strong></p>
+<p>因为即便你生了七八个娃也许一场天有不测风云就给你家的产品团灭了。</p>
+<p><strong>所以说我们的基因在千百万年演化下来后就在无时不刻的告诉着我们：物质要用来多吃，多交配，多多炫耀吸引异性来跟你交配，然后多多留下后代，多多养活后代。</strong></p>
+<p><strong>这也就解释了为什么很多人突然爆发后，就会各种各样的饱暖思淫欲，各种各样的见钱眼开。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145049301.gif" alt="图片" /></p>
+<p>你看见美女就走不动道，看见跑车这种炫耀性的东西就眼红，看见大别墅就心痒痒，这都是可以理解的。</p>
+<p><strong>因为这是基因在驱动。</strong></p>
+<p>上千万年都在忙活这点事，你想一下子跨过去，谈何容易。</p>
+<p><strong>但是，有的人却能跨过去，他们知道，资源往往除了满足自身欲望外，还是有很多伟大用途的。</strong></p>
+<p>举个例子，一款成功的抗癌靶向药上市，它的成本平均在10亿美金。</p>
+<p>专利期只有20年，但一款药从申请专利到通过一次次实验再到走过一系列复杂的审批流程，平均需要13年的时间。</p>
+<p>这也就意味着，这款药上市后，投资者需要在7年的时间里至少要挣回这10个亿。</p>
+<p>这些机构往往还都是上市企业，有利润等财务要求考核的，人家需要盈利，所以仅仅挣10个亿，是肯定不够的。</p>
+<p><strong>所以说，药卖的贵，人家有苦衷，有不得已。</strong></p>
+<p><strong>千万不要骂人家，一旦药物研制无利可图，再过一千年，我们仍然会死在癌症，艾滋病等疾病上。</strong></p>
+<p>但是，<strong>我们看到的这10个亿，其实已经是打过折的了。</strong></p>
+<p>很多大量的隐性投入，就像冰山地海平面下部分，我们都没有看到。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145047906.jpeg" alt="图片" /></p>
+<p>中国的国家拨款，美国的校友捐赠，<strong>大量的实验、科研项目等等无法盈利但又至关重要的研究因此得以顺利的在不用担心钱的情况下开展。</strong></p>
+<p><strong>很多科研成果因此廉价又间接的对新的科技进步，药品研发等产生了正向的推进作用。</strong></p>
+<p>钱并非就意味着罪恶，钱可以让世界变得更美好，让人民更幸福。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145048002.jpeg" alt="图片" /></p>
+<p><strong>钱虽是洪水猛兽，但它的最高级用法，却是远离杀盗淫妄。</strong></p>
+<p>但钱与资源的这种用法，<strong>却是反基因本能的。</strong></p>
+<p><strong>这需要高层次的眼界！</strong></p>
+<p><strong>但眼界的提升，往往是需要一代代积累的。</strong></p>
+<p>啥意思呢？</p>
+<p>我老祖是农民，干一辈子活，弄了两块地。</p>
+<p>我曾祖是农民，干一辈子活，弄了四块地，还雇了倆长工帮着种地。</p>
+<p>我太爷是农民，干一辈子活，又弄了四块地，长工多了，但已经开始供我爷爷读书了。</p>
+<p>我爷爷读书后开始干买卖，家里实力再上新台阶，开始供我爸爸读大学了。</p>
+<p>我爸爸读了大学后再次知识改变命运，办企业，办的很大，我家又富裕了一大块，开始思考那些和生存无关的事了。</p>
+<p>到了我这辈儿祖坟上冒青烟考到清华上大学，毕业后将事业做大做强多多纳税多多解决就业，甚至成立慈善基金会去回馈社会。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145048039.jpeg" alt="图片" /></p>
+<p>这是一个家族在一个<strong>理想情况下</strong>的向上循环模型。</p>
+<p>这是循序渐进的。</p>
+<p><strong>每一代人，都是站在上一代的肩膀上，看到更高的档次，然后才明白原来资源除了交配还可以这样使用。</strong></p>
+<p>我国历史中有很多几百年的望族，碰到大灾要施粥免租，补桥修路，这都是祖祖辈辈一代代传下来的。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145049815.gif" alt="图片" /></p>
+<p>这也是所谓的**“精英社会责任”。**</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145048614.jpeg" alt="图片" /></p>
+<p>这是需要潜移默化的熏陶和积累的。</p>
+<p>**必须得是，我家发财后，我的基因告诉我，我要玩跑车，泡名模，但我家眼光更高的老爷子说，不能这样！
+**</p>
+<p>**你这样是富不过三代的！
+**</p>
+<p>为啥要修桥补路，赈济灾民的履行社会责任呢？</p>
+<p><strong>除了单纯积德行善的精神快乐，它还可以给你家缓解贫富不均的社会矛盾，方便自己家族在地方上更好的扎根下去。</strong>（大衣哥的近代农村现象将来晚清时会专门讨论）</p>
+<p>“西汉功臣多无赖，东汉功臣多近儒”，西汉的时候还不显，到了东汉时，<strong>由于豪族投票帮刘秀缝合了天下，豪族集团在特殊的时代背景下开始逐渐的摸明白了地方统治的根基。</strong></p>
+<p>西汉时代，史书中关于对豪族的描写往往是**&quot;橫行乡里&quot;、“侵渔小民”、“武断乡曲”、“兼并役使&quot;、“豪强”、豪奸、“豪纵”**这种贬义词史不绝书。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145051143.gif" alt="图片" /></p>
+<p>但到了东汉时代，由于刘家皇帝将儒家摆的非常崇高，豪族集团尤其是关东的豪族集团在经过长期的太学等儒家教育和熏染后，开始表现出来相当君子的伦理文化和道德水准。</p>
+<p>原先在地方上鱼肉乡里胡作非为的暴发户豪族们开始大批量的蜕变成了崇文守礼，轻财重义，为世人推崇的社会榜样。</p>
+<p>像**“赈赡宗族”、“赈济贫乏”、“好施周急”、“著姓”、“豪贤”、“名族”、“名士”**等褒义词也开始在史书中大量出现。</p>
+<p>这几个县世世代代都是我家的地盘，税是我家收，灾是我家救，贼是我家抓，人是我家用，我当然希望这片房地产越来越值钱，那种涸泽而渔式的暴发户式开发自然而然也会逐渐绝技。</p>
+<p>而且更重要的是，由于我家祖祖辈辈都得在这混，我家的名声也就非常的重要，<strong>因为这个名声不仅仅是好听的问题，他还关系着一个税收成本的问题。</strong></p>
+<p>提起你家人们乖乖躺那不动，和提起你家拿起刀跟你拼了，那对于日常治理来讲完全就是两个成本。</p>
+<p>也因此，“仁、义、礼、智、信”的“富而好礼”开始越来越多的指导各地豪族去进行自我发展。</p>
+<p><strong>总体而言，你会发现，基因层面的快乐是低级的，*<em>原来帮助人不仅心灵上会得到巨大满足，对于家族长远来讲也是意义非凡。*</em></strong></p>
+<p>**但这仍然是最理想的情况下，**绝大多数的人，哪怕有家族底蕴和高人领路，终其一生仍然是走不出基因层面的“低级”快乐。</p>
+<p>没关系，走不出来正常，人这辈子是修行，哪那么容易的。</p>
+<p>在此我们重申，<strong>阶层的跃迁，往往是需要好几代家族底蕴做铺垫的</strong>**，是需要亲人熏陶，高人领路，哲人开悟的。**</p>
+<p>李家最终夯实关陇贵族本位继承鲜卑人打底的治国框架终结了四百年天下大乱和隋末杨广的夺权祸国**是因为前面有着四百年的警示教训和一代代的试错，**最终到他家时找到了成功密码。</p>
+<p>赵匡胤最终杯酒释兵权成功的终结五代十国，<strong>是因为他有这位殿前都点检有足够的底蕴见识去进行深刻的思考。</strong></p>
+<p><strong>哪个时代说哪个时代的话，在封建时代，人们能看到的最长远眼光，就是成功的建立一个王朝。</strong></p>
+<p><strong>这就需要你最大程度上的跟自己的基因原罪做斗争。</strong></p>
+<p>你要远离女色，求贤纳谏，警惕小人，爱惜民力，精准判断，运筹帷幄，<strong>你要将眼光无限程度的放远，才能打败那些同是英雄豪杰的竞争者们。</strong></p>
+<p><strong>但走出基因的原罪，靠的是底蕴跟见识。</strong></p>
+<p><strong>像李渊和赵匡胤，先决的条件极其重要！</strong></p>
+<p>所以说，换算到今天的刘邦，<strong>这个没有底蕴和见识的农民居然一咬牙放弃了快乐成仙的享受，说服了自己本能的冲动，克制住了自己50年来形成的习气，将眼光放远，将眼界提高，还军灞上，告诉将士们，咱们还有大事要干！</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145049653.gif" alt="图片" /></p>
+<p><strong>这****才能看出此人的不凡！</strong></p>
+<p>我们自打刘邦出场，就一直在调侃，原因在于这位爷在入关中前真的是一部活喜剧，<strong>但我们再怎么说这位高祖是流氓，也无法掩盖这位爷是这个时代，最伟大的蜕变者！</strong></p>
+<p>刘邦入咸阳后，一直被焦点定在了著名饭局儿鸿门宴上，史书对于两件事普遍是一笔带过的。</p>
+<p>第一件事就是刘邦的抵制诱惑，还军灞上。</p>
+<p><strong>这笔墨难描的克制，极其的艰难！</strong></p>
+<p>而且我们不仅要夸刘邦，我们还要夸劝谏的这二位，张良和樊哙。</p>
+<p>张良可以理解，人家在韩国世代贵族，所以吃过见过，也知道干大事需要舍弃这些迷惑心智的东西，但樊哙的这个举动，就太不容易了。</p>
+<p>这位大哥，起义之前，在沛县是干屠狗营生的。</p>
+<p>同样都是最底层人民，但樊哙入咸阳后不仅没有贪图享受，还劝谏主上不要痴迷于此，实在是不凡。</p>
+<p>这也再次让我们感叹，刘邦是有大福气的，他的每一个人生升级的岔路口，总是有贵人能够帮助他纠偏，将他再度拽到正轨上。</p>
+<p>还记得我们在秦崛起时所一再提及的幸运吗？</p>
+<p><strong>幸运是极其重要的！</strong></p>
+<p><strong>他的这次人生升级，不仅帮助他在眼光上完成自我蜕变，还间接的成为了保住自己这条命的关键动作。</strong></p>
+<p>而且，他的福气不仅于此，还有一位大神，进入咸阳后，一头钻进了丞相府，帮他走好了日后定鼎天下的最坚实的一步。</p>
+<p>这是普遍被一笔带过的第二件事。</p>
+<p><strong>可以说，刘邦最终能够定鼎天下，从这个人扎进丞相府的那一刻，就已经注定了。</strong></p>
+<p>刘邦知人善任扫四方。</p>
+<p>张良运筹帷幄决胜千里咋算咋准。</p>
+<p>韩信神仙打架白素贞附体满世界拿水开道。</p>
+<p><strong>没有这个人在后面顶着，上述大神基本上仍然难以避免被项羽打到坟上长草的命运。</strong></p>
+<p>扎进去的这个人，是汉初三杰之首，萧何。</p>
+<p>萧何自打进入咸阳后，在群情激动忙活女人财宝的时候，第一时间火急火燎的赶往秦丞相御史府，并派士兵包围丞相御史府不准任何人出入！</p>
+<p>萧主任随后日夜不停地将将秦朝有关国家户籍、地形、法令等图书档案全部清查，然后分门别类登记造册，统统带回了刘邦大营。</p>
+<p>前几年，马云在说“阿里巴巴是一家数据公司”时，我第一反应就是萧何当年对于国家档案重视的那个画面。</p>
+<p>这件事有多重要呢？</p>
+<p><strong>用一句话来概括，就是秦王朝自商鞅变法开始这一百多年真正值钱的工作，全部打包送给了刘邦。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145049344.jpeg" alt="图片" /></p>
+<p>你打下了多大的地盘其实并不重要。</p>
+<p><strong>重要的是你能否高效的汲取地盘上的资源为你所用。</strong></p>
+<p>哪怕你地盘暂时小也不要紧。</p>
+<p><strong>只要你有兵，有粮，有****饷，地盘是可以打下来的</strong>。</p>
+<p>秦就是这么一点一点做到的。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145049609.jpeg" alt="图片" /></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145049841.jpeg" alt="图片" /></p>
+<p>我们来一点点解释。</p>
+<p>我们之前在秦始皇统一六国那一讲中讲过，欧洲之所以一村一国，<strong>很大一本分原因，在于他们没有发明出一个庞大帝国的物质征调系统。</strong></p>
+<p>中国早在两千多年前，就已经发明并应用了一套很牛的中央控制系统。</p>
+<p>这个中央控制系统体现在哪呢？</p>
+<p>主要体现在他的官僚制度。</p>
+<p><strong>也就是大名鼎鼎的三公九卿。</strong></p>
+<p>我们来介绍一下。</p>
+<p>三公分别是丞相，太尉，御使大夫。</p>
+<p>丞相，政府最高行政长官，有一个秘书处十三曹，总管国家运营全面。（<strong>类似于今天的总理，职能并非完全一样，我这样说是方便大家的理解</strong>）</p>
+<p>太尉，最高军政长官，负责管理全国军事事务。（类似于今天的<strong>中央军委但无军委主席</strong>）</p>
+<p>御史大夫，主要管理记事，其地位相当于副丞相，主要职责是管理图籍、奏章，监察文武百官（类似于今天的<strong>纪检委+组织部部门职能</strong>）。</p>
+<p>九卿是啥呢？</p>
+<p>分别是：</p>
+<p>奉常，掌管宗庙礼仪。（类今<strong>中央党校+国家广电总局</strong>）</p>
+<p>郎中令，掌管宫殿警卫。（类今<strong>中央警卫团</strong>）</p>
+<p>卫尉，掌管宫门警卫。（类今<strong>北京卫戍区部队</strong>）</p>
+<p>太仆，掌管宫廷御马和国家马政。（类今<strong>国家交通运输部</strong>）</p>
+<p>廷尉，掌管司法审判。（类今<strong>国家司法部</strong>）</p>
+<p>典客，掌管外交和民族事务。（类今<strong>国家外交部+国家民族事务委员会</strong>）</p>
+<p>宗正，掌管皇族、宗室事务。（XX大院）</p>
+<p>治粟内史，掌管租税钱谷和财政收支。（类今<strong>国家财政部+国家税务局+中国人民银行+国家粮食和物资储备局</strong>）</p>
+<p>少府（章指导前岗位），掌管专供皇室需用的山海池泽之税及官府手工业。（类今<strong>国家发改委+国家自然资源部</strong>）</p>
+<p>为啥萧何去了丞相府和御史府而不去太尉府呢？</p>
+<p>首先是太尉不长设，其次是作为保卫秦王朝的岗位，秦完蛋后他就没啥意义了。</p>
+<p>并不是说太尉，郎中令，卫尉这些岗位不重要，<strong>这些岗位在天下大乱政权完蛋后确实没啥意义，但在天下没大乱时，却是整个国家最关键的几个岗位。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145049683.jpeg" alt="图片" /></p>
+<p>后面的灭诸吕，我们很快要讲到这几个岗位。</p>
+<p>萧何之所以钻到丞相和御史这两个部门，是因为谁要想再开新公司，都得指着人家！</p>
+<p>这两个部门的主管职能中，有四个岗位对于重建一个国家至关重要！</p>
+<p><strong>分别是治粟内史，廷尉，太仆，少府。</strong></p>
+<p>掌握了治粟内史的资料，<strong>全国的户籍、土地、税收、财政收支，你就全部了解了。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145049720.jpeg" alt="图片" /></p>
+<p>掌握了廷尉，<strong>国家的司法审判与制度纲领你迅速就能上马。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145049764.jpeg" alt="图片" /></p>
+<p>掌握了太仆，<strong>全国的国家马政与物流，你就全都知道了。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145050551.gif" alt="图片" /></p>
+<p>掌握了少府，<strong>全国的山海池泽等自然资源就全部被你掌控了。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145049898.jpeg" alt="图片" /></p>
+<p>上述这些职位之所以能够有条不紊的运转国家齿轮，<strong>在于有据可查的档案，图籍。</strong></p>
+<p>看看秦给刘邦做的这件大大的嫁衣裳吧。</p>
+<p><strong>秦这些年费劲心力查清了户籍土地，摸清了国家的家底，成为了刘邦打仗的资源后盾。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145050062.jpeg" alt="图片" /></p>
+<p>秦始皇之所以能上马这么多项目而始终没闹过饥荒，就是因为有数可查，知道怎样将百姓的最后一滴血压榨出来。</p>
+<p><strong>秦国一代代完善了秦律，在宽容修改后成为了刘邦的治国纲领。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145050062-7845450.jpeg" alt="图片" /></p>
+<p><strong>秦国摸清画好的全国的山川地图和自然资源，成为了刘邦摊在纸面上的参考依据。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145049939.jpeg" alt="图片" /></p>
+<p><strong>秦国发掘理顺的物流系统和战马资源，成为了刘邦日后四处开溜和筹备骑兵队的硬件条件。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145049977.jpeg" alt="图片" /></p>
+<p>萧何我们之前一直没怎么提，后面你也会发现，提到他的地方都不多，因为这位萧师傅在刘邦起义之后，就一直在做一些看着很不讨好的后勤工作。</p>
+<p><strong>粮草调配，后勤供给，这些我们看上去枯燥无味的东西，在真正懂行人的眼里，才是重中之重的工作。</strong></p>
+<p>比如说，我们组织十万大军出征，这十万人的兵源从哪里来？</p>
+<p>武器装备从哪里领？</p>
+<p>士兵的饷银大概要多少，从哪里出？</p>
+<p>粮草一路要调用多少？</p>
+<p>沿途要从哪几个产粮大县出？</p>
+<p>每个大县库存是多少？算上路上的消耗，能实际上供给多少到前线？</p>
+<p>如果这仗打起来旷日持久，后续的物资从哪里来，往哪里调？</p>
+<p>这些都是大问题。</p>
+<p><strong>这些问题的解决，都需要在上述档案齐全的情况下，才能顺利开展的！</strong></p>
+<p>再举个例子，今天我们讲这些战争，最困难的一个环节被突破了。</p>
+<p>地图。</p>
+<p>啥是兵家必争之地，函谷关咋重要都不再是难题，一上图，全都恍然大明白了。</p>
+<p>唯一的难题是河流改道，比如黄河、汉水等改道，写起来就比较费劲。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145050344.jpeg" alt="图片" /></p>
+<p>前面的巨鹿之战和将来的汉中争夺时，找地图就着实难着我了，因为河道变了，所有的军事行动逻辑就全变了。</p>
+<p>但大部分，还是很顺手的。</p>
+<p>搁古代，就费劲了。</p>
+<p>举个著名案例，刘秀扫平关东后，打陇西隗嚣，费劲了，因为陇山难走没地图。</p>
+<p>搁今天，我迅速就把图弄出来了，多细节的都不成问题，这图得把刘秀乐哭了。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145050194.jpeg" alt="图片" /></p>
+<p>但两千年前，刘秀就愁死了。</p>
+<p>这时著名识时务者，隗嚣的将军马援先生作为好外援马上“堆米为山”，将陇西的山川地形全给3D立体打印出来了。</p>
+<p>随后刘秀开始西征。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145050466.gif" alt="图片" /></p>
+<p>那张图最重要！</p>
+<p><strong>从刘邦掌握了秦宫的所有文件典籍开始，历史的局势，就变成了刘邦实行了商鞅变法并迅速走完150年的完全体的时刻。</strong></p>
+<p><strong>刘邦集团只要不出大意外，这场仗就赢定了！</strong></p>
+<p>项羽接受西楚后，咋征收粮饷，过去的官僚体系怎么搭建，人才去哪寻找，土地有多少人口，每年能组织起多少人员入伍，每年辖区能打多少粮食。</p>
+<p>全都不知道！</p>
+<p>没有十年，你捋的明白？</p>
+<p>刘邦则不存在这个问题，被打回汉中了，整个蜀地和汉中有多少人，能出多少兵，每年能打多少粮食，过多少驿站，多少粮食能上前线。</p>
+<p>这些都能迅速动员起来。</p>
+<p>这么说吧，项羽打天下的视角是一片混沌的。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145050340.jpeg" alt="图片" /></p>
+<p>出了根据地一片混沌。</p>
+<p>刘邦的视角则是全国一盘棋的。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145050538.jpeg" alt="图片" /></p>
+<p><strong>城市、山川、河流、资源一目了然。</strong></p>
+<p>或者说项羽每征服一个地方，看到这个地方都是蒙面的中东少女。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145050385.jpeg" alt="图片" /></p>
+<p>刘邦每征服一个地方看到都是沙滩上的姑娘。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145050490.jpeg" alt="图片" /></p>
+<p>萧师傅多大功劳。</p>
+<p><strong>这也成为了后来刘邦之所以可以迅速打回关中的最关键原因！（没有丝毫对兵仙不敬的意思，名角很伟大，但舞台和赞助商更重要。）</strong></p>
+<p>我打回关中了，同样关中就被再度动员起来了。</p>
+<p>我打到哪，按图索骥，哪里就能被迅速整合起来。</p>
+<p>**这套“国家操做系统”就是生命！**<strong>就是你和大魔王搏斗的资本！</strong></p>
+<p>萧何要是到项羽那了，这堆档案被项羽拿走了，然后项羽随时随地能组建起20万大军，刘邦有9条命也不够！</p>
+<p>而且即便档案全在，还有一个问题。</p>
+<p><strong>会不会有人熟练整合运用这套段位极高的“国家操作系统”。</strong></p>
+<p>五万人的后勤和五十万人的后勤也完全是两个概念，五个县的治理和五十个县的统一调配也不是一个概念的。</p>
+<p>地盘越广，队伍越大时，能胜任的人才就越少。</p>
+<p>治县之才常有。</p>
+<p>治郡之才鲜有。</p>
+<p>治国之才罕有。</p>
+<p>在那个年代，是没有专门的课程和老师教你这些政务能力的，即便有人手把手的带，人的天赋与能力同样很重要。</p>
+<p>你哪怕天天跟着萧何，你也许治一个县没问题，你治一个州，就不见得行了。</p>
+<p>吕家那帮废物点心几十年的跟着大政治家吕后，老太后一走人全都趴窝了。</p>
+<p><strong>之前我们讨论过的那个话题，达到技术门槛的人很多，达到艺术层面的人很少。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145050429.jpeg" alt="图片" /></p>
+<p><strong>在大台面上，顶梁柱很稀少，无法批量生产！</strong></p>
+<p>一个大国总理，可遇不可求。</p>
+<p>刘邦再次显示出来他的幸运，他就地取材时，就有着一个大国总理可以用，哪怕这人曾经仅仅是个最底层的公务员。</p>
+<p>所有人冲进咸阳后，只有萧何这么一个识货的，知道这东西的存在，知道这东西在哪，第一时间抢出了今后与项羽决战天下时，最宝贵的宏观武器。</p>
+<p>这套国家级别的统治档案后来<strong>帮助刘邦弥平了与项羽之间巨大的军事实力与指挥水准间的差距。</strong></p>
+<p>刘邦后来也因此，将开国首功，给了萧何。</p>
+<p>实至名归！</p>
+<p>在还军灞上后，刘邦经过与几位核心智囊商量后，得出结论，想要获得关中的民心，必须免除秦朝旧有的严厉法律，于是颁布了著名的约法三章。</p>
+<p>杀人者死；伤人者刑；及盗抵罪。</p>
+<p>除了这三条，剩下全部的秦朝旧法，一律取消，所有官员百姓各安其位，我们来这里的目的，就是为了大家铲除暴政的，而不是土匪抢劫，请大家不要惊慌。</p>
+<p>在约法三章后，刘邦派出了过去秦政府的官员将政策传达到了县市乡邑的各个角落。</p>
+<p>反响是：民众欢腾，唯恐刘邦不当秦王。</p>
+<p>说句实在的，约法的这三章好吗？</p>
+<p>你细琢磨，其实这就像民主国家现在的高福利政策一样，表面上看挺好，细看全是窟窿。</p>
+<p>你要照着这个法律走，没几年就都回到原始社会了。</p>
+<p>因为里面根本没说你要是不交税咋办，你要是不入伍咋办，不服徭役咋办。</p>
+<p><strong>总体来说，只有权力，没有义务。</strong></p>
+<p>刘邦放出了这招，目的是吸揽民心选票，事实上效果也非常好，但如果他真当上了秦王，他统治的了这片已经高福利的地区吗？</p>
+<p>参照现在的南欧国家，这很难。</p>
+<p>就在这个时候，项羽帮他来了。</p>
+<p>他这位高福利领导要被踢出去了。</p>
+<p>而且不仅如此，因为刘邦不仅是被踢的问题，他连命都悬了。</p>
+<p>因为他犯了个大错。</p>
+<p>这个错，差点让刘邦的全部革命成果被职业军阀项羽一扫而光。</p>
+<p>刘邦居然昏了头，派人把函谷关卡死了。</p>
+<p>他打算将项羽上访团挡在关外。</p>
+<p><strong>本来他是灭秦首功，无论怎样项羽都是不能动他的，现在好了，你自绝于人民，你由元勋变成反动派了。</strong></p>
+<p><strong>你给了项羽一个杀你的把柄！</strong></p>
+<p>**本来你抢了项羽的风头他就不高兴，现在正好项羽不再有包袱，不用担心杀了你会让别的抗秦股东们嘀咕。
+**</p>
+<p>**
+**</p>
+<p><strong>因为你现在是和我们十几路诸侯为敌，是我们共同的敌人！</strong></p>
+<p>项羽在知道这个消息后，有种自己在外漂泊半世打跑了地主老财，得胜后却发现自己喜欢的好白菜被猪给拱了的感觉。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145050488.jpeg" alt="图片" /></p>
+<p>人家霸王这回可不干喽。</p>
+<p>刘邦之所以要堵住函谷关是因为听到了这样的建议。</p>
+<p>关中土地富饶，十倍关东，项羽现在已经把关中封给了章邯，如果项羽进了关，我们就没法立足了。我们现在应该派军把守函谷关，征调关中战士增援，把他们永远挡在外面。</p>
+<p>刘邦认为说的对，于是这样办了。</p>
+<p>在那一刹那，他忘记了他的那位革命战友项羽的可怕战力，他天真的认为函谷关的那道天险可以挡住如狼似虎的项羽。</p>
+<p>这也是进入关中后，刘邦犯得唯一一次错误。</p>
+<p>但这个错误，已足够致命！</p>
+<p>让我们看一下项羽那边的情况吧。</p>
+<p>项羽率着据说三十多万的诸侯联军在二十万秦国俘虏的带领下，往西进发着。</p>
+<p>这些路诸侯有谁呢？</p>
+<p>楚国代表团有项羽、英布、共敖的三路军。</p>
+<p>赵国代表团有张耳、申阳、司马卬的三路军。</p>
+<p>齐国代表团有田间、田安、田都的三路军。</p>
+<p>燕国代表团是臧荼的燕军。</p>
+<p>魏国代表团是魏豹的魏军。</p>
+<p>这十几路诸侯军压着没有兵器的二十万秦军反攻祖国。</p>
+<p>这个途中，发生了很多不愉快，不友好的现象。</p>
+<p>原因则在于，一报还一报。</p>
+<p>这40万诸侯联军中，绝大多数，都去过关中或边疆，或当民夫，或当劳工，在那个时候，秦国人作为统治者，对六国的劳苦大众很不友好，甚至很残暴。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145051378.gif" alt="图片" /></p>
+<p>现在三十年河东，三十年河西，人家六国现在混出来了，对这20万秦国俘虏展开了报复，开始出现了肆意凌辱的现象发生。</p>
+<p><strong>这时候主帅的态度就很重要了。</strong></p>
+<p><strong>比较遗憾，这个主帅本人就是“苦秦症”患者。</strong></p>
+<p>项羽并没有在这个方面树立好投降军的优待政策，在他心中，这就是秦国人应得的惩罚。</p>
+<p>人非草木，当惯了爷的秦国人突然有别人骑自己脖子上拉屎后感到非常不适应，开始在不断地酝酿仇恨情绪。</p>
+<p>普遍的想法是：是特么章邯逼着我们投的降，没有他这个卖国贼我们不至于这样。</p>
+<p>不服咱再接着打啊！几百年打你们当玩！你们特么牛什么牛！</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145051460.gif" alt="图片" /></p>
+<p>这样的声音渐渐汇聚到了项羽等诸侯军高层的耳朵里，让本来就不待见秦国人的项羽很是恼火，认为秦军给脸不要脸，都留你们一条命了，这点欺负都受不了，不是你们肆虐我们土地的时候了。</p>
+<p>于是项羽、英布等人商议后达成共识，在一个月黑风高的夜里，在新安（渑池东），三十多万全副武装的诸侯军杀掉了20万手无寸铁的秦军。</p>
+<p><strong>对手投降前，是有着成规模建制的杀伤力的。</strong></p>
+<p><strong>所以在讲好条件投降后，生命就应该得到保障。</strong></p>
+<p><strong>军队的投降就如同最厚重的契约，应该得到它的契约精神。</strong></p>
+<p>杀降不祥，项羽自白起后，再次用他日后的悲惨结局印证了这条铁律。</p>
+<p>人就怕比，这20万秦国小伙子被杀后，基本奠定了刘邦先生在关中老百姓心目中的救苦救难形象。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145050768.jpeg" alt="图片" /></p>
+<p>不仅仅是老刘厚道的约法三章好印象，当初秦投降的时候，刘邦的手下们都在劝刘邦杀了秦王，老刘说了句：我这些年混就混的是个厚道，再说杀降不祥，我可不傻！<strong>（诸将或言诛秦王，沛公曰：始怀王遣我，固以能宽容；且人已服降，又杀之，不祥）</strong></p>
+<p><strong>强烈对比下，有几个人彻底被关中老百姓抛弃了。</strong></p>
+<p>首当其冲的就是大刽子手项羽，他在用实际行动，印证我们之前“破釜沉舟”那一章说的，<strong>他对秦国的过激性反应。</strong></p>
+<p><strong>只要和秦有关的，他都有着刻骨的仇恨和天然的排斥。</strong></p>
+<p>这20万秦国降军，他完全可以订立好优惠的投降政策，严禁诸侯军骚扰侮辱秦军，彻底收下这二十万小伙子的心。</p>
+<p>这二十万小伙子拿下了，整个关中的民心，也就拿下了。</p>
+<p>同理，这二十万小伙子被杀了，整个关中死去亲人的秦民，也就把项羽当做了第一大仇人！</p>
+<p>毕竟这和战死不同！</p>
+<p><strong>战争时无法控制生死，但投降后却不应该得到这样的生离死别的对待。</strong></p>
+<p>战死沙场叫为国捐躯。</p>
+<p>投降被杀叫蓄意谋杀。</p>
+<p>二十万个家庭的大原告团瞬间诞生了。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145051297.gif" alt="图片" /></p>
+<p>不过项羽无所谓，关中老百姓怎么想的他根本就不在意，因为他压根就没想过这里会对他有什么意义，后面我们会讲。</p>
+<p>报仇的巨大快感随后还将驱使他后面干下了一系列的缺德之事。</p>
+<p>排在项羽之后，就是这几位投降的以章邯为首的头头脑脑了。</p>
+<p>关中父老们不会体会你们有多么的不容易，和你们多么的没有关系，你们被赵高逼到了绝境，项羽这货违背盟约。</p>
+<p><strong>家乡父老们只会知道，你们拿着这20万小伙子的性命，做了自己晋身的投名状！</strong></p>
+<p>你特么当王了，我家二小子呢？</p>
+<p>这也为后来刘邦的卷土重来埋下了伏笔。</p>
+<p>在诛杀20万秦军后，项羽大军来到了函谷关，正要往前走时，知道了两件让他极其愤怒的事。</p>
+<p>第一件，刘邦已经率先打进了关中。</p>
+<p>第二件，函谷关的守军说：刘大帅说了，谁也不能进入关中。</p>
+<p>项羽大怒：他刘老三也不看看他自己是个什么东西！没有我，他王个屁！</p>
+<p>攻关！</p>
+<p>天下第一雄关，在项羽拉开阵势后迅速尿了，乖乖开门。</p>
+<p>公元前206年12月，项羽大军挺进骊邑鸿门坂（西安临潼东北）。</p>
+<p>项羽又听到了一条恶心刘邦的消息。</p>
+<p>刘邦账下左司马曹无伤，觉得刘邦长不了，还是英姿飒爽的项羽看上去是潜力股，于是在项羽这里压一注，私下里向项羽密报：刘邦打算称王于关中，还要叫降了的秦王子婴当丞相，您已经来晚了，珍宝金银已经都被刘邦贪了。</p>
+<p>项羽听后心中在滴血，我闹革命的那点油水全让你刘老三拿走了，你还要自立关中，我不封你，你算是什么东西？</p>
+<p>巨大的不平衡之感再度袭来，项羽大宴诸君，决定明早向刘邦动手，彻底扫平了这个老流氓。</p>
+<p>项羽的这个打算获得了军师范增的拍手肯定，不过范增的理由则更深刻的多。</p>
+<p>范增说：刘邦过去是个什么东西你是了解的，贪财好色，但现在入关之后，据说连美女都不贪图了。</p>
+<p>什么原因？</p>
+<p><strong>不是他没感觉了！是他懂得克制自己了！他的志向变大了！</strong></p>
+<p>我观天象，他的阵地上空，气流成龙虎状，五彩分明，这是帝王头上才会有的天象，马上出击，斩草除根，不要延误！</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145051296.gif" alt="图片" /></p>
+<p>**范增用人性与天象两条古人最看重的方面黑刘邦，**按照项羽的战斗力，事情到这份上了，刘邦的剧本就应该到此结束了，但刘邦似乎真的是命有天助，在这一夜，历史的剧本掀开了反转的一页。</p>
+<p>项羽的叔父，项伯，当年在混社会亡命奔逃时曾经投奔过“铁锤版”荆轲，张良先生。</p>
+<p>两人是生死之交。</p>
+<p>项伯听到项羽的最高决策后，在这至关重要的一夜向张良送去了这决定刘邦一伙身家性命的重要情报。</p>
+<p>项伯对张良说：你赶紧走，别陪着这艘破船沉没。</p>
+<p>张良作为刘邦的命中贵人，在帮了刘邦这么多次后，又帮刘邦化解了这最凶险的一次人生危机。</p>
+<p>张良对项伯说：大哥，我奉韩王之令送刘邦入关，如今大难临头我自飞，这是不义，我要告诉他这件事。</p>
+<p>项伯觉得也对，江湖上义气为先，说了你刘邦也跑不了。</p>
+<p>刘邦在听说后，魂飞魄散，张良问了刘邦一句非常实在的话：你打得过项羽吗？</p>
+<p>刘邦这时开始后悔自己的冒失举动，回想起项羽的那种在战场上的天生雄力，很实在的说：打不过，怎么办？</p>
+<p>张良说：请项伯进来，告诉他你绝不敢背叛。</p>
+<p>刘邦说：没问题，你大还是项伯大？</p>
+<p>张良说：他比我大几岁。</p>
+<p>刘邦说：请吧，这个我熟，我会像侍奉兄长一样侍奉他。</p>
+<p>张良百般求告，说动了项伯与刘邦见面。</p>
+<p>刘邦作为混迹江湖一辈子的社会人，先是大哥长大哥短，然后恭恭敬敬的双手捧酒，请求和项梁家结亲家。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145051413.gif" alt="图片" /></p>
+<p>之后捂着胸口赌咒发誓：我自打进入武关之后，再小的财宝都不敢接近，只知道封存仓库约束手下，日也等，夜也等，就是等着项将军进来发落。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145052332.gif" alt="图片" /></p>
+<p>我派兵到函谷关，是为了防盗贼，哪里是为了防范天兵啊！谁知道那帮看门小子理解错意思了！</p>
+<p>大误会啊！</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145051897.gif" alt="图片" /></p>
+<p>请老哥一定跟将军好好说说，可怜我这份忠心，上天明鉴啊！</p>
+<p>项伯被社会人刘邦打动了，也是看在老友张良的面子上，对刘邦说：明日清晨，一定早早前来觐见。</p>
+<p>刘邦老泪纵横：一定。</p>
+<p>于是项伯连夜赶回了大营，将刘邦所说的话告诉了项羽，并发表了自己的见解：刘邦我见啦！就那大怂货要是能有什么企图都新鲜了。</p>
+<p>再说如果不是刘邦率先灭秦，我们能进来这么痛快吗？他有大功而要灭他，这是不义，你应该对他好点，他明早就来请罪，先别宰他了。</p>
+<p>刘邦这次说服项伯，<strong>要引出之前刘邦早年我按下没讲的一段经历：他曾经离家混过社会。</strong></p>
+<p>或者说：刘邦先生曾经做过“士”。</p>
+<p>就是为了在今天抛出来。</p>
+<p>之前我们在张仪那章中提到过“战国的士”，这个概念：</p>
+<p>“战国时代有一种很奇怪的现象，就是大量的无业游民，闲散人士，逃犯，武士，知识分子在全世界（相对于当时人们的认知）肆意流动，他们也许今年在楚，明年就在齐，后年也许又跑到了赵。”</p>
+<p>刘邦早年曾给当年的“外黄大哥”张耳，也就是困在巨鹿城里的那位当过小弟。</p>
+<p>刘邦心中的天皇巨星，是我们在“长平之战”末尾提到的秦国二次围剿赵国时，窃符救赵的战国四公子之一的信陵君。</p>
+<p>哪怕后来他当上了皇帝，路过大梁时依然要祭拜自己的这位偶像。</p>
+<p>这是爱的有多么深。</p>
+<p>刘邦不仅仅是爱，而且成了超级模仿秀。</p>
+<p>刘邦在这些年混社会，跟大哥的时候，不能说他是在虚度光阴。</p>
+<p><strong>因为，很多时候，看起来此时此刻没有用的东西，也许将来会成为你安身立命的关键保障。</strong></p>
+<p>在这段“士”的岁月里，刘邦掌握了一个关键技能和一个关键理念。</p>
+<p><strong>这个关键技能，叫做如何“迅速与人拉近关系”。</strong></p>
+<p>看一下他跟没什么交集的项伯是咋在一个晚上穿上一条裤子的。</p>
+<p>第一，作为一方司令员但嘴甜认大哥。</p>
+<p>第二，低姿态双手捧酒敬你。</p>
+<p>第三，马上求着结亲家。</p>
+<p>第四，说自己多不容易。</p>
+<p>**混江湖最关键的一点，就是你得让人们对你有好感，**试想一下刘邦这一连串，你是项伯你咋回绝？</p>
+<p><strong>这项关键技能，后来帮助他在沛县当居委会主任时交到了很多朋友，比如前面说到的萧相国。</strong></p>
+<p><strong>以及今天让自己有了吃那顿关键饭局的机会。</strong></p>
+<p>“士”岁月对于刘邦的另一项财富，<strong>则是让他明白了咋样让别人为你卖命。</strong></p>
+<p>也就是刚才我们所说的<strong>那项关键理念：记住别人的功劳！赏赐别人的功劳！</strong></p>
+<p>看看《史记》中，樊哙的功劳簿吧：</p>
+<p>沛公击章邯军濮阳，攻城<strong>先登，斩首二十三级</strong>，<strong>赐爵列大夫</strong>。</p>
+<p>复常从，从攻城阳，**先登。破李由军，斩首十六级，**<strong>赐上间爵。</strong></p>
+<p>从攻围东郡守尉於成武，**斩首十四级，捕虏十一人，**<strong>赐爵五大夫。</strong></p>
+<p>从击秦军，出亳南。河间守军於杠里，破之。击破赵贲军开封北，**先登，斩候一人，首六十八级，捕虏二十七人，赐爵卿。
+**</p>
+<p>从攻破杨熊军於曲遇。攻宛陵，<strong>先登，斩首八级，捕虏四十四人</strong>，<strong>赐爵封号贤成君。</strong></p>
+<p>杀多少人都给你数清了，到了门槛就马上赏！</p>
+<p>刘邦是咋用人还用再说别的吗？</p>
+<p>总说刘邦会用人，什么牛鬼蛇神到了他这都成了大护法。</p>
+<p>人家这个教主是咋当的？</p>
+<p><strong>我牢牢记住你的每一次功劳！</strong></p>
+<p><strong>我不会让你流的每一滴血是白流的！</strong></p>
+<p>**我会对你进行配得上你功劳奖励和提拔！
+**</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145052113.gif" alt="图片" /></p>
+<p><strong>跟着我，你永远不会被辜负！</strong></p>
+<p>很多所谓领导力的课程，好几万上好几天一下课觉得说的这么热闹都说啥来着？</p>
+<p><strong>其实大道至简，大言不繁。</strong></p>
+<p><strong>马云说过一句话：员工为啥辞职？</strong></p>
+<p><strong>钱给少了，心委屈了。</strong></p>
+<p><strong>后半句其实是总结，之所以委屈，是你特么钱给少了！</strong></p>
+<p>当你觉得你这个领导咋没人拿你当回事的时候，琢磨琢磨吧。</p>
+<p>你手是不是忒紧点了？</p>
+<p>你报功的时候是不是只有你一个人？</p>
+<p>你手下的人多少年没得先进了？多少年没提拔了？</p>
+<p><strong>想成大事的人，记住樊哙的这张《功劳簿》吧！</strong></p>
+<p><strong>想成大事的人，也记住刘邦的这段“士”岁月吧！</strong></p>
+<p>自萧何奠基前，刘邦最终战胜项羽的另一项技能，早就在他的蹉跎岁月中就已经练成。</p>
+<p><strong>项羽的这个叔叔项伯，是他的集团中第一个被拿下的。</strong></p>
+<p><strong>后面还会有很多个！</strong></p>
+<p><strong>人生的每个阶段，只要你用心，永远都有意义！</strong></p>
+<p>刘邦之所以成功，和当年那段浪迹天涯混社会的经历息息相关。</p>
+<p>他并不知道自己将来会当皇帝，<strong>但他仔细的观察了“大哥”们是咋对待门客的，见识了门客们为啥会为“知己者”去死。</strong></p>
+<p>这让他洞悉了**人性中最关键的那两个字：利益！
+**</p>
+<p>以乔布斯当年在斯坦福的那段演讲，致敬当年的刘老三。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145051640.jpeg" alt="图片" /></p>
+<p>第二天，天色方明，刘邦带着五名班子成员和一百骑兵来到了项羽大营。</p>
+<p>到了门口，除了刘邦和张良外，所有人都被拦在营外了。</p>
+<p>老刘见到项羽后马上沉下身段致歉说：臣下和将军，一同起义，共诛暴秦，将军大功于河北，臣下则转战黄河以南，想不到先一步进入关中，跟将军在这里相见。</p>
+<p>没想到有人挑拨离间，伤害我们之间的感情，让将军对我产生误会。</p>
+<p>项羽在项伯吹风后又看到刘邦表现的这么无辜，阅历浅的劣势出来了。</p>
+<p>他开始琢磨，刘邦这个人，也不是不了解，之前一块作战时，他这点水平，能对我产生什么威胁？</p>
+<p>紧接着项羽一个疏忽，给说秃噜了，扔出了叛徒的那份投名状：这是你账下大将曹无伤说的，要不我怎么会怀疑你？</p>
+<p><strong>这是一句很业余的话，你不仅帮助刘邦阵营完成了忠诚教育，还把十几路诸侯军的所有手下全警告了。</strong></p>
+<p><strong>今后你项羽的敌后工作算是臭大街了，没人再敢跟你共事了。</strong></p>
+<p>而且更重要的是，此时此刻在现场，你的这句话让站在边上的一位“楚汉李克农”品出了味道。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145051500.jpeg" alt="图片" /></p>
+<p>刘邦冷汗涔涔，项羽宣布开宴，庆祝消除误会。</p>
+<p>历史上著名的鸿门宴开始了。</p>
+<p>双方喝上以后，范增多次对项羽挤眉弄眼，还不停地举所佩玉玦打暗号，项羽不搭理他。</p>
+<p>眼看项羽这就要放过刘邦，一辈子阅人无数的范增急了，起身出帐，喊来了项庄，也是项羽的从弟，对他说：项将军秉性仁厚，不忍下手，你到席前，舞剑助兴，直刺刘邦，务必当场杀之，否则，我们将来都会成为这小子的俘虏。</p>
+<p>在没有事先允许的命令下，在宴会上刺杀一方军头，勇气似乎是项家的标配基因，项庄二话没说提着剑就进了帐，向宾客敬酒，然后说：军中没什么好娱乐的，在下愿意舞剑助兴。</p>
+<p>项羽没有想太多，表示同意。</p>
+<p>项庄开始进行舞剑表演，一步一步的离刘邦越来越近。</p>
+<p>已经和刘邦结成亲家的项伯看到了情形不对，也拔出了剑，表示：独舞没劲，二人转才好看。</p>
+<p>爷俩这就转上了。</p>
+<p>项庄越舞越急，此时，几乎在场的所有人都看出来了项庄的目的。</p>
+<p>张良看见事情逐渐失控，出帐找到了刘营第一猛士樊哙，告诉他：项庄以舞剑为名，打算对沛公不利！</p>
+<p>刘邦这也有猛男，樊哙大怒，手持铁盾的杀进帐中，门卫阻挡，被樊哙一盾牌掀到了地上。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145052534.gif" alt="图片" /></p>
+<p>樊哙直闯进去，双眼冒火，直视项羽，须发皆张，眼角欲裂。</p>
+<p>项羽手扶佩剑，问道：此人是谁？</p>
+<p>张良道：刘邦随身侍卫，樊哙。</p>
+<p>项羽道：小伙子还挺猛，赐酒。<strong>（壮士，赐之卮酒）</strong></p>
+<p>项羽的身边人给了樊哙一斗酒。<strong>（则与斗卮酒）</strong></p>
+<p>大约是四斤，樊哙一口气全干了！</p>
+<p>项羽道：赏他猪肘子。</p>
+<p>身边的人给了樊哙一整个猪大腿。<strong>（则与一生彘肩）</strong>（这里的生并非是猪腿刺身，而是通“全”，就是没切的整猪腿）</p>
+<p>樊哙也不在意，开始拿剑自己削猪腿吃。</p>
+<p>项羽的手下打算让樊哙出丑的，结果碰见混不吝了，整个鸿门宴随后进入樊哙专场。</p>
+<p>项羽道：爷们还能不能再喝？</p>
+<p>此时，展现樊哙与普通武夫不同的人生高光时刻到来了，樊哙道：死都不怕，还怕喝酒！</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145052434.gif" alt="图片" /></p>
+<p>樊哙搂不住的开始演讲：</p>
+<p>怀王曾约定，先入咸阳者，封王，而刘将军最先打入关中，进入咸阳后什么也不敢碰，远远在灞上驻扎，恭候将军大驾！</p>
+<p>如此劳苦功高，非但没有封赏，反而却有无端小人挑拨离间，欲诛杀功臣，步秦后尘，请将军定夺！</p>
+<p>这一番雄辩，谁能想到是个屠狗之人能说出的呢？</p>
+<p>沛县多才至此，让人赞叹！</p>
+<p>项羽还能怎么接呢，憋半天蹦出一个字：</p>
+<p>坐！</p>
+<p>樊哙这么一闹，项庄这剑自然也就舞不下去了，过了一会儿，刘邦借口上厕所，然后把樊哙喊出来，说老樊，没有你我尿不出来，你跟我去！</p>
+<p>樊哙出来后再次展现他惊人的决断力和大局观，告诉刘邦快走。</p>
+<p>刘邦在犹豫：还没告辞，似乎失礼。</p>
+<p>樊哙道：人家是刀俎砧板，我们是鱼肉！这都耍上剑了！逃命要紧，告辞个屁！</p>
+<p>刘邦被骂醒了，对张良说：我走小路，此去灞上二十里，你等我快到时再去和项羽告别。</p>
+<p>刘邦扔下了来时的车辆，只骑了一匹马，樊哙，夏侯婴等人全部腿着跟他跑回了灞上。</p>
+<p>张良估计时间差不多后，进账对项羽叩谢：刘将军不胜酒力，不能面辞，特差遣我奉上白璧一双，赠与将军，玉斗一双，呈献亚父。</p>
+<p>项羽问道：刘邦何在？</p>
+<p>张良道：刘将军听说将军有责备他的意思，心里害怕，先行回营，此时大概已经到了。</p>
+<p>张良拜别后，范增拿起那对玉斗摔了个粉碎，对项羽恨恨而道：将来与你夺天下的，一定是这个刘邦，我们都会成为他的俘虏！</p>
+<p>项羽确如范增所言，错失了人生中，最好的一次干掉他命中最大对手的机会。</p>
+<p>自此之后，刘邦再没有给他这样的机会，项羽也被无数史家后人评论为优柔寡断，放虎归山。</p>
+<p>但我们来仔细分析一下，项羽不杀刘邦，真的是因为它优柔寡断吗？</p>
+<p>其实并不是。</p>
+<p>项羽有很多毛病，比如说小家子气，封赏的大印在自己手中把角都快磨平了，就是舍不得给别人。</p>
+<p>比如说暴躁，比较容易冲动，一言不合就杀过去了。</p>
+<p><strong>不过项羽有一个最大的优点，就是从不优柔寡断。</strong></p>
+<p>杀宋义时，他一天也没多等，宋义回营就杀了。</p>
+<p>破釜沉舟时，他一点没犹豫，五万人一脑袋就扎进去了。</p>
+<p>杀20万秦国降卒时，十几路诸侯没说开个讨论会的他说杀就杀了。</p>
+<p>准备干掉刘邦，第二天早上马上就要动手。</p>
+<p><strong>项羽天生有种极其干脆的果决行动力！</strong></p>
+<p>他之所以不杀刘邦的原因其实在于两点：</p>
+<p><strong>第一，他压根就看不上刘邦。</strong></p>
+<p><strong>第二，他根本就从没打算占领天下，至少没打算这个岁数就马上占领。</strong></p>
+<p>所以范增所说<strong>已经五十好几黄土埋到脖子的****刘邦要与他争夺天下，根本就没能戳到他的痛点。</strong></p>
+<p>下面我们来分析一下这两点。</p>
+<p><strong>第一，我们有过工作经验的朋友可以有感受，就是几个人只要一起共过一段时间的事，你就很清楚和你共事的人是什么水平。</strong></p>
+<p>谁奸，谁懒，谁厚道，谁能干，谁能挑大梁，谁是个完蛋玩意。</p>
+<p>我们心中都是有谱的。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145051801.jpeg" alt="图片" /></p>
+<p><strong>一个小建议，任何时候都千万别耍心眼，人这辈子处关系最好的通行证，是</strong>**“诚”**<strong>字</strong></p>
+<p><strong>你的每个动作，别说在高手看来，就是在身边人看来，只要时间一长，其实都是骗不了人的。</strong></p>
+<p>项羽和刘邦一起共事过，项羽清楚地知道刘邦是多大的材料。</p>
+<p>论勇气，勇气没有，有名的长腿将军，奉行生存主义。</p>
+<p>轮实力，实力一般，打进咸阳时不过三万多人，现在接受了秦国军队并扩编，号称十万。</p>
+<p>论军事指挥水平，跟他一比，差的更是无边无迹。</p>
+<p><strong>所有让项羽取得巨大成功的这些优点，刘邦全都没有。</strong></p>
+<p>此时的项羽，刚刚完成了几乎不可能完成的丰功伟绩，站在整个时代的众人之巅，你让他会认为刘邦很可怕？这是开玩笑。</p>
+<p><strong>刘邦的人生升级，全是内在的，范增看到了，说他懂得克制自己，襟抱不小，这是大患。</strong></p>
+<p><strong>但项羽看不到！</strong></p>
+<p><strong>二十五六的岁数，是体会不到什么是内功的！</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145053395.gif" alt="图片" /></p>
+<p><strong>第二，范增对项羽说的夺天下的这个政治宏图，在当时的人看来，其实是没有人相信会成功的。</strong></p>
+<p>我们在“揭竿大泽乡”那章中说过，<strong>秦的这种统一全世界的大一统体系，超出了人们的认知范畴。</strong></p>
+<p>人们<strong>从来没见过，也从不相信这样的体系</strong>会取得成功。</p>
+<p><strong>原因就是一个：太大了，你怎么管嘛！</strong></p>
+<p>恰巧<strong>秦朝又用它的短命为这这种政治体制做了一个错误代言</strong>。</p>
+<p>此时此刻，几乎所有的诸侯，<strong>都有着一个共识，就是应该回到诸侯制，国家不能太大了。</strong></p>
+<p>让我们回到最开始项羽准备杀刘邦的时候，曹无伤说了三件事。</p>
+<p><strong>一，刘邦准备自立关中王。（*<em>沛公欲王关中*</em>）</strong></p>
+<p><strong>二，他封了仇人子婴当丞相。（*<em>**使子婴为相**</em>*）</strong></p>
+<p><strong>三，财宝都让刘邦抢空了。（*<em>**珍宝尽有之**</em>*）</strong></p>
+<p>这才是惹怒了项羽的原因。</p>
+<p>恰恰和我们脑补的画面不同，<strong>项羽并非因为刘邦可能心怀天下而愤怒。</strong></p>
+<p>而是因为<strong>刘邦抢了他的入关首功，还不听话打算自立，还要封仇人子婴当丞相，更可恨的是，财宝都没了。</strong></p>
+<p>当得知<strong>刘邦服了，一切都听他的，财宝都还在时</strong>，项羽就<strong>失去了杀刘邦的核心冲动。</strong></p>
+<p>范增老先生眼光没问题，他看出来了刘邦并非池中之物，<strong>但他没用对方法。</strong></p>
+<p><strong>导致刘邦人生出现重大危机的原因恰恰是他自己的手下曹无伤扔出了最打动项羽的三件事。</strong></p>
+<p><strong>要不怎么说：一个水平，一个想法。</strong></p>
+<p><strong>曹无伤知道项羽恶心什么，因为他俩本质上，是一个水平线的。</strong></p>
+<p><strong>而范增，张良，这又是另一个水平线的。</strong></p>
+<p>同样，<strong>经过蜕变后的刘邦，此时和项羽，也已经分化成了两个级别的物种。</strong></p>
+<p><strong>一个是已经抵制住了极大诱惑，气量与胸襟还有目标都变得更加远大，并经历过生死时刻的人。</strong></p>
+<p>人家升级了。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145052263.gif" alt="图片" /></p>
+<p><strong>另一个，勇猛千古无二的霸王，但却太年轻。</strong></p>
+<p>两个人的人生轨迹也开始慢慢出现了变化。</p>
+<p>鸿门宴后，刘邦回到大营后的第一件事，就是杀掉了叛徒曹无伤。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145052653.gif" alt="图片" /></p>
+<p>任何时候，内奸都是最可怕的动物，他知道你的全部底细，这次刘邦差点让他给搞死。</p>
+<p>项羽，则在几天后进入咸阳，先是杀掉了已经投降的子婴，随后一把火烧掉了秦国宫殿。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145052297.jpeg" alt="图片" /></p>
+<p>秦国几百年来修建的朝大规模建筑群被烧为了一片白地，大量被秦始皇收拢到咸阳的先秦典籍就这样失传了。</p>
+<p>项羽间接的完成了文化毁灭。</p>
+<p>咋说你呢！二十郎当岁的小伙子，有时候都特么不知道自己作的祸有多大！说你千古罪人一点不过！</p>
+<p>这也赖萧何，你特么咋知道光抢国家操作系统呢？</p>
+<p>你咋不把国家图书馆都抢过来呢？</p>
+<p>不过萧何也比较无辜，谁特么知道那王八蛋全给烧了啊！</p>
+<p>项羽还下令开抢，盟军开始了入关大乐透，把能看到的所有财宝和美女都实行了三光政策。</p>
+<p>当时有一个叫韩生的人对项羽说：关中之地，四塞之国，山川险要，土地肥沃，在此建都，可以称霸天下。</p>
+<p>这不是找不痛快嘛！他都烧了能要这片地嘛！人家就是报仇来的！</p>
+<p>项羽回答：富贵不归乡，就好像穿了漂亮华贵的衣服在夜里走路，怎么显示荣耀？</p>
+<p>比较让我们惊讶地是，这个韩生是位名嘴。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145052339.jpeg" alt="图片" /></p>
+<p>他说：早就听说楚国人肤浅暴躁，虽然带着人的帽子，但仍然是一只演戏的猴儿。</p>
+<p>这句“沐猴而冠”，在后来成为了专门嘲笑乡巴佬的专用成语。</p>
+<p>项羽听到后，更加愤怒，怎么这么可恨！说我们楚国人是猴！</p>
+<p>我先拿你当猴煮了吧。</p>
+<p>下令把这位韩生扔入了煮开的大锅。</p>
+<p>项羽对于秦国的种种做法，完全就是把秦国当做了一个战败的仇恨之国，大肆迫害关中的这帮亡国奴。</p>
+<p>自打项羽杀了这20万手无寸铁的秦国降卒后，关中人民就已经和他势不两立了。</p>
+<p>现在项羽把这种感受升级为了势同水火。</p>
+<p>而刘邦由于前期的良好表现，成为了关中人民的众望所归，此时此刻的关中人民心中就只有念想：希望刘大哥能够留在关中。</p>
+<p>但这个美好幻想，很快就破灭了。</p>
+<p>因为项羽在随后以天下当蛋糕的这次分封中，将天下分成了十九块。分封了十九个在解放战争中表现良好的贵族或将领做王。</p>
+<p>这十九个王是：</p>
+<p>西楚霸王项羽。</p>
+<p>汉王刘邦。</p>
+<p>九江王英布</p>
+<p>雍王章邯。</p>
+<p>塞王司马欣。</p>
+<p>翟王董翳。</p>
+<p>西魏王魏豹。</p>
+<p>河南王申阳（打进河南地断章邯粮道）</p>
+<p>韩王韩成（张良老领导）</p>
+<p>殷王司马卬（打入河内开辟第二战场）</p>
+<p>代王赵歇（原赵王）</p>
+<p>常山王张耳（原赵王手下，刘邦前大哥）</p>
+<p>衡山王吴芮（英布老丈人，老革命）</p>
+<p>临江王共敖（楚国上柱国，打南郡有功）</p>
+<p>辽东王韩广（原燕王）</p>
+<p>燕王臧荼（原韩广手下）</p>
+<p>胶东王田市（现齐王，田荣他侄儿）</p>
+<p>齐王田都、济北王田安。（援赵助楚的齐国队）</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145052535.jpeg" alt="图片" /></p>
+<p>这份分封菜单很有意思，项羽的分封主要依据了三个方面。</p>
+<p>第一：巨鹿时你在哪？</p>
+<p>英布、老田家那两位和臧荼、张耳他儿子张敖，这都是巨鹿时一块做过战的。</p>
+<p>第二，入秦时你有没有跟上。</p>
+<p>司马卬，申阳这是在挺进时立大功的，章邯那哥仨是投诚的。</p>
+<p>第三，跟我项羽的关系咋样。</p>
+<p>这个就很有意思了。</p>
+<p>原来的很多领导们，由于跟项羽没什么交情，都挪地方了。</p>
+<p>项羽身边环绕的，都是跟他关系好的，都是他封给地盘的军功新晋集团。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145052718.jpeg" alt="图片" /></p>
+<p>项羽的分封，其实也有一层挑事的心理，原来的皇族们都被赶离了故国大本营，让军功派和皇族派们互相消耗，我项羽伺机再拓宽增大我的影响力。</p>
+<p>我才刚25！我有本钱和你们打上几十年！</p>
+<p>原燕王韩广，赵王赵歇，都守边疆去了。</p>
+<p>刘邦也一样，你这老小子抢了风头着实可恨，最开始项羽把巴蜀二地分给了他，后来又是张良，找了一大堆关系，把汉中也划给了刘邦，保证了两川地势的完整性。</p>
+<p>见过世面的张指导再度帮助刘邦争取到了日后东山再起的最大本钱。</p>
+<p>我们之前在“秦下巴蜀”那一章中讲过汉中盆地的重要性。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145052761.jpeg" alt="图片" /></p>
+<p><strong>汉中在不在刘邦手里，这几乎决定了刘邦出川是一年还是十年。</strong></p>
+<p>刘邦分到的这块底盘，面积上是所有十八个诸侯中，最大的一块，几乎和几百年后，三足鼎立时的季汉大体相当。</p>
+<p>是项羽照顾了刘邦吗？</p>
+<p>并不是，用心着实险恶。</p>
+<p>范增在搞不死刘邦后力主把刘邦贬到了当时开发尚不完全的荒蛮烟瘴的巴蜀土地。</p>
+<p>因为进出极其不便，那个时代，秦国一般是将犯人派到那里实现移民的。</p>
+<p>项羽认为，今后可能就再也听不到刘邦的名字了，毕竟距离世界中心的中原，巴蜀太遥远了。</p>
+<p>刘邦被安排好后，最痛恨的关中，他给拆成了三块。</p>
+<p>咸阳以西，分给了章邯。</p>
+<p>咸阳以东，分给了二把手司马欣。</p>
+<p>咸阳以北，分给了力荐章邯投降的董翳。</p>
+<p>今天我们说陕西，总说它三秦大地，也是由此而来。</p>
+<p>把三个卖国求荣的降将分为王来恶心关中父老，项羽不可谓不狠毒，<strong>但项羽忽略了一个问题：这哥仨堵得住看似被放逐了的刘邦吗？</strong></p>
+<p>**这次分封，项羽忽略的问题，还有很多，**比如说齐国的问题。</p>
+<p>项羽将齐国一分为三，分封给了胶东王田市、齐王田都、济北王田安。</p>
+<p><strong>这里有一个很大的问题，就是忽略了齐国本身胳膊最粗的田荣。</strong></p>
+<p>田荣由于之前因为楚赵没有交出齐国的自立势力，于是和项梁闹得很不愉快。</p>
+<p>项梁约其灭章邯时，田荣就没理，结果老梁被杀了。</p>
+<p>到了项羽北伐时，田荣就更没出兵。</p>
+<p>因此，项羽对这位没投资的大鳄很不感冒，分了十九个王，也没提这个远东第一大势力，他分的这三齐，只给了田荣的大侄子田市一个胶东王。</p>
+<p><strong>问题是，那俩新分的齐王能掰的过齐地根子最粗的田荣吗？</strong></p>
+<p>他把原来的燕王和赵王分别分到了边远的代郡和辽东，让自己看着顺眼的张耳和臧荼继承了两国的中心地带。</p>
+<p>和张耳齐名的陈馀，虽然这两人自巨鹿之战后，就彻底闹掰了，但在赵地依旧有着巨大的影响力，在分封完毕后，项羽才在别人的提醒下想了起来这位重量人物，然后挤了三个县，如打发叫花子一样的分给了陈馀。</p>
+<p><strong>这些新势力摆得平旧势力吗？</strong></p>
+<p>最后，还有一个人，他做了特别的对待。</p>
+<p>楚怀王。</p>
+<p>他将当初夺他军权的怀王取了个名，叫“义帝”，扔到了遥远的长沙郴县，理由是领导应该住在上游。</p>
+<p>那时候西藏还没开发，不然估计项羽会给怀王扔到喜马拉雅上。</p>
+<p>项羽自立为了西楚霸王。</p>
+<p>这堆王中，只有他的王前面加了个“霸”字。</p>
+<p>他是王中王。</p>
+<p>项羽的梦想，是当霸主，还是像几百年前的春秋那样，自己像齐桓公，晋文公一样当世界警察，身后一群小弟，哪里不服打哪里。</p>
+<p><strong>但他还是忽略了，历史的车轮是滚滚向前的，春秋的美好时代，还回得去吗？</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145053200.gif" alt="图片" /></p>
+<p>项羽的所有分封，都导致了一个后果。</p>
+<p><strong>之前没地盘的，在有了地盘后，对他不在期待，不再敬畏。</strong></p>
+<p><strong>之前的既得利益者，由于项羽损害了他的利益，而怀恨在心。</strong></p>
+<p>可以说，项羽的这次自大分封，相当于在中原大地上埋了很多个定时炸弹。</p>
+<p>一触即发！</p>
+<p>项羽很快就迎来了无穷无尽的反噬。</p>
+<p>不过，他的这堆顶层设计中，还是有一个东西意外的成为了恒久远的永流传。</p>
+<p><strong>他封的这堆王中，有一个封号永远的成为了一个民族的名字。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145052574.jpeg" alt="图片" /></p>
+<p><strong>我相信只要地球在一天，这个民族就会永远的屹立在世界的东方并将它的光芒普照四方！</strong></p>
+<p>前面我们所说的，没有地盘的，在得到地盘后，虽然对项羽失去了敬畏和期待，但大多还是充满了感激。</p>
+<p>但有一个人，却是个例外。</p>
+<p>这个之前没有地盘的人，是咬着牙喷着火前往自己的封地的。</p>
+<p>人都是容易夸大自己的努力和功劳的，刘邦也不例外。</p>
+<p>一直看着关中这块大肥肉的刘邦，在项羽胡作非为时，就有着一种强烈的看着自家媳妇被强奸的主人翁意识。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145053374.gif" alt="图片" /></p>
+<p>刘邦以为，在施暴者痛快过去之后，他可以扶起千疮百孔的媳妇，然后好好过日子。</p>
+<p>但没想到，在看到媳妇被强奸后，又得知自己再次被强行耍流氓，扔到了世界的尽头，媳妇直接又被三个大汉霸占了。</p>
+<p>老刘的屈辱感强烈升起。</p>
+<p>临行的刘邦回头望了一眼心爱的关中。</p>
+<p>默默的咽下了一口气。</p>
+<p>老子会回来的！</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E5%85%AD%E6%88%98%EF%BC%9A%E9%B8%BF%E9%97%A8%E5%AE%B4%EF%BC%88%E4%BF%AE%E8%AE%A2%E7%89%88%EF%BC%89%E5%88%98%E9%82%A6%E9%9B%86%E5%9B%A2%E7%9A%84%E5%86%85%E5%9C%A8%E5%8D%87%E7%BA%A7.assets/640-20220321145052885.gif" alt="图片" /></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../楚汉双雄/第十五战：先入关者为王上（全）刘主任的西行漫记.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../楚汉双雄/第十七战：暗度陈仓（全）月下追回来的“汉中对”.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../楚汉双雄/第十五战：先入关者为王上（全）刘主任的西行漫记.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../楚汉双雄/第十七战：暗度陈仓（全）月下追回来的“汉中对”.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
