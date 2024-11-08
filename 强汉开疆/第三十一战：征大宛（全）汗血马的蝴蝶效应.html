@@ -1,0 +1,581 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>第三十一战：征大宛 - 渤海小吏的封建脉络百战</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../序.html">序</a></li><li class="chapter-item expanded affix "><li class="part-title">一、秦并天下</li><li class="chapter-item expanded "><a href="../秦并天下/第一战：三家分晋（加量修订版）韩赵魏崛起，自春秋来到战国.html"><strong aria-hidden="true">1.</strong> 第一战：三家分晋</a></li><li class="chapter-item expanded "><a href="../秦并天下/第二战：马陵之战（国防成本修订版）战略方向错误导致的魏盛转衰.html"><strong aria-hidden="true">2.</strong> 第二战：马陵之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第三战：商鞅变法（变法始末修订版）秦并天下的战争机器，开动起来了.html"><strong aria-hidden="true">3.</strong> 第三战：商鞅变法</a></li><li class="chapter-item expanded "><a href="../秦并天下/第四战：“合纵”与“连横”（“战国纵横家书”辨别修订版）诸子百家走四方的美好时代.html"><strong aria-hidden="true">4.</strong> 第四战：“合纵”与“连横”</a></li><li class="chapter-item expanded "><a href="../秦并天下/第五战：秦并巴蜀（蜀道修订篇）百年一遇的机会，你怎么选？.html"><strong aria-hidden="true">5.</strong> 第五战：秦并巴蜀</a></li><li class="chapter-item expanded "><a href="../秦并天下/第六战：胡服骑射（全）赵国崛起的关键三十年.html"><strong aria-hidden="true">6.</strong> 第六战：胡服骑射</a></li><li class="chapter-item expanded "><a href="../秦并天下/第七战：伊阙之战（豫西重镇修订版）杀神登场.html"><strong aria-hidden="true">7.</strong> 第七战：伊阙之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第八战：乐毅破齐（全）远东第一大国的疯狂与没落.html"><strong aria-hidden="true">8.</strong> 第八战：乐毅破齐</a></li><li class="chapter-item expanded "><a href="../秦并天下/第九战：鄢郢之战（全）杀神横扫汉江平原.html"><strong aria-hidden="true">9.</strong> 第九战：鄢郢之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十战：秦为什么冒险发动长平之战.html"><strong aria-hidden="true">10.</strong> 第十战：长平之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十一战：嫪毐之乱（全）秦灭六国的隐藏大线.html"><strong aria-hidden="true">11.</strong> 第十一战：嫪毐之乱</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十二战：王翦灭楚（全）秦国搬开最后的大石.html"><strong aria-hidden="true">12.</strong> 第十二战：王翦灭楚</a></li><li class="chapter-item expanded affix "><li class="part-title">二、楚汉双雄</li><li class="chapter-item expanded "><a href="../楚汉双雄/第十三战：揭竿大泽乡（全）秦“崩”在了哪？.html"><strong aria-hidden="true">13.</strong> 第十三战：揭竿大泽乡</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十四战：破釜沉舟（全）力拔山兮气盖世！.html"><strong aria-hidden="true">14.</strong> 第十四战：破釜沉舟</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十五战：先入关者为王上（全）刘主任的西行漫记.html"><strong aria-hidden="true">15.</strong> 第十五战：先入关者为王上</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十六战：鸿门宴（修订版）刘邦集团的内在升级.html"><strong aria-hidden="true">16.</strong> 第十六战：鸿门宴</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十七战：暗度陈仓（全）月下追回来的“汉中对”.html"><strong aria-hidden="true">17.</strong> 第十七战：暗度陈仓</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十八战：彭城大屠杀（全）楚霸王的闪电战.html"><strong aria-hidden="true">18.</strong> 第十八战：彭城大屠杀</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十九战：背水一战（全）兵仙的一路向北.html"><strong aria-hidden="true">19.</strong> 第十九战：背水一战</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第二十战：拉锯荥阳（全）东奔西走的霸王.html"><strong aria-hidden="true">20.</strong> 第二十战：拉锯荥阳</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第二十一战：会战垓下（全）兵仙与霸王的巅峰对决.html"><strong aria-hidden="true">21.</strong> 第二十一战：会战垓下</a></li><li class="chapter-item expanded affix "><li class="part-title">三、强汉开疆</li><li class="chapter-item expanded "><a href="../强汉开疆/第二十二战：白登之围（全）疑雾重重的汉初顶级大案.html"><strong aria-hidden="true">22.</strong> 第二十二战：白登之围</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十三战：灭诸王（全）既然离别难免，今生何必相会.html"><strong aria-hidden="true">23.</strong> 第二十三战：灭诸王</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十四战：诸吕之变（全）摄政女皇的伟大与悲哀.html"><strong aria-hidden="true">24.</strong> 第二十四战：诸吕之变</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十五战：七国之乱（全）文景之治的缺憾美.html"><strong aria-hidden="true">25.</strong> 第二十五战：七国之乱</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十六战：马邑阴谋（全）儒教、长城、草原的逻辑.html"><strong aria-hidden="true">26.</strong> 第二十六战：马邑阴谋</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十七战：漠南无王庭（全）跨时代的伟大战术革命.html"><strong aria-hidden="true">27.</strong> 第二十七战：漠南无王庭</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十八战：打通河西走廊（全）匈奴梦魇的冠军侯.html"><strong aria-hidden="true">28.</strong> 第二十八战：打通河西走廊</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十九战：漠北大决战（修订版）农耕民族的荣耀之巅.html"><strong aria-hidden="true">29.</strong> 第二十九战：漠北大决战</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十战：定南疆灭朝鲜（全）专治各种不服.html"><strong aria-hidden="true">30.</strong> 第三十战：定南疆灭朝鲜</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十一战：征大宛（全）汗血马的蝴蝶效应.html" class="active"><strong aria-hidden="true">31.</strong> 第三十一战：征大宛</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十二战：孤愤之战（全）史家之绝唱，无韵之离骚.html"><strong aria-hidden="true">32.</strong> 第三十二战：孤愤之战</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十三战：巫蛊之乱（全）生生世世莫生帝王家.html"><strong aria-hidden="true">33.</strong> 第三十三战：巫蛊之乱</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十四战：霍光废帝（全）大司马大将军的反噬.html"><strong aria-hidden="true">34.</strong> 第三十四战：霍光废帝</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十五战：王莽篡汉（全）戏精的艺术人生.html"><strong aria-hidden="true">35.</strong> 第三十五战：王莽篡汉</a></li><li class="chapter-item expanded "><a href="../强汉开疆/“强汉开疆”篇总结（1）西汉的脉络梳理.html"><strong aria-hidden="true">36.</strong> “强汉开疆”篇总结</a></li><li class="chapter-item expanded affix "><li class="part-title">四、光武中兴</li><li class="chapter-item expanded "><a href="../光武中兴/第三十六战：王莽复古（全）陨灭三千万人的“德之贼”表演.html"><strong aria-hidden="true">37.</strong> 第三十六战：王莽复古</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十七战：昆阳大逆转（全）天选之子的神话之战.html"><strong aria-hidden="true">38.</strong> 第三十七战：昆阳大逆转</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十八战：河北惊魂记（全）二十八宿召唤神龙.html"><strong aria-hidden="true">39.</strong> 第三十八战：河北惊魂记</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十九战：两京堵赤眉（全）汉末最强匪帮退场.html"><strong aria-hidden="true">40.</strong> 第三十九战：两京堵赤眉</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十战：定关东（全）东南西北的将星闪耀.html"><strong aria-hidden="true">41.</strong> 第四十战：定关东</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十一战：得陇望蜀（全）陇山难，蜀山悲，天下定.html"><strong aria-hidden="true">42.</strong> 第四十一战：得陇望蜀</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十二战：班超通西域（全）小冰期下汉匈博弈的个人英雄主义巅峰.html"><strong aria-hidden="true">43.</strong> 第四十二战：班超通西域</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十三战：党锢之祸（全）东汉王莽们和死太监集团的皇权角逐巅峰战.html"><strong aria-hidden="true">44.</strong> 第四十三战：党锢之祸</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十四战：黄巾起义（全）大乱四百年的开端.html"><strong aria-hidden="true">45.</strong> 第四十四战：黄巾起义</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十五战：189年汉末崩塌（全）顶级谋篇布局下的“为他人作嫁衣裳”.html"><strong aria-hidden="true">46.</strong> 第四十五战：189年汉末崩塌</a></li><li class="chapter-item expanded affix "><li class="part-title">五、三国争霸</li><li class="chapter-item expanded "><a href="../三国争霸/第四十六战：群雄讨董（全）璀璨纷杂的时代开篇.html"><strong aria-hidden="true">47.</strong> 第四十六战：群雄讨董</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十七战：兖州风云（全）年少时的无心插柳，成荫后的阶级背叛.html"><strong aria-hidden="true">48.</strong> 第四十七战：兖州风云</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十八战：挟天子令诸侯（全）曹操巅峰升级的公元196年.html"><strong aria-hidden="true">49.</strong> 第四十八战：挟天子令诸侯</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十九战：官渡之战（全）汉末双神决战到最后一秒的巅峰对决.html"><strong aria-hidden="true">50.</strong> 第四十九战：官渡之战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十战：火烧赤壁（全）曹操不会放过的刘备，士族不会放过的孙权.html"><strong aria-hidden="true">51.</strong> 第五十战：火烧赤壁</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十一战：刘备入川（全）曹操换房本之路上的“点炮”盛宴.html"><strong aria-hidden="true">52.</strong> 第五十一战：刘备入川</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十二战：汉中会战（全）汉末诸神黄昏的上半集.html"><strong aria-hidden="true">53.</strong> 第五十二战：汉中会战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十三战：襄樊惊天大逆转（全）孙权背刺逻辑；关公威震华夏；糜芳叛变之谜.html"><strong aria-hidden="true">54.</strong> 第五十三战：襄樊惊天大逆转</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十四战：夷陵之战（全）先主伐吴始末，永安举国托孤.html"><strong aria-hidden="true">55.</strong> 第五十四战：夷陵之战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十五战：失街亭（全）一步也不能走错的弱者悲哀.html"><strong aria-hidden="true">56.</strong> 第五十五战：失街亭</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十六战：秋风五丈原（全）大梦谁先觉，平生我自知，秋风星落日，光耀天地间.html"><strong aria-hidden="true">57.</strong> 第五十六战：秋风五丈原</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十七战：高平陵之变（全）三百年大悲哀的逻辑原点.html"><strong aria-hidden="true">58.</strong> 第五十七战：高平陵之变</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十八战：淮南三叛（全）人事、利益、威慑、恐吓、荣耀······的政治博弈算法.html"><strong aria-hidden="true">59.</strong> 第五十八战：淮南三叛</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十九战：二士争蜀（全）赚得英雄头似雪，万般回首化尘埃.html"><strong aria-hidden="true">60.</strong> 第五十九战：二士争蜀</a></li><li class="chapter-item expanded affix "><li class="part-title">六、两晋悲歌</li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十战：西晋平吴（全）十分伶俐都使尽，远在儿孙近在身.html"><strong aria-hidden="true">61.</strong> 第六十战：西晋平吴</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十一战：凛冬将至（全）草蛇灰线，伏脉千里的长城内外.html"><strong aria-hidden="true">62.</strong> 第六十一战：凛冬将至</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十二战：八王之乱时无英雄显竖子.html"><strong aria-hidden="true">63.</strong> 第六十二战：八王之乱时无英雄显竖子</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十三战：永嘉之乱（全）善恶到头终有报，只争来早与来迟.html"><strong aria-hidden="true">64.</strong> 第六十三战：永嘉之乱</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十四战：石勒霸北（全）超越种族永远靠的是仇恨，团结群众永远靠的是阶级.html"><strong aria-hidden="true">65.</strong> 第六十四战：石勒霸北</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第65战：东晋立国（全）“光腚北士”与“散装江东”博弈下的门阀政治开端.html"><strong aria-hidden="true">66.</strong> 第65战：东晋立国</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第66战：王敦、苏峻之乱（全）多股真气的冲突下，走火入魔的门阀政治自救之路.html"><strong aria-hidden="true">67.</strong> 第66战：王敦、苏峻之乱</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第67战：桓温灭蜀（1）“血亲复仇”千百年来对于古代社会的深远意义.html"><strong aria-hidden="true">68.</strong> 第67战：桓温灭蜀</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十八战：石虎肆虐（全）超长待机的五胡“狮驼岭”吃人算法之谜.html"><strong aria-hidden="true">69.</strong> 第六十八战：石虎肆虐</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第69战：冉闵屠羯（全）少年闵的奇幻漂流.html"><strong aria-hidden="true">70.</strong> 第69战：冉闵屠羯</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第70战：桓温北伐（上）风云际会后的北国兴与衰.html"><strong aria-hidden="true">71.</strong> 第70战：桓温北伐</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第71战：雄主的膨胀之路（全）天欲福之，必开其慧；天欲毁之，必助其狂.html"><strong aria-hidden="true">72.</strong> 第71战：雄主的膨胀之路</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第72战：淝水之战（全）“摆拍仁主”与“网红门阀”的春秋笔法.html"><strong aria-hidden="true">73.</strong> 第72战：淝水之战</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第73战：兴复大燕（全）：燃烧的北境，爆炸的关中.html"><strong aria-hidden="true">74.</strong> 第73战：兴复大燕</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第74战：拓跋珪复国之谜（全）借我借我一双慧眼吧······.html"><strong aria-hidden="true">75.</strong> 第74战：拓跋珪复国之谜</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第75战：参合悲（全）眼看他起朱楼，眼看他宴宾客，眼看他楼塌了.html"><strong aria-hidden="true">76.</strong> 第75战：参合悲</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第76战：桓玄篡晋（两晋季终章）早悟夜宴终有散，当初赌甚英雄汉.html"><strong aria-hidden="true">77.</strong> 第76战：桓玄篡晋</a></li><li class="chapter-item expanded affix "><li class="part-title">七、南北归一</li><li class="chapter-item expanded "><a href="../南北归一/《南北归一》序：北人南下，为六朝盛衰之总纲！.html"><strong aria-hidden="true">78.</strong> 《南北归一》序</a></li><li class="chapter-item expanded "><a href="../南北归一/第77战：气吞万里如虎（1）每段英雄之旅的开始，都是不拼就死的悲哀.html"><strong aria-hidden="true">79.</strong> 第77战：气吞万里如虎</a></li><li class="chapter-item expanded "><a href="../南北归一/第78战：刘老虎的西征梦（1）《东游记》开场.html"><strong aria-hidden="true">80.</strong> 第78战：刘老虎的西征梦</a></li><li class="chapter-item expanded "><a href="../南北归一/第79战：拓跋珪的心魔（1）“代人集团”登场，弱化版的汉初丰沛集团.html"><strong aria-hidden="true">81.</strong> 第79战：拓跋珪的心魔</a></li><li class="chapter-item expanded "><a href="../南北归一/第80战：后青春的诗（1）刘裕托孤的算盘.html"><strong aria-hidden="true">82.</strong> 第80战：后青春的诗</a></li><li class="chapter-item expanded "><a href="../南北归一/第81战：南龙有悔，北龙在天（1）“亢龙”伐“飞龙”，结局早定.html"><strong aria-hidden="true">83.</strong> 第81战：南龙有悔，北龙在天</a></li><li class="chapter-item expanded "><a href="../南北归一/第82战：冰血暴.html"><strong aria-hidden="true">84.</strong> 第82战：冰血暴</a></li><li class="chapter-item expanded "><a href="../南北归一/第83战：女王的棋局（1）被史官掩盖的北魏版“巫蛊之祸”.html"><strong aria-hidden="true">85.</strong> 第83战：女王的棋局</a></li><li class="chapter-item expanded "><a href="../南北归一/第84战：隐秘的元宏（1）不会哭，咋上权力牌桌？.html"><strong aria-hidden="true">86.</strong> 第84战：隐秘的元宏</a></li><li class="chapter-item expanded "><a href="../南北归一/第85战：时来天地皆同力（1）雍州教父而立之年的奇幻漂流.html"><strong aria-hidden="true">87.</strong> 第85战：时来天地皆同力</a></li><li class="chapter-item expanded "><a href="../南北归一/第86战：六镇之乱（1）北魏统一天下的窗口突然被打开了.html"><strong aria-hidden="true">88.</strong> 第86战：六镇之乱</a></li><li class="chapter-item expanded "><a href="../南北归一/第87战：后三国开篇.html"><strong aria-hidden="true">89.</strong> 第87战：后三国开篇</a></li><li class="chapter-item expanded "><a href="../南北归一/第八十九战：运去英雄不自由.html"><strong aria-hidden="true">90.</strong> 第八十九战：运去英雄不自由</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十战：最后的三国.html"><strong aria-hidden="true">91.</strong> 第九十战：最后的三国</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十一战：东西合拢.html"><strong aria-hidden="true">92.</strong> 第九十一战：东西合拢</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十二战：南北归一.html"><strong aria-hidden="true">93.</strong> 第九十二战：南北归一</a></li><li class="chapter-item expanded affix "><li class="part-title">深度系列</li><li class="chapter-item expanded "><a href="../深度系列/深度系列.html"><strong aria-hidden="true">94.</strong> 深度系列</a></li><li class="chapter-item expanded "><a href="../深度系列/神留言回答.html"><strong aria-hidden="true">95.</strong> 神留言回答</a></li><li class="chapter-item expanded "><a href="../深度系列/改变未来.html"><strong aria-hidden="true">96.</strong> 改变未来</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">渤海小吏的封建脉络百战</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p>告别了上一战比较神奇的公元前109年，时间来到了公元前104年。</p>
+<p>这也是个很有意思的年份，发生了两件大事。</p>
+<p>一件事又影响了我们两千年，另一件，则是一场并不成功的战争，但这场战争的影响再次难以评价。</p>
+<p>先说第一件事，武帝时代，是全体官僚集团的作为时代。</p>
+<p>武将首先迎来了千载难逢的功业时代，这在大一统时期是非常罕见的，然后是历朝历代都口碑欠佳的聚敛之臣们也纷纷得到专属舞台以中央的名义施展自己的长袖善舞，酷吏们自不必说，也都是能多狠就有多狠。</p>
+<p>在百花齐放之时，传统的文人官僚则显得有些落寞。</p>
+<p>武帝是要干事的领导，政务性，技术性是这个时代的呼唤。</p>
+<p>不过在了解了武帝的好大喜功后，文人们也纷纷在各种各样的挠着武帝的痒痒，其中，又以西汉文章两司马的表现最为亮眼。</p>
+<p>和卓文君私奔出名的司马相如作为汉赋的代言人，一生除了在武帝平西南夷时写过两篇效果不错的《谕巴蜀檄》和《难蜀父老》的外交劝降书后，并没有写出什么对政事与时局起到大作用的文章。</p>
+<p>他一生，将自己华丽的辞藻，优美的文笔几乎全部用来为光荣伟大正确的武帝歌功颂德。</p>
+<p>司马相如老先生在即将离世时仍然不忘再拍一次马屁，不得不说，他的这个马屁是他这辈子的马屁巅峰，拍的极其响亮。</p>
+<p>他用自己的精彩文笔与引经据典在惊天地泣鬼神的高度升华后最终得出天地人三界的共同期盼：领导您得去泰山封个禅！（封禅文）</p>
+<p>在武帝封禅后，另一个司马，太史公司马迁又联名太中大夫公孙卿向武帝汇报说：“在您的英明领导下，我们大汉达到了历史的顶点，所以，在纪年上，岁首最好改变为正朔（元旦）。&quot;</p>
+<p>在这里，我们要普及一个小知识，武帝之前，每年的第一天是十月一日。</p>
+<p><strong>关于岁首，是很有象征意义的，这就好比皇帝的年号孩子的姓，具有着政权归属的属性。</strong></p>
+<p>夏朝以正月一日为元旦，商朝以十二月一日为元旦，周朝又以十一月一日为元旦，到了秦朝，则又改成了以十月一日为元旦。</p>
+<p>照这种每换一个朝代往前错一个月的节奏，汉朝应该改成九月一日，结果肯能刘老三草创大汉时忘了这茬了。</p>
+<p>为了避免将来再被改为八月一号，武帝再次另起一行，直接回到正月初一，避免将来岁首的更改变为约定俗成，永远得用我的规矩！</p>
+<p>最终，岁首被选定为正月初一，并在两汉的巩固下沿用至今。</p>
+<p>与此同时，武帝还确定了汉朝的“国色”，由于秦朝尚黑，黑在五行中属水，但由于是伟大的高皇帝带着一支小部队稀里糊涂的灭了秦，所以从五行相生相克来讲，土克水，所以汉应该属土，是黄色。（炎汉火德是从王莽时代兴起的，刘秀中兴后对此进行了官方认定，具体变故西汉终章会讲）</p>
+<p>五行相生是：金、水、木、火、土。（而不是我们传统以为的金木水火土）</p>
+<p>相克是隔一克一：金克木，水克火，木克土，火克金，土克水。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170354102.jpeg" alt="图片" /></p>
+<p>太史公和好朋友们敏锐的挖掘到了这块还没开垦的处女地，再次让武帝爽了一把，但他没想到，这样的功绩在武帝翻脸时什么也不是。</p>
+<p>此时的武帝，应该说达到了前无古人，后无来者的人赢高度。</p>
+<p>还是像秦始皇那一章探讨过的假设一样，如果始皇帝在折腾最后五年之前死了，那么他就将千古一帝，没有之一。</p>
+<p>如果武帝在这个年份死了，那么他的历史地位应该还会再往前排，至少争议会少点。</p>
+<p><strong>因为此时他在位三十六年，所有在他一朝的政策金融改革，领土拓宽征服，政权符号象征等所有功业已经全部完成了。</strong></p>
+<p><strong>这是他人生大盘全线飘红的最高峰。</strong></p>
+<p>但我们知道，他仍有十八年的大福报。</p>
+<p>这十八年中，他又足足的折腾了十六年。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170356120.gif" alt="图片" /></p>
+<p><strong>如果说前面的三十六年的穷折腾还能靠上很多千古意义的话，那么后面这十六年，则完全是标标准准的败家。</strong></p>
+<p>不过在败家的这条道路上，败家子永远不会独行，武帝的诸多败家想法，主要是通过一个人的具体实施转化成败家行为的。</p>
+<p>这个人，是武帝的小舅子。</p>
+<p>并不是卫青，此时的卫青已经陪葬茂陵了。</p>
+<p>前面我们说过，为了纪念这位帝国大才，武帝将他的坟墓被修成了阴山的模样，彰显他的历史功绩，还在他死后，发出《求贤令》。</p>
+<p>这道令，已经尘封了近三十年了。</p>
+<p>武帝的一生，似乎具有着某种对称之美，成于小舅子，也败于小舅子。</p>
+<p>帮他败家的这个小舅子，叫李广利。</p>
+<p>不要误会，他和李广没啥关系。</p>
+<p>李广的命不好，往上冲了一辈子都没混出个军功，但这个加了“利”字的李广，却真的是运行大利。</p>
+<p>这个李广利的功名压根就不用求，是天上掉下来了的，这要得益于他有个音乐家哥哥，还有一个会跳舞的美人妹妹。</p>
+<p>李广利的大哥名叫李延年，能谱曲弹奏，又会唱歌跳舞，是个全能音乐人。</p>
+<p>但这位艺术家却犯了法，具体犯了什么事不可考，也许李歌星压根就没犯什么事，因为很多武帝朝的犯罪记录都不可考。</p>
+<p>考虑到武帝时期罪名纷繁，所以犯法很轻松，经常是莫名其妙的你就被逮起来了。</p>
+<p>这就好比你开车到了某些缺德省份，八车道限速三十迈，你明明是个好司机，却眼睁睁十二分没了。</p>
+<p>李延年在过堂后被定罪腐刑，也就是被阉割，李歌星变成了李公公。</p>
+<p>再好的歌声也没有帮助李延年把根留住，不过这并不耽误他继续自己的音乐梦想，他先是去宫里做了太监，然后又利用一身的艺术细菌和专业技能成为了皇室歌舞导演。</p>
+<p>李公公又变成了李导演。</p>
+<p>后来，李导就谱写出了那首改变家族命运的歌曲。</p>
+<p>先来看看歌词吧，一定会很熟悉：</p>
+<p>北方有佳人，绝世而独立。</p>
+<p>一笑倾人城，再笑倾人国。</p>
+<p>宁不知倾城与倾国，佳人难再得！”</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170354565.gif" alt="图片" /></p>
+<p>小词真美啊！</p>
+<p>这也是后来我们广大男同志夸女同志，媒婆向男方提买卖时的常用广告语“倾国倾城”的来源。</p>
+<p>老当益壮的武帝听后又兴奋了，觉得你这词写的太好了，但这样的姑娘世间真的有吗？</p>
+<p>这个时候，同样在旁边听曲的专业公关经理武帝的姐姐平阳公主继卫子夫事件后再一次扮演了重大媒婆角色，在听见武帝的感叹后，小声对武帝说：“这李延年有个妹妹，真有倾城倾国之貌。”</p>
+<p>浓浓的疑云扑面而来，一个太监的妹妹，堂堂大汉皇帝的姐姐怎么会知道的这么清楚呢？</p>
+<p>由此也让我们再次怀疑，这又是平阳公主设计的一个局。</p>
+<p>此时的平阳经理，已经成为了营销大咖，构思之巧妙，引诱之精准以及介绍时的恰到好处已经远远超出了当年赤裸裸的一批一批上姑娘的低劣手法了。</p>
+<p>这也让我们看到了，如果在一个领域深耕几十年，不断地提高自己的业务能力与销售技巧，是能够达到大师级水平的，比如平阳妈妈，不，平阳公主。</p>
+<p>平阳公主在两千多年前就领悟到了<strong>一个销售行业的真谛：最好的销售是卖品牌。</strong></p>
+<p><strong>而品牌卖的是故事。</strong></p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170355111.gif" alt="图片" /></p>
+<p>武帝听了这么一个好故事后，做出了指示：把这位倾国倾城的姑娘带来吧，我要跟她谈谈工作。</p>
+<p>李姑娘面见武帝后，武帝觉得很是不错，配上这美丽的故事，更是大有韵味，而且武帝没有想到的是，这丫头不仅仅是个花瓶，还会歌舞，和她哥一样，也是个搞艺术的。</p>
+<p>武帝为其美貌和舞步倾倒，面试高分纳为妾，称李夫人。</p>
+<p>自此武帝专宠于李夫人，一年后，又生下一男，封为昌邑王。</p>
+<p>我们那一代，是个人电脑刚刚走进千家万户的时代，大约是98，99年吧，有一款角色扮演的游戏，火遍了大江南北，后来又出了二三四五六七代，然后又被改编成电视剧和网络游戏，只要你玩过电脑游戏，应该就会听到过这款游戏的威名。</p>
+<p>它叫《仙剑奇侠传》。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170354209.jpeg" alt="图片" /></p>
+<p>这款游戏之所以这么牛，在于它剧情设计的特别过硬。</p>
+<p>咋个过硬法呢？</p>
+<p>他有一个男主角和三个女主角，两个和男主有情感纠葛的女主全都在他最举棋不定时死掉了，还留下一个襁褓中的闺女。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170354240.gif" alt="图片" /></p>
+<p>哇塞！这剧情太虐心了，当年根本没看过什么好莱坞和美剧的我们瞬间就被拿下了，一边打游戏一边哭的哇哇的。</p>
+<p>时至今日，很多我们那代男同学的审美甚至择偶模板，都是照着灵儿和月如来的。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170354345.gif" alt="图片" /></p>
+<p>这就是编剧抓住了人性中的弱点：<strong>人们对于悲剧总会一叹再叹。</strong></p>
+<p><strong>红颜美，也在于她们往往薄命，在青春的峰值离去的姑娘，总是让我们念兹在兹。</strong></p>
+<p>李夫人也是如此，她走的岁数，让武帝实在难舍难分。</p>
+<p>上一个武帝还没有厌倦，就过早地离他而去的人，叫霍去病，武帝为了补偿自己的心理落差，将他的弟弟始终带在了身边，这个孩子，叫霍光，下个时代有大戏份。</p>
+<p>李夫人临走前，武帝去看她，这个姑娘蒙住脸不与武帝相见，只想留下最美好的那段回忆，并希望武帝好好照顾她的兄弟和孩子。</p>
+<p>武帝也因此任命李延年为协律都尉，李广利为将军。</p>
+<p>李广利由此踏上了仕途。</p>
+<p>李广利的时运非常棒，刚刚被封为将军，趁着武帝对自己妹妹的思念还没过去就赶上了这么一档子事，武帝要远征遥远的大宛国。</p>
+<p>这又源于另一个品牌故事了。</p>
+<p>汗血宝马。</p>
+<p>话说旅行外交家张骞同志碰上了武帝这么个主子，他的每句话就成为了天下百姓的大祸头。</p>
+<p>他第二次出使西域归来后，不仅将印度的方位给推出来了，然后造成了整个大西南的生灵涂炭，而且还对武帝说他在大宛看到了一种马，这种马日行千里，出汗如血，身形极好，堪称马中之王。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170354361.jpeg" alt="图片" /></p>
+<p>此马虽好，但却是大宛的国宝，我没能耐跟您带回来几匹玩玩。</p>
+<p>作为点燃男人激情的三大件儿（土地，美人，宝马），武帝的好奇心再次被话多的张骞点燃了，派出了百余人的使团，带着一具用纯金制作的马前去大宛国进行换购。</p>
+<p>一方面表现自己家大业大不差钱的外交诚意，另一方面用这个大金马在沿途的西域各国抖抖威风。</p>
+<p>但武帝的这个热脸却贴了冷屁股，人家大宛对于这马的感情要远远超过对金子的分量。</p>
+<p>大宛的国王对于汗血马是这么考虑的：马万不能给，这是国家的战略资源，让你们带走配了种就不再是我国家的独得之秘了。</p>
+<p>再说了，你汉朝风闻很强大，但架不住你离我远啊！我不给你能咋地。</p>
+<p>就这样，在张骞当初第一次叫花子般逃出匈奴时给予了雪中送炭帮助的大宛，拒绝了汉使的求马请求。</p>
+<p>关于这件事，所有史料中都倾向于大宛王给脸不要脸，金马换购你都不领情，你要上天啊！</p>
+<p>这就是比较缺乏同理心了。</p>
+<p>我们换一个角度再思考，今天日本打算用一百颗金导弹换一颗我们的东风导弹，我们能换吗？</p>
+<p>战马作为一种特殊的战略物资，是不能单纯从金钱角度进行考量的，只能说这个大宛国王是个明白人，人家做的其实没错。</p>
+<p>但我们的汉使却表现的很没有风度，一听说人家不换购，当场就掉脸子把那匹金马给砸了，而且话说的很难听，掉头准备回国。</p>
+<p>这也表现出来我们民族一个非常不好的外交习惯。</p>
+<p>容易看不起人。</p>
+<p>别嫌难听，就那么回事，咱们也要时刻正视自己骨子里的那堆臭毛病。</p>
+<p>用鲁迅先生的话讲：别看我总嘚嘚别人，我还总无情的剖析自己呢。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170354312.jpeg" alt="图片" /></p>
+<p>先来看看我们从古至今对于文明落后地区的称呼吧。</p>
+<p>东夷、西戎、南蛮、北狄。</p>
+<p>全都是带有侮辱性的字眼，再看看我们对于北方的强大邻居的称呼：</p>
+<p>匈奴。</p>
+<p>都特么叫“奴”了。</p>
+<p>后面著名道德模范王莽好人在复古大战猛改名的时候更搞笑，把人家“匈奴单于”改成了“降奴服于”。</p>
+<p>就差直接叫大傻X了。</p>
+<p><strong>我们虽然号称是礼仪之邦，但需要正视的是，这个“礼仪”却非常容易让我们产生一种优越感。</strong></p>
+<p>古往今来，我们往往对于邻国自带有一种蔑视的外交态度：我们是天朝上国，别给脸不要！</p>
+<p><strong>我们的文化天生具有着包容性，我们会同化你，接纳你，这是我们的浑厚优点，但这种发自内心的瞧不起，也是我们的大缺点。</strong></p>
+<p>尤其当你总是处在整个时代的顶点时，就容易更加巩固这种优越感，这种骨子里的傲，成为了我们千百年来的外交弱点。</p>
+<p>我们的汉使砸马示威后，大宛王觉得太没面子了，于是在沿途伏击了归途的汉朝使团，杀人夺金而去。</p>
+<p>大宛王之所以有恃无恐，在于他进行过成本的预算。</p>
+<p>他看到汉朝来过的这些波访问团，每次到他这时，都说减员一半以上了，而且普遍都已经离开祖国一年以上了。</p>
+<p>在种种推算后，大宛王得出了结论：汉朝不敢拿我怎么样！这么远，他根本打不过来。</p>
+<p>他在信心满满时，不知道在20年前，北边也有人这么推算过，当年这样推算的人，被打的一蹶不振，差点被屠灭了整个种族。</p>
+<p>5年前，南边和东北边也有人这么推算过，当年这样推算的人，身死国灭。</p>
+<p>消息传回国内，武帝受到了自登基以来，最大的一次侮辱。</p>
+<p>从来都是他欺负别人，这次好不容易摆出了高姿态，千里迢迢的送金马过去，“大汉欢迎你”的歌声已经自我感觉良好的唱响了，谁知道人家却认为“有勇气就会有奇迹”，不解风情的扇了武帝的脸。</p>
+<p>大宛王其实完全有更艺术的做法，比如送点下不了崽儿的劣马，比如在砸金马后不要和这个汉使一般见识，甚至以礼相待。</p>
+<p>咋就非得杀了他呢？</p>
+<p>这回等死吧。</p>
+<p>武帝决定派兵消灭大宛，不买改抢了。</p>
+<p>这时候，一些腆着大脸的人出来插嘴了，曾经出使过大宛的姚定汉对武帝说：大宛是个小国，我们只要出三千人就能干掉他们。</p>
+<p>武帝深以为然。</p>
+<p>为啥武帝会这么估计呢？</p>
+<p>因为当时所谓西域三十六国，实际上差不多就是西域三十多村，外加几个大县。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170354472.jpeg" alt="图片" /></p>
+<p>新疆那边没有大河，所赖以生存的水源是背面天山和南面祁连山那一片的青藏高原融化的雪水，每块地方能化多少雪，也就决定着你这地方能铺多大摊。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170354551.jpeg" alt="图片" /></p>
+<p>每一个所谓的国，实际上就是沙漠中的一点绿洲所养育的松散团体，四年前楼兰王不听话，赵破奴率领700骑兵就把楼兰王抓回来了。</p>
+<p>700人就灭国了，你听起来会觉得太震撼了，很有必要拍一个《大汉700勇士》之类的电影，叫板一下《斯巴达三百勇士》嘛！</p>
+<p>实际上就是700人前去屠村，然后把人家村长逮回来了。</p>
+<p>灭村这种活儿，是个好差事，风险小名声好，在当时属于打破脑袋抢的，恰巧李夫人刚刚离去，武帝决定将这个好事给自己的小舅子，缓解对李夫人的思念之情。</p>
+<p>李广利，就这样，由一个乡巴佬没有任何过渡的变成了贰师将军（图吉利，据说汗血马都藏在大宛贰师城），远征大宛。</p>
+<p>武帝再次满怀蔑视，认为没多久，自己的小舅子就会带着一匹匹骏马供他驰骋。</p>
+<p>但这次这个村，稍微有点远。</p>
+<p>有多远？</p>
+<p>据长安也就七八千里。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170354576.jpeg" alt="图片" /></p>
+<p>考虑到之前平朝鲜时的用人昏聩，再加上这次征大宛的人选与轻敌，可以看出来，此时的武帝，虽然依然神武（神经质加武断），但却已经不英明了。</p>
+<p>很多朋友会问：武帝的前一个小舅子卫青仅仅是个骑奴，不也照样用吗？</p>
+<p>不一样，卫青在初上战场前，在皇宫历练了十年，是从皇宫侍卫一步步干起来的。</p>
+<p>那霍去病呢？十八不也上场了吗？</p>
+<p>霍去病早早就被武帝当做门徒带在身边，并且常常跟战神舅舅耳濡目染。</p>
+<p>纵观武帝早年壮年之用兵，无论是战略构思，将领选用，还是兵力配比，全都堪称上乘手笔。</p>
+<p>但老年的武帝，却理想化严重，种种决策变成了老小孩。</p>
+<p><strong>对于皇帝这个职业，五十岁似乎是一道坎。</strong></p>
+<p><strong>几乎所有的皇帝，哪怕是有道明君，过了五十往往也都没法看了。</strong></p>
+<p><strong>皇权这柄威力巨大的“诛仙剑”有着巨大的反噬效果。</strong></p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170355248.gif" alt="图片" /></p>
+<p><strong>使用它的人需要有极高的能力与意志去对抗这时时刻刻的跗骨侵髓。</strong></p>
+<p><strong>岁数一大，精力脑力意志力一旦跟不上，前面这些年被封印的权力魔鬼就会跳出来让你无法再联想到这是当年的那个明君圣主。</strong></p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170355064.gif" alt="图片" /></p>
+<p>除了康熙雍正这爷俩，他们是个例外。</p>
+<p>当然武帝的祖宗刘老三先生人家五十刚起步，大半辈子的人生精华都搁那憋着呢，也是个例外。</p>
+<p><strong>大多数的皇帝，老了以后往往并没有闪烁人生的智慧与经验，而是系统性的昏招连连。</strong></p>
+<p>武帝忽略了此次的远征其实是个难度极高的作业。</p>
+<p>出大汉西塞到大宛，此一路四千余里。</p>
+<p>不仅路远而且路况极其艰难。</p>
+<p>之前我们说过，之所以西域三十六村那么小，在于他们是丝绸之路上的一个个小绿洲，绿洲不大，所以养育不多。</p>
+<p><strong>之所以有这么多村，在于每个绿洲都相隔不近，你也打不到我，我也踢不到你，带兵出去就都渴死在半道上了。</strong></p>
+<p>由此我们也可以知道了，<strong>如果出兵，在这样的距离，这样的路况下，想要达成战略目标，需要将领有以下能力：</strong></p>
+<p><strong>强大的外交沟通能力。</strong></p>
+<p><strong>强大的行军能力。</strong></p>
+<p><strong>强大的军事能力。</strong></p>
+<p>路途如此遥远，再加上是武帝突来兴致，根本就不可能配给你充足的给养。</p>
+<p>这也就决定了你沿途要么一路抢饭，要么一路要饭。</p>
+<p><strong>抢饭需要你能打，要饭需要你是外交天才，带着队伍长途4000里，需要你有过硬的带队能力与行军能力。</strong></p>
+<p><strong>你要不断地沟通吓唬沿途各村长。</strong></p>
+<p><strong>你要有本事轻松杀鸡给猴看。</strong></p>
+<p><strong>你要不断整理士气，不断观察士卒身体状况，将这次4000里自助游圆满完成。</strong></p>
+<p>在战国那个系列中，我们说司马错之所以是不世出的名将，在于他能够从蜀地在荒蛮烟瘴之中将十万大军兜了一个大圈还能好好的保全战斗力的带出来并攻占黔中。</p>
+<p>总之，这活儿不是经验丰富的大将，根本没法干！</p>
+<p><strong>在生活中，我们有时也会遇到这种工作，看着轻松无比，根本就不叫个东西，但真一上手才发现，环环相扣且艰难，干了半天往往出工不出活儿。</strong></p>
+<p>武帝以为给自己的小舅子派了个好活儿，但实际上根本不是那么回事。</p>
+<p>武帝挺够意思，怕自己这位小舅子第一次紧张没经验，拿不下来大宛村，于是派了三万多人的队伍由他指挥，当然这三万人不可能是什么靠谱的战斗力，灭村还用的着带特种兵吗？</p>
+<p>其中只有大约六千人的西北驻防部队，剩下的，还是各种罪犯。</p>
+<p>李广利就这么俩眼一抹黑的带兵去了。</p>
+<p>一年后，传回来了信。</p>
+<p>有多大脸现多大眼。</p>
+<p>此次西征梦的具体情况是这样的，李广利率军一路往前走，沿途的小国由于弄不明白你这是要干啥，纷纷紧闭城门。</p>
+<p>在这样的情况下，李广利无法得到沿途给养，人家关城门你也没有本事说服人家相信你，如此一来，想要获得补给就只能走到哪打到哪。</p>
+<p>而他又没有本事将沿途的这一座座城都打下来，常常是到了一个地方，打上几天，一看打不下来就赶紧往下个地方赶。</p>
+<p>给养不足，跋涉疲惫，缺医少药，在这样的不断沿途损耗下，李广利虽然最终达到了大宛，但在大宛的边境郁成城时仅仅还剩下几千人，而且遭到了摧毁性阻击，死伤狼藉。</p>
+<p>李广利只得撤退，在返程中又遇到了一系列不友好与看笑话的待遇，退至敦煌时，几万人仅仅剩了十之一二。</p>
+<p>李广利将这一路的情况汇报给自己的皇帝妹夫，说这一路太遥远了，还没吃的，咱们爷们不怕打仗，就怕吃不上饭，咱能不能先不打了，等准备齐了咱再削他去？</p>
+<p>妹夫暴怒，派遣使节飞驰敦煌，下旨：所有西征人员胆敢跨过玉门关一步者，杀无赦。</p>
+<p>武帝如此极端的做法并非没有原因。</p>
+<p>因为此时的大汉已经禁不起失败的新闻了。</p>
+<p>并非仅仅是面子问题，在四年前的公元前107年时，关东流民就已经达到惊人的两百万了，所谓“官旷民愁，盗贼公行。</p>
+<p>紧接着公元前105和前103年，天下又是大旱又是蝗灾，<strong>整个天下现在像是一点就着的木头，根本禁不起这帮败兵回来宣传这次几乎全军覆没的西征大梦。</strong></p>
+<p><strong>汉武宏图载史篇的最关键保证，是国家内部的武力震慑，是你这条汉武大龙能够永远喷射出炙热的火焰去震慑住你所有的子民！</strong></p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170355305.gif" alt="图片" /></p>
+<p><strong>当所有子民认为反抗没有任何希望，这个几乎不可能持续下去的游戏才能继续下去！</strong></p>
+<p>但如果如此巨量的流民们突然知道了你这条大龙不行了呢？</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170355992.gif" alt="图片" /></p>
+<p><strong>一旦内部的高压震慑失去了威信，被摧残了三十年的海量生命就将自我寻找出路！</strong></p>
+<p>武帝一个锅盖扣十口锅的游戏就将再次演变成秦末的天下大乱。</p>
+<p><strong>必须永远是好消息，才能摆得平，才能镇得住此时满目疮痍社会弹性已经极低的强汉帝国！</strong></p>
+<p>李广利无奈，只得驻扎敦煌，别看他被扔那了，其实他省心了。</p>
+<p>闹心的，是摊子越铺越大汉武大帝。</p>
+<p>堂堂的大汉被大宛村一再羞辱，对此国内还是老样子的两种论调：</p>
+<p>一种是别打了，另一种是打死他。</p>
+<p>不打了的论据还是老一套，成本合不来，产出不值当，但其实在此时的国际态势下，继续出兵大宛这件事，早已是箭在弦上，不得不发了。</p>
+<p>因为你西征大宛现眼了，沿途的各村可都瞅着呢！</p>
+<p>你说你把匈奴打成植物人了，我们咋知道人家匈奴是不是被老天爷打的呢？</p>
+<p>你堂堂大汉打的匈奴满地跑这事我们没看见，但你一个劲的在大宛现眼我们可全都看见了。</p>
+<p>去的时候是一大群众筹的，回来的时候是一小群要饭的。</p>
+<p><strong>如果大宛不教训，那么汉朝在西北的影响力就会逐渐减弱，匈奴的势力就会再度抬头，那条自西往东的输血管道很可能就会再次被接通，植物人的匈奴人有可能就将再次缓过来。</strong></p>
+<p><strong>说到底，和刚才不能让这帮败军回国是担心国内震慑力受损一样，这又是个国际震慑力的问题。</strong></p>
+<p>而且，这个国际震慑力对于刚刚打通丝绸之路的大汉帝国很重要。</p>
+<p>因为我们派出去西游的使者团队，并不都是什么善男信女们，我们的“天朝外交团”实际很招人烦，如果再没有国家威慑托着，这条刚刚开拓的丝绸之路也许就将被慢慢的淹没在滚滚黄沙之中了。</p>
+<p>在这里，要客观说一下我们的“天朝外交团”都是些什么样的人组成的。</p>
+<p>先来把话题扯得大一些，<strong>古往今来，无论欧亚，开拓者们往往都是一些“流氓无产者”。</strong></p>
+<p>大家记住这个词哈。</p>
+<p>在这里，并没有什么贬低的意思，只是在陈述事实。</p>
+<p><strong>无产才会去冒险，流氓才能吃得开，这个词真的很贴切。</strong></p>
+<p>最早的航海家们，尤其是在海上满世界抢这抢那的那帮，无论东西方，主力都是属于最底层的人群。</p>
+<p>他们有两个特点：</p>
+<p><strong>一个是一无所有，一个是豁的出去。</strong></p>
+<p><strong>一无所有就不怕倾家荡产，豁的出去就能甩出这条命去折腾，只有这样的人，才最具有开拓精神。</strong></p>
+<p>所以整个世界的各种拓荒与吃螃蟹的这帮人，大多都是痞气的流氓无产者，比如所谓大英帝国的皇家海军，它的前身实际上就是各种海盗。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170355778.gif" alt="图片" /></p>
+<p>在最开始丝绸之路刚刚形成的时候，大量的商旅队伍还没有成型，活跃的往往是各国的出使队伍，其中最大最频繁的，就是汉朝代表团。</p>
+<p>这个大规模代表团并不好组。</p>
+<p>大宛之所以当初敢翻脸就在于他们推算出了这一路千难万难，每次走到这里的汉朝使团都会损耗近半，也由此可以知道，当时出使这份工作，并非什么好工作。</p>
+<p>大量的西行人士都把命舍在西北的滚滚黄沙之中了。</p>
+<p>但武帝要把自己的威名不断地远播出去，就需要有人干这个活儿！而这种活儿，除了张骞那种个别朝廷在编的，绝大多数都是没有正式编制的。</p>
+<p>人家正经人都不愿意掺和。</p>
+<p>谁愿意人生地不熟的抛家舍业送死去啊！</p>
+<p>也因此，<strong>大量豁出去不正经的流氓无产者就应聘了。</strong></p>
+<p><strong>他们的最大动机，在于免除自身的罪责以及侵吞带出国的礼品和私扣在外国狐假虎威骗来的贡品。</strong></p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170355097.jpeg" alt="图片" /></p>
+<p><strong>这种素质的队伍出去，人家别的国家的反响与口碑肯定不咋地。</strong></p>
+<p>我们要很可观的看待一些历史问题，比如当年我们很不是东西，也曾经去人家别的国家散德行，而且还不允许人家不满，人家提点意见就要打人家。</p>
+<p><strong>强者对弱者的人性博弈很少会高尚，这是规律。</strong></p>
+<p><strong>但我们国家也并非强的时候就一味地欺负人或得谁看不起谁，比如说今天的中国。</strong></p>
+<p><strong>渐渐腾飞的中国民族在自身巨大引擎的开动下不断惠及着一带一路乃至整个世界的所有人民！</strong></p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170356316.gif" alt="图片" /></p>
+<p><strong>我们图强但不称霸！</strong></p>
+<p><strong>我们飞速发展但不以邻为壑！</strong></p>
+<p><strong>时代越发展，制度中的种种人性弱点就会被修正。</strong></p>
+<p><strong>比如今天的中国！</strong></p>
+<p>话说回来，本来不断派出的使团素质就都不高，人家当地人民就不欢迎，你的所谓强大国力又成为了笑柄，武帝现在骑虎难下，只能一条道走到黑了。</p>
+<p>武帝再次催动国家机器，下令赦免大量监狱中的囚犯，征召地痞流氓，抽调边塞的骑兵部队，全部给我敦煌报道！</p>
+<p>爷特么又要打大牌了！</p>
+<p>为了凑齐远征的物资，武帝再度鞭笞天下，抽取全国的血液往遥远的大西北调。</p>
+<p>一年后，敦煌郡驻扎部队六万余人，并汇集了牛十万头，马三万匹，驴、骆驼数万匹，以及大量的武器，给养。</p>
+<p>如此手笔，武帝仍怕不保险，为求万无一失，武帝下诏再征调国家各地的正规边防军十八万，进驻酒泉、张掖以北，作为随时出征的第二梯队。</p>
+<p>在这大铺张之下，武帝不忘还找了两个伯乐（专门相马的），分别担任执马校尉和驱马校尉，负责把武帝魂牵梦绕的汗血马保质保量的牵回来。</p>
+<p>大宛那帮没挨过流氓打的小淘气们就要见识啥叫东亚第一爹的威猛了。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170355904.gif" alt="图片" /></p>
+<p>西征梦第二季，正式上演。</p>
+<p>李广利的第二次的西征，在庞大的规模威慑下，取得了出乎意料的效果。</p>
+<p>首先是西域各村在看到如此庞大的征缴大军后，终于知道匈奴是咋死的了，纷纷变成了伪军乖宝宝，热烈欢迎大汉解放军去消灭保护主义猖獗的大宛！</p>
+<p>那么好的马，都让他们闷着，太特么可恨了！领导们快去主持正义！</p>
+<p>除了政治表态外，<strong>沿途各国还倾尽全力的提供了更加实在的东西——大军的给养。</strong></p>
+<p>这次的西征军的待遇和第一次来时，真可谓天差地别。</p>
+<p>上一次啃着风沙吃闭门羹，这一次却吃着土特产还有向导带路，<strong>巨大的落差让****你不得不感叹，人永远都是算账的好手。</strong></p>
+<p>这也再次向我们印证了一个道理：<strong>大炮打蚊子虽然成本巨大，但仍然有一个好处。</strong></p>
+<p><strong>它展示了你的一种势在必得的态度。</strong></p>
+<p><strong>这个态度，可以帮你震慑与团结到很多骑墙的力量。</strong></p>
+<p>西域各国中，只有一个异类，叫轮台国，这个国家就很不会算账，他对李广利的大军闭门抗拒，拒不合作。</p>
+<p>结果轮台村被汉军攻陷，李广利下令屠村，全村男女老少全部被杀。</p>
+<p>血洗轮台的消息成为了警告西域诸村的反面典型，各村听闻后更加配合，李广利的西征军这次以最小的损耗顺利的来到了4000里外的大宛边界。</p>
+<p>两军对阵后，李广利上来就派出了三万先锋部队进行攻击。</p>
+<p>大宛军迎战，汉军箭如雨下，大宛军败退入郁成城。</p>
+<p>李广利的两次超远征伐彻底教明白了他一个道理：<strong>远征一定不能局限于一城一地的得失，你的军需根本就跟不上，而且一座座城的打，既损耗力量又得分兵占领，得不偿失。</strong></p>
+<p>尤其你大宛国还是平原地貌，我越过你根本不担心你抄我后路，有本事你就出来堵我。</p>
+<p>李广利率领汉军绕过了郁成城，直逼大宛国都贵山城，大宛军不敢出战，于是汉军将其四面包围。</p>
+<p>包围贵山城后，双方开始僵持，大宛的打算是将汉军耗走了算，但围城的汉军却发现了贵山城的一个重大缺陷，城内无水源。</p>
+<p>贵山城的所有城内用水都是由外面的河道引进来的，汉军抓住了这个漏洞，派工程队改变了河道，打算渴死困守的大宛军民。</p>
+<p>李广利在国外玩了把“张郃困马谡”。</p>
+<p>贵山城内储水日渐减少，汉军也动不动搞一搞攻城演练，并顺利拿下了外城。</p>
+<p>大宛国都只剩下内城没有陷落，就这样，一连又僵持了四十余日。</p>
+<p>长时间的缺水困守使贵山城内的忍受程度达到了极限，皇族内部发动了政变，杀掉了大宛王，并派人把国王的人头呈献给李广利，请求议和。</p>
+<p>大宛高层向天朝表示大宛的所有马，爷您随便挑，与此同时，敝村还将负担此次天团的军费，希望天团退军。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170355338.jpeg" alt="图片" /></p>
+<p>如果天朝您拒绝，那么我们大宛内部就杀死所有汗血马，咱还是鱼死网破吧。</p>
+<p>此时的汉军，其实也已经到了强弩之末，四千里的远征自古前所未有，再加上围城四十余天，军士疲敝，李广利看到大宛已经认怂，匪首也已经伏诛，再加上最重要的汗血马也到手了，于是同意休战。</p>
+<p>接下来，就该签订不平等条约了。</p>
+<p>大宛签订丧权辱国条约后，汉朝的专业相马团队在大宛的汗血马国家队中挑选了最优良的数十匹骏马以及次优良的三千余匹作为战争补偿。</p>
+<p>可以说，如今土库曼斯坦的现存国宝们，是当初汉朝挑剩下的那些马的后代。</p>
+<p>即便如此，今天的阿哈尔捷金马（汗血马）依然如此神俊（大家感兴趣可以搜搜，可以满足我们对马的所有想象），可以想象当初汉朝带走的汗血马，得是个什么水平。</p>
+<p>不过你可能会问，这么牛的马，咋我们没看见呢？</p>
+<p><strong>因为它除了服务领导之外，根本无法适应市场的需求。</strong></p>
+<p>在这里，我们要给大家普及一个小知识，真正受战士们欢迎的军马是个啥样子？</p>
+<p>先来解释一下，为啥汗血马这么受领导人喜欢。</p>
+<p><strong>汗血马的优点非常突出，三大项：长得好，跑的快，耐力好。</strong></p>
+<p>“长得好”首先就非常契合高级干部以及将领们的面子需求，当大领导们骑着一匹像精灵一样秀美的汗血马一颠一颠的出现时，那是相当的拉风。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170356329.gif" alt="图片" /></p>
+<p>这就好比法拉利矮到你一屁股可以坐到车顶上一样，要的就是这个效果。</p>
+<p>此马不仅长得好，另外那两项优点则更是直击大领导们的心窝。</p>
+<p><strong>跑的快而且跑的远。</strong></p>
+<p><strong>这就保证了领导人可以随时完成超车尽显领袖风范以及更重要的一点：逃跑时，没有人追的上他。</strong></p>
+<p><strong>要知道，领导的安全，永远是第一要务。</strong></p>
+<p>正因为这些优点，汗血马成为了上层人士的追捧宠儿，类似于今天的超跑，死贵死贵的，既拉风又跑得快。</p>
+<p>但是，汗血马有一个巨大的弱点，这个弱点使它无法成为军马的标配马种。</p>
+<p>太单薄。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170355801.jpeg" alt="图片" /></p>
+<p>这就不适合实战了，战士们呼唤的是截然不同的风格。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170355856.jpeg" alt="图片" /></p>
+<p><strong>虽然汗血马可以长距离的骑乘，具有着强大的速度与耐力，但是它的身形单薄，不扛造，这使得它几乎无法应用到大规模的骑兵作战中去。</strong></p>
+<p>**真正的骑兵打仗中，战马的负重能力是很重要的一个环节，**我们在讲“胡服骑射”那一章和卫霍虐匈奴时说到过，骑兵是一种装备非常多的兵种，尤其是长途奔袭，更需要大量的物资给养。</p>
+<p>这种能力，汗血马是无法提供的。</p>
+<p><strong>另一点，汗血马无法进行近身的肉搏战。</strong></p>
+<p>汉骑兵之所以牛，在于他体制下巨大的冲击力。</p>
+<p><strong>巨大的冲击力则要求战马必须壮且稳，才能支撑一场场肉搏的长戟扎人、马刀互砍；必须皮糙肉厚，才能在受伤率极高的马战中幸存下来，而汗血马之所以汗血，最重要的一个原因就是皮肤薄。</strong></p>
+<p>据汗血马发源地土库曼斯坦的养马专家称，汗血马的之所以汗血，因为它们皮肤较薄，奔跑时，血液在血管中流动容易被看到，马出汗时往往先潮后湿，对于枣红色或栗色毛的马，出汗后局部颜色会显得更加鲜艳，所以给人以汗血的错觉。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170355903.jpeg" alt="图片" /></p>
+<p><strong>正因上述两点，汗血马并不适合真正作战的骑兵部队。</strong></p>
+<p><strong>领导们既不用扛东西背行李又不用亲自上场玩命砍，当然喜欢超跑，但真让超跑去拉货，它肯定比不过面包车，比如后来席卷世界的蒙古马，就是卖相并不好的矮小粗壮型。</strong></p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170356051.jpeg" alt="图片" /></p>
+<p>李广利带回来的这三千多匹马，真正到达汉朝国境时还剩下不到一千匹。</p>
+<p>不是李广利不好好伺候，武帝的心头肉他是不敢不尽心的，他不给人吃的也会保证马的喂养。</p>
+<p>最大的原因还是在于此一行路况实在太过于困苦，跨越大漠用的都是骆驼，多前也没见过马是主力。</p>
+<p>前面唠长城的时候我们说过，<strong>中原民族看马来气很大一部分原因是因为马爷排量大能吃能拉，这种习性却被安排走没吃没喝的大漠那真叫是缺了德了。</strong></p>
+<p>自然条件太恶劣，不光马死一大半，六万出征的汉军回来时都仅仅剩下不到一万人，绝大多数都是非战斗减员。</p>
+<p>武帝投入了空前国力换来的不到一千匹马，由于上述原因，并没有成为刚需主流，再加上雄性的骏马如果你想骑乘的话，需要进行阉割，没有阉割的成年雄马是无法被人骑的，很多优秀的战马，也因此失去了繁殖的能力。</p>
+<p>如此少量基数的汗血马，在华夏大地岁月的长河中，被慢慢淹没了</p>
+<p>在金庸先生的《射雕英雄传》中，曾经神乎其神的描写过郭靖的小红马是如何的神俊，跑起来连欧阳锋同志都追不上，在这里，我们还是要自豪的说一声，欧阳锋一定是虚构的，但小红马却真实地在我国的土地上批量存在过。</p>
+<p>汗血马，并非仅仅是一个传说。</p>
+<p>李广利终于在举国之力下立功了，武帝很高兴，封李广利为海西侯，终于圆了对李夫人的承诺。</p>
+<p>这场仗，从缘起到落幕，活脱脱的一场劳民伤财的闹剧，但它再次产生了难以评估的影响。</p>
+<p><strong>这次闹剧在新疆人民心中产生了极大地震撼。</strong></p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170356585.gif" alt="图片" /></p>
+<p>东边有条大龙气性太特么大了。</p>
+<p>大宛在西域诸国的西边，算是一个非常强大的国家了，又远在葱岭之外，但大汉这神经病仍然使命必达的完成了虽远必诛。</p>
+<p><strong>西域各国也因此慑于汉朝的威力，纷纷归附汉朝，这一次的远征大宛，使远东的大汉，成为了西域乃至中东的传奇之国。</strong></p>
+<p>这种影响一直绵延了几百年，后来东汉的班超，曾经完成过几十个人就镇服西域各村的壮举。</p>
+<p><strong>班超的超强个人能力自然没的说，不过没有祖宗的威名积淀，这种军事奇迹是很难达成的。</strong></p>
+<p><strong>而且此一战，害怕挨流氓打的西域各国开始从心底倒向大汉，中原与西域的来往也更加密切，慢慢的开始出现民间的各种商队，穿梭于中亚，新疆，中原，使东西方的文明开始出现碰撞与交汇。</strong></p>
+<p>**再后来，汉朝在西域设立都护府，管辖西域事务，从此新疆正式成为了中国领土不可分割的一部分，**霍去病打通的河西走廊，从此为中华民族真真正正的拽回了新疆。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170356076.jpeg" alt="图片" /></p>
+<p>都说玩物丧志，武帝为了几匹马弄得整个天下民不聊生，但却也产生了上述难以评估的影响。</p>
+<p>新疆那一大片地方，人家武帝为了玩马可是开拓者。</p>
+<p>是非功过，如果放长远来看，真的难说。</p>
+<p>但放在眼前上来看，却是很好说的，<strong>史载“贰师将军征大宛，天下奉其役连年，海内虚耗，天下骚动”。</strong></p>
+<p><strong>社会的所有弹性基本已经全部被压没了。</strong></p>
+<p>武帝还不知道等待他的将是什么，但他却明显认为这一套玩法自己还能降的住。</p>
+<p>李广利在此次大宛得胜后，被武帝从此排到了武将的第一序列。在这里，武帝的主观因素很重。</p>
+<p>**人总是爱在之前的成功中捕风捉影，归因到很多成功的因素，**比如武帝这辈子就迷信娘家舅子，他总认为自己和舅子搭配，干活就会不累，后来还布置了三次以李广利为首的汉匈会战，但战绩乏善可陈。</p>
+<p>国手和票友是有着天壤之别的，他的这位舅爷和先前的帝国荣光比起来，实在是提不起来。</p>
+<p>说到了匈奴，先来看看老朋友匈奴人这二十年都干啥了吧。</p>
+<p>元鼎四年，公元前113年，最强背景帝伊稚斜单于离开了匈奴人民，在他的治下，匈奴民族成为了罐里的王八，越养越抽抽。</p>
+<p>这就好比当年日本人打来后，蒋介石把几乎所有有油水的领土全给丢了。</p>
+<p>但这也不能赖他，他有点非亡国之君，当亡国之运的感觉。</p>
+<p>武帝，卫青，霍去病这样的对手都是不世出的人物，不是谁都这么倒霉的，有的是昏天黑地却大享太平的皇帝，只不过恰巧让他摊上了。</p>
+<p>他死后，其子乌维即位。</p>
+<p>乌维继位后很有中兴之主的打算，动作很多，比如继位转年就偷渡河西走廊去联络西羌，打算夹击汉西北的边郡，重新夺回河西走廊。</p>
+<p>但西羌很不争气，闹了点动作，随后就被汉王朝第N梯队的李息（著名打酱油将军，以武装旅游从不遇敌而著名）所平定。</p>
+<p>乌维的小动作算是给武帝提了醒，武帝在平了西羌后又对河西走廊进行了大扫荡，然后将河西走廊分为武威、酒泉二郡，又增设了张掖、敦煌二郡，随后又迁徙罪犯与流民充实河西四郡，派李广的孙子李陵，率五千精干之兵驻防并兼任教官，教当地的人民骑射自卫。</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170356154.jpeg" alt="图片" /></p>
+<p>一整套组合拳下来，等于向周边不太友好的邻居们宣称，这个地方我不是打算搞搞露水情缘就完了的，我是要踏下心来过日子的，都特么别瞎琢磨了。</p>
+<p>公元前105年，乌维岁数不大就死了，其子詹师卢被立为单于，因为其年少，又被号为儿单于。</p>
+<p>此时的匈奴，国力日衰，之前我们分析过，游牧民族的最大弱点就是只要被打趴下了，再缓起来就比较费劲，主少国疑的匈奴开始往西北迁徙，逐渐远离东亚这片伤心地。</p>
+<p>左贤王部撤至云中以北，右贤王部撒至酒泉敦煌以北。</p>
+<p>燕赵边境终于在紧张了几百年后，得到了安宁。</p>
+<p>匈奴在传播着一个信号，惹不起，我躲还不行吗？</p>
+<p>但树欲静，风是不止的，南边的那位爷刮了几十年的沙尘暴，你想躲？躲得了吗！</p>
+<p>对手是个儿单于，武帝不会放过这个钻空子的机会，对匈奴内部又展开了两次离间，但都失败了，也因此，匈奴与汉之间的关系再度恶化，植物人的匈奴腿脚不利索的仍然时不时恶心一下大汉。</p>
+<p>武帝决定再度出击，给予西迁的匈奴以毁灭性的打击。</p>
+<p>武帝最后当政的十多年，又北伐了三次匈奴，就是我们刚才所说的李广利北伐。</p>
+<p>全部无功而返。</p>
+<p>当然，虽然无功，却也谈不上什么损失，双方死伤大抵相当，不过这三场战役的过程，可谓风格迥异。</p>
+<p>第一战，大标题：配角抢戏。</p>
+<p>公元前99年夏，武帝打算扫灭远迁到天山的匈奴右贤王部，巩固对西域的控制。</p>
+<p>结果李广利率领三万骑兵主力先胜后败，先是在天山脚下大破右贤王部，但在回军时被赶过来增援的匈奴主力截击，大败而归，损失十之六七。</p>
+<p>一出一进，李广利算是“惨平”匈奴。</p>
+<p>靠着高水平战法，拿着高科技武装，李广利仅仅能和“打剩下的匈奴”打个平手，他和前面“帝国双璧”的差距也就体现出来了。</p>
+<p>在这次乏善可陈的汉匈会战中，有一个小将意外的成为了万众焦点。</p>
+<p>他惹来的巨大争议，极其惊险的差点毁掉了华夏历史上千年的珍贵篇幅！</p>
+<p><img src="../img/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%88%98%EF%BC%9A%E5%BE%81%E5%A4%A7%E5%AE%9B%EF%BC%88%E5%85%A8%EF%BC%89%E6%B1%97%E8%A1%80%E9%A9%AC%E7%9A%84%E8%9D%B4%E8%9D%B6%E6%95%88%E5%BA%94.assets/640-20220427170356869.gif" alt="图片" /></p>
+<p>太史公，到您了。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../强汉开疆/第三十战：定南疆灭朝鲜（全）专治各种不服.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../强汉开疆/第三十二战：孤愤之战（全）史家之绝唱，无韵之离骚.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../强汉开疆/第三十战：定南疆灭朝鲜（全）专治各种不服.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../强汉开疆/第三十二战：孤愤之战（全）史家之绝唱，无韵之离骚.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

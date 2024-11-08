@@ -1,0 +1,926 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>第十战：长平之战 - 渤海小吏的封建脉络百战</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../序.html">序</a></li><li class="chapter-item expanded affix "><li class="part-title">一、秦并天下</li><li class="chapter-item expanded "><a href="../秦并天下/第一战：三家分晋（加量修订版）韩赵魏崛起，自春秋来到战国.html"><strong aria-hidden="true">1.</strong> 第一战：三家分晋</a></li><li class="chapter-item expanded "><a href="../秦并天下/第二战：马陵之战（国防成本修订版）战略方向错误导致的魏盛转衰.html"><strong aria-hidden="true">2.</strong> 第二战：马陵之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第三战：商鞅变法（变法始末修订版）秦并天下的战争机器，开动起来了.html"><strong aria-hidden="true">3.</strong> 第三战：商鞅变法</a></li><li class="chapter-item expanded "><a href="../秦并天下/第四战：“合纵”与“连横”（“战国纵横家书”辨别修订版）诸子百家走四方的美好时代.html"><strong aria-hidden="true">4.</strong> 第四战：“合纵”与“连横”</a></li><li class="chapter-item expanded "><a href="../秦并天下/第五战：秦并巴蜀（蜀道修订篇）百年一遇的机会，你怎么选？.html"><strong aria-hidden="true">5.</strong> 第五战：秦并巴蜀</a></li><li class="chapter-item expanded "><a href="../秦并天下/第六战：胡服骑射（全）赵国崛起的关键三十年.html"><strong aria-hidden="true">6.</strong> 第六战：胡服骑射</a></li><li class="chapter-item expanded "><a href="../秦并天下/第七战：伊阙之战（豫西重镇修订版）杀神登场.html"><strong aria-hidden="true">7.</strong> 第七战：伊阙之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第八战：乐毅破齐（全）远东第一大国的疯狂与没落.html"><strong aria-hidden="true">8.</strong> 第八战：乐毅破齐</a></li><li class="chapter-item expanded "><a href="../秦并天下/第九战：鄢郢之战（全）杀神横扫汉江平原.html"><strong aria-hidden="true">9.</strong> 第九战：鄢郢之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十战：秦为什么冒险发动长平之战.html" class="active"><strong aria-hidden="true">10.</strong> 第十战：长平之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十一战：嫪毐之乱（全）秦灭六国的隐藏大线.html"><strong aria-hidden="true">11.</strong> 第十一战：嫪毐之乱</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十二战：王翦灭楚（全）秦国搬开最后的大石.html"><strong aria-hidden="true">12.</strong> 第十二战：王翦灭楚</a></li><li class="chapter-item expanded affix "><li class="part-title">二、楚汉双雄</li><li class="chapter-item expanded "><a href="../楚汉双雄/第十三战：揭竿大泽乡（全）秦“崩”在了哪？.html"><strong aria-hidden="true">13.</strong> 第十三战：揭竿大泽乡</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十四战：破釜沉舟（全）力拔山兮气盖世！.html"><strong aria-hidden="true">14.</strong> 第十四战：破釜沉舟</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十五战：先入关者为王上（全）刘主任的西行漫记.html"><strong aria-hidden="true">15.</strong> 第十五战：先入关者为王上</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十六战：鸿门宴（修订版）刘邦集团的内在升级.html"><strong aria-hidden="true">16.</strong> 第十六战：鸿门宴</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十七战：暗度陈仓（全）月下追回来的“汉中对”.html"><strong aria-hidden="true">17.</strong> 第十七战：暗度陈仓</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十八战：彭城大屠杀（全）楚霸王的闪电战.html"><strong aria-hidden="true">18.</strong> 第十八战：彭城大屠杀</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十九战：背水一战（全）兵仙的一路向北.html"><strong aria-hidden="true">19.</strong> 第十九战：背水一战</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第二十战：拉锯荥阳（全）东奔西走的霸王.html"><strong aria-hidden="true">20.</strong> 第二十战：拉锯荥阳</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第二十一战：会战垓下（全）兵仙与霸王的巅峰对决.html"><strong aria-hidden="true">21.</strong> 第二十一战：会战垓下</a></li><li class="chapter-item expanded affix "><li class="part-title">三、强汉开疆</li><li class="chapter-item expanded "><a href="../强汉开疆/第二十二战：白登之围（全）疑雾重重的汉初顶级大案.html"><strong aria-hidden="true">22.</strong> 第二十二战：白登之围</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十三战：灭诸王（全）既然离别难免，今生何必相会.html"><strong aria-hidden="true">23.</strong> 第二十三战：灭诸王</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十四战：诸吕之变（全）摄政女皇的伟大与悲哀.html"><strong aria-hidden="true">24.</strong> 第二十四战：诸吕之变</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十五战：七国之乱（全）文景之治的缺憾美.html"><strong aria-hidden="true">25.</strong> 第二十五战：七国之乱</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十六战：马邑阴谋（全）儒教、长城、草原的逻辑.html"><strong aria-hidden="true">26.</strong> 第二十六战：马邑阴谋</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十七战：漠南无王庭（全）跨时代的伟大战术革命.html"><strong aria-hidden="true">27.</strong> 第二十七战：漠南无王庭</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十八战：打通河西走廊（全）匈奴梦魇的冠军侯.html"><strong aria-hidden="true">28.</strong> 第二十八战：打通河西走廊</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十九战：漠北大决战（修订版）农耕民族的荣耀之巅.html"><strong aria-hidden="true">29.</strong> 第二十九战：漠北大决战</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十战：定南疆灭朝鲜（全）专治各种不服.html"><strong aria-hidden="true">30.</strong> 第三十战：定南疆灭朝鲜</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十一战：征大宛（全）汗血马的蝴蝶效应.html"><strong aria-hidden="true">31.</strong> 第三十一战：征大宛</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十二战：孤愤之战（全）史家之绝唱，无韵之离骚.html"><strong aria-hidden="true">32.</strong> 第三十二战：孤愤之战</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十三战：巫蛊之乱（全）生生世世莫生帝王家.html"><strong aria-hidden="true">33.</strong> 第三十三战：巫蛊之乱</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十四战：霍光废帝（全）大司马大将军的反噬.html"><strong aria-hidden="true">34.</strong> 第三十四战：霍光废帝</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十五战：王莽篡汉（全）戏精的艺术人生.html"><strong aria-hidden="true">35.</strong> 第三十五战：王莽篡汉</a></li><li class="chapter-item expanded "><a href="../强汉开疆/“强汉开疆”篇总结（1）西汉的脉络梳理.html"><strong aria-hidden="true">36.</strong> “强汉开疆”篇总结</a></li><li class="chapter-item expanded affix "><li class="part-title">四、光武中兴</li><li class="chapter-item expanded "><a href="../光武中兴/第三十六战：王莽复古（全）陨灭三千万人的“德之贼”表演.html"><strong aria-hidden="true">37.</strong> 第三十六战：王莽复古</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十七战：昆阳大逆转（全）天选之子的神话之战.html"><strong aria-hidden="true">38.</strong> 第三十七战：昆阳大逆转</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十八战：河北惊魂记（全）二十八宿召唤神龙.html"><strong aria-hidden="true">39.</strong> 第三十八战：河北惊魂记</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十九战：两京堵赤眉（全）汉末最强匪帮退场.html"><strong aria-hidden="true">40.</strong> 第三十九战：两京堵赤眉</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十战：定关东（全）东南西北的将星闪耀.html"><strong aria-hidden="true">41.</strong> 第四十战：定关东</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十一战：得陇望蜀（全）陇山难，蜀山悲，天下定.html"><strong aria-hidden="true">42.</strong> 第四十一战：得陇望蜀</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十二战：班超通西域（全）小冰期下汉匈博弈的个人英雄主义巅峰.html"><strong aria-hidden="true">43.</strong> 第四十二战：班超通西域</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十三战：党锢之祸（全）东汉王莽们和死太监集团的皇权角逐巅峰战.html"><strong aria-hidden="true">44.</strong> 第四十三战：党锢之祸</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十四战：黄巾起义（全）大乱四百年的开端.html"><strong aria-hidden="true">45.</strong> 第四十四战：黄巾起义</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十五战：189年汉末崩塌（全）顶级谋篇布局下的“为他人作嫁衣裳”.html"><strong aria-hidden="true">46.</strong> 第四十五战：189年汉末崩塌</a></li><li class="chapter-item expanded affix "><li class="part-title">五、三国争霸</li><li class="chapter-item expanded "><a href="../三国争霸/第四十六战：群雄讨董（全）璀璨纷杂的时代开篇.html"><strong aria-hidden="true">47.</strong> 第四十六战：群雄讨董</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十七战：兖州风云（全）年少时的无心插柳，成荫后的阶级背叛.html"><strong aria-hidden="true">48.</strong> 第四十七战：兖州风云</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十八战：挟天子令诸侯（全）曹操巅峰升级的公元196年.html"><strong aria-hidden="true">49.</strong> 第四十八战：挟天子令诸侯</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十九战：官渡之战（全）汉末双神决战到最后一秒的巅峰对决.html"><strong aria-hidden="true">50.</strong> 第四十九战：官渡之战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十战：火烧赤壁（全）曹操不会放过的刘备，士族不会放过的孙权.html"><strong aria-hidden="true">51.</strong> 第五十战：火烧赤壁</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十一战：刘备入川（全）曹操换房本之路上的“点炮”盛宴.html"><strong aria-hidden="true">52.</strong> 第五十一战：刘备入川</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十二战：汉中会战（全）汉末诸神黄昏的上半集.html"><strong aria-hidden="true">53.</strong> 第五十二战：汉中会战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十三战：襄樊惊天大逆转（全）孙权背刺逻辑；关公威震华夏；糜芳叛变之谜.html"><strong aria-hidden="true">54.</strong> 第五十三战：襄樊惊天大逆转</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十四战：夷陵之战（全）先主伐吴始末，永安举国托孤.html"><strong aria-hidden="true">55.</strong> 第五十四战：夷陵之战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十五战：失街亭（全）一步也不能走错的弱者悲哀.html"><strong aria-hidden="true">56.</strong> 第五十五战：失街亭</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十六战：秋风五丈原（全）大梦谁先觉，平生我自知，秋风星落日，光耀天地间.html"><strong aria-hidden="true">57.</strong> 第五十六战：秋风五丈原</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十七战：高平陵之变（全）三百年大悲哀的逻辑原点.html"><strong aria-hidden="true">58.</strong> 第五十七战：高平陵之变</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十八战：淮南三叛（全）人事、利益、威慑、恐吓、荣耀······的政治博弈算法.html"><strong aria-hidden="true">59.</strong> 第五十八战：淮南三叛</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十九战：二士争蜀（全）赚得英雄头似雪，万般回首化尘埃.html"><strong aria-hidden="true">60.</strong> 第五十九战：二士争蜀</a></li><li class="chapter-item expanded affix "><li class="part-title">六、两晋悲歌</li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十战：西晋平吴（全）十分伶俐都使尽，远在儿孙近在身.html"><strong aria-hidden="true">61.</strong> 第六十战：西晋平吴</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十一战：凛冬将至（全）草蛇灰线，伏脉千里的长城内外.html"><strong aria-hidden="true">62.</strong> 第六十一战：凛冬将至</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十二战：八王之乱时无英雄显竖子.html"><strong aria-hidden="true">63.</strong> 第六十二战：八王之乱时无英雄显竖子</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十三战：永嘉之乱（全）善恶到头终有报，只争来早与来迟.html"><strong aria-hidden="true">64.</strong> 第六十三战：永嘉之乱</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十四战：石勒霸北（全）超越种族永远靠的是仇恨，团结群众永远靠的是阶级.html"><strong aria-hidden="true">65.</strong> 第六十四战：石勒霸北</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第65战：东晋立国（全）“光腚北士”与“散装江东”博弈下的门阀政治开端.html"><strong aria-hidden="true">66.</strong> 第65战：东晋立国</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第66战：王敦、苏峻之乱（全）多股真气的冲突下，走火入魔的门阀政治自救之路.html"><strong aria-hidden="true">67.</strong> 第66战：王敦、苏峻之乱</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第67战：桓温灭蜀（1）“血亲复仇”千百年来对于古代社会的深远意义.html"><strong aria-hidden="true">68.</strong> 第67战：桓温灭蜀</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十八战：石虎肆虐（全）超长待机的五胡“狮驼岭”吃人算法之谜.html"><strong aria-hidden="true">69.</strong> 第六十八战：石虎肆虐</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第69战：冉闵屠羯（全）少年闵的奇幻漂流.html"><strong aria-hidden="true">70.</strong> 第69战：冉闵屠羯</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第70战：桓温北伐（上）风云际会后的北国兴与衰.html"><strong aria-hidden="true">71.</strong> 第70战：桓温北伐</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第71战：雄主的膨胀之路（全）天欲福之，必开其慧；天欲毁之，必助其狂.html"><strong aria-hidden="true">72.</strong> 第71战：雄主的膨胀之路</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第72战：淝水之战（全）“摆拍仁主”与“网红门阀”的春秋笔法.html"><strong aria-hidden="true">73.</strong> 第72战：淝水之战</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第73战：兴复大燕（全）：燃烧的北境，爆炸的关中.html"><strong aria-hidden="true">74.</strong> 第73战：兴复大燕</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第74战：拓跋珪复国之谜（全）借我借我一双慧眼吧······.html"><strong aria-hidden="true">75.</strong> 第74战：拓跋珪复国之谜</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第75战：参合悲（全）眼看他起朱楼，眼看他宴宾客，眼看他楼塌了.html"><strong aria-hidden="true">76.</strong> 第75战：参合悲</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第76战：桓玄篡晋（两晋季终章）早悟夜宴终有散，当初赌甚英雄汉.html"><strong aria-hidden="true">77.</strong> 第76战：桓玄篡晋</a></li><li class="chapter-item expanded affix "><li class="part-title">七、南北归一</li><li class="chapter-item expanded "><a href="../南北归一/《南北归一》序：北人南下，为六朝盛衰之总纲！.html"><strong aria-hidden="true">78.</strong> 《南北归一》序</a></li><li class="chapter-item expanded "><a href="../南北归一/第77战：气吞万里如虎（1）每段英雄之旅的开始，都是不拼就死的悲哀.html"><strong aria-hidden="true">79.</strong> 第77战：气吞万里如虎</a></li><li class="chapter-item expanded "><a href="../南北归一/第78战：刘老虎的西征梦（1）《东游记》开场.html"><strong aria-hidden="true">80.</strong> 第78战：刘老虎的西征梦</a></li><li class="chapter-item expanded "><a href="../南北归一/第79战：拓跋珪的心魔（1）“代人集团”登场，弱化版的汉初丰沛集团.html"><strong aria-hidden="true">81.</strong> 第79战：拓跋珪的心魔</a></li><li class="chapter-item expanded "><a href="../南北归一/第80战：后青春的诗（1）刘裕托孤的算盘.html"><strong aria-hidden="true">82.</strong> 第80战：后青春的诗</a></li><li class="chapter-item expanded "><a href="../南北归一/第81战：南龙有悔，北龙在天（1）“亢龙”伐“飞龙”，结局早定.html"><strong aria-hidden="true">83.</strong> 第81战：南龙有悔，北龙在天</a></li><li class="chapter-item expanded "><a href="../南北归一/第82战：冰血暴.html"><strong aria-hidden="true">84.</strong> 第82战：冰血暴</a></li><li class="chapter-item expanded "><a href="../南北归一/第83战：女王的棋局（1）被史官掩盖的北魏版“巫蛊之祸”.html"><strong aria-hidden="true">85.</strong> 第83战：女王的棋局</a></li><li class="chapter-item expanded "><a href="../南北归一/第84战：隐秘的元宏（1）不会哭，咋上权力牌桌？.html"><strong aria-hidden="true">86.</strong> 第84战：隐秘的元宏</a></li><li class="chapter-item expanded "><a href="../南北归一/第85战：时来天地皆同力（1）雍州教父而立之年的奇幻漂流.html"><strong aria-hidden="true">87.</strong> 第85战：时来天地皆同力</a></li><li class="chapter-item expanded "><a href="../南北归一/第86战：六镇之乱（1）北魏统一天下的窗口突然被打开了.html"><strong aria-hidden="true">88.</strong> 第86战：六镇之乱</a></li><li class="chapter-item expanded "><a href="../南北归一/第87战：后三国开篇.html"><strong aria-hidden="true">89.</strong> 第87战：后三国开篇</a></li><li class="chapter-item expanded "><a href="../南北归一/第八十九战：运去英雄不自由.html"><strong aria-hidden="true">90.</strong> 第八十九战：运去英雄不自由</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十战：最后的三国.html"><strong aria-hidden="true">91.</strong> 第九十战：最后的三国</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十一战：东西合拢.html"><strong aria-hidden="true">92.</strong> 第九十一战：东西合拢</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十二战：南北归一.html"><strong aria-hidden="true">93.</strong> 第九十二战：南北归一</a></li><li class="chapter-item expanded affix "><li class="part-title">深度系列</li><li class="chapter-item expanded "><a href="../深度系列/深度系列.html"><strong aria-hidden="true">94.</strong> 深度系列</a></li><li class="chapter-item expanded "><a href="../深度系列/神留言回答.html"><strong aria-hidden="true">95.</strong> 神留言回答</a></li><li class="chapter-item expanded "><a href="../深度系列/改变未来.html"><strong aria-hidden="true">96.</strong> 改变未来</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">渤海小吏的封建脉络百战</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="第十战秦为什么冒险发动长平之战"><a class="header" href="#第十战秦为什么冒险发动长平之战">第十战：秦为什么冒险发动长平之战</a></h1>
+<p>接下来我们来到的这场战役，是整个战国时代的巅峰之战。</p>
+<p>这场大战，参战的账面人数达到接近百万，再算上后续秦国河东所有适龄男子投入长平战场，这场战争成为了中国古代历史上规模最大的战役，没有之一。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142553665.gif" alt="图片" /></p>
+<p>这一战，彻底加速了中国的第一次大一统的步伐，秦统一中国的最后一块大石头被搬开，东方六国的最后一根大梁被凿塌，北方最后的一个强国赵国被打残，再也没有缓过来。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554171.gif" alt="图片" /></p>
+<p>这一战，也是当时的“世界公敌”白起的封神之战。</p>
+<p><strong>虽然当时并没有纸，但战败方的赵括却被永远的冠上了“纸上谈兵”的臭名声，可见后世多少次的提起这场战役，多少次的演绎这场战役，连跨年代的纸都进成语了。</strong></p>
+<p><strong>此战名声之大，几乎成为了战国时代的形象代言。</strong></p>
+<p>大家可能对此战的印象是：猪对手赵括纸上谈兵，神对手白起诱敌深入，可怜的四十万赵军被坑杀。</p>
+<p>这都是高光时刻。</p>
+<p>实际上，此一战，前因后果非常错综复杂，来龙去脉前前后后机缘巧合一共涵盖了十几年。</p>
+<p>这一切要从一个小地方说起，这个小地方，叫做陶邑。</p>
+<p>还记得前面我们讲过乐毅的五国伐齐吗？</p>
+<p>在打败齐军主力后，原来被齐国吞并的宋国土地本应该是魏国占领，但秦国却拿到了宋国最富庶的陶邑。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142553067.jpeg" alt="图片" /></p>
+<p>魏右边的那块白色区域就是陶邑，感恩作者布哈林。</p>
+<p>这块远离秦国本土的经济特区后来成为了当时秦国的大权在握者，国舅魏冉的封邑。</p>
+<p><strong>这个小地方也因此，后来一度影响了秦国的战略方向。</strong></p>
+<p>先来介绍一下陶邑。</p>
+<p>陶邑，今天的山东菏泽定陶区，现在名声不大，但在战国时代，陶邑却知名全国。</p>
+<p>陶邑地处古菏水、济水系的交通要道，**济水贯穿东西，荷水往南延伸能到彭城，北延伸能到山东半岛，**在春秋时期就已经是中原地区的一大商业都会了，地位相当于今天的上海。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142552789.jpeg" alt="图片" /></p>
+<p>著名的政治家，军事家，预言家，买卖人，鸡汤熬制者，范蠡先生在帮助勾践灭吴后,也是弃官至陶邑,发家致富被称为“陶朱公”的，这个陶，就是陶邑的陶。</p>
+<p>在首富的思维里，之所以选择这块地方创业，也因为这里早已是商业繁荣,经济兴旺,各方面软硬件都较好，陶邑也因此成为了商业世界的“天下之中”。</p>
+<p>这也就明白了为什么魏冉要将这块宝地当做自己的封邑。</p>
+<p>秦在得到楚国半壁后，将主要攻击目标对准魏国。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142552722.jpeg" alt="图片" /></p>
+<p>上图可以看出，陶邑和秦国本土间隔着韩、魏。</p>
+<p>之所以这样做，原因有两个。</p>
+<p><strong>第一个原因，就是为了要打通秦国和陶邑间的战略通道。</strong></p>
+<p>看上图，陶邑夹在齐国魏国中间，远离秦国本土。</p>
+<p>魏国一直横在秦与陶邑之间，这也让富裕的经济特区成为了秦国本土之外的一块“飞地”。</p>
+<p><strong>所谓“飞地”就是脱离本国的土地。</strong></p>
+<p>战国时代是飞地众多的，各国间犬牙加错，比如当年魏国的四块国土中，河内地就是飞地，和那三块国土是不挨着的，只不过地方比较大。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142553065.jpeg" alt="图片" /></p>
+<p>（三家分晋时的乱乎局势）</p>
+<p>当然，往战略高度上说，灭魏以后可以隔绝燕、赵与楚、韩的联系，给所谓对付秦国的“合纵”以打击。</p>
+<p><strong>第二个原因，则是韩国在伊阙之战后，基本上成了秦国的“伪军”。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142552888.jpeg" alt="图片" /></p>
+<p>本来韩和魏都是秦要打击的对象，当初在三晋分家的时候，韩国的中心地带极具优势，<strong>就因为它掌握了东面的战略通道，所以无论是当初在黄土高原上占尽优势的魏国，还是现在如日中天的秦国，如果想顺畅的进出华北平原，都必须从韩国所控制的上党高地、轵关陉（豫北通道）或洛阳、荥阳（豫西通道）这两条线通过。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142552914.jpeg" alt="图片" /></p>
+<p><strong>这两条战略通道，渐渐的变成了韩国人做国际买卖的重要筹码。</strong></p>
+<p>无论秦，魏，齐还是谁，爱谁谁！如果你想从我这通过，用不着喊打喊杀，我可以借道给你，条件优厚时我还能派出同盟军给你壮壮声势，跟着还能一块顺点战利品。</p>
+<p>如果你看上了我这条道，想灭了我，我就又会满世界拉赞助。</p>
+<p>韩经常对秦国又说：大哥我可是抗魏第一线，抗齐第一线！你得对我好点！</p>
+<p>韩又经常对关东六国说：我特么可是抗秦第一线！如果作为第一道防线的我撑不住的话，秦国这大老虎一出来，你们可就都完蛋了！</p>
+<p><strong>正是凭借这种左右逢源的手法，韩国才能够靠着原本国力最弱小，地盘最贫瘠的可怜筹码在残酷的战国时代坚持到了最后。</strong></p>
+<p>韩国在伊阙之战后被秦国打出了心理阴影，一听见白起的名字整个国家的小孩都不敢哭，一向两面倒的韩国马上站队成为了秦国的乖宝宝。（<a href="http://mp.weixin.qq.com/s?__biz=MzUyMzUyNzM4Ng==&amp;mid=2247484063&amp;idx=2&amp;sn=880b31a46f7470d9907036e5f1c5533d&amp;chksm=fa3a772acd4dfe3cde51ae0372c493f0b192de1123e84e739591e685f743bba133429fa966a5&amp;scene=21#wechat_redirect">第七战：伊阙之战（全）杀神登场</a>）</p>
+<p>大哥您想往哪走，我的地盘您随便，就当我们不存在，您可以越过我们打击任何地方。</p>
+<p>您对我可以为所欲为。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142553162.jpeg" alt="图片" /></p>
+<p>韩国的“识时务”，让魏国倒了霉。</p>
+<p>公元前276年，白起彻底扫平楚国半壁的转年，魏冉又让爱将拉着队伍往东边散散步，白起散步到魏国，占了两座城。</p>
+<p>公元前275年，魏冉亲自带队，直接攻打魏国首都大梁，眼看魏国实在被打的没办法了，明白唇亡齿寒，一直借道的乖宝宝韩国居然斗起胆子派出了援军去救魏。</p>
+<p>韩国一直在钢丝上游走，也实在是不容易。</p>
+<p>不过魏冉这个大领导可不是草包，无论政务还是军事，都是一把好手，韩国援军上去就让魏冉杀了四万，魏国割让了八个城市求和，魏冉觉得少，再度攻击，占领了北宅（今郑州市北），魏国又割出了温城（今温县），魏冉这才回军。</p>
+<p>公元前274年，魏国找齐国成为了战略合作伙伴，签署同盟条约宣布一致对秦。</p>
+<p>魏冉很生气，这明显对陶邑产生了巨大的威胁，再次出兵攻打魏国，又夺了四座城，杀了四万人。</p>
+<p>连着三年被秦国打懵了的魏国终于想明白了，烂根子出在韩国这。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142553073.jpeg" alt="图片" /></p>
+<p>因为韩国人每次都放秦国的魔鬼出关，还经常提供军需供应，这才让无险可守的魏国一个劲的被屠宰。</p>
+<p>魏国明白了，你要是不死，我也没法活了。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/uOmTl2ZJKooQnswlJFqzOCnWRyIg3KVp4EmXIBaSZWf1fG3LwCe7icGYgicKca0ZQT9ayW0THM9w5qH2PsHGwEEA/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片" /></p>
+<p>公元前273年，魏国拉来了盟军赵国，倾全国之力，准备搞死韩。</p>
+<p>两国军队包围了韩国的重要城邑华阳（今新郑北）。</p>
+<p>韩国一看魏国来势汹汹，马上求救大哥秦国，但秦王拒绝了，我们什么时候吃过亏？救你对我有什么好处？</p>
+<p>找错了人的韩国马上调整方向，猛求相国魏冉，魏冉当然明白韩国对于他的陶邑来讲有多重要，说动了秦王。</p>
+<p>世界公敌武安君白起率军救韩。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554593.gif" alt="图片" /></p>
+<p>故事，就这样开始了。</p>
+<p>魏赵联军与韩军胶着于华阳，而华阳距咸阳较远，大约500公里。</p>
+<p>由于路远，白起认为魏、赵会对秦军到来而估计不足，因而疏于防范。</p>
+<p>于是，白起这次又玩出了新花样，觉得采取出其不意、攻其不备的方针会收到奇效，于是决定强行军奔袭华阳战场。</p>
+<p>大军由咸阳出发，以平均每日百里的急行军进行远途奔袭，仅8天就到达了华阳城下。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554081.gif" alt="图片" /></p>
+<p>到达战场后白起立即向魏军发起攻击，一举歼灭魏军13万人，生擒3名魏将，魏国宰相芒卯败逃。</p>
+<p>紧接着，又进攻赵将贾偃，经激战，大败赵军，将两万多赵军赶入黄河。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142553817.gif" alt="图片" /></p>
+<p>这还没完呢！</p>
+<p>白起接着乘胜直逼魏都大梁！</p>
+<p>魏军主力被歼，无力再战，割让南阳(太行山以南、黄河以北地区)之地向秦求和。</p>
+<p>秦国闻知燕、赵联合起兵救魏，便接受魏国南阳地后退兵。</p>
+<p>杀神出手，品质保障，战神武安君这次又杀十五万，还玩出了新花样，千里急行军，前所未有的长途奔袭，被后世再次赞叹军神。</p>
+<p><strong>人一旦总是干出不可思议的事后，往往就容易被神话</strong>，像博尔特，菲尔普斯之类的人，总是能听到各种各样的神话，比如菲尔普斯令人震惊的食谱，科比的“666”训练法，比如得过单场100分的张伯伦大帅一生睡过40000个女人···</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142553208.jpeg" alt="图片" /></p>
+<p>很多牛人，都被神化了。</p>
+<p>此时的白起，就是如此。</p>
+<p>所有的史料中，都在说，白起自咸阳驰援华阳，八天急行军赶到战场，兵贵神速，打了魏，赵一个措手不及。</p>
+<p>不过你要是仔细的算了一下他的行程，就会觉得事有蹊跷。</p>
+<p>500公里，八天的时间到，相当于每天60多公里。</p>
+<p>这是一个很匪夷所思的数据。</p>
+<p>同一年代出品的畅销书《孙子兵法》（此书应该并非春秋年间孙武所作，诸多书中描写的兵器，言语皆像是战国年间所著）中，有这么一段描写：</p>
+<p><strong>“是故卷甲而趋，日夜不处，倍道兼行，百里而争利，则擒三将军，劲者先，疲者后，其法十一而至；</strong></p>
+<p><strong>五十里而争力，则蹶上将军，其法半至；</strong></p>
+<p><strong>三十里而争利，则三分之二至。</strong></p>
+<p><strong>是故军无辎重则亡，无粮食则亡，无委积则亡。”</strong></p>
+<p>我来给大家翻译一下这段话哈。</p>
+<p>把铠甲卷起来，轻装前进，日夜不休急行军一百里去争利，那么三军将领都要被俘获，因为壮的先到，弱的后到，只有大约十分之一能够先到战场，大部队变小部队，累的都跟傻狗一样，敌人以逸待劳，等着一口一口的往嘴里喂。</p>
+<p>五十里急行军，能到一半，先锋部队就被人干掉了。</p>
+<p>三十里急行军，三分之二先到。</p>
+<p>更何况装备，粮食，被服，物资都扔后面了，军队很脆弱，很容易被摧毁。</p>
+<p><strong>古代行军，三十里为一舍，里面很大的蕴含道理就是：正常行军，能顾兼顾战斗力的行军，一天就这三十里。</strong></p>
+<p>同时代出品的跨千年经典中说的话还是比较靠谱的。</p>
+<p>急行军一百里其实就已经很考验人了，更别提一系列辎重还肯定跟不上，跑上去也是送死。</p>
+<p>我们再对比下白起的急行八天八夜，今天从西安到郑州接近500公里，那个年代只可能更难走，路会更曲折，困了累了既没有士力架也没有红牛，你八天八夜一路跑过去，哪怕你的部队个个是战神下凡，人家都不用拿刀砍，踢都能踢死你。</p>
+<p>所以，这一段故事，肯定是后人编的，至少并没有那么真实。</p>
+<p>由于此时的白起战无不克，攻无不胜，从未败绩，很多神话就已经通通往他身上招呼了。</p>
+<p>比较可能的解释，有可能白起确实是八天八夜强行军，但仅限于他自己和他的少数警卫员。</p>
+<p>魏冉在下令支援时，有可能白起是拿着虎符直接前往秦东前线，在那里调集已经驻守在那里的大军出发，从秦朝的东前线到华阳战场，大约150公里，这个距离，人努努劲，快到之前再集结队伍休息，吃饱喝足后再去砍13万人才有可能。</p>
+<p>无论怎样驰援的华阳，白起这一仗杀的魏国彻底没脾气了，从此也成了秦国的附属国，跟韩国一样，也是大哥您别打我了，您在我这可以为所欲为。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142553843.jpeg" alt="图片" /></p>
+<p>魏国彻底成二鬼子后，对秦国产生了一个极其重大的战略影响。</p>
+<p>由于陶邑的存在和收益，秦国慢慢发现了中原之地富得流油，就好像今天的江浙长三角地区虽然不大，但GDP比西部所有省份绑一块还多的道理一样。</p>
+<p><strong>无论是魏冉的私心，还是秦国的战略考虑，都在犯当年魏国的战略错误！</strong>（魏国的战略错误有兴趣可参看：<a href="http://mp.weixin.qq.com/s?__biz=MzUyMzUyNzM4Ng==&amp;mid=2247483800&amp;idx=2&amp;sn=bcd3e9ce7545f930d171ba00c58e5d17&amp;chksm=fa3a742dcd4dfd3bf3c96dec79c4b3df5535e3d99706c2f304787a134d699808bc1403dfc0fe&amp;scene=21#wechat_redirect">第二战：马陵之战（全）战略方向错误导致的魏盛转衰</a>）</p>
+<p><strong>秦开始对魏韩两国在山西高原上那些油水不多的土地失去了兴趣，而是对华北平原上的土地要感兴趣的多。</strong></p>
+<p>尤其在如今韩、魏都已经被打服了的情况下，随时可以借道，让秦国越来越想绕过三晋直接进攻中原。</p>
+<p>对中原之地的重视甚至让秦国做出了一个令人瞠目的决定。</p>
+<p><strong>秦国要放弃白起在晋北的吕梁山区和太原盆地所辛苦打下的赵国城邑，去交换赵、魏联盟在河北平原的同等数量的土地。</strong></p>
+<p>最开始司马错攻打楚国的时候，白起在山西高原攻打赵国，势力已经扩张到了太原盆地，对赵国的老牌根据地太原已经产生了极大地威胁。</p>
+<p>虽然太原扛造，历史上已经多次证明，但白起的不断逼近却让赵王怎么也睡不着觉。</p>
+<p>后来转过年，白起被南调去伐楚，让赵国西线得到了拯救，秦赵就在之前的势力线上对峙了下去。</p>
+<p>此时秦国却要拿这块战略要地去交换和本土并不接壤的中原之地。</p>
+<p><strong>往好处想，是因为秦国已经极其认可自己的作战能力，想中原，关中两面开花，双线突击，外加上中原油水多，收益大。</strong></p>
+<p><strong>往坏处想，就是权臣魏冉在盘算自己的小九九，扩大自己陶邑以外在中原的势力。</strong></p>
+<p>无论是好是坏，这个战略决定都不是一个好决定。</p>
+<p><strong>第一，由于和本土不接壤，虽然你的武力威慑在，但在中原的四战之地，这片土地无险可守，你维护这块土地的成本太高，参考当年魏是咋由盛转衰的。</strong></p>
+<p><strong>第二，韩魏随时都是墙头草，中间门一关，你的两块势力马上就断绝联系。</strong></p>
+<p><strong>第三，权臣的私人势力越来越大，内耗会加剧。这个换地的决定后来也是导致魏冉失势的最大原因。</strong></p>
+<p>　　</p>
+<p>看起来秦国要犯战略错误，但这一次，又一次的天佑秦国。</p>
+<p>历史并没有给秦国一个魏国那样打造另一个“河内地” 的“机会”，而是将秦国的眼光从已经流半天口水的中原之地硬生生的拉回了黄土高坡！</p>
+<p>因为赵国反悔了。</p>
+<p>而且一贯玩鹰的秦国，这次让鹰给把眼琢了。</p>
+<p>一贯作为老流氓被告的秦国，被赵国摆了一道。</p>
+<p>如果是在双方交割土地之前，赵国反悔的话，对秦国来说倒也不算损失。赵国在秦军撤出蔺、离石、祁等晋北领土后还没有接收交换的中原领土的这个时间点时，马上反悔了。</p>
+<p>等于赵国收了秦国交回的土地，却没有把自己的土地吐出去。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554331.gif" alt="图片" /></p>
+<p>真是耗子给猫当三陪，挣钱不要命。</p>
+<p>本来赵国已经远离了秦国的视线，这一回，冤家该上门了。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554148.gif" alt="图片" /></p>
+<p>公元前270年，秦国派大将胡阳率十万大军攻打赵国阏与地区。</p>
+<p>著名的阏与之战开打。</p>
+<p><strong>此一战，最终成为了十年后那场世纪之战的最关键药引子。</strong></p>
+<p>秦国是悄悄的进村，打枪的不要，又借道韩、魏，穿过上党地区，直插赵国腹地阏与（山西和顺县）。</p>
+<p>阏与离赵国的国都邯郸有多远呢？</p>
+<p>大约160公里。</p>
+<p>为什么要打这个地方呢？</p>
+<p>因为秦想一口气切断赵国山西高原与华北平原两块领土之间的联系。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554147.jpeg" alt="图片" /></p>
+<p>看看阏与地区的地势我们就清楚了，<strong>上述的几条黑线，是太原盆地和华北平原的主要联络线，阏与则是中间的总枢纽。</strong></p>
+<p>再南边的地方就是上党高地了，那是著名二鬼子韩国人的地盘。</p>
+<p>无论是魏国、韩国，还是赵国，他们在黄土高原上的国土和在华北平原的扩展区之间的联系，其实是十分脆弱的。</p>
+<p>主要原因是那条南北纵横，切割了山西高原与华北平原的太行山脉。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554210.jpeg" alt="图片" /></p>
+<p>无论是几千年前，还是现在的我们，要想穿越这条“天下之脊”，都必须仰仗那几条被概括成“太行八陉”的孔道，八陉听着挺多，但你要知道，太行山是很长的。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554172.jpeg" alt="图片" /></p>
+<p>你瞅瞅这老长的大山脉，就八陉，够干啥的。</p>
+<p>如果秦国能够想办法切断太原盆地与河北平原之间的交通线，也就是占领阏与地区，那么他们就可以对从西、南、东三个方向，同时对以晋阳为核心的，赵国所控制的太原盆地形成包夹之势。</p>
+<p>秦国也就很快就可以从不守承诺的的赵人那里，不仅拿回他们被骗走的晋西北还能拿下赵国的老根据地，太原。</p>
+<p><strong>阏与地区，就是这个关键的联系点。</strong></p>
+<p>秦国如果占领了这个地区，基本上也就切断了邯郸与太原间的联系。</p>
+<p>所以，对于赵国来说，此地万不可失。</p>
+<p>但当时，赵国内部已经倾向于无法救援了。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554193.jpeg" alt="图片" /></p>
+<p>因为秦国打过来的太过于突然了，韩国直接让出了上党高地，秦国没有任何阻力的情况下就直接插进了这个枢纽之地。</p>
+<p>但这块地方又太过于重要，赵惠文王在得到消息后急召大将廉颇、乐乘，询问到底该怎么办。</p>
+<p>两人均认为阏与距邯郸路远，道路狭窄，崎岖险阻，此时已经难以救援。</p>
+<p>但这个时候，财政大臣赵奢却站了出来，对赵王说：可救！</p>
+<p>中国历史上著名的老子英雄儿混蛋的典范模型中的老子上场了。</p>
+<p>这个赵奢是谁？</p>
+<p>赵奢是从基层干起来的，最早干的岗位是田部吏(征收田赋的小官)，收租税，执法铁面无私，谁的面子也不给。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554261.jpeg" alt="图片" /></p>
+<p>按说在基层，这种不上道的工作方式是会给自己惹下很大麻烦的，随着赵奢执法的深入，他发现在他辖内，最大的税老鼠就是当今赵王的弟弟，战国四公子之一的平原君赵胜。</p>
+<p>赵奢去赵胜家收税，管事的不仅不交税，反而态度嚣张，你也不睁眼看看这是谁家！</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554813.gif" alt="图片" /></p>
+<p>他们认为赵奢是寻常小吏，吓唬吓唬就傻了，但法律斗士赵奢马上细数法律条文，然后当场执法，杀掉了赵胜家管事的九个人。</p>
+<p>有原则，手还黑的赵奢惹恼了赵国的国务院领导赵胜，这位平原君将赵奢逮到了府邸，打算给赵奢放放血。</p>
+<p>不过赵奢却义正言辞的说道：您本身就是赵国的贵族，你家逃税，咱国家的法制地位就会越来越低，老百姓就会离心离德，到时候你不交税，我不扛枪，谁来保卫祖国，谁来保卫家，谁来保卫家！</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554288.jpeg" alt="图片" /></p>
+<p>赵国要是完蛋了，你还能有什么富贵呢？但以你崇高的地位，如果带头奉公守法，那么上下必然一片祥和，国家也会随之强大，到时候，你的地位会越来越高。</p>
+<p>赵胜听完，感觉到赵奢说的真好，向他表示了自己的惭愧之情，赵胜还利用自己的影响力，像赵王力荐赵奢，赵奢也由基层税管员一跃成为全国赋税一把手。</p>
+<p>主抓经济后的赵奢在赵国建立起了完善法制法规，打击偷税漏税。国家赋税因为公平合理，说收多少就收多少，百姓开始富裕起来，赵国的国库也在赵奢的治理下，一天天的充实。</p>
+<p><strong>在这里我们要说一句题外话，像这种因为公正不阿而提拔的人才，古往今来确实有，但绝对数的过来。</strong></p>
+<p>赵奢自己是个人才，有能力，有原则，**但他这辈子最牛的还是运气，**他得罪的赵胜作为战国四公子之一，心胸是非常宽广的。</p>
+<p>正所谓千里马常有而伯乐不常有，像自家吃了亏，哪怕知道为了大局自己需要忍着的，但千百年来，有几人能做到呢？</p>
+<p>明朝嘉靖年间江浙总督胡宗宪的儿子酷爱旅游，经常在自己老爹的辖区搞自助游，不长眼的来到了海瑞的那个县，本以为能老规矩吃拿卡要三温暖，却让海瑞给打了一顿，然后海青天还给胡宗宪写信，说有人冒充你儿子招摇撞骗，让我给教训了，领导您放心。（谁说海瑞一根筋是个傻子，一根筋会写这信吗？）</p>
+<p>但打了也就打了，胡宗宪是个明白人，自此约束儿子。</p>
+<p>海瑞其实之所以能够千古留名，运气是最重要的，后来要是没有徐阶多次保他，他绝对活不到进入门神编制那一天。</p>
+<p><strong>你要是得罪了小肚鸡肠的，记你一辈子的那种人，你有几条命也躲不开不断的明枪暗箭向你射来。</strong></p>
+<p>曾仕强教授说过一句话我认为特别接地气：<strong>我们是中国人，我们的复仇心很强，我们的复仇期很长。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554524.gif" alt="图片" /></p>
+<p><strong>作为中国人，我们还是应该时时刻刻的审时度势，妥善的处理好各种人际关系。</strong></p>
+<p>**这是为了保护自己，同时也为了让自己的理想能走的更远。
+**</p>
+<p><strong>人生最重要的，永远是参赛的资格！</strong></p>
+<p>要珍惜。</p>
+<p>赵奢是个好人，但他这辈子最重要的应该是好运气。</p>
+<p>总揽经济十年后，赵奢又被发觉是个将才，跨界又打进了军事指挥圈行列。</p>
+<p>第一次的军事行动，他就带兵攻取了齐国的麦丘，赵王因得城大喜，也因有这样一位下马能管民，上马能管军的复合型人才而高兴。</p>
+<p>在军界大佬廉颇都认为不可救的时候，赵奢又使出了他的愣劲，反驳道：道路狭窄荆棘，双方就像在狭小洞穴中碰头的两个老鼠，谁勇敢谁就能赢。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554321.jpeg" alt="图片" /></p>
+<p>这也是“两军相逢勇者胜”这句话的由来。</p>
+<p>赵惠文王听到了这个提气的比喻，命令赵奢率军救援阏与。</p>
+<p>但赵奢后来的做法，却并没有他说的那么好听。</p>
+<p>从后来的表现看来，赵奢是把兵权骗来的。</p>
+<p>因为他根本没搞什么“狭路相逢勇者胜”，他是有另一套方案的，只不过那个方案可能搞不定大领导投资方，所以就编了一个融资标书。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/uOmTl2ZJKooQ1l1UmjuQ8BgfW3mPkS2W1r8icQFhibroyX7s3Gye9kAAiba9YDXTkJBL9HTl3byia9Ag1O6XzBhTjA/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片" /></p>
+<p>赵奢率军出了邯郸三十里就歇了，一步也不往前走了。</p>
+<p>此时的秦军在围困阏与的同时，已经作了防止赵军出兵救援的准备。他们发兵一支，向东直插武安，以成犄角之势，牵制赵军行动。</p>
+<p>武安在阏与的东南，邯郸的西北，离邯郸仅仅八十公里。</p>
+<p>赵奢在歇了之后，就干了一件事，搞工程。</p>
+<p>在军中不断加固营垒，在营区周围修筑了许多屏障，那架势根本就不是去救援，反而大有“有本事你打我来”的意思。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554498.gif" alt="图片" /></p>
+<p>在搞好军中工程的同时还对所有的军中将领、参谋说：“有敢跟我提军事的人死。”</p>
+<p>很快就等到了一个树立典型的，有一人建议火速去救武安，赵奢立即把他杀掉了。</p>
+<p>就这样，赵军长，不对，赵工头一直在增筑营垒，一干就是28天，终于等来了秦军的间谍。</p>
+<p>赵奢任由他各种打探，观察，在秦军间谍走了以后，赵奢突然下令集合部队，全军工程队变长跑队，卷甲而趋，向西急进100公里，仅两日一夜便抵达距离阏与50里的地方。</p>
+<p>距离50公里后，赵奢再次下令全军打住，继续干工程，修建营寨。</p>
+<p>本以为赵奢目的是保卫首都的，被抛在武安的秦军听说赵奢一个没看住巳经偷跑到了阏与。</p>
+<p>武安秦军如梦方醒，知道前面这一个月赵奢是在装蒜，慌忙调集兵力奔向阏与。</p>
+<p>阏与的秦军在得知赵奢星夜前来后也紧急调集军队向赵奢杀来，准备打赵奢一个立足未稳。</p>
+<p>两方面秦军开始强行军，前来夹击赵奢。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554478.jpeg" alt="图片" /></p>
+<p>绿线是赵奢行军路线，黑线是两部秦军行军路线。</p>
+<p>从这次战役就可以看出来，赵奢一定是《孙子兵法》的资深读者，刚刚华阳大战说白起的时候，我们就讲过，急行军一百里前去杀敌，那就是找死。</p>
+<p><strong>赵奢之所以狂奔二百里后选择了这个离敌五十公里的地方又歇了，就是为了让自己歇口气，同时让你跑这一百里。</strong></p>
+<p>秦军的大将胡阳估计就没看过《孙子兵法》，所以就着了赵奢的道。</p>
+<p>赵军有一名参谋叫许历，建议赵奢立刻发兵万人抢占北山制高点，说完就等着领死。</p>
+<p>赵奢马上就听从了他的建议，拿下了北山。</p>
+<p>许历问：啥时宰我？</p>
+<p>赵奢说到：少废话！赶紧干活去！</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554654.jpeg" alt="图片" /></p>
+<p>秦军赶到后，上气不接下气，想争夺北山却根本打不上去，拥挤于山下。</p>
+<p>赵奢看准机会，打了秦军一个立足未稳，利用有利地势，居高临下，俯击秦军。</p>
+<p>秦军大败，四散溃逃，但逃跑还跑不过已经歇过来的赵军。</p>
+<p>十万大军几乎全军覆没，阏与之围也随之解除。</p>
+<p><strong>这一战，意义非同小可。</strong></p>
+<p><strong>赵军打破了秦军不可战胜的神话，秦军吃到了罕见性的大败仗，世界各国纷纷将期待的眼神看向了赵国。</strong></p>
+<p>比如已经被打成二鬼子的韩国人就再次站队，团结在了以赵国为中心的三晋周围，表态再也不让秦国想来就来，想走就走了，拿我们当什么了！</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555529.gif" alt="图片" /></p>
+<p><strong>这还只是当下的影响，其最深刻的影响，在于赵国战略眼光的升级。</strong></p>
+<p>此次大胜的实在是太险了！如果不是赵奢态度坚决还抖机灵，阏与早就不姓赵了。</p>
+<p><strong>这一切的根源，都在于韩国这货让出了上党高地！</strong></p>
+<p><strong>对上党开始重新认识的赵国高层，最终左右了十年后的那场巅峰之战！</strong></p>
+<p>赵奢班师回朝后，赵惠文王封赵奢为马服君，也因此其后世子孙以马为姓，汉族中的“马”姓也是由此而来，后来东汉名将伏波将军马援即为其后人。</p>
+<p>姓赵和姓马的同志们见面要感到亲切，因为两千年前是一家。</p>
+<p>阏与这边虽然大败了，但谁家过年不吃顿饺子，而且这一年，老天还补偿给了秦国一个关键性的人才。</p>
+<p>又一个魏国人来到了秦国。</p>
+<p><strong>新来的这个人成为了继商鞅，张仪后，魏国又一次的人才助攻。</strong>（魏国多才，简直就是各国的人才储备库）</p>
+<p><strong>这个人的到来，帮助秦昭王解决了贵族权重的重大威胁，同时也成为了战神白起的命中苦主。</strong></p>
+<p>正所谓一物降一物，卤水点豆腐，万事万物终究不可能永远无往而不利，情花虽毒，七步内的断肠草就是其克星。</p>
+<p>这个人，叫做范雎。</p>
+<p>关于范雎，要从田单复国说起。</p>
+<p>齐国复国后，魏国打算修复两国间的关系，于是，魏王派中大夫须贾出使齐国，议和修好。</p>
+<p>去了以后，齐襄王对魏使臣须贾很不礼貌，责问魏国反复无常，早干什么去了，我爸爸的死就跟你们有关系！</p>
+<p>由于魏国是乐毅灭齐的第二大分赃者（瓜分了宋境），须贾让人家问的很没脾气。</p>
+<p>但这时，须贾身后站出一人，义正辞严地辩驳道：“齐湣王当年暴虐，五国同仇，岂独魏国！今大王光武盖世，应思重振齐桓公、齐威王之余烈，如果斤斤计较齐湣王时的恩恩怨怨，但知责人而不知自责，恐怕又要重蹈齐湣王的覆辙了！”</p>
+<p>齐襄王听完后，不但没有发怒，反而心中暗自赞叹此人的胆识和辩才。他仔细地打量了一番眼前这个年轻人，什么也没有说。</p>
+<p>这个人就是范雎。</p>
+<p>齐襄王退朝以后，脑子里满是这个小伙子的雄辩，挥之不去，派人去找范雎，赐给了他很多礼物，想让他留下来，但范雎却言辞拒绝了。相反，对于正使须贾，反而没怎么受齐国待见。</p>
+<p>回到魏国后，须贾对这事越想越生气，他把这次出使齐国之所以受到冷遇的原因全部归罪于范雎，并把范雎在齐国受到齐王厚赐的情况报告了魏相魏齐。</p>
+<p>魏齐大怒，命人将范雎抓来，严刑拷打。把范雎打得遍体鳞伤，血肉模糊，肋折齿落，惨不忍睹。</p>
+<p>范雎眼看就要被打死了，于是屏息僵卧，直挺挺在血泊中不动，佯装已死。</p>
+<p>看守误以为范雎已死，便去禀告正在饮酒的魏齐。这时，魏齐正喝得面红耳热，便命仆人用苇席裹尸，将范雎弃于茅厕之中，让家中宾客轮番向席中撒尿，故意凌辱范雎。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142556189.gif" alt="图片" /></p>
+<p>忍辱未死的范雎后来在好友郑安平的帮助下他藏匿了起来，并偷渡来到了秦国，终于在面见秦昭王的时候闪闪发光。</p>
+<p>范雎见面后抓住了秦昭王最痛的难言之隐：<strong>现在外面人只知道宣太后和魏冉，根本就不知道您的威名。</strong></p>
+<p>咱得想办法让世人知道知道谁才是当家的！</p>
+<p>瞅瞅战国一条街，打听打听谁是爹！</p>
+<p>秦昭王开始重用没有根基的范雎，打压传统的实权派贵族们。</p>
+<p><strong>范雎在帮助秦昭王完成分权的职能时，还提出了一条非常具有实用性的战略方向——远交近攻。</strong></p>
+<p>离着远的咱跟人家客气点，专门薅近的国家揍。</p>
+<p><strong>因为离你远的国家你给他打残了也是便宜别人，你有没有飞机，你的战略投放能力根本就达不到嘛！</strong></p>
+<p><strong>范雎用这个最质朴的战略方向开始把魏冉主导的“跨过韩魏，出击中原”的思路进行纠偏。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554751.jpeg" alt="图片" /></p>
+<p>秦国的主要眼光再次瞄准了东出中原的咽喉，韩与魏。</p>
+<p>这回，三晋彻底跑不了了。</p>
+<p>公元前265年，秦国最长寿的老太后宣太后（芈月）逝世了。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554654-7843954.jpeg" alt="图片" /></p>
+<p>同年九月，老太后的弟弟，魏冉被解除了所有职务，返回了封地陶邑养老。</p>
+<p>魏冉这辈子，对于秦国可谓是劳苦功高，秦国在他当政期间，整体国力又上了一个台阶，还慧眼发现提拔了几百年才出一个的白起，并上演了秦国版的将相和。</p>
+<p>白起在他的全力支持下，伊阙之战，鄢郢之战，华阳之战等等一系列重大战役为四十年后的秦统一六国扫平了障碍。</p>
+<p><strong>可以说，始皇灭六国，其功七八在昭王一朝。</strong></p>
+<p><strong>而昭王一朝，其功七八又在魏冉。</strong></p>
+<p>魏冉当政四十年，向东秦军突破了函谷关，将触角伸到了洛邑，向南将汉江平原纳入了秦国的版图。</p>
+<p>秦成霸业，魏冉大功！</p>
+<p>虽后期权柄被废，但昭王对他的这位舅舅也可谓仁至义尽，自古罕见执掌权柄四十余年的权臣还能得善终的。</p>
+<p>后面这两千年我们捋下来后就会发现，这有多么的难得。</p>
+<p>因为权利的游戏，有它自己的规则！</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554740.jpeg" alt="图片" /></p>
+<p>秦昭王还是能够想得起当初他的这个舅舅，是怎样的血腥镇压才将他扶上王位的。</p>
+<p>一次赌注赢得四十年风光，老年在全世界最富裕的地方颐养天年，魏冉这辈子也算是人生赢家。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554755.jpeg" alt="图片" /></p>
+<p>干倒魏冉的范雎，或者说帮秦昭王达成目的范雎，在魏冉退休后，开始逐步的实施他的远交近攻的战略思路。</p>
+<p>韩魏二国由于离秦离得最近，开始了更加惨淡的岁月，过去的倒向秦国的外交手段已经不管用，说啥也不好使，打的就是你，所以只能硬着头皮扛下去。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555542.gif" alt="图片" /></p>
+<p>但扛得越来越费劲。</p>
+<p>公元前268年，秦攻魏，占领怀邑。</p>
+<p>公元前266年，秦攻魏，占领邢丘。</p>
+<p>公元前264年，秦攻韩，白起拿下了韩国重镇南阳地区（河南修武地区），将大军挺进太行山脚，封锁了太行山道。</p>
+<p>公元前262年，秦攻韩，白起再次拿下韩国重镇野王（河南沁阳地区），彻底将韩国南北分割，南边的中原地区和北边的上党地区被拦腰截断。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554793.jpeg" alt="图片" /></p>
+<p><strong>秦国拿下了野王，将韩国南北截成两段。</strong></p>
+<p>随即秦军北上，准备吃掉已经孤立无援的山西高原的西南角，上党高地。</p>
+<p><strong>就在秦军准备北上之际，发生了小人物改变历史进程的事情。</strong></p>
+<p>韩国上党郡的最高领导冯亭和一众官员在得知韩国本土已经无法进行救援的时候决定：宁死不降秦！</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554982.jpeg" alt="图片" /></p>
+<p>冯亭将上党地区献给了赵国。</p>
+<p>他可能是这么考虑的，上党此时已经无法单独抵抗秦军了，如果不想便宜秦国人则只有两条路，<strong>要么奔赵，要么投魏。</strong></p>
+<p><strong>看起来好像有的选，但其实，根本没得选。</strong></p>
+<p>此时的魏国在山西高原上的地盘已经所剩不多，基本上是河内地区。</p>
+<p>这片地无险可守而且和中原本土的联系非常弱，并没有比韩好到哪去，送到了魏国人手里，他敢不敢接是一回事，接了守不守的住又是一回事。</p>
+<p>而赵国在整个黄土高原的领土比较完整，能够连成一片，国力也较强，八年前还在阏与打破了秦军不可战胜的神话，<strong>而且更重要的是，上党地区对于赵来说，意义重大。</strong></p>
+<p><strong>八年前的阏与之战开始时之所以那么被动，就是因为韩让出了上党高地！</strong></p>
+<p><strong>所以秦才可以迅速顺利地插进了赵国腹地攻打阏与，妄图切割掉赵国太行山两侧间的联系。</strong></p>
+<p><strong>这块战略要地，赵不可能不接手。</strong></p>
+<p>冯亭的想法挺好，但当时，由于秦国的恐怖名头，赵国对于这块烫手的山芋，接与不接的分歧很大。</p>
+<p>此时赵国的领导人已经变成了赵孝成王，孝成王刚刚继位不久，向赵豹征求意见。</p>
+<p>赵豹是这么建议的：圣人说，得到平白无故的好处，是一种灾难。秦国将韩国拦腰砍断，目的就是上党，那帮上党的韩国人就是想把灾祸引到我们赵国人身上，秦人辛苦耕种，赵人轻松收割，到时我们就该倒霉啦！</p>
+<p>赵豹的分析很有道理，史学界一直也有一种说法，就是冯亭献上党，是韩国高层祸水北引的阴谋。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555759.gif" alt="图片" /></p>
+<p>这种说法有一定可能性。</p>
+<p>孝成王又向平原君赵胜问计，就是提拔赵奢那位。赵胜则意见不同，建议马上接收上党，<strong>因为此地关系重大，是赵国西南的最重要屏障。</strong></p>
+<p>两个针锋相对的建议，孝成王最终采纳了赵胜的建议，派他去接收韩国上党大小十七座城市，将上党纳入了赵国的版图。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142554950.jpeg" alt="图片" /></p>
+<p>赵国囊括上党高地全境，感恩图作者布哈林</p>
+<p>后世学者，看客等诸多人士在看到这段历史时无不在扼腕叹息，说赵孝成王没有脑子，贪小便宜，赵胜误国，赵豹这么好的分析都不采纳，活该你长平之战死的这么惨。</p>
+<p>但如果我们深入历史的深处，<strong>从当时的情况进行分析就会发现，吞下上党高地固然会惹火上身，但如果这片战略要点如果被秦国控制，今后的战略主动权就将不在赵国的手里！</strong></p>
+<p>如果上党高地掌握在自己的手里，自晋东南到晋西北，赵国就将连成一个有效的防御体系，黄土高原千沟万壑，可以设下重重抵抗，秦每往前走一步，都将付出很大的代价。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555122.jpeg" alt="图片" /></p>
+<p>事实上，廉颇在长平对峙初期就做的就挺好的。</p>
+<p>再说了，忘了当年的阏与之战是多么被动了吗？</p>
+<p>要不是赵奢抖机灵赵国几年前就被挤出山西高原了。</p>
+<p>所以说，上党地区，哪怕知道是火，赵也得吞！</p>
+<p>因为不吞的下场更惨！</p>
+<p><strong>上天既然能够让你兵不血刃地得到这个战略要地，绝没有不拿下的道理。</strong></p>
+<p>如果后来的长平之战胜了，也许赵国接收上党就会被捧到天上去，上党地区也将成为赵国的斯大林格勒。</p>
+<p>只不过最后赵国败了，所以赵豹的不作为思想才会显得那么“英明”。</p>
+<p>赵截胡了上党，让秦很恼火。</p>
+<p>赵这些年，一直让秦很没面子。</p>
+<p><strong>想空手套白狼的玩恐吓，和氏璧没弄到手。</strong></p>
+<p>**
+**</p>
+<p><strong>在渑池，蔺相如又把秦昭王弄得上不来下不去。</strong></p>
+<p><strong>想换地又让赵给耍了流氓。</strong></p>
+<p><strong>在阏与又让赵奢打的几乎全军覆没。</strong></p>
+<p><strong>如今自己辛勤耕耘的上党又让赵国人给截了胡。</strong></p>
+<p>人家赵国对你五连杀啊！</p>
+<p>比较意外的是，上党被盗后的一年多里，秦国人一直没什么动静。</p>
+<p>不是秦国人忘了你这个第三者了，人家在家里磨刀了。</p>
+<p>这回高低整死你，要不爷们没法混了！</p>
+<p>公元前260年，愤怒的秦国这次使出了洪荒之力，准备老账新账一块算，倾全国之兵四十万之众杀向了上党。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557649.gif" alt="图片" /></p>
+<p>改变中国命运的世纪大战一触即发。</p>
+<p>率领秦国这支有史以来最大军团的，是一个叫王龁的秦军统帅。</p>
+<p>时任左庶长（爵位职位一体的官名，白起打伊阙战前的职位）。</p>
+<p>王龁在长平战前的史料很少，从他后来的表现上来看，是一个不错的指挥官，秦国在将领质量方面向来品质上乘。</p>
+<p>不过此时有一个疑问，秦帝国的军事符号白起呢？</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555128.jpeg" alt="图片" /></p>
+<p>所有的史料中都没有说此时的白起干什么去了。</p>
+<p>秦国有史以来的最大规模出征，没有理由将最有把握的万人敌放在了一边。</p>
+<p>有可能是白起生病了，但以白起的资历和作战把握，秦王不会等不起他，毕竟千军易得一将难求，战争本就是国之大事，生死之道，秦昭王也不可能不察。</p>
+<p><strong>比较合理的解释就是，白起此时已经渐渐失宠，这种关键性的大阵仗不能再给你了。</strong></p>
+<p><strong>因为你是魏冉一路提拔起来的人。</strong></p>
+<p>无论是秦昭王，还是范雎，都不希望白起获得再大的功勋与影响力，而这个王龁则是领导班子培养的下一代将领骨干。</p>
+<p><strong>没办法，不仅仅是一朝天子一朝臣的问题，白起此时已经功高难再赏！</strong></p>
+<p><strong>这是个很尴尬的位置。</strong></p>
+<p><strong>在皇权时代，不世的功勋是不能总立的！</strong></p>
+<p>后来事实也证明，领导们的眼光往往不会错，王龁率领秦军一路势如破竹一举拿下西上党，并迅速向以长平（今高平市）为中心的东上党进发。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555206.jpeg" alt="图片" /></p>
+<p>赵国此时的应对，是派出老将廉颇。</p>
+<p>这个任命颇有争议。</p>
+<p>按说老行为艺术家廉颇作为赵国的军事符号，应该是众望所归，但此时的赵国政坛却有很大一部分势力认为不可让廉颇为将，而是要让赵奢的儿子赵括为将。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555369.jpeg" alt="图片" /></p>
+<p>这是为什么呢？</p>
+<p>首先，廉颇的所有扬名战例几乎都是从齐国那得来的，而且廉颇作为胡服骑射的时代将领，最拿手的是骑兵作战。</p>
+<p>平原或北方的草原，是廉颇最适合发挥的战场，但秦国这次打的，是上党高地。</p>
+<p>上党地势千沟万壑，并不适合骑兵作战，主要的还是仰仗步兵力量，所以廉颇并不是必须的人选。</p>
+<p>其次，十年前大败秦军的赵奢已经病逝，但他的儿子赵括却渐渐的展露了头角。</p>
+<p>大家千万不要被传统史书误解，认为赵括就是个草包，草包是不会有机会带着几十万人上战场的。（当然极个别时刻会有个例，比如李景隆）</p>
+<p>我们世界杯买彩票赌冠军时你不可能卖了房去买中国国家男子足球队，你只会从德国、巴西、法国、西班牙等少数几个队中去猜测。</p>
+<p>赵括实际上，是很有韬略的，赵奢多次军事行动的成功，基本上都是他儿子在后面做参谋帮衬的。</p>
+<p>**脑子活，理论强，这是当时人们对赵括的评价，**<strong>再结合后面他在绝境时刻的表现，都证明了这个人具有着高超的统军御军水准。</strong></p>
+<p>十年前的阏与之战，赵括的老爹就打破了秦军不可战胜的神话，赵括则被誉为连他老爹跟他辩论兵法都不是对手的军中翘楚，虎父无犬子的呼声一直也很高，赵王在廉颇和赵括中，选择其实是有一定难度的。</p>
+<p>所以再次重申：赵括并非大草包。</p>
+<p><strong>不过在经过思想斗争后，赵王还是决定让老成持重的廉颇挂帅，因为这场战斗他输不起，谨慎与经验还是第一要考虑的因素。</strong></p>
+<p>廉颇也带着赵国倾国的四十多万人出来了，作为老司机，廉颇迅速的选择了上党地区的长平作为防守迎击的主战场，凭借险要的地形布置了三条防线，分别是空仓岭防线、丹水防线和百里石防线，层层设防。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555578.jpeg" alt="图片" /></p>
+<p>第一道防线由廉颇的副将赵茄坐镇指挥，前沿阵地是沿空仓岭一线修筑的长城壁垒，壁垒的关卡是高平关。</p>
+<p>第二道防线是沿丹水东岸修筑的壁垒，南部有两座山分别是韩王山和大粮山。</p>
+<p>韩王山海拔较高，视野开阔，整个战场形势尽收眼底，廉颇把指挥所设在此处，大粮山用于囤积赵军主力的粮食辎重。</p>
+<p>第三道防线是沿着丹朱岭一线修筑的百里石长城。其中最为重要的关口故关，是邯郸向长平补给的关键通道。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555623.jpeg" alt="图片" /></p>
+<p><strong>这是宏观图，重点是右边的赵军粮道。</strong></p>
+<p>第一道防线，守了三个月。</p>
+<p>秦国将士嗷嗷嗷的大干一百天突破了廉颇老师精细布置的第一道空仓岭防线。</p>
+<p>照这个速度，廉颇离被打回家还有半年。</p>
+<p>对方这个名不见经传的后生一上来把廉颇打的有点蒙，廉颇没想到第一条防线这么不扛打，秦军的战斗力让他深感意外。</p>
+<p><strong>于是，他采取了本土作战的最经典打法，拒不出战，耗死你。</strong></p>
+<p><strong>秦军远途作战，物资无论是从老根据地关中平原调，还是从新消化的汉江平原调，粮草和兵力补给都比较困难，而长平作为赵国本土，后勤补给的优势要强于秦国。</strong></p>
+<p>廉颇看准这一点，先是下令：擅自出战者斩，然后沿着第二道防线依托丹水险阻，开始搞工程，当包工头。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555578.jpeg" alt="图片" /></p>
+<p><strong>第二条防线是长平战的关键重心。</strong></p>
+<p>几十万赵军于是一层一层的累防御工事，廉总工时不时的还要验收工程质量。</p>
+<p>廉总工的不务正业让王龁感到很绝望。</p>
+<p>几百年后的司马懿大都督面对诸葛亮大丞相时也用的是这么个套路，每次诸葛亮一杀出来，司马懿就跟上贴身紧逼，驻扎在那就不挪窝，也不跟你打，因为打也打不过。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555593.jpeg" alt="图片" /></p>
+<p><strong>不过你的粮食总归是运不上来的，蜀道就是天然的运粮噩梦，反正每次把你粮食一耗尽，你怎么着也得撤，所以不费那个劲，打就有可能输，不打肯定能赢。</strong></p>
+<p>廉颇此时就是司马懿。</p>
+<p><strong>不过，有一个问题，廉颇还是忽略了。</strong></p>
+<p><strong>你的后方主场，有一道太行山，而不是人家司马懿后来最后一次死活玩贴身紧逼的关中平原。</strong></p>
+<p>要知道，司马懿这辈子拢共碰上两次诸葛亮，第一次在陇西相遇时，在诸葛亮虚晃一枪割走上邽军屯小麦后，由于那道陇山的存在，司马懿也是差点闹粮食危机的。</p>
+<p><strong>这道巍峨的太行山脉，最终成为了决定胜负的关键因素之一。</strong></p>
+<p>王龁也不是诸葛亮，何况诸葛亮拿这个也没办法，你天纵英才，奈何他就不出来，这一道道防线你又绕不过去，冲上去就让赵军的防御工事给撅回来了。</p>
+<p>为啥长平绕不过去呢？</p>
+<p>**因为长平是个总枢纽，**我们来看下面这张图。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555675.jpeg" alt="图片" /></p>
+<p><strong>这是时代发展到21世纪的交通路线图，高平地区仍然是个井字形枢纽，你根本绕不过去。</strong></p>
+<p>就这样，双方在丹水展开了漫长的对峙。</p>
+<p>时间一天天过去，赵军的防御工事越修越高，秦军也越来越沉默，近百万人对峙的长平战场，陷入了僵局。</p>
+<p>沉默的丹水两岸，空气中是可怕的寂静。</p>
+<p>这种百万级别的僵局，双方渐渐都开始无法接受了。</p>
+<p><strong>因为不光秦国耗不起，赵国渐渐发现，他们也耗不起了。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555685.jpeg" alt="图片" /></p>
+<p><strong>画真走心啊，瞅瞅赫鲁晓夫这一脑门子汗。</strong></p>
+<p>秦国自商鞅变法后，整个国家就变成了两种职业，要么是农民，要么是战士，这也就导致了整个国家的战时资源动员能力极强，虽然路远艰苦，补给线长，但还是能够源源不断的送上来。</p>
+<p>赵国开始耗死秦军的想法，在战争开始后，慢慢发现，其实已经行不通了。</p>
+<p><strong>战争的成本</strong></p>
+<p>还是要再次翻开同时代的兵书经典孙子兵法。在作战片篇中，非常浓墨重彩的描写了作战的成本：</p>
+<p><strong>凡用兵之法，驰车千驷，革车千乘，带甲十万，千里馈粮，则内外之费，宾客之用，胶漆之材，车甲之奉，日费千金，然后十万之师举矣。其用战也胜，久则钝兵挫锐，攻城则力屈，久暴师则国用不足。</strong></p>
+<p>翻译一下：</p>
+<p>驰车，是作战车，革车，是辎重车。</p>
+<p>一辆驰车，配备75人的作战方队。</p>
+<p>一辆革车，配备25人的后勤团队，包括炊事班，养马的，人医，兽医，修补工匠，砍柴打水的等等。</p>
+<p>这样的一千辆车的军队加起来，就是十万人。</p>
+<p>所谓“千乘之国”，就是指能武装出十万人部队的国家。</p>
+<p>由于此时的车战已经不是主旋律，此时的后勤部队的配备会更高，人吃马喂都是钱，所以大军只要一开动，十万大军日费千金是标配消耗。</p>
+<p><strong>打仗的本质，是为了获利！</strong></p>
+<p><strong>如果旷日持久，兵会疲敝，国家会被拖垮。</strong></p>
+<p>像秦国此时的千里运粮，需要耗费二十个人的粮食，才能运一个人的粮食上前线。</p>
+<p><strong>而且更重要的是，秦国别看远，有着大量的水路可以占便宜，陆运的距离并不比赵多走上多少。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555756.jpeg" alt="图片" /></p>
+<p><strong>水路的运输将极大地将物流成本降下来！</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555665.jpeg" alt="图片" /></p>
+<p><strong>赵国那边别看主场作战，但它的地形却讨不上什么主场便宜。</strong></p>
+<p><strong>由于跨越太行山区的路不好走，能很多都是羊肠小道，看起来短，其实这种穿越山脉往前线送粮食的消耗非常大。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555755.jpeg" alt="图片" /></p>
+<p>“井陉”实地图，注意中间的这两条深深的印，这是车辙，后面的“接竿大泽乡”时有重点篇幅，届时会详细介绍古代物流的真实操作。</p>
+<p><strong>而且更重要的是，赵并不是一个产粮大国。</strong></p>
+<p><strong>他的国土面积有一半还是在北边的游牧区。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555939.jpeg" alt="图片" /></p>
+<p>对比下两国的国力差距吧。</p>
+<p>双方在几十万大军的消耗下，物资像热锅里的雪一样迅速消融。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557035.gif" alt="图片" /></p>
+<p>赵耗不起了。</p>
+<p>在这个节骨眼上，双方都做出了破局的应对。</p>
+<p>先是赵孝成王这边出招了。</p>
+<p>他与楼昌和虞卿两个宠臣商议，打算御驾亲征。</p>
+<p>楼昌认为这样做无济于事，应该派使臣去秦国议和。</p>
+<p>而虞卿则持不同态度，秦国付出了血本，这是奔着灭我们来的，议和肯定没戏，应该去楚国、魏国活动，使秦国畏惧各国的合纵抗秦，这样再去议和才有成功的可能。</p>
+<p>两个选择中，赵孝成王并没有看清楚事情的本质。</p>
+<p>就像虞卿所说的，<strong>秦下了这么大的血本，是为了大赌的，怎样的议和条件能让此时的秦国离场呢？</strong></p>
+<p>他选择了楼昌的建议，派郑朱前去秦国议和。</p>
+<p>秦国却利用了赵国求和的机会，对赵国使者郑朱殷勤接待，并刻意向各国宣传秦、赵已经和解，借以防止各国出兵救赵。</p>
+<p>本来其余各国就害怕得罪秦国，赵国的处境因此变得更加孤立。</p>
+<p>赵国的这道破局题选错了，秦国接下这道题答了满分。</p>
+<p>接下来，秦国出招了。</p>
+<p><strong>秦国此时的处境极其难受，大军已经僵在这了，如果撤军，前面就都前功尽弃了，但由着仗这么打下去，越来越多的人被动员到了这场战争上，庄稼就都荒了，来年吃什么就成了很大的问题。</strong></p>
+<p><strong>事实上，此战过后，秦国十多年内没有再出现过大规模的战争，也是因为这场战争的成本太高了，转年秦国就出现了大饥荒，国家根本缓不过劲来。</strong></p>
+<p>秦国想速战，再这么拖下去会越来越危险。</p>
+<p>速战的关键点就是越来越稳重的廉颇。</p>
+<p>为了搞定廉颇，范雎从秦昭王那申请了二十四万两黄金的巨款，相当于大军一个礼拜的成本，去赵国用反间计，大肆宣传廉颇老了不敢出击，这就要投降的流言，并旁敲侧击秦国人现在想起赵奢来还害怕，他儿子赵括就带有着优良的抗秦基因，天生就是秦国人的克星。</p>
+<p>流言经过了层层的放大，在赵国的决策圈里引发了巨大效应，廉颇打不过而畏战的说法越来越多的出现在朝堂的讨论上。</p>
+<p>面对秦国扔过来的这道选择题，其实赵孝成王已经并没有太多的选择了。</p>
+<p><strong>一方面，如果接着耗下去，眼下赵国的国家机器已经看出了耗竭的趋势，打仗就是打钱，穷的国家就是打不过富的国家。</strong></p>
+<p>以秦赵两国目前的疆域面积，赵国基本上是在以一隅敌半个中国，再加上并没有什么国际力量能够指望的上，任由廉颇继续耗下去是不现实的！</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555939.jpeg" alt="图片" /></p>
+<p>再上关键图。</p>
+<p><strong>不是廉颇的方式不对，只不过是不同量级的国家条件已经无法允许再进行如此的消耗战了。</strong></p>
+<p>当年二次大战的转折点，在欧洲战场上公认是斯大林格勒战役；太平洋战场上公认是中途岛海战；中国战场比较汗颜，一直没有转折。</p>
+<p>有一个总的转折点是毋庸置疑的，大战略上就从未选对的小日本在珍珠港将美国人拉进牌局之后，这把牌的输赢就已经确定了。</p>
+<p><strong>一方面是有座大金山的大胖子，他输一百把也没关系！他每输一把就说：别走，咱接着来！而且赌注越压越大，你越往后赢就越没底，对方的实力深不见底，你永远也探不到他的下线在哪，他只要赢回来一把，你就完了。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555786.jpeg" alt="图片" /></p>
+<p>更何况你的牌技也许还不如人家。</p>
+<p>在赵国人的眼中，秦国就是那个有着大金山的胖子，秦国的动员实力有多少，你根本就不知道！你只会看到他对你深不可测的迷之微笑。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142556981.gif" alt="图片" /></p>
+<p>反观秦国那边，虽然补给线很长，但由于商鞅变法后，所有的国家户籍进行造册，土地进行丈量，国家有多少壮丁，有多少土地，能打出多少粮食，我能征调多少资源运到长平前线，在秦王和他的决策层中，是有一笔账的。（<a href="http://mp.weixin.qq.com/s?__biz=MzUyMzUyNzM4Ng==&amp;mid=2247483836&amp;idx=2&amp;sn=aac6c921d9f0cf4c5afa5fbaa5aa35ea&amp;chksm=fa3a7409cd4dfd1f7c31e6bf2297617ebb60a4fd7d1ddbac792ee6c4518ee70dc26670a3b449&amp;scene=21#wechat_redirect">第三战：商鞅变法（全）秦并天下的战争机器，开动起来了</a>）</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557232.gif" alt="图片" /></p>
+<p><strong>商鞅当年最伟大的地方，就是帮助秦国拿到了那个时代的“大数据”！</strong></p>
+<p><strong>这场败家烧钱的仗，秦国还能支撑多久秦国的决策高层是可以大概估算出来的，所以他们敢稳住赵国使者给别的国家做样子但并不提谈和的事，就是要接着跟你打下去。</strong></p>
+<p><strong>仗打到最后，国家的体制建设等等一系列深层次的底牌都被翻到了明面上！</strong></p>
+<p>**
+**</p>
+<p><strong>战场上的较量仅仅是冰山一角，战争的“冰山效应”开始显现无疑！</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142555836.jpeg" alt="图片" /></p>
+<p>由于此时摸不着对方的底，自己的底牌却快翻干净了，其实有没有这流言，赵孝成王都要进行改变了，在和谈之前他还想御驾亲征呢，本身就是已经坐不住了的体现。</p>
+<p><strong>与其说史书上描写是范雎的谣言起了作用，倒不如说是换将的举措更符合赵国现在的实际情况。</strong></p>
+<p>赵国需要一个善于进攻，脑子活泛的将领去和秦国进行正面厮杀，去尽快结束这场战争。</p>
+<p>这个时候，赵孝成王只能去选择赵括。</p>
+<p><strong>我们看历史时，有一个很重要的态度：不要盲目相信史书中的描述，尤其是史书中的因果逻辑。</strong></p>
+<p>比如说，秦国人一用间谍，赵王就上当了，白痴赵括就上场了，赵国的四十万人就被埋了。</p>
+<p><strong>还原到历史中，我们就会发现，很多重要的决策，他有他的诸多综合考量，做决策的历史人物也并非都是二百五，看似很莫名其妙的决定其实都有着他很深的逻辑和原因。</strong></p>
+<p><strong>拨开历史的迷雾，你会发现，很多时候，他真的不得已。</strong></p>
+<p>在孝成王做出换将的决定后，有两个很关键的人做出了反对意见。</p>
+<p>第一个是蔺相如，这个廉颇的刎颈之交说出了一句很短但很有智慧的话：“括徒能读其父书传不知合变也”</p>
+<p>意思是赵括虽然能把书上的兵法读的滚瓜烂熟，但却不知道临阵的应变。</p>
+<p>第二个，是赵括的老娘，这个老娘可以说是中国历史上比较著名的母亲，因为她把她儿子分析的一清二楚。</p>
+<p>括母对赵王说：赵括他爸爸当初就说过，这小子绝对不可为大将。</p>
+<p>赵王说：为何？</p>
+<p>括母说：这小子确实是从小就学习兵法谈论军事，而且特别聪明，他爹总让他撅的一愣一愣的，我当初也以为这小子挺厉害的，但他爹却不这么认为。</p>
+<p><strong>我家老赵说：用兵打仗是关乎生死的事，他却把生死这么严肃的事说的这么轻而易举，所以这小子一定不可以为将，为将必是国家的祸害。</strong></p>
+<p>尤其当我看到现在您让他当大将后，他把头都快抬天上去了，把您赏赐他的财物全置了房子置了地，我就更觉得他不行！</p>
+<p>当初他爸爸统军时和手下的所有官兵都打成一片，将赏赐的东西全都分给手下人，接到命令的那天起就不再过问家事。</p>
+<p>他哪像个要打仗的样子，您一定不要派他去。</p>
+<p>赵王说“这事我已经决定了。”</p>
+<p>赵括的母亲看没有劝动，最后上了一道保险：要是这小子将来打败了，请大王不要株连我们家族的人。</p>
+<p>赵王答应了。</p>
+<p>能把自己的儿子看的这么明白的母亲其实并不多见，老话是“知子莫若父”，你别看当爹的很多时候并不跟当妈的那样跟孩子在一块的时间多，但当爹的往往比当妈的更能评判自己的产品质量。</p>
+<p><strong>孩子当初赵奢判断他这个儿子时，并没有从军事专业素养上着手，而是说他对生死之事太过于轻松。</strong></p>
+<p><strong>用佛法中的看人标准说：这个人缺乏恭敬心。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142556006.jpeg" alt="图片" /></p>
+<p><strong>要知道一旦带兵出发，就是民之司命，每一个指令都关系到千万将士们的生死，所以每一个决定，都要深思熟虑，每一个决定，都要郑重其事。</strong></p>
+<p><strong>这确实是需要一颗恭敬心的！</strong></p>
+<p>就这样，赵括，带着他的踌躇满志与理论战术，意得志满的来到了长平战场。</p>
+<p>赵母与蔺相如在邯郸的黄昏里</p>
+<p>默默地一声叹息。</p>
+<p><strong>杀神出山</strong></p>
+<p>得到赵括挂帅出战替下了廉颇的消息，秦国那边可以说是狂喜的。</p>
+<p>赵国的临阵换将实际上在用明码给全世界拍了一封电报。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142556528.gif" alt="图片" /></p>
+<p>赵军要出击了。</p>
+<p><strong>在这个生死时刻，秦国体现出了对国家命运的最大恭敬，将把握最大的底牌掀开，摒弃一切不同思想请出了之前放在了一边的帝国符号！</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142556232.jpeg" alt="图片" /></p>
+<p>杀神白起登场，来到了他这一生，最后，也是最波澜壮阔的长平战场！</p>
+<p>秦昭王在命令白起挂帅后进行了全面的消息封锁，胆敢泄露白起为将者斩！</p>
+<p>此时白起的名头太大了，万一把赵括吓得畏首畏尾了前面就都白折腾了。</p>
+<p>赵括上任之后，为了尽快树立自己的威信，换掉了此前廉颇的老部下，提拔了一批少壮派，这个可以理解，一个人一套班子，这是咱中国人的老规矩。</p>
+<p>人可以随便换，但事儿必须得办！他明白，他是带着任务来的，赵王之所以换他来是让他又好又快的解决战斗的，但比较出人意料的是，他还没下手，沉默了很久的秦军首先发动了进攻。</p>
+<p>白起的第一步，是要给赵括送礼找自信的，秦国的进攻被赵军打退了，而且秦军的表现给赵括的感觉是，这支秦军真的并非不可战胜，还是十年前让我爹揍了的那支秦军。</p>
+<p>他忘了十年前的那只秦军他见到时已经跑了好几十公里路了。</p>
+<p>赵括初战告捷，消息传到赵国朝堂之上，赵王大喜，他下令嘉奖赵括，同时命令赵括全线出击，速战速决。</p>
+<p>初战告捷的赵括同样认为，兵贵神速，应该趁此时秦军新败，军心未稳，我军士气大振而冲上去和秦军决战。</p>
+<p>按说他的这个想法没有错，但他应该先分兵去试探进攻印证这个想法，而不是将所有筹码全部压了上去。</p>
+<p>当然，双方都是等量齐观的毛五十万人，试探性进攻很有可能会变成了添油战术被秦军挨个吃掉。</p>
+<p><strong>战争最大的魅力在于，你有多种多样的选择，你面临着瞬息万变的变化，每一个选择看起来都是那么的机会无限，每一个选择背后又都是那么的陷阱暗藏。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142556364.jpeg" alt="图片" /></p>
+<p>在重重迷雾中，你该怎么选？</p>
+<p>这比我在这打嘴炮可难太多了。</p>
+<p><strong>要不第一流的人才永远在军界和商界呢！</strong></p>
+<p><strong>人家那是瞬间的抉择！筹码都是惊心动魄的大分量！</strong></p>
+<p>最终，赵括并不意外的选择了全军出击，宜将剩勇追穷寇！</p>
+<p>赵括的一声令下，赵军全部精锐渡过了稳固的丹河防线，与丹河西岸的秦军展开激战。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557238.gif" alt="图片" /></p>
+<p>交战后赵括发现，秦军死伤甚重，逐渐不支，这更印证了他的最初想法。</p>
+<p>秦军是可以战胜的。</p>
+<p>再次大胜的赵括并没有就此停止追击，而是继续突进，追杀秦军。</p>
+<p>赵括大军一直追到了秦军大本营，并迅速展开了攻击，赵军和秦军在营垒间展开厮杀，一直到此时，赵军仍是占上风的。</p>
+<p>此时的白起在干什么？</p>
+<p>他在等待。</p>
+<p>等待赵括掉入自己预先设计好的口袋之中。</p>
+<p>他派出两支奇兵，一支两万五千人，绕到百里石长城后，突袭赵军，攻下了本该无比坚固此时却仅有少数人驻守的长平关，随后又向百里石长城防线上的故关发动攻击，堵死了赵军连接邯郸最为重要的关口。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142556635.jpeg" alt="图片" /></p>
+<p>原谅我的美工水平，不许笑，说你呐！还笑！</p>
+<p>另一支五千人的骑兵，则准确的穿插至赵军的前后两军之间，将赵军的主力部队与后勤补给部队一分为二，截断了赵军主力的粮道。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142556910.jpeg" alt="图片" /></p>
+<p>此时，守营的秦军死命的拖住了迎面的赵军精锐，但赵军势猛，秦军防守的很艰辛。</p>
+<p>白起看到两只奇兵都已经达到了战略构想，于是白起还是从正面硬扛赵军的守军中挤出了援兵，迅速驰援刚刚的两条包围线。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557014.jpeg" alt="图片" /></p>
+<p>下面是结合地形画的，原谅我的水平，已经是我的巅峰水准了。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557200.jpeg" alt="图片" /></p>
+<p>如果看不懂咱上专业的。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557206.jpeg" alt="图片" /></p>
+<p>图出自《中国历代战争史》。</p>
+<p>至此，依托着秦军本部壁垒，丹水，长平当地的地势，白起三段论八字形的对四十万赵军完成了精准切割。</p>
+<p><strong>中国历史上，技战术水平最高的包围战术成功了。</strong></p>
+<p><strong>这可是四十多万围了四十多万！</strong></p>
+<p><strong>非长平之地势！</strong></p>
+<p><strong>非丹水之险阻！</strong></p>
+<p><strong>非秦军壁垒质量达标！</strong></p>
+<p><strong>非秦军技战术素养过硬！</strong></p>
+<p><strong>非杀神出鞘鲸吞的大手笔！</strong></p>
+<p><strong>上述缺一，长平之围均不可能实现！</strong></p>
+<p>等赵括得到被围消息时，白起已经依托长平的地势和前方自身的营垒完成了包围，赵括急忙率军突围，连续猛攻，仍然未能突破秦军的包围圈，白起咬着牙扛下了赵军一波又一波的突围。</p>
+<p><strong>按理说，如孙子兵法中所说，十倍于敌军，才能围，因为被围的人会困兽犹斗的集中所有力量突围！</strong></p>
+<p>白起手中的兵力并不比赵括多出多少，进行围歼战，压力是极大的！</p>
+<p>如果包饺子的皮儿太薄的话，这个饺子就会让陷给撑破。</p>
+<p>只有白起，有这种水平，能够指挥出这种一比一比例包围的百万级会战！</p>
+<p>眼下的秦国饺子皮就在承受着赵国大陷的猛烈冲击。</p>
+<p><strong>面对赵军的不断突围，秦军的伤亡是极其惨重的！白起后来对秦昭王做战后汇报：伤亡近半，实为惨胜。</strong></p>
+<p>在这里要跟大家解释下的是，并非说这个伤亡近半是指那五十万秦军死了二十五万。</p>
+<p>**这里的五十万秦军中，包含了至少超过三分之二的后勤人员，**具体这个数未来的战役会分析。</p>
+<p><strong>也就是说，秦军和赵军的战斗人员实际上大约是17万对15万左右，此战秦军战斗精锐损失了七八万。</strong></p>
+<p>猛冲不破之后，赵括决定固守待援，下令停止攻击。</p>
+<p>他也许再坚持一下，他的这个“大馅”就能逃出生天，历史将在瞬间掀开另一幅篇章！</p>
+<p>他的固守待援，此时已成奢望，因为消息根本传不出去了！</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557090.jpeg" alt="图片" /></p>
+<p>此时此刻，赵军能够支援的那两条绿线的汇总点故关，已经被白起堵死了！</p>
+<p>即便消息能够传出去，你家还能凑出人来吗？</p>
+<p>赵括消停后，白起开始派轻兵骚扰，同时马上回国找增援，秦昭王在听说白起得手后，马上开始了一路飞车。</p>
+<p>昭王亲自赶到了河内，下令将所有河东河内的十五岁以上男子全部升了一级爵位，悉数火速开往长平战场！</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557232.jpeg" alt="图片" /></p>
+<p><strong>两郡人民开始源源不断的加固包围圈，并固守故关，阻断了赵国的所有救援企图！</strong></p>
+<p><strong>在战役的最后时刻，秦国的举国体制再一次的显示出了巨大的动员优势，这样规模的包围战，在古代史上仅此一例。</strong></p>
+<p><strong>可能也只有秦国的举国体制，才能够有这如此大的手笔！</strong></p>
+<p><strong>随后到底有多少河东人民被动员上了长平前线去加厚饺子皮，史书无载，历史在最后一刻，最终选择了实力更强的那一位！</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142558237.gif" alt="图片" /></p>
+<p>长平大包围，一围，就是四十多天。</p>
+<p>这四十多天里，其实赵括展现出了非常高的指挥素养，远非后世所批评的那样一无是处，<strong>四十多天里，赵军没有出现内乱，没有出现投敌，而是成建制的始终让秦国人高度紧张。</strong></p>
+<p><strong>这种对军队的掌控力就不是谁都有的。</strong></p>
+<p>被围第四十六天，赵括决定突围，**最后他还将部队分为四个梯队，轮番冲杀，循环往复，兵分奇正，**这也再次体现出了他的用兵手段。</p>
+<p>其实如果说他没有遇到白起，也许胜负真的并不好说，至少这个包围不见得冲不出去。</p>
+<p>他本人在突围过程中被射杀。</p>
+<p>他死后，赵军四十万人投降，近百万人的长平之战终于落幕。</p>
+<p>如今已经没有人能知道赵括当初的想法了，在他的整个指挥过程中，他确实犯了冒进的错误，并没有谨慎的分兵追击，而是主观的认为决战则必胜，没有给自己留退路，并没有想到一万中的那个一，最后身死留下千古骂名，也是咎由自取，怨不得旁人。</p>
+<p>他的千古骂名并不怨，因为他把赵国的老本全都赔进去了。</p>
+<p><strong>正如他老爹当初对他的评语：兵，死地也，而括易言之。</strong></p>
+<p><strong>这句话，也许才是长平之战留给我们的最大收获。</strong></p>
+<p><strong>其实无论是什么事，说起来和做起来都是有着巨大的区别的，一件事往往说起来容易，而一旦真做起来，就发现有千头万缕需要解决的问题，每个问题都不是简简单单能解决的。</strong></p>
+<p><strong>伟大的明代圣人思想家王阳明说的那句：知行合一，正是我们所要终身去体悟的。</strong></p>
+<p><strong>每当做事心绪沉浮之时，请想想赵括，然后带着一颗恭敬之心去处理每一件事。</strong></p>
+<p><strong>善莫大焉！</strong></p>
+<p>赵括死了，他省心了，但剩下的四十万赵国降军给白起留下了很大的难题。</p>
+<p>按规矩来说，俩办法。</p>
+<p>一，放回去。</p>
+<p>二，带走。</p>
+<p>大家应该都知道，白起没有按规矩来，最后将这四十万赵军全部坑杀，背上了千古骂名。</p>
+<p>后世的无数人谈到此事时，大体上两种态度。</p>
+<p>一，白起嗜杀。</p>
+<p>二，秦军嗜杀，脑袋很重要。</p>
+<p><strong>因为白起的影响力以及他的悲惨结局和这次中国历史上规模最大的杀降卒案件，自此诞生了一个著名的诅咒——杀降者不祥。</strong></p>
+<p><strong>这条诅咒也确实如此，古往今来，几乎没有一个杀降者有善终。</strong></p>
+<p>但我还是要说一句。</p>
+<p>白起在下达坑杀命令时，他就像对面的赵王换将那样，路怎么走，他根本没得挑！</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557580.gif" alt="图片" /></p>
+<p>赵军的这四十万降卒，此时成为了白起手中无可奈何地烫手山芋。</p>
+<p><strong>他不得已的第一个原因，是这帮赵国人不能放回去。</strong></p>
+<p><strong>自打白起进入军界后，秦国的整体眼界往上进行了一个大提升。</strong></p>
+<p><strong>秦国已经渐渐的不在乎一城一地的得失了。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557980.gif" alt="图片" /></p>
+<p>你得来真格的！</p>
+<p><strong>要聚焦对敌国有生力量的消耗！</strong></p>
+<p><strong>白起在不断地大规模大打歼灭战之后，秦国突然发现，每一次歼灭战后，会得到很长一段时间的敌国国防真空。</strong></p>
+<p><strong>或者说这个国家会在很长时间内无法形成威胁。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557914.gif" alt="图片" /></p>
+<p><strong>这次秦国举国下了血本，上千万人次的千里馈粮（不要怀疑这个数字，供应几十万大军的人吃马喂，尤其前线是千沟万壑的黄土高原，是需要下血本的），昭王还亲自征调了所有河内，河东之地的壮丁上前线，此战的消耗是极其惊人！</strong></p>
+<p>这不是没有风险的！万一那五国在别的方向捅你一刀呢？</p>
+<p>您这可是拼着内力呢！</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557264.jpeg" alt="图片" /></p>
+<p>秦昭王是在豁出命去打大牌！</p>
+<p><strong>这把牌最终一接锅，如果能灭了赵国最好，如果灭不了，昭王的的最低接受目标，也是必须把这赵国的四十万有生力量全部杀伤！</strong></p>
+<p><strong>一旦这几十万赵国棒小伙子放回去，后果不堪设想。</strong></p>
+<p><strong>一旦龙归大海，没俩月，赵国又能组织出几十万大军跟你死磕！</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142558018.gif" alt="图片" /></p>
+<p>下一场大战，幸运女神还能如此眷顾你吗？</p>
+<p>很多人会说：你可以收编啊！或者说把他们迁往别的地方当农民啊！</p>
+<p>这个我们只能说：真的做不到。</p>
+<p><strong>如果几万人，你可以打散，收编，因为他的体量小，你可以消化。</strong></p>
+<p><strong>但几十万人，和你一边胖的分量，你怎么短时间进行消化？</strong></p>
+<p><strong>这几十万人你怎么迁往本土？</strong></p>
+<p><strong>哪里有这么大的土地去安置几十万小伙子？</strong></p>
+<p><strong>又有哪个地方可以消化几十万的社会不安定因素？</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557641.jpeg" alt="图片" /></p>
+<p>即便有，这几十万人万一又跑回故土了呢？要知道人家可是有家的。</p>
+<p>你可以说，把这几十万人打散，分往几十个地方分别消化。</p>
+<p><strong>这在今天如此的社会分工与行政效率都很难做到这种高危民生工程！</strong></p>
+<p><strong>当时的四十万赵人大约相当于秦国人口二十分之一，换算过来，如果今天我国突然来了7000万中东难民，给各省直辖市派任务安排消化，你看哪个省长敢拍胸脯？</strong></p>
+<p><strong>而且最重要的问题是，即便你能够照单全收，也再也没有粮食能应付这突然多出的几十万张嘴了！</strong></p>
+<p>当时的白起，除了坑杀掉这四十万赵军降卒之外，他别无选择。</p>
+<p>甚至有一种可能，也许下令坑杀的，是秦国高层传来的命令。</p>
+<p><strong>再者说，几十万秦军出来打了这么久的仗，眼睁睁就有那么多脑袋可以当军功了！你怎么面对帐外这几十万如狼似虎的秦国小伙子！</strong></p>
+<p>当然，还有最后一个因素。</p>
+<p><strong>当时人们对杀降根本没概念！</strong></p>
+<p><strong>社会的进步，是在不断地演化下，在大量的规律与事实约定俗成后才产生的。</strong></p>
+<p><strong>他白起，此时就是“杀降不祥”的第一个顶级反面教材！</strong></p>
+<p>公元前300年到公元前200年，是非常波澜壮阔的一百年，这一百年的浓度甚至比全民普及的三国时代还要高！</p>
+<p>浓到根本化不开！</p>
+<p>50多年后，又有一个和白起一边分量，中国史上前三的古来杀神扮演了这个反面典型。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557690.jpeg" alt="图片" /></p>
+<p>这两尊神一摆在那，今后的执兵大将就老实了很多。</p>
+<p>总之，透过历史的迷雾，我们可以想象到，在白起的军帐里，他在下达那个命令时，他其实根本没有选择。</p>
+<p>旷日持久长平之战结束了，可以说秦国此战后终于打垮了六国中的最后一个劲敌，但是大胜后的秦军反而退军了，并没有将利益最大化的趁机一口气灭掉赵国。</p>
+<p>而白起在坑杀四十万赵军后，却是下达了三路灭赵的部署的。</p>
+<p>他令司马梗北定太原，攻略赵国北部，命王龁攻打武安和皮牢，自己则率精锐主力，直奔邯郸而来。</p>
+<p>赵国此时，危在旦夕。</p>
+<p>可能是赵国国运未完，有一个国际掮客受赵王的重托带着重金来到了秦国，找到了范雎，对范雎进行了分析，这个人，是苏秦的弟弟，苏代。</p>
+<p>纵横江湖多少年的苏家人给范雎阐明了一个白起灭赵后的程序推演。</p>
+<p>首先，白起灭了赵国后，因大功必会再度封赏，地位一定会在你之上，他的老领导魏冉就是你搞下去的，他会容得下你吗？</p>
+<p>其次，这场仗之所以会打起来，因为韩国人的上党投降了赵国，如果你灭了赵，北方的赵地会投降燕国，东边赵地的会投降齐国，南边的赵地会投降韩国魏国，秦国又能获利多少呢？</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557676.jpeg" alt="图片" /></p>
+<p>范雎被说动了，也确实如苏代所说，对于他此时来讲，灭赵并不是最优解，于是对秦王说：倾国出战，暴师于外，不若允许割地讲和，修养战士，来年再战。</p>
+<p>秦昭王被说动了，允许了赵国的割地求和，下令班师。</p>
+<p>白起很愤怒，因为作为大将，<strong>他明白在将敌人的有效反抗打垮后，一定要乘胜追击，在对手布置第二层防御的之前迅速扩大战果。</strong></p>
+<p><strong>赵国的此时能动员的有生力量都打没了，现在邯郸几乎就是不设防城市，不趁着这个时候再向前拱一步，他日你再想灭他，又将付出多少代价！</strong></p>
+<p>不过他没有办法，只能回军。</p>
+<p><strong>这侧面凸显了秦国体制建设的伟大之处，多大的腕，你也得听宣！</strong></p>
+<p>事实也确实如白起所言，秦昭王失去了在他有生之年灭赵的机会，九个月后，想明白了的昭王再度兴兵，白起生病，王陵带兵伐赵，被赵军所败。</p>
+<p>白起病愈后，秦昭王令白起为将，白起说：邯郸实未易攻，且恐诸侯之救将至。诸侯怨秦日久，秦虽胜于长平，士卒损失过半，国内空虚，今远绝河山而争人国都，赵应其内，诸侯攻其外，破秦军必矣。</p>
+<p>白起在分析过后推辞再三不肯为将。</p>
+<p>白起作为一代名将，很明白的将战争的成本论进行了阐明，现在再度兴兵，成本太高，国家已经受不了了，国际势力群狼环伺，咱们很危险。</p>
+<p>其实潜台词是：灭赵的好时机已经错过去了。</p>
+<p>老将军请不动，秦昭王闷了一口气只好让王龁替回了王陵继续进攻邯郸。</p>
+<p>不过这一仗，又变成了旷日持久的消耗战，魏国的信陵君和楚国的春申君这两个公子还带来了兵马援赵，这让战争更加的没完没了。</p>
+<p>其实这两国来的都比较偶然，楚国之所以来，是因为平原君赵胜求援时最后带上了自我推荐的毛遂，毛遂在楚国犹如蔺相如附体，三步贴到楚王跟前，又是恐吓又是讲道理的逼出了赵楚的歃血为盟。</p>
+<p>魏国那边本来被秦国吓得已经尿了裤子，魏王如何也不肯出兵，但平原君赵胜的媳妇是信陵君魏无忌的姐姐，魏无忌最后通过魏王宠爱的如姬将调兵的虎符偷了出来（魏无忌曾帮如姬报杀父之仇）。</p>
+<p>在调兵时大将晋鄙生疑，魏无忌门客候嬴的朋友杀手朱亥又干掉了晋鄙，魏无忌成功偷得兵权，自行北上援赵。</p>
+<p>此时的王龁已经围攻了邯郸一年多有余，自长平大战后，秦国的这台战争机器由于连年的大规模攻伐，也露出了疲态，各国援军到来后，秦打的越来越艰难。</p>
+<p>秦昭王听到风言风语，说白起在说风凉话，但他还是按下怒气，再次征召白起去扭转局势。</p>
+<p>按说无论怎样，秦王一再下令，白起都应该以国事为重了，毕竟能力越大，责任越大。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142558334.gif" alt="图片" /></p>
+<p>不过白起却忘了功高必震主的铁律，没有收敛自己的锋芒，当然他也有他的理由，他毕竟太特殊了，他的军功在那个时代属于开天辟地第一人的存在。</p>
+<p>他认为自己是有资历任性的，选择了在国之生死大事上再一次任性，继续称病。</p>
+<p>同年十月，秦昭王一怒之下将白起贬做士兵，放逐到了阴密（甘肃灵台）。</p>
+<p>同年十二月，白起被秦昭王赐宝剑，自刎而死。</p>
+<p>杀降不祥，古来杀神终于被他自己带走了。</p>
+<p>后来秦军一再战败，被魏无忌大破秦军主力，解邯郸之围，第二次旷日持久的攻赵行动失败，秦国也由于连年远征大战，国力大伤元气，二十年内，没再有大的动作。</p>
+<p>白起死后六年，一代雄主秦昭王病逝。</p>
+<p><strong>秦昭王在位共五十六年，这五十六年，是秦国彻底奠定统一优势的时期。</strong></p>
+<p><strong>所有的统一准备，在昭王一朝基本已经做完。</strong></p>
+<p><strong>历史的接力，交到了下一棒。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142557869.jpeg" alt="图片" /></p>
+<p>似乎冥冥中自有天数，秦赵间，注定有千丝万缕的联系，在四十万赵军被坑杀的同时，邯郸的一个赵人诞生出了一个婴儿。</p>
+<p>这个孩子自出生，就带有着一大堆谜团。</p>
+<p>从他被戏说的身世开始，拉开了他谜一样波澜壮阔气吞山河横扫八荒唯我独尊的人生。</p>
+<p><img src="../img/%E7%AC%AC%E5%8D%81%E6%88%98%EF%BC%9A%E7%A7%A6%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%92%E9%99%A9%E5%8F%91%E5%8A%A8%E9%95%BF%E5%B9%B3%E4%B9%8B%E6%88%98.assets/640-20220321142558366.gif" alt="图片" /></p>
+<p>在王龁围困邯郸时，这个婴儿还差点被愤怒的赵国人杀死，惊险异常！</p>
+<p>但在他严冬般的童年度过后，命运向他展示了他的剧本！</p>
+<p>他成为了秦国诸代创业，奋六世之余烈后的最终收尾人，在他的手下，古老的中国第一次完成了统一！</p>
+<p>他给自己起的一个非常响亮的标杆性名号——皇帝！</p>
+<p>后世再没有创造出比这更气派的词语进行代替和更改，一用就是两千多年！</p>
+<p>这个孩子，叫做嬴政！</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../秦并天下/第九战：鄢郢之战（全）杀神横扫汉江平原.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../秦并天下/第十一战：嫪毐之乱（全）秦灭六国的隐藏大线.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../秦并天下/第九战：鄢郢之战（全）杀神横扫汉江平原.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../秦并天下/第十一战：嫪毐之乱（全）秦灭六国的隐藏大线.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

@@ -1,0 +1,656 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>第六战：胡服骑射 - 渤海小吏的封建脉络百战</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../序.html">序</a></li><li class="chapter-item expanded affix "><li class="part-title">一、秦并天下</li><li class="chapter-item expanded "><a href="../秦并天下/第一战：三家分晋（加量修订版）韩赵魏崛起，自春秋来到战国.html"><strong aria-hidden="true">1.</strong> 第一战：三家分晋</a></li><li class="chapter-item expanded "><a href="../秦并天下/第二战：马陵之战（国防成本修订版）战略方向错误导致的魏盛转衰.html"><strong aria-hidden="true">2.</strong> 第二战：马陵之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第三战：商鞅变法（变法始末修订版）秦并天下的战争机器，开动起来了.html"><strong aria-hidden="true">3.</strong> 第三战：商鞅变法</a></li><li class="chapter-item expanded "><a href="../秦并天下/第四战：“合纵”与“连横”（“战国纵横家书”辨别修订版）诸子百家走四方的美好时代.html"><strong aria-hidden="true">4.</strong> 第四战：“合纵”与“连横”</a></li><li class="chapter-item expanded "><a href="../秦并天下/第五战：秦并巴蜀（蜀道修订篇）百年一遇的机会，你怎么选？.html"><strong aria-hidden="true">5.</strong> 第五战：秦并巴蜀</a></li><li class="chapter-item expanded "><a href="../秦并天下/第六战：胡服骑射（全）赵国崛起的关键三十年.html" class="active"><strong aria-hidden="true">6.</strong> 第六战：胡服骑射</a></li><li class="chapter-item expanded "><a href="../秦并天下/第七战：伊阙之战（豫西重镇修订版）杀神登场.html"><strong aria-hidden="true">7.</strong> 第七战：伊阙之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第八战：乐毅破齐（全）远东第一大国的疯狂与没落.html"><strong aria-hidden="true">8.</strong> 第八战：乐毅破齐</a></li><li class="chapter-item expanded "><a href="../秦并天下/第九战：鄢郢之战（全）杀神横扫汉江平原.html"><strong aria-hidden="true">9.</strong> 第九战：鄢郢之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十战：秦为什么冒险发动长平之战.html"><strong aria-hidden="true">10.</strong> 第十战：长平之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十一战：嫪毐之乱（全）秦灭六国的隐藏大线.html"><strong aria-hidden="true">11.</strong> 第十一战：嫪毐之乱</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十二战：王翦灭楚（全）秦国搬开最后的大石.html"><strong aria-hidden="true">12.</strong> 第十二战：王翦灭楚</a></li><li class="chapter-item expanded affix "><li class="part-title">二、楚汉双雄</li><li class="chapter-item expanded "><a href="../楚汉双雄/第十三战：揭竿大泽乡（全）秦“崩”在了哪？.html"><strong aria-hidden="true">13.</strong> 第十三战：揭竿大泽乡</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十四战：破釜沉舟（全）力拔山兮气盖世！.html"><strong aria-hidden="true">14.</strong> 第十四战：破釜沉舟</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十五战：先入关者为王上（全）刘主任的西行漫记.html"><strong aria-hidden="true">15.</strong> 第十五战：先入关者为王上</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十六战：鸿门宴（修订版）刘邦集团的内在升级.html"><strong aria-hidden="true">16.</strong> 第十六战：鸿门宴</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十七战：暗度陈仓（全）月下追回来的“汉中对”.html"><strong aria-hidden="true">17.</strong> 第十七战：暗度陈仓</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十八战：彭城大屠杀（全）楚霸王的闪电战.html"><strong aria-hidden="true">18.</strong> 第十八战：彭城大屠杀</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十九战：背水一战（全）兵仙的一路向北.html"><strong aria-hidden="true">19.</strong> 第十九战：背水一战</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第二十战：拉锯荥阳（全）东奔西走的霸王.html"><strong aria-hidden="true">20.</strong> 第二十战：拉锯荥阳</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第二十一战：会战垓下（全）兵仙与霸王的巅峰对决.html"><strong aria-hidden="true">21.</strong> 第二十一战：会战垓下</a></li><li class="chapter-item expanded affix "><li class="part-title">三、强汉开疆</li><li class="chapter-item expanded "><a href="../强汉开疆/第二十二战：白登之围（全）疑雾重重的汉初顶级大案.html"><strong aria-hidden="true">22.</strong> 第二十二战：白登之围</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十三战：灭诸王（全）既然离别难免，今生何必相会.html"><strong aria-hidden="true">23.</strong> 第二十三战：灭诸王</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十四战：诸吕之变（全）摄政女皇的伟大与悲哀.html"><strong aria-hidden="true">24.</strong> 第二十四战：诸吕之变</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十五战：七国之乱（全）文景之治的缺憾美.html"><strong aria-hidden="true">25.</strong> 第二十五战：七国之乱</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十六战：马邑阴谋（全）儒教、长城、草原的逻辑.html"><strong aria-hidden="true">26.</strong> 第二十六战：马邑阴谋</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十七战：漠南无王庭（全）跨时代的伟大战术革命.html"><strong aria-hidden="true">27.</strong> 第二十七战：漠南无王庭</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十八战：打通河西走廊（全）匈奴梦魇的冠军侯.html"><strong aria-hidden="true">28.</strong> 第二十八战：打通河西走廊</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十九战：漠北大决战（修订版）农耕民族的荣耀之巅.html"><strong aria-hidden="true">29.</strong> 第二十九战：漠北大决战</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十战：定南疆灭朝鲜（全）专治各种不服.html"><strong aria-hidden="true">30.</strong> 第三十战：定南疆灭朝鲜</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十一战：征大宛（全）汗血马的蝴蝶效应.html"><strong aria-hidden="true">31.</strong> 第三十一战：征大宛</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十二战：孤愤之战（全）史家之绝唱，无韵之离骚.html"><strong aria-hidden="true">32.</strong> 第三十二战：孤愤之战</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十三战：巫蛊之乱（全）生生世世莫生帝王家.html"><strong aria-hidden="true">33.</strong> 第三十三战：巫蛊之乱</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十四战：霍光废帝（全）大司马大将军的反噬.html"><strong aria-hidden="true">34.</strong> 第三十四战：霍光废帝</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十五战：王莽篡汉（全）戏精的艺术人生.html"><strong aria-hidden="true">35.</strong> 第三十五战：王莽篡汉</a></li><li class="chapter-item expanded "><a href="../强汉开疆/“强汉开疆”篇总结（1）西汉的脉络梳理.html"><strong aria-hidden="true">36.</strong> “强汉开疆”篇总结</a></li><li class="chapter-item expanded affix "><li class="part-title">四、光武中兴</li><li class="chapter-item expanded "><a href="../光武中兴/第三十六战：王莽复古（全）陨灭三千万人的“德之贼”表演.html"><strong aria-hidden="true">37.</strong> 第三十六战：王莽复古</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十七战：昆阳大逆转（全）天选之子的神话之战.html"><strong aria-hidden="true">38.</strong> 第三十七战：昆阳大逆转</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十八战：河北惊魂记（全）二十八宿召唤神龙.html"><strong aria-hidden="true">39.</strong> 第三十八战：河北惊魂记</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十九战：两京堵赤眉（全）汉末最强匪帮退场.html"><strong aria-hidden="true">40.</strong> 第三十九战：两京堵赤眉</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十战：定关东（全）东南西北的将星闪耀.html"><strong aria-hidden="true">41.</strong> 第四十战：定关东</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十一战：得陇望蜀（全）陇山难，蜀山悲，天下定.html"><strong aria-hidden="true">42.</strong> 第四十一战：得陇望蜀</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十二战：班超通西域（全）小冰期下汉匈博弈的个人英雄主义巅峰.html"><strong aria-hidden="true">43.</strong> 第四十二战：班超通西域</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十三战：党锢之祸（全）东汉王莽们和死太监集团的皇权角逐巅峰战.html"><strong aria-hidden="true">44.</strong> 第四十三战：党锢之祸</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十四战：黄巾起义（全）大乱四百年的开端.html"><strong aria-hidden="true">45.</strong> 第四十四战：黄巾起义</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十五战：189年汉末崩塌（全）顶级谋篇布局下的“为他人作嫁衣裳”.html"><strong aria-hidden="true">46.</strong> 第四十五战：189年汉末崩塌</a></li><li class="chapter-item expanded affix "><li class="part-title">五、三国争霸</li><li class="chapter-item expanded "><a href="../三国争霸/第四十六战：群雄讨董（全）璀璨纷杂的时代开篇.html"><strong aria-hidden="true">47.</strong> 第四十六战：群雄讨董</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十七战：兖州风云（全）年少时的无心插柳，成荫后的阶级背叛.html"><strong aria-hidden="true">48.</strong> 第四十七战：兖州风云</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十八战：挟天子令诸侯（全）曹操巅峰升级的公元196年.html"><strong aria-hidden="true">49.</strong> 第四十八战：挟天子令诸侯</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十九战：官渡之战（全）汉末双神决战到最后一秒的巅峰对决.html"><strong aria-hidden="true">50.</strong> 第四十九战：官渡之战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十战：火烧赤壁（全）曹操不会放过的刘备，士族不会放过的孙权.html"><strong aria-hidden="true">51.</strong> 第五十战：火烧赤壁</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十一战：刘备入川（全）曹操换房本之路上的“点炮”盛宴.html"><strong aria-hidden="true">52.</strong> 第五十一战：刘备入川</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十二战：汉中会战（全）汉末诸神黄昏的上半集.html"><strong aria-hidden="true">53.</strong> 第五十二战：汉中会战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十三战：襄樊惊天大逆转（全）孙权背刺逻辑；关公威震华夏；糜芳叛变之谜.html"><strong aria-hidden="true">54.</strong> 第五十三战：襄樊惊天大逆转</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十四战：夷陵之战（全）先主伐吴始末，永安举国托孤.html"><strong aria-hidden="true">55.</strong> 第五十四战：夷陵之战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十五战：失街亭（全）一步也不能走错的弱者悲哀.html"><strong aria-hidden="true">56.</strong> 第五十五战：失街亭</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十六战：秋风五丈原（全）大梦谁先觉，平生我自知，秋风星落日，光耀天地间.html"><strong aria-hidden="true">57.</strong> 第五十六战：秋风五丈原</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十七战：高平陵之变（全）三百年大悲哀的逻辑原点.html"><strong aria-hidden="true">58.</strong> 第五十七战：高平陵之变</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十八战：淮南三叛（全）人事、利益、威慑、恐吓、荣耀······的政治博弈算法.html"><strong aria-hidden="true">59.</strong> 第五十八战：淮南三叛</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十九战：二士争蜀（全）赚得英雄头似雪，万般回首化尘埃.html"><strong aria-hidden="true">60.</strong> 第五十九战：二士争蜀</a></li><li class="chapter-item expanded affix "><li class="part-title">六、两晋悲歌</li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十战：西晋平吴（全）十分伶俐都使尽，远在儿孙近在身.html"><strong aria-hidden="true">61.</strong> 第六十战：西晋平吴</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十一战：凛冬将至（全）草蛇灰线，伏脉千里的长城内外.html"><strong aria-hidden="true">62.</strong> 第六十一战：凛冬将至</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十二战：八王之乱时无英雄显竖子.html"><strong aria-hidden="true">63.</strong> 第六十二战：八王之乱时无英雄显竖子</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十三战：永嘉之乱（全）善恶到头终有报，只争来早与来迟.html"><strong aria-hidden="true">64.</strong> 第六十三战：永嘉之乱</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十四战：石勒霸北（全）超越种族永远靠的是仇恨，团结群众永远靠的是阶级.html"><strong aria-hidden="true">65.</strong> 第六十四战：石勒霸北</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第65战：东晋立国（全）“光腚北士”与“散装江东”博弈下的门阀政治开端.html"><strong aria-hidden="true">66.</strong> 第65战：东晋立国</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第66战：王敦、苏峻之乱（全）多股真气的冲突下，走火入魔的门阀政治自救之路.html"><strong aria-hidden="true">67.</strong> 第66战：王敦、苏峻之乱</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第67战：桓温灭蜀（1）“血亲复仇”千百年来对于古代社会的深远意义.html"><strong aria-hidden="true">68.</strong> 第67战：桓温灭蜀</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十八战：石虎肆虐（全）超长待机的五胡“狮驼岭”吃人算法之谜.html"><strong aria-hidden="true">69.</strong> 第六十八战：石虎肆虐</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第69战：冉闵屠羯（全）少年闵的奇幻漂流.html"><strong aria-hidden="true">70.</strong> 第69战：冉闵屠羯</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第70战：桓温北伐（上）风云际会后的北国兴与衰.html"><strong aria-hidden="true">71.</strong> 第70战：桓温北伐</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第71战：雄主的膨胀之路（全）天欲福之，必开其慧；天欲毁之，必助其狂.html"><strong aria-hidden="true">72.</strong> 第71战：雄主的膨胀之路</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第72战：淝水之战（全）“摆拍仁主”与“网红门阀”的春秋笔法.html"><strong aria-hidden="true">73.</strong> 第72战：淝水之战</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第73战：兴复大燕（全）：燃烧的北境，爆炸的关中.html"><strong aria-hidden="true">74.</strong> 第73战：兴复大燕</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第74战：拓跋珪复国之谜（全）借我借我一双慧眼吧······.html"><strong aria-hidden="true">75.</strong> 第74战：拓跋珪复国之谜</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第75战：参合悲（全）眼看他起朱楼，眼看他宴宾客，眼看他楼塌了.html"><strong aria-hidden="true">76.</strong> 第75战：参合悲</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第76战：桓玄篡晋（两晋季终章）早悟夜宴终有散，当初赌甚英雄汉.html"><strong aria-hidden="true">77.</strong> 第76战：桓玄篡晋</a></li><li class="chapter-item expanded affix "><li class="part-title">七、南北归一</li><li class="chapter-item expanded "><a href="../南北归一/《南北归一》序：北人南下，为六朝盛衰之总纲！.html"><strong aria-hidden="true">78.</strong> 《南北归一》序</a></li><li class="chapter-item expanded "><a href="../南北归一/第77战：气吞万里如虎（1）每段英雄之旅的开始，都是不拼就死的悲哀.html"><strong aria-hidden="true">79.</strong> 第77战：气吞万里如虎</a></li><li class="chapter-item expanded "><a href="../南北归一/第78战：刘老虎的西征梦（1）《东游记》开场.html"><strong aria-hidden="true">80.</strong> 第78战：刘老虎的西征梦</a></li><li class="chapter-item expanded "><a href="../南北归一/第79战：拓跋珪的心魔（1）“代人集团”登场，弱化版的汉初丰沛集团.html"><strong aria-hidden="true">81.</strong> 第79战：拓跋珪的心魔</a></li><li class="chapter-item expanded "><a href="../南北归一/第80战：后青春的诗（1）刘裕托孤的算盘.html"><strong aria-hidden="true">82.</strong> 第80战：后青春的诗</a></li><li class="chapter-item expanded "><a href="../南北归一/第81战：南龙有悔，北龙在天（1）“亢龙”伐“飞龙”，结局早定.html"><strong aria-hidden="true">83.</strong> 第81战：南龙有悔，北龙在天</a></li><li class="chapter-item expanded "><a href="../南北归一/第82战：冰血暴.html"><strong aria-hidden="true">84.</strong> 第82战：冰血暴</a></li><li class="chapter-item expanded "><a href="../南北归一/第83战：女王的棋局（1）被史官掩盖的北魏版“巫蛊之祸”.html"><strong aria-hidden="true">85.</strong> 第83战：女王的棋局</a></li><li class="chapter-item expanded "><a href="../南北归一/第84战：隐秘的元宏（1）不会哭，咋上权力牌桌？.html"><strong aria-hidden="true">86.</strong> 第84战：隐秘的元宏</a></li><li class="chapter-item expanded "><a href="../南北归一/第85战：时来天地皆同力（1）雍州教父而立之年的奇幻漂流.html"><strong aria-hidden="true">87.</strong> 第85战：时来天地皆同力</a></li><li class="chapter-item expanded "><a href="../南北归一/第86战：六镇之乱（1）北魏统一天下的窗口突然被打开了.html"><strong aria-hidden="true">88.</strong> 第86战：六镇之乱</a></li><li class="chapter-item expanded "><a href="../南北归一/第87战：后三国开篇.html"><strong aria-hidden="true">89.</strong> 第87战：后三国开篇</a></li><li class="chapter-item expanded "><a href="../南北归一/第八十九战：运去英雄不自由.html"><strong aria-hidden="true">90.</strong> 第八十九战：运去英雄不自由</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十战：最后的三国.html"><strong aria-hidden="true">91.</strong> 第九十战：最后的三国</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十一战：东西合拢.html"><strong aria-hidden="true">92.</strong> 第九十一战：东西合拢</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十二战：南北归一.html"><strong aria-hidden="true">93.</strong> 第九十二战：南北归一</a></li><li class="chapter-item expanded affix "><li class="part-title">深度系列</li><li class="chapter-item expanded "><a href="../深度系列/深度系列.html"><strong aria-hidden="true">94.</strong> 深度系列</a></li><li class="chapter-item expanded "><a href="../深度系列/神留言回答.html"><strong aria-hidden="true">95.</strong> 神留言回答</a></li><li class="chapter-item expanded "><a href="../深度系列/改变未来.html"><strong aria-hidden="true">96.</strong> 改变未来</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">渤海小吏的封建脉络百战</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="第六战胡服骑射全赵国崛起的关键三十年"><a class="header" href="#第六战胡服骑射全赵国崛起的关键三十年">第六战：胡服骑射（全）赵国崛起的关键三十年</a></h1>
+<p>战国的一条大主线，就是秦是如何一步步把那六国逼死的。</p>
+<p>这条大主线上，前期的主要受害者，是魏，韩。</p>
+<p>这哥俩因为离得近，而且平分了豫西通道，所以成为了秦国东出的主要打击目标。</p>
+<p>想当年三晋何其威风，中神通独挑四夷，但越往后传，这三晋却真成了全真教，弟子们一代不如一代，在秦国的不断打击下，尤其韩、魏这两国在战国中后期时，已经成为了二三流国家，像韩国直接就变成赵志敬了，一度成为了秦国的伪军。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400320.jpeg" alt="图片" /></p>
+<p>没有杨过和小龙女，秦国这个金轮法王这些年那是实在有够嚣张。</p>
+<p>不过三晋中还是有个争气的后人的。</p>
+<p><strong>赵国成为了中原最后的门面，扛起了中原抵抗强秦的最后一百年。</strong></p>
+<p>赵国这个全真派弟子，是如何无师自通的练了玉女心经完成双剑合璧的进化呢？</p>
+<p>得益于天赐了一个练武的奇才。</p>
+<p>公元前326年，赵肃候在位的第二十四年，也就是苏秦给他兜售“合纵话事人”概念的七年后，他觉得自己快不行了。</p>
+<p>在传位儿子赵雍后，过早的离开了赵国人民。</p>
+<p>赵肃侯在位的这二十四年，总体上来说，挺争气的。</p>
+<p>​</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400413.jpeg" alt="图片" /></p>
+<p>上图，感恩作者布哈林。</p>
+<p>先来看看赵国周边这份乱乎劲吧。</p>
+<p>赵肃侯刚刚继位的时候，西边的秦国已经变法十年了，狼子野心早就昭然若揭了，他在位的这二十多年，也是秦国不断削弱韩、魏的过程。</p>
+<p>东边是战国时代中齐国历任中最贤明的齐威王。</p>
+<p>南面是国力由胜至衰但在位五十年一直不消停的魏惠王。</p>
+<p>北面是楼烦等游牧民族的不断骚扰和虎视眈眈的燕国。</p>
+<p>国境内部还有个恶心人的小强中山国。</p>
+<p>周边国际形势与环境一直非常差，这也是三晋一直都存在的困扰，四面受敌。</p>
+<p>不过赵肃侯却并没有像南边不争气的魏惠王一样将一把本来大好的牌给打砸了，反而一直采取不妥协的对外强硬态度没让赵国吃过一点亏。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400317.jpeg" alt="图片" /></p>
+<p>这在三晋中，赵也一直比那两晋争气的多，算是交出了“任它惊涛拍岸，我自岿然不动”的优异成绩单。</p>
+<p>不过他在的时候可以一直像电影中的教父一样运筹与铁腕，但当教父突然不在了的这一天，周围的黑帮们就想瓜分了这个“柯利昂家族”。</p>
+<p>几个大国就像盘桓已久的狼一样准备伺机而动。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400314.jpeg" alt="图片" /></p>
+<p>赵肃侯逝世后，魏，楚，秦，燕，齐，每个国家都派了万人规模的精锐部队去参加他的葬礼。</p>
+<p>这五个黑帮准备在“柯利昂家”搞点事情。</p>
+<p>不过也不能全怪周围的狼们不地道，看看赵肃侯在位这些年的对外表现吧。</p>
+<p>赵肃侯六年，攻齐国，夺高唐。</p>
+<p>七年，攻魏国。</p>
+<p>十年，联合齐国攻魏国。</p>
+<p>十一年，再攻魏国。</p>
+<p>十七年，还攻魏国。</p>
+<p>十八年，齐魏联军攻赵国，赵肃侯掘黄河大堤水淹联军。</p>
+<p>二十二年，战秦国，秦杀赵将赵疵，占领赵国蔺地与离石。</p>
+<p>在位这二十多年，赵与魏和齐就一直不对付，这次五家派兵奔丧，也是多年的老冤家魏惠王挑的头。</p>
+<p>而此时，继承人赵雍仅仅十五岁，可谓主少国疑。</p>
+<p>几百年后的蜀汉也面临了这样的情景，刘备将家底败光后死于白帝城，留给诸葛亮一个彻底的烂摊子。</p>
+<p>《三国演义》作为中国几千年来虚构做的最好的历史小说，给这段故事加了一段诸葛亮“安居平五路”的戏。</p>
+<p>刘禅年少，精锐殆尽，大领导走人后，卧龙先生不再“卧”，背地里召唤出了神龙，潇洒的在家就安居平五路，扫除了五个方向，四面势力趁火打劫的阴谋。</p>
+<p>《三国演义》这段是编的，当时蜀汉虽然值“危急存亡之秋”，但根本没有五路捣乱这回事。</p>
+<p>这段故事，大概率是借鉴今天的这出真实事件加工而成。</p>
+<p>正所谓艺术，来源于生活，高于生活。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400337.jpeg" alt="图片" /></p>
+<p>接班人年纪小，赵肃侯走人时给自己的儿子留下了他的“卧龙”，肥义。</p>
+<p>托孤重臣肥义为赵雍提出了平五路人马的方案。</p>
+<p><strong>总思路，造势与牵制。</strong></p>
+<p>先来看造势：</p>
+<p>命令赵国全境处于戒严状态，全国四个重镇，代郡、太原郡、上党郡和邯郸的赵军一级戒备，准备随时战斗。</p>
+<p>再来看牵制：</p>
+<p>重金贿赂越王（三流国家了，整个战国就是路人甲，离被灭没多少年了），使越国攻击楚国，将掺和事的楚国拉回到眼下的麻烦中。</p>
+<p>对北方的游牧部落首领楼烦王许以重利，让楼烦王派兵骚扰燕与中山。</p>
+<p>燕一直是弱国，虽然总说“燕赵多慷慨悲歌之士”，但我们一直看到的却总是赵慷慨悲歌，而燕一直在唱民谣。燕一看到楼烦有动作，联想到了赵可能也要出兵夹击，马上就没了打劫的心思。</p>
+<p>中山国虽然没有万乘，仅仅是千乘之国，但由于楔入赵国的版图内，而且后面的大哥是齐国，所以总是跳出来给赵国捣乱，但在楼烦的攻击下，也无暇顾及对赵国的阴谋葬礼了。</p>
+<p>各种贿赂完之后，赵国开始发外交文书，联合韩国和宋国为铁三角联盟。</p>
+<p>当年赵肃侯给赵雍说了个韩国公主当媳妇，关键时刻人家韩国肯定挺自己姑爷，而宋国虽然国富但力小，一直被魏，齐，楚欺负，敌人的敌人就是我的朋友。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400413.jpeg" alt="图片" /></p>
+<p>这两个国家地理位置很特殊，位于秦、魏、楚、齐之间，使赵、韩、宋三国形成三角型结构，将秦、魏、楚、齐四个国家置于两面受敌或者三面受敌的被动局面。</p>
+<p>这种错综复杂的牵制关系让各国都不敢轻举妄动。</p>
+<p>尤其在燕、楚无瑕他顾后，魏、秦、齐集团对赵、韩、宋集团并没有压倒性的优势。</p>
+<p>在做好造势与牵制之后，赵雍强硬命令来会葬的五国军队不得进入赵国边境，都给我门口站着！</p>
+<p>赵国海关只允许五国使者携带各国国君的吊唁之物入境，由赵国负责接待的大臣将他们直接送往邯郸。</p>
+<p>五国使者入赵后，见赵国精锐云集邯郸，鼻子眼中喷火，战争气氛一触即发，谁也不敢有任何的差错，在赵肃侯葬礼后，便匆匆离去。</p>
+<p>魏惠王发起的五国图赵的阴谋被年仅十五的赵雍挫败了。</p>
+<p>年少的赵雍经受住了严峻的考验正式继位，这就是后世大名鼎鼎的“赵武灵王”。</p>
+<p>赵肃侯生了个好儿子，赵雍这个人，可以说是天纵英才，<strong>他也是秦在商鞅变法后，唯一一个堪称可以扭转历史局势的君主。</strong></p>
+<p>在他的治下，赵国这个四面楚歌的国家最后成长成为了六国之中，后期唯一可以硬扛强秦的国家，他做了什么呢？</p>
+<p>历史上有个特别有名的词，叫“胡服骑射”。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400365.jpeg" alt="图片" /></p>
+<p>历史老师给我们讲的是，赵国总受游牧民族和中山国的欺负，赵雍决定穿胡人的衣服，学习胡人的骑射增强战斗力，最终，灭掉了中山国。</p>
+<p>历史老师讲兴衰，总跟讲小儿书似得，真的这么简单吗？</p>
+<p>没那么简单。</p>
+<p>每一次成功的改革都有极其深邃的原因和步骤，我们来一步步看吧。</p>
+<p>胡服骑射</p>
+<p>在赵雍进行大名鼎鼎的全民改革之前，其实在赵国的北方，与游牧势力接壤的那些地方，当地的武装早就已经渐渐地自我胡服骑射了。</p>
+<p>因为传统步兵与游牧民族交战极其吃亏，你两条腿永远也赶不上人家四个蹄儿，你不能总让他骑摩托打黑枪，你得撵上去给他来一棒子。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400649.gif" alt="图片" /></p>
+<p>就像我们之前常说的那句话：“生命会自己寻找出路”。</p>
+<p>在当时的秦和赵两国的北方边境均自发的进行了军事改革。</p>
+<p>赵雍此时的心腹大患，并不是仅仅是历史老师口中的游牧民族与中山，而是他的国家内部。</p>
+<p><strong>他接手的赵国，是个内部矛盾极其严重的国家。</strong></p>
+<p><strong>这个内部矛盾，是北方的以代郡（今大同）为代表的和南方以邯郸为代表的两种文化、两种政治势力造成的南北分裂矛盾。</strong></p>
+<p>这就要说一下赵国的基因了。</p>
+<p>赵国在三家分晋之后，得到了晋国北部的所有土地，也继承了晋从前抵御游牧民族的义务，此时的游牧民族最活跃的地方，正是以赵国北部的阴山为基地。</p>
+<p>关于阴山山脉我们会在汉武大帝的年代详细介绍，到时我们就会明白这条山脉对游牧民族的意义，为何著名口号要说“不教胡马度阴山”。</p>
+<p>因为这份责任，赵国成为了华夏诸国中与北方游牧民族交流最全面、最深刻的国家。</p>
+<p>赵国在长期的与游牧民族打交道的过程中，摸索出来很多有成效的相处办法。</p>
+<p>并非单纯是比谁更狠，谁的飞车党更厉害，更多的，是从成本上出发的。</p>
+<p>比如说通婚，就是老少皆宜的低成本方式。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400371.jpeg" alt="图片" /></p>
+<p>我是你老丈人了，你小子还好意思打我吗？</p>
+<p>我是你姥爷，你小子还敢跟我瞪眼吗？</p>
+<p>当然，后来的匈奴人会说：我特么打的就是老丈人！</p>
+<p><strong>人家赵国是拳头与嫁妆两手都比较硬，既能跟你的飞车党打群架也能跟你当亲家。</strong></p>
+<p>赵国王室与游牧民族的通婚程度也远远高于同在北边的秦国和燕国。</p>
+<p>相比秦国和燕国王室的通婚对象主要指向中原各王国，赵国并没有看不起北方的野蛮势力，<strong>或者说没办法看不起，经常性的“昭君出塞，狄女南归”。</strong></p>
+<p>时间久了，赵国的王位继承人中，流淌着大量的“胡人血”。</p>
+<p>赵国的文化也如同他们国君的血统里有大量的戎狄之血一样，<strong>是华夏农耕文明与北方游牧民族文化的混合体。</strong></p>
+<p><strong>不过这两种文化，有些风马牛不相及。</strong></p>
+<p>赵国为了调试这种矛盾，想了很多办法。</p>
+<p>此前，赵国曾经采用大臣异地就任制，即有游牧背景的大臣到农耕文明的中心邯郸上班，中原系的大臣则到游牧文明重镇代郡（大同）为官，希望达到加强两种文化的交流。</p>
+<p>但这种办法有点理想主义，效果并不好。</p>
+<p><strong>代郡与邯郸在过去的一百多年里逐渐成为了赵国政局的两大中心。</strong></p>
+<p>北方代表游牧势力的代郡逐渐将手伸向了另一个重镇晋阳（原赵氏大本营，今太原）。</p>
+<p>代表中原文明的邯郸则控制了地近中原的另一个重镇上党。</p>
+<p><strong>赵国的南北分裂局势在日渐扩大。</strong></p>
+<p>中原系总认为自己有文化看不起游牧系，而游牧系也总看不惯中原人光会嘴把式，<strong>两种文化、两大政治势力处于不断的争斗状态，而且越离越远，渐渐大有裂土对峙的趋势。</strong></p>
+<p><strong>文明本身的差异是一个原因，而导致两大政治势力无法交汇的另一个重大原因在于地理上的隔绝。</strong></p>
+<p>中山国，像一把尖刀，横插在了赵国领土的中间。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400419-7843240.jpeg" alt="图片" /></p>
+<p>中山国正好楔在赵国的中央地带，全境只有东北角一小块与燕国接壤，其余皆为赵国所包。</p>
+<p>邯郸与代郡之间隔着中山国，邯郸要与代郡交流就得绕一个大半圆。</p>
+<p>你说绕就饶呗，扯啥地理隔绝啊？</p>
+<p>看看这道太行山吧。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400358.jpeg" alt="图片" /></p>
+<p>绕本身不算大问题，但你不仅要绕，道还那么难走，这就是大问题了。</p>
+<p><strong>也因此，南北本来文化就有隔阂，还赶上路不好走，索性就谁都别搭理谁了。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400394.jpeg" alt="图片" /></p>
+<p>两股势力的联系，因此远不如与它们各自临近的中原和游牧之间的交流密切。</p>
+<p>邯郸作为首都，对代郡的控制本来就一直很不力，而代郡出于同游牧民族军事斗争的需要又得不拥有便宜行事的巨大自治权力。</p>
+<p>**
+**</p>
+<p><strong>邯郸与代郡实际上是赵国执行南北不同战略的两个国都。</strong></p>
+<p>所以，<strong>打通南北的通道其实是赵国客观上的刚需</strong>，而并非因为历史书上所谓的受到了“欺负”。</p>
+<p>中山虽然不是强国，但由于处于赵国的心脏地带，齐、燕一直把中山作为牵制赵国的最重要的一枚棋子，属于中山后面站台的老板。</p>
+<p>中山也由于背后有大哥撑腰所以经常像北朝鲜一样没事就发射个导弹，搞个核试验，让赵国胆战心惊。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400397.jpeg" alt="图片" /></p>
+<p>也因为国际势力的不断干预，武灵王他老爹赵肃侯虽然一再击败齐、魏等强国，但却在解决中山国的问题上始终没有取得实质性的进展。</p>
+<p>赵雍的心很高，他下决心在这一届政府任期内解决这个心腹大患。</p>
+<p>但在解决中山这个客观因素前之前，他必须在两种文化中做出抉择。</p>
+<p>因为非国强不得灭中山，<strong>而国强，则需要统一思想。</strong></p>
+<p>再骑墙两头糊弄势必会分裂成一个北赵，一个南赵。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400419.jpeg" alt="图片" /></p>
+<p>那么选哪个好思想呢？</p>
+<p>这时候，他将眼光看向了西方。</p>
+<p>秦国已经变法三十多年了，每十年一个台阶，每一个台阶国家都在爬坡，从击败魏国夺回河西，崤函，到囊括巴蜀，再到吞并楚国的汉中，西方世界已尽归秦国，原因就在于举国尚武。</p>
+<p>秦国从上到下都热爱打仗，每次出征前所有的母亲和媳妇都在嘱咐男人们多砍脑袋回家，杀敌一定不要忘了砍脑袋，要不白砍了，死也要死在战场上，要不白死了。</p>
+<p>赵雍决定不爱红装爱武装，武力是检验国力的唯一标准，宽袍大袖不禁折腾，满口仁义道德也不能当饭吃，蛮夷打扮不丢人，身死国灭才对不起列祖列宗，穿戎狄衣服，练骑马射箭，彻底以游牧民族的文化体制改革赵国。</p>
+<p>决心下了，做起来却极其困难，为什么？</p>
+<p>因为民族情绪和巨大的成本。</p>
+<p>先来说民族情绪吧。</p>
+<p>这个情绪的落脚点主要是在穿胡服上，孔老夫子曾深情的说：如果当年没有管仲同志，我们华夏民族早就都披发左衽了。</p>
+<p>这是在表彰管仲同志帮助齐国称霸当世界警察，教训少数民族的“先进事迹”。</p>
+<p>最后面的“披发左衽”是个啥？</p>
+<p>头发散开，衣襟左开。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400433.jpeg" alt="图片" /></p>
+<p>通俗点就是右面压左面。</p>
+<p>这是游牧民族的衣着发饰，在我们看来太粗鲁，太非礼了，代表着野蛮落后。</p>
+<p>我们华夏民族则是束发右衽，看着就有礼，<strong>也被自认为是文明的象征。</strong></p>
+<p>因为右边手比左边手有劲，在古时，右边也被寓意为力量与暴力，所以你拱手作揖时，要左手包住右手的拳头再鞠躬，象征着你是克制暴力的人。</p>
+<p>只有报丧时，才会右压左，出去跟人拱手客气时可千万别搞错了，你右面压左面小心被讲究的给打出来。</p>
+<p><strong>衣着，服饰，发型，在现在是越乱七八糟越酷，越花里胡哨越吸引人，但在古代，它的意义却极其重要，绝不可轻易变更。</strong></p>
+<p><strong>这是一个政权，民族非常重要的象征。</strong></p>
+<p>像当年满清入关时著名的“留发不留头”，众多大明子民的誓死抗争，就是活生生的例子。</p>
+<p>扬州十日，嘉定三屠，要说江浙老百姓可是出了名的好脾气，可浙江这关都这么难过，两千多年前的赵国就更加不容易了。</p>
+<p>第一关，是民心关。</p>
+<p>这一股浓烈的民族情绪大疙瘩，你化的开吗？</p>
+<p>再说巨大的成本问题。</p>
+<p>这也就是“胡服”后面的“骑射了”。</p>
+<p>练骑射，步兵转骑兵的成本有多大呢？</p>
+<p>类似于培养货车司机当飞行员。</p>
+<p>骑兵的大成本</p>
+<p>骑兵是一个技术性比较强的兵种，对将领和战士的选拔与训练都很严格。</p>
+<p>一般人基本上只要你拿得起刀，你就能到步兵那去凑数，战斗班不行改文工团，文工团不行进炊事班，实在不行还能干受大累的民夫，但用在骑兵上，则没办法这么糊弄了。</p>
+<p>当时的马镫还没有发明出来，双腿在无法借力的情况下骑马绝对是一项高技术工种，你从小没骑过马则更别提骑马打仗了，去草原旅游骑过马的朋友们应该会有感受，反正我是抱着马脖子差点把马勒死。</p>
+<p>哪怕你经过刻苦训练能够熟悉的驾驭马匹了，你就会发现，骑射比骑马更难练。</p>
+<p>骑射不是你看见敌军或猎物后让马打住，你瞄准射击，而是在马高速飞奔的过程中移动抽射。</p>
+<p>注意，不光你是动的，你那靶子（敌人）也是动的。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400452.jpeg" alt="图片" /></p>
+<p>有点类似于这个骑马射飞靶，但注意，那时没有马镫，马也不是这么溜达着，靶也没有那么近。</p>
+<p>这也就意味着骑射比步兵站着射难练的多，在颠簸的，高速的马背上射箭，还要射的准，<strong>没有天赋，没有闲工夫，没有闲钱去训练</strong>，根本不可能。</p>
+<p>这就好比今天训练飞行员，成功上天的代价是和飞行员同等重量的黄金。</p>
+<p><strong>光训练骑射，就需要天赋，功夫，金钱的大规模投入了。</strong></p>
+<p>这还仅仅是入门级别的成本，不光培训费钱，还没算行头呐！</p>
+<p>骑兵的装备比步兵要复杂得多。</p>
+<p>当时赵国的一个骑兵必须要有两匹马，用特制的骑兵弓，配备不同用途的箭，要有长刀和短刀，夜里御寒的皮蓬和可供长途奔袭的口粮和水。</p>
+<p>基本上，培养和装备一个骑兵的费用最少相当于十个步兵。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400457.jpeg" alt="图片" /></p>
+<p>这还不算马的口粮，有牧草还好，如果没有牧草，想要战马精壮，马也是要吃粮食的，一匹马的饭量也相当于十个战士的口粮。</p>
+<p>更可恨的是，马这货晚上也是要没完没了的吃的，还是直肠子，一边吃一边拉，养马比养牛羊费钱的多。</p>
+<p>但没办法，你不能骑着牛上战场，牛大哥脾气一上来你就扔战场上了。</p>
+<p>口粮问题解决了，后勤问题又来了。</p>
+<p>整个骑兵的服务链条很长，有负责平时养马的，给马看病的，直接为骑兵服务的后勤兵。</p>
+<p>骑兵的武器装备不同于步兵，主要由胡人工匠负责生产。骑兵用具中有大量的皮革制品，对牛羊的需求量很大，与游牧生活相关的一系列配套生产随之都要升级，配套，推广。</p>
+<p>是不是听着头都大了，<strong>胡服骑射，实际上是个牵一发而动全身的大动作</strong>。</p>
+<p>你可能会问，这么贵的骑兵，有必要吗？</p>
+<p>单个的骑兵，意义不大，顶多当个侦察兵，通讯员，但如果骑兵的数量成规模化，组建出了一支精锐的骑兵部队，在那个年代，绝对是生物链顶端的存在。</p>
+<p>基本上那就是一支机动的坦克部队，来去如风，机动力，战斗力极强，能够在对方发现，布防前就实施突破。战略打击能力大增，千里击敌变成了可能。</p>
+<p>在火枪出现之前，骑兵对步兵永远都是碾压，一支一万人的骑兵部队击溃十万人的步兵方阵在古代战争史上是常有的事。</p>
+<p><strong>可以这么说，骑兵在军事上对农耕文明天然上就是碾压。</strong></p>
+<p>不过骑兵虽然好，但从当时的生产力上看，本身就不具备普及型。</p>
+<p><strong>每一个骑兵从培养到形成战斗力其实是一种极大地财政负担，强如秦国也没有把这个当做发展方向，要知道秦国天然优势更大，国力强且西北产战马。</strong></p>
+<p>但赵雍为什么却非要组建一支骑兵部队作为头等大事呢？</p>
+<p>你赵国比秦国国力强吗？</p>
+<p>因为赵雍没办法。</p>
+<p>**
+**</p>
+<p><strong>因为骑射代表着游牧的文化。</strong></p>
+<p><strong>赵雍要通过肯定骑兵在赵国的重要地位，以此为突破口，变相的肯定游牧文化，认可与扶植北方势力。</strong></p>
+<p><strong>不再搞“一国两制”，而是统一思想，实事求是，全国人民在这个阶段走尚武的游牧路线。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400447.jpeg" alt="图片" /></p>
+<p>这是“胡服骑射”在目前南北分裂趋势极其严重的当下，对于赵国最大的意义。</p>
+<p>赵雍决定改革后，没有一上来就跟商鞅赛的，你们麻溜的都给我动起来，不换政策就换人的猛冲猛打，而是循序渐进的搞试点。</p>
+<p><strong>第一步，在北方搞试点。</strong></p>
+<p>将已经自我迭代的边关守军们打造成正式的骑兵部队，给番号，给待遇，一切成建制，官方进行选拔，训练。</p>
+<p>你们不再是边防兵啦，你们是帝国特种兵啦，补贴伙食全上来啦，好好干吧！</p>
+<p><strong>第二步，在北方搞练兵。</strong></p>
+<p>北方的游牧民族在面对这支游牧化的“试点部队”时，<strong>自身的机动性强的优势不复存在，但纪律性差，装备差，没有章法套路的缺点被大大放大</strong>，“试点部队”在与北方胡人的军事斗争中取得了一系列的胜利。</p>
+<p><strong>在这里，要跟大家先简要说一下，在战国时代的游牧民族骑兵部队的战法。</strong></p>
+<p>我们想到骑兵部队时，一般会想到对步兵那种巨大的碾压效果，但实际上，骑兵巨大军事优势的确立，要在两晋南北朝时，马镫都配上了，大长枪都挺起来了，步兵的噩梦才算正式到来。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400793.gif" alt="图片" /></p>
+<p>因为那时候，甭管你多厚的战甲，高速战马过去一枪你就完蛋了。</p>
+<p>但战国这个时候不一样，这个时候的主体是骑射，原因还是因为马镫。</p>
+<p>再来说一下马镫的重要性，当时没有马镫，所以你在马上是使不上劲的。</p>
+<p>这就意味着你只能远处射射箭，近了拿把刀砍一砍。</p>
+<p>长兵器你是挥舞不动的，因为你腿无法借力，所以关老爷那时候肯定拿的不是82斤的青龙刀，因为关老爷比划不了几回合就从马上掉下来了。</p>
+<p>汉之前，华夏民族的马战也是学着游牧民族的那套骑射战法。</p>
+<p>碰见面先一顿对射，碰近了在拿马刀比划，马的速度基本上借不上力，马的最大作用还是打完你你追不上我，或者你敢打我时你跑不了。</p>
+<p>游牧军队最大的伤害并非是他来了就把你的军队都灭了，而是他来了抢了一通，完事你没地方找这流氓团伙去。</p>
+<p>不过后来到了卫青霍去病的时代，中国方面先行进行了战术革新，大长枪进入常备装备了，军事战法变成了高强度护甲前期防御，然后撵上去大长枪捅你。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400459.jpeg" alt="图片" /></p>
+<p>问题又来了，这样由于你没有马镫这个借力工具，<strong>力的作用又是相互的，所以你捅他的时候，强大的后坐力很有可能把你从马上也顶下来。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400720.gif" alt="图片" /></p>
+<p>这就很有可能会造成摔伤或踩踏，最后你杀敌一千，自伤八百。</p>
+<p>不过这样战，农耕民族是占大便宜的，哪怕我伤了的这个人今后退伍，退伍后还是可以干农活的，但你游牧民族可是没有那么多壮丁的，我从马上给你挑下来基本上你这人就去见腾格里（蒙语老天爷）了。</p>
+<p>不仅这种换人战术合适，拿着枪往前冲这是不用训练的，会骑马就中了。</p>
+<p>就把练骑射的大成本给降下来了。</p>
+<p>所以最后，就变成了汉武帝跟匈奴人拼人头了。</p>
+<p>我们是中国人，不要跟我们拼生育能力。</p>
+<p><strong>不过即便如此，哪怕降低训练成本之后，大规模的骑兵部队国家还是供不起的</strong>，强如汉武帝将中华大地榨成了渣，最后的巅峰的漠北之战，也是两路仅仅凑了10万精骑。</p>
+<p>**草原之所以要靠骑射为主，是因为人家的生活方式就那个样子，**人家生活是骑马打猎，战争是骑马打人，再加上草原上是缺少铁与木头这种关键军用物资和关键技术的，所以他做不出来长兵器。</p>
+<p>你只能远射也就意味着游牧民族在战国那个时代的军事优势并没有那么明显。</p>
+<p>因为你的很多关键武器的质量是不过关的。</p>
+<p>你的箭头很多还是兽骨做的了，锋利度也堪忧，所以你也许射动物行，但要是碰上穿着防御服的赵国骑兵，你不见得就能一箭毙命。</p>
+<p>但赵国这边的工艺水准是靠谱的，是走在时代前列的。</p>
+<p>你那边还做不出来好防具，全是穿动物皮，你想想，游牧民族面对这支受到了专业化武装的赵国移动射箭队，还能有什么优势。</p>
+<p><strong>第三步，在信心与战斗力成熟后，要让全国人民感受到这支骑兵部队的伟大，用胜利培养国民自信心。</strong></p>
+<p>赵雍亲自带队，率领他的骑兵部队从赵国南部向北进攻中山国，在房子（今河北高邑西南）大败中山国主力部队，然后从南至北横穿中山国，到达赵国的代郡。</p>
+<p>这就相当于一脚将人家防盗门踢开，然后在人家砸一通后又踹开了后门唱着歌走了。</p>
+<p>如入无人之境，大大地鼓舞了赵国国民的信心。</p>
+<p>在树立榜样，激励民心的这三步走后，赵雍感觉到下层的国民们对于胡服并不反感，于是开始找南北两派的代表人物征求意见。</p>
+<p>游牧背景的肥义、楼缓、仇液等人当然同意，而且不光同意，还交出了高质量论文，<strong>从赵国的国情、地形、人文等现实情况出发，有力地论述了施行胡服骑射对国家结束分裂、增强国家的竞争力、促成国家深刻统一的好处。</strong></p>
+<p>不过以赵雍的叔叔公子成和赵文、赵造、赵俊等人为代表的赵国宗室贵族不愿丢掉手中的权力，<strong>以胡服骑射必将引起全国范围内的各项国家政策随之改变、变动太大容易造成国内局势的不稳定为由，阻止赵雍的胡服骑射。</strong></p>
+<p>由于有了三步走的成功实践，赵雍也由此耐心地说服了宗室贵族集团的首领公子成，向他表明了自己改革的决心和对以胡服骑射为标志的全面改革的整体构想，并威胁不改革就改人，不换方法就换人！</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400506.jpeg" alt="图片" /></p>
+<p>高压下，关键人物公子成被拿下了。</p>
+<p>由于公子成对胡服骑射的接受，赵国的宗室贵族在失去大旗后也就都跟着同意了。</p>
+<p>**
+**</p>
+<p><strong>武灵王十九年，赵雍正式下令：全国易服，选拔骑射。</strong></p>
+<p>胡服骑射的战略构想终于得以实施，南北两派终于坐到了一起，统一后的赵国政局开始开动国家齿轮，胡服骑射所带来的一系列从上到下的改变开始在赵国开枝散叶。</p>
+<p><strong>胡服骑射的推行，先是在军事制度上，完成了大改革。</strong></p>
+<p>赵雍把自己训练的精锐骑兵作为军官教导团，开始培训骑兵军官。</p>
+<p>原来的步兵和步兵将领要想转为骑兵，必须要经过严格的培训和考试，同时，赵雍还招募大量的胡人外援，充实到骑兵队伍中。</p>
+<p>不分种族，没有歧视，只要认可我们赵国的生活方式与政治理念，来的都是好同志。</p>
+<p>国家给骑兵的待遇是接近贵族的水平的，所以骑兵作为当时赵国的特种兵和军官团，成为了赵国的军事特权阶层。</p>
+<p>军事改革后，赵国的军事将领主要是从骑兵中产生，或者至少要有在骑兵部队服役过的经历，<strong>自此“非骑兵不为将”的潜规则在赵国被确立。</strong></p>
+<p><strong>由于骑兵的较高待遇和非常好的军官前途</strong>，赵国的百姓都希望自己的家里能够出一个骑兵，这孩子将来再混成骑兵将领。</p>
+<p>于是，赵人养马蔚然成风。</p>
+<p>骑射也变成了加分特长，成为了民间自己上提高班的重要课程。</p>
+<p><strong>军官的选拔上，赵雍亲自过问，由于他控制了骑兵的军官，这支新组建的骑兵军不同于以往的骑兵雇佣军，被赵雍牢牢地控制着指挥权。</strong></p>
+<p>赵雍借组建骑兵、选拔骑兵的机会，对赵国的步兵系统也进行了一次从上到下的大整顿，亲自选拔步兵将领，选拔军事将领严格遵循能力原则。</p>
+<p><strong>通过军改，赵雍夺回了人事权。</strong></p>
+<p>也因此，国民中许多有能力的人都得到了任用，<strong>赵雍通过对军队系统的调整、改建，稳固地控制了赵国的军权，而大批的赵国宗室贵族遭到了裁撤，南派的势力被大大削弱，客观上的军改阻力也逐渐变弱。</strong></p>
+<p>改革扩散到了全社会的各个角落，<strong>由于为了配套骑兵这个特殊兵种，赵国国内的马匹也都建立了马籍，以便对全国骑战潜能的掌握和调用。</strong></p>
+<p><strong>赵雍还命人对全国的户籍和牛、马等大型牲口进行了普查，建立了可靠的管理体系，也借助这次普查与统计，将过去宗室贵族和地主隐瞒的人口都查了出来，从而扩大了国家掌握的税源和劳动力资源。</strong></p>
+<p>赵国原有的南派代表也就是宗室贵族体系再次遭到沉重打击，赵雍推广的军功制度成为赵国军民求富贵的主要途径。</p>
+<p>看出来熟悉了吗？</p>
+<p>和商鞅的变法像吗？</p>
+<p>真挺像的，但赵雍这一套其实更像的是魏文侯时李俚的变法。</p>
+<p>李俚选出了“魏武卒”，赵雍培养了“骑兵队”，两种变法虽然都起到了效果，<strong>但他们比商鞅差就差在了魏与赵是特种兵选拔制。</strong></p>
+<p>赵虽然做的比魏好，全民胡服后客观的提升了战斗力并重组了整个社会阶层，但得富贵的还是少数的那帮特种兵们。</p>
+<p><strong>没有代表最广大人民的根本利益，是他们的弊病，也是三种变法最终在优劣上产生不同的根本。</strong></p>
+<p>但还记得我们刚才所说的吗？<strong>赵雍为什么要通过“骑射”作为改革的入手点？</strong></p>
+<p><strong>因为“骑射”代表着游牧文化，是统一南北思想的破局点，搞成本巨大的骑兵破局，赵雍既成功，也无奈。</strong></p>
+<p>**
+**</p>
+<p><strong>别看没像****商鞅那样全民受惠，但他已经极其不俗的顺利完成了几千年来，很多政权都完不成的伟大改革！</strong></p>
+<p>**
+**</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400578.jpeg" alt="图片" /></p>
+<p>赵雍的胡服骑射对赵国的经济结构造成了很大的影响，使之更趋近于游牧经济。</p>
+<p>对游牧经济、骑兵生活熟悉的大量胡人精英，平民精英通过选拔，进入到赵国的军政领导层，改变了赵国的权力结构。</p>
+<p><strong>胡人文化的升扬，稳固了其在赵国的主导地位。胡人吃苦耐劳、重义尚武的精神在赵雍的宣扬下对赵国国民的心理也产生了巨大的影响。</strong></p>
+<p>赵国从本质上发生了改变。</p>
+<p>改变后的赵国，开始了一系列的扩张与兼并。</p>
+<p>赵雍二十年（公元前306年），也就是正式改革后的次年，赵雍进攻中山。赵军捷报频传，一直攻到了中山国都城灵寿（今河北平山）附近的宁葭（今河北获鹿北），彻底控制了太行山的重要孔道，太行八径之一的井陉。</p>
+<p>这算是打开了联通太行山东西的关键通道。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400489.jpeg" alt="图片" /></p>
+<p>这是太行八陉的位置图，此时暂做了解，还没到它的专属舞台，它的交通恶劣程度比秦岭五道还是要强一大块的，毕竟没上天。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400630.jpeg" alt="图片" /></p>
+<p>这是21世纪的井陉通道。</p>
+<p>向西打击林胡势力（游牧民族），占领榆中地区（今陕西北部与内蒙古交界的河套地区），在秦国的北方楔进了一颗钉子。</p>
+<p>林胡在与赵军的作战中损失惨重，林胡王被迫向赵雍献出大量的良种马，才得以求和。</p>
+<p>在得到良种林胡马的补充后，赵雍又提供优厚待遇，招募了大量的林胡勇士，把他们编入到自己的骑兵军中，成为了国际纵队。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400561.jpeg" alt="图片" /></p>
+<p>武灵王二十一年，赵国大举进攻中山，从南、北、西三个方向同时合攻中山国的都城灵寿。</p>
+<p>在四处发现赵军主力的形式下，中山王献四邑求和，赵雍默许之。</p>
+<p>武灵王二十三年，赵雍再攻中山。</p>
+<p>武灵王二十六年，赵雍继续攻击中山国，夺取了中山与代郡和燕国交接的土地，把中山完全裹在赵国境内，对中山进行了严密的封锁。</p>
+<p>被赵痛打过的三家，林胡和楼烦想与中山夹击赵国的代郡，但继续遭到了赵雍的痛击。</p>
+<p>赵雍夺取了林胡和楼烦的大片土地，建立了雁门郡（今山西北部神池、五寨、宁武以北至内蒙古间地区）和云中郡（今内蒙古大青山以南、黄河以南，长城以北之间），迫使林胡和楼烦大幅度地向北迁移。</p>
+<p>真硬气啊！</p>
+<p>赵雍派人修建了两道长城，以阻止林胡和楼烦的南下。第一道在今内蒙古乌加河、狼山一带，第二道在今内蒙古乌拉特前旗、包头、呼和浩特至河北张北一线，这也是后来赵长城的主力工程段。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400682.jpeg" alt="图片" /></p>
+<p>赵长城图</p>
+<p>赵惠文王三年（武灵王三十年，年号古怪，后面会讲），赵雍最后一次大举进攻中山国，在齐国的夹攻下，中山国国王投降，中山国灭。</p>
+<p>关于之前的大哥齐国为何会夹攻小弟中山我们下一章会讲，齐国此时的领导人很有意思。</p>
+<p>在占领中山国后，赵雍便开始整理代郡和邯郸之间的道路。</p>
+<p>不久，赵国境内的道路就通畅无阻了，各地区，各民族间的交流也更多了，南北的文化开始频繁的融汇。</p>
+<p><strong>自武灵王继位，到第十九年启动变法，控制国内政局，统一南北两派思想，再到十一年后彻底打通全国疆域版图，并北扩疆土，西压秦地。</strong></p>
+<p><strong>三十年间，赵雍完成了前面几代赵王想完成却没有完成的宏图。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400664.jpeg" alt="图片" /></p>
+<p>是赵武灵王开拓后的赵国版图，几乎大了一倍。</p>
+<p>赵雍的野心，却不止于此，别的国家一提到秦国，脑袋就大了，但他对秦国却很有些想法。</p>
+<p>他的战略眼光一直很远，看问题也很到位。</p>
+<p>比如说他先是抓住了赵国最棘手的内部矛盾入手，先是从内部完成转变，并锻炼出了一支自己始终抓在手上的特种兵力量。</p>
+<p>比如他在位这三十年，基本上没有像别的国家那样漫无目的穷兵黩武，而是一直在和北边最大的麻烦游牧民族不断斗争并师夷长技以自强，最终将游牧势力赶出了赵北。</p>
+<p>比如他一直逮着自己的心腹大患中山玩命打，用十年时间专心的达成一个战略目标。</p>
+<p><strong>赵雍眼光独到，执行专注，上马管军，下马管民，将一个逐渐走向分裂的二流国家带成了政局统一，民风彪悍的强国。</strong></p>
+<p>**
+**</p>
+<p><strong>既有雄才，又有大略，他的出现，可以说是上天垂青于赵。</strong></p>
+<p>赵雍在位的几十年，也不是没有打过败仗，但都是在继位早年，而且败给的对象，都是秦。</p>
+<p>赵雍八年，赵与楚魏燕韩组成五国联军攻秦，惨败，被函谷关挡回来了。</p>
+<p>转年，三晋联军再度攻秦，又惨败，赵最惨，被杀八万，割两郡求和。</p>
+<p><strong>惨痛的败仗让赵雍明白了一个道理，从崤涵一线往西打，根本没戏。</strong></p>
+<p>函谷关自带超强护体，是一道永远跨不过去的坎。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400667.jpeg" alt="图片" /></p>
+<p>但是要是换个思路，从北往南打呢？</p>
+<p>秦国北边是游牧民族的势力，这帮来去一阵风，打还打不着的戎狄们同样也是赵国北边头疼的问题，所以早些年赵雍一直压抑着自己的复仇欲望。</p>
+<p>但三十年河东，三十年河西，赵国现在是大草原上的国际警察，尤其是如今已在秦国北方楔进了一块钉子，榆林地区。</p>
+<p>武灵王认为复仇的时机到了。</p>
+<p>不过往秦国打的北路，沿途路况，山川大泽无人熟知，尤其赵雍打算用的骑兵闪电战，需要对进兵路线进行相当的熟悉与思考。</p>
+<p>于是，武灵王赵雍决定自己亲入虎穴探路。</p>
+<p>战国时代，最强的虎胆龙威兼碟中谍上演了，比什么荆轲啥的可牛多了，人家这是大国领导人亲自去狼窝实地考察。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400956.gif" alt="图片" /></p>
+<p>赵雍先是利用自己的北部战略优势，向秦国施加压力，迫使此时主政的宣太后（芈月）任命赵国培养的楼缓为秦国客相，以便为赵国谋得更多的利益。</p>
+<p>苏秦张仪那章时我们讲过，六国都往别国安插外交官（客相），这是国际常态，不过不好说话的国家安插就费劲，比如秦国。</p>
+<p>但赵武灵王此时说话在国际上是比较好使的。</p>
+<p>东北赵老师，闹着玩呢？</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400708.jpeg" alt="图片" /></p>
+<p>哪个年代都是枪杆子里出政权。</p>
+<p>楼缓入秦时，赵雍假装随从人员，跟在楼缓左右。进入秦地后，赵雍对沿途的风土人情细加考察，以备攻秦时所用。</p>
+<p>楼缓进入秦都咸阳后，会见了许多秦国的大臣，赵雍在旁边观察，对秦国大臣的贤庸强弱有了深入的了解，楼缓劝赵雍不可久留秦国，以免被人识破。</p>
+<p>赵雍提出，走之前要看看秦国的大小毛，亲眼见一见秦昭王和宣太后。</p>
+<p>不过秦国此时比较臭大街，由于此前发生过秦昭王扣留楚怀王事件，各国国君都不信任秦国，不愿入秦，以免重蹈楚怀王覆辙，更别提你还惦着去看看匪帮头子。</p>
+<p>楼缓担心秦国对赵雍不利，起初说什么也不同意，但你也不看你的一把领导是谁。</p>
+<p>赵雍要见秦昭王与宣太后也不是一时兴起，他想亲自了解自己的敌人，观察这对母子以利于今后对秦决策。</p>
+<p>极其敏感的秦昭王和宣太后在接见楼缓时，发现向来以风采自傲的楼缓对他身后的高大随从不经意间有屈顺之意，颇感好奇，在与这个气度非凡的中年男子的问答中，发现这个人的胸怀与见识更是了不起，母子二人在钦佩之余，也产生了极大的怀疑。</p>
+<p>在楼缓告辞后，赵雍已感觉到宣太后和秦昭王对自己有所察觉，便匆匆辞别楼缓，返回赵国。</p>
+<p>临别前，赵雍告诫楼缓，此母子二人皆为人中龙凤，务要小心应对。</p>
+<p>宣太后与秦昭王觉得楼缓的随从绝非等闲之辈，必是赵国的极贵之人来窥秦情。于是，速派使者宴请楼缓与这个非凡的随从晚间再到王宫作客。</p>
+<p>晚间，楼缓赴约而不见非凡随从，楼缓说这个随从白日失礼，已被遣回赵国。</p>
+<p>这更加坚定了宣太后的判断，认定这个人必是显贵，速派精骑追逐。精骑一路狂奔，直到边塞。守塞之人告诉他们，赵国的使者刚刚离去。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400688.jpeg" alt="图片" /></p>
+<p>后来得知，这个随从就是威震中原的赵武灵王。</p>
+<p>宣太后和秦昭王对赵雍深窥秦政大感忌惮，如果一个抢劫犯进你们家把防盗门型号，地下室出入口，窗户朝向全探了一边，而且这个抢劫犯还是一个抢劫团伙的黑帮老大，你会怎么想？</p>
+<p>今后的觉还怎么睡！</p>
+<p><strong>不过三年后，身处壮年的武灵王却死了，南下攻秦成为了永远的历史遗憾，秦国从此少了一个最棘手的敌人。</strong></p>
+<p><strong>赵雍的死，就好像乔布斯的离去，赵国和苹果的灵魂都被带走了。</strong></p>
+<p>很遗憾，这人活着，秦国会非常脑袋疼。</p>
+<p>不过他的死，遗憾归遗憾，却并不让人可怜。</p>
+<p>用一个字可以很好的形容：作。</p>
+<p><strong>这位英雄一世的人物，成，在于终止了一场分裂，毁，在于导演了一场分裂。</strong></p>
+<p>这要从一个女人说起。</p>
+<p>后面的故事，我们以老赵、大赵、小赵来分别说武灵王和他的两个儿子。 </p>
+<p>每一个英雄人物的倒霉都和一个或这多个女人有关，老赵也不例外。</p>
+<p>赵雍十六年，老赵游大陵，一夜，他梦见一个少女鼓琴而歌。</p>
+<p>醒来后，老赵对梦中少女十分留恋，在酒宴的时候借着酒劲老赵就把这个梦向大家说了，还具体地描绘了少女的形象。</p>
+<p>臣下吴广听后，觉得领导说的少女太像自己的女儿孟姚了,于是就把孟姚献给了赵雍。</p>
+<p>老赵看后大惊：就这丫头！</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141401042.gif" alt="图片" /></p>
+<p>老赵自此非常宠爱这位梦中情人，还封为了王后，赵人称之为吴娃（吴广的娃）。</p>
+<p>吴娃作了老赵的王后，没过几年，就为老赵生下了小赵，王子何，即日后的赵惠文王。</p>
+<p>很可惜这位梦中的佳人并没有太长的寿数，十年后，吴娃死，老赵十分伤心。</p>
+<p>吴娃这辈子没跟老赵张过嘴，死前求了件事，让咱儿子当太子吧。</p>
+<p>老赵答应了吴娃死前的最后请求，废掉了长子太子章，改立吴娃的儿子王子何为太子。</p>
+<p><strong>废长立幼，国之不祥。</strong></p>
+<p>更匪夷所思的是，一年后，老赵将自己的王位直接传给了小赵，自己做“主父”。</p>
+<p>赵雍有个很美好的想法，希望军政分离，儿子踏实治理国家，自己全心专注对外的军事斗争。</p>
+<p>老赵为啥会这么想呢？</p>
+<p><strong>失去过什么，就特别担心会在自己的孩子身上发生，每个父母都这样。</strong></p>
+<p>他每每想到当初他老爹死时五国大兵意欲团火打劫就不寒而栗，他自己经常亲自带兵打仗，不知道什么时候就会遭到不测，到时候，赵国必定会大乱，自己曾经有过的痛苦，他不想再出现在小赵身上。</p>
+<p>老赵决定在自己的有生之年就把政权平稳的交给自己的接班人，他把儿子扶上马还要送一程。</p>
+<p>老赵本意是在赵国构建二元政治，自己和儿子都是国中的君主，只是自己不再使用国王的称号，而是使用有着太上皇意思的主父称号。</p>
+<p><strong>想法初衷不错，但老赵的这番设想却严重违背了政权构建的基本规律。</strong></p>
+<p><strong>全国人民紧密的团结在以一个人为核心的权利中心周围，政令才会通达，内耗才会最小，臣子才不会投机倒把，人民才不会心浮气躁。</strong></p>
+<p><strong>政出多门，听谁的？</strong></p>
+<p>但老赵当时没想这么多，他只想着扶上马送一程的益处了。</p>
+<p>很快，他又犯了一个更大的错误。</p>
+<p>传位后，他又觉得对不起自己的大儿子大赵了。</p>
+<p>大赵比小赵年长十岁，性格强悍，体魄健壮，大有赵雍之型，本来最为老赵喜爱。</p>
+<p>老赵二十一年攻伐中山时，不到十五岁的大赵就被委以统率中军的重任，在老赵的亲自指挥下，取得了攻打中山的大胜利。</p>
+<p>此后，大赵多次随老赵出征，屡立战功，为国人所称颂（从这里也可以看出来，赵雍对子嗣的培养是多么的上心，年纪轻轻就放手历练，两个孩子也都优秀非常）。</p>
+<p>不仅优秀，大赵在无辜被废后，毫无怨言，一如既往地孝敬自己。</p>
+<p>每当想起结发妻贤惠的韩夫人的时，老赵就会更加的愧疚。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400782.jpeg" alt="图片" /></p>
+<p>他想找一个填补自己愧疚之情的办法。</p>
+<p>这个时候老赵已经彻底脑残了。</p>
+<p>老赵又给大赵搭了一套班子，先是封大赵为安阳君，然后派田不礼辅佐大赵。老赵还经常与大赵居住在一起，衣食住行均命人给两个儿子各准备一份，大赵的仪仗用度与小赵的几乎一样。</p>
+<p>朝中的许多大臣们此时见大赵又受到了老赵的厚爱，以为老赵又有什么新的打算，便暗中与大赵来往。</p>
+<p>大赵对权力本就不陌生，见朝中大臣又都向自己示好，胸中的理想和抱负开始止不住地澎湃汹涌。</p>
+<p>大赵要夺回本应属于自己的王位！</p>
+<p>赵惠文王四年，老赵打算把代郡分给大赵，让大赵也称王。</p>
+<p><strong>他自己终结的南北分裂，他现在要自己再度开启。</strong></p>
+<p>老赵先是把要立大赵为代王的想法同肥义说了，肥义不同意。</p>
+<p>肥义此时是小赵的国相，当初老赵他爹将老赵托孤给肥义，后来老赵又把小赵交给了肥义，三朝老臣。</p>
+<p>肥义在送走赵雍后，就把整个事情的来龙去脉向小赵讲了，你爹要立你哥为代王。</p>
+<p>聪明的小赵明白了事情的严重性，迅速与肥义商议了对策。</p>
+<p>小赵开始一级戒备，不再轻易露面，一切外事由肥义代办，命令可靠的胡人将领信期日夜守护小赵。</p>
+<p>这个时候，老贵族公子成与大臣李兑听说赵雍代大赵讨封不成后来见肥义，表达了对小赵处境的忧虑，表明愿为王效劳，宗室重臣阳文君赵豹来见，同样提醒小赵与肥义早做准备。</p>
+<p>赵豹与肥义同为赵肃侯时的重臣，与肥义最为交好，但却不为老赵所喜。</p>
+<p>李兑为肥义选拔培养的青年才骏。</p>
+<p>公子成受胡服骑射之挫后，蛰居多年，小赵即位后，肥义利用公子成在宗室中的影响，为小赵打下了深厚的基础，公子成也为自己能够东山再起而十分感激小赵与肥义。</p>
+<p><strong>这是一个新的利益群体。</strong></p>
+<p>**
+**</p>
+<p>**
+**</p>
+<p><strong>权利这东西，你只要交出去了，你再往回要，千难万难。</strong></p>
+<p>**
+**</p>
+<p><strong>因为权力同样也是同志们的。</strong></p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400754.jpeg" alt="图片" /></p>
+<p>肥义让李兑与公子成移往都城外，拿着小赵的兵符，准备随时起兵勤王。让赵豹坐镇邯郸，不许外地军卒入城，肥义自己则注意收集情报、统筹安排。</p>
+<p>赵雍本以为自己代大赵讨封必成，不想被肥义拒绝，后来发现小赵对自己的调兵也控制得很严。</p>
+<p>老赵开始知道小赵已对自己有所防范。</p>
+<p>这让老赵很愤怒。</p>
+<p>赵雍以在沙丘（今河北省邢台市广宗西北）选看墓地为名，让大赵与小赵随行。</p>
+<p>小赵没有办法，拉上了主心骨肥义陪同随行。</p>
+<p>到沙丘后，小赵居一宫，赵雍与大赵居一宫。</p>
+<p>此时的父子离心，已经近乎于撕破脸了。</p>
+<p>田不礼作为大赵的首席参谋，劝大赵先杀小赵，再控制老赵，既而以奉老赵之命的名义称王。</p>
+<p>于是大赵借用老赵的令符请小赵到主父宫议事。肥义感觉不对，表示自己替小赵去，还要小赵加强防卫，自己不归即为事变，命令信使时刻待命，如果一旦发生变乱，立即通知公子成与李兑带兵勤王。</p>
+<p>肥义入主父宫后，果然觉得气氛不对，因为没有见到老赵，却见到了大赵和田不礼。</p>
+<p>肥义知道自己肯定回不去了，意料中的事情果然发生了。</p>
+<p>大赵与田不礼见以主父的名义都调不动小赵，知道小赵已有所准备。大赵与田不礼决定以快制胜，在杀了肥义后，大赵与田不礼决定再遣使者调小赵，如其不来，则立即进攻。</p>
+<p>小赵见肥义未归，而使者又至，知道发生事变，逼问使者，得知肥义被杀。</p>
+<p>小赵遂怒斩使者，率军包围主父宫，与大赵和田不礼及其党徒展开激战，李兑与公子成很快也率军赶到沙丘，参与平叛。</p>
+<p>小赵的军队很快就控制了局面，大赵与田不礼战败，田不礼逃亡宋国，大赵败退到主父宫，老赵纳其进入。</p>
+<p>李兑、公子成将主父宫团团围住。</p>
+<p>李兑想向小赵请示如何处置，被公子成制止。</p>
+<p>公子成说：你这不是让领导为难嘛！他能说你们把我爹我哥杀了吗？如此一来，围主父宫，赶杀大赵就会成为你我的罪过，如果不请示，就报告一个结果，刀剑无眼，谁也不会说什么。</p>
+<p>李兑觉得还是老狐狸有见识，于是没有汇报，直接派兵攻入主父宫，当着老赵的面诛杀了大赵及其党羽，随后便退了出来。</p>
+<p>之后公子成等人只围不战，无人敢担刺杀老赵的罪名，老赵被围在内宫里，但内宫中并无存粮。</p>
+<p>公子成对老赵断粮断水前后达三个月之久，英雄一世的赵雍最终被活活饿死。公子成在确定老赵必死之后，才打开内宫，为其收尸。</p>
+<p>小赵对老赵之事一直不问，直到公子成来报老赵饿死，才痛哭一场，命令厚葬，全国举哀。</p>
+<p>他并没有后来李世民的智慧，人家唐宗可是杀完哥哥弟弟跑到老爹那去哭的。</p>
+<p>一代英主，最后却落了个饿死下场，四十六岁的壮年就过早的离开了历史舞台。</p>
+<p>他的一生，本该更加精彩，却亡于权利交接的不清不楚，不明不白。</p>
+<p><strong>虽如此，但他统一了赵国为祸多年的游牧与中原两派之争，胡服骑射后，赵兵日益强劲，后成为秦之劲敌，直至长平之战后，秦才最终顺利席卷天下，赵雍实有砥柱中原之功也。</strong></p>
+<p>历史的编导是不会让舞台空下来的，英明雄武的赵武灵王谢幕后，转过年来，登台了战国时代最可怕的一位大神。</p>
+<p>这个人，承包了战国时代总杀伤数的半数以上。</p>
+<p><img src="../img/%E7%AC%AC%E5%85%AD%E6%88%98%EF%BC%9A%E8%83%A1%E6%9C%8D%E9%AA%91%E5%B0%84%EF%BC%88%E5%85%A8%EF%BC%89%E8%B5%B5%E5%9B%BD%E5%B4%9B%E8%B5%B7%E7%9A%84%E5%85%B3%E9%94%AE%E4%B8%89%E5%8D%81%E5%B9%B4.assets/640-20220321141400813.jpeg" alt="图片" /></p>
+<p>杀神，登场了。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../秦并天下/第五战：秦并巴蜀（蜀道修订篇）百年一遇的机会，你怎么选？.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../秦并天下/第七战：伊阙之战（豫西重镇修订版）杀神登场.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../秦并天下/第五战：秦并巴蜀（蜀道修订篇）百年一遇的机会，你怎么选？.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../秦并天下/第七战：伊阙之战（豫西重镇修订版）杀神登场.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

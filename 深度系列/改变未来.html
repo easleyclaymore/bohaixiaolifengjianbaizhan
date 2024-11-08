@@ -1,0 +1,534 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>改变未来 - 渤海小吏的封建脉络百战</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../序.html">序</a></li><li class="chapter-item expanded affix "><li class="part-title">一、秦并天下</li><li class="chapter-item expanded "><a href="../秦并天下/第一战：三家分晋（加量修订版）韩赵魏崛起，自春秋来到战国.html"><strong aria-hidden="true">1.</strong> 第一战：三家分晋</a></li><li class="chapter-item expanded "><a href="../秦并天下/第二战：马陵之战（国防成本修订版）战略方向错误导致的魏盛转衰.html"><strong aria-hidden="true">2.</strong> 第二战：马陵之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第三战：商鞅变法（变法始末修订版）秦并天下的战争机器，开动起来了.html"><strong aria-hidden="true">3.</strong> 第三战：商鞅变法</a></li><li class="chapter-item expanded "><a href="../秦并天下/第四战：“合纵”与“连横”（“战国纵横家书”辨别修订版）诸子百家走四方的美好时代.html"><strong aria-hidden="true">4.</strong> 第四战：“合纵”与“连横”</a></li><li class="chapter-item expanded "><a href="../秦并天下/第五战：秦并巴蜀（蜀道修订篇）百年一遇的机会，你怎么选？.html"><strong aria-hidden="true">5.</strong> 第五战：秦并巴蜀</a></li><li class="chapter-item expanded "><a href="../秦并天下/第六战：胡服骑射（全）赵国崛起的关键三十年.html"><strong aria-hidden="true">6.</strong> 第六战：胡服骑射</a></li><li class="chapter-item expanded "><a href="../秦并天下/第七战：伊阙之战（豫西重镇修订版）杀神登场.html"><strong aria-hidden="true">7.</strong> 第七战：伊阙之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第八战：乐毅破齐（全）远东第一大国的疯狂与没落.html"><strong aria-hidden="true">8.</strong> 第八战：乐毅破齐</a></li><li class="chapter-item expanded "><a href="../秦并天下/第九战：鄢郢之战（全）杀神横扫汉江平原.html"><strong aria-hidden="true">9.</strong> 第九战：鄢郢之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十战：秦为什么冒险发动长平之战.html"><strong aria-hidden="true">10.</strong> 第十战：长平之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十一战：嫪毐之乱（全）秦灭六国的隐藏大线.html"><strong aria-hidden="true">11.</strong> 第十一战：嫪毐之乱</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十二战：王翦灭楚（全）秦国搬开最后的大石.html"><strong aria-hidden="true">12.</strong> 第十二战：王翦灭楚</a></li><li class="chapter-item expanded affix "><li class="part-title">二、楚汉双雄</li><li class="chapter-item expanded "><a href="../楚汉双雄/第十三战：揭竿大泽乡（全）秦“崩”在了哪？.html"><strong aria-hidden="true">13.</strong> 第十三战：揭竿大泽乡</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十四战：破釜沉舟（全）力拔山兮气盖世！.html"><strong aria-hidden="true">14.</strong> 第十四战：破釜沉舟</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十五战：先入关者为王上（全）刘主任的西行漫记.html"><strong aria-hidden="true">15.</strong> 第十五战：先入关者为王上</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十六战：鸿门宴（修订版）刘邦集团的内在升级.html"><strong aria-hidden="true">16.</strong> 第十六战：鸿门宴</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十七战：暗度陈仓（全）月下追回来的“汉中对”.html"><strong aria-hidden="true">17.</strong> 第十七战：暗度陈仓</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十八战：彭城大屠杀（全）楚霸王的闪电战.html"><strong aria-hidden="true">18.</strong> 第十八战：彭城大屠杀</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十九战：背水一战（全）兵仙的一路向北.html"><strong aria-hidden="true">19.</strong> 第十九战：背水一战</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第二十战：拉锯荥阳（全）东奔西走的霸王.html"><strong aria-hidden="true">20.</strong> 第二十战：拉锯荥阳</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第二十一战：会战垓下（全）兵仙与霸王的巅峰对决.html"><strong aria-hidden="true">21.</strong> 第二十一战：会战垓下</a></li><li class="chapter-item expanded affix "><li class="part-title">三、强汉开疆</li><li class="chapter-item expanded "><a href="../强汉开疆/第二十二战：白登之围（全）疑雾重重的汉初顶级大案.html"><strong aria-hidden="true">22.</strong> 第二十二战：白登之围</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十三战：灭诸王（全）既然离别难免，今生何必相会.html"><strong aria-hidden="true">23.</strong> 第二十三战：灭诸王</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十四战：诸吕之变（全）摄政女皇的伟大与悲哀.html"><strong aria-hidden="true">24.</strong> 第二十四战：诸吕之变</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十五战：七国之乱（全）文景之治的缺憾美.html"><strong aria-hidden="true">25.</strong> 第二十五战：七国之乱</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十六战：马邑阴谋（全）儒教、长城、草原的逻辑.html"><strong aria-hidden="true">26.</strong> 第二十六战：马邑阴谋</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十七战：漠南无王庭（全）跨时代的伟大战术革命.html"><strong aria-hidden="true">27.</strong> 第二十七战：漠南无王庭</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十八战：打通河西走廊（全）匈奴梦魇的冠军侯.html"><strong aria-hidden="true">28.</strong> 第二十八战：打通河西走廊</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十九战：漠北大决战（修订版）农耕民族的荣耀之巅.html"><strong aria-hidden="true">29.</strong> 第二十九战：漠北大决战</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十战：定南疆灭朝鲜（全）专治各种不服.html"><strong aria-hidden="true">30.</strong> 第三十战：定南疆灭朝鲜</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十一战：征大宛（全）汗血马的蝴蝶效应.html"><strong aria-hidden="true">31.</strong> 第三十一战：征大宛</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十二战：孤愤之战（全）史家之绝唱，无韵之离骚.html"><strong aria-hidden="true">32.</strong> 第三十二战：孤愤之战</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十三战：巫蛊之乱（全）生生世世莫生帝王家.html"><strong aria-hidden="true">33.</strong> 第三十三战：巫蛊之乱</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十四战：霍光废帝（全）大司马大将军的反噬.html"><strong aria-hidden="true">34.</strong> 第三十四战：霍光废帝</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十五战：王莽篡汉（全）戏精的艺术人生.html"><strong aria-hidden="true">35.</strong> 第三十五战：王莽篡汉</a></li><li class="chapter-item expanded "><a href="../强汉开疆/“强汉开疆”篇总结（1）西汉的脉络梳理.html"><strong aria-hidden="true">36.</strong> “强汉开疆”篇总结</a></li><li class="chapter-item expanded affix "><li class="part-title">四、光武中兴</li><li class="chapter-item expanded "><a href="../光武中兴/第三十六战：王莽复古（全）陨灭三千万人的“德之贼”表演.html"><strong aria-hidden="true">37.</strong> 第三十六战：王莽复古</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十七战：昆阳大逆转（全）天选之子的神话之战.html"><strong aria-hidden="true">38.</strong> 第三十七战：昆阳大逆转</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十八战：河北惊魂记（全）二十八宿召唤神龙.html"><strong aria-hidden="true">39.</strong> 第三十八战：河北惊魂记</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十九战：两京堵赤眉（全）汉末最强匪帮退场.html"><strong aria-hidden="true">40.</strong> 第三十九战：两京堵赤眉</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十战：定关东（全）东南西北的将星闪耀.html"><strong aria-hidden="true">41.</strong> 第四十战：定关东</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十一战：得陇望蜀（全）陇山难，蜀山悲，天下定.html"><strong aria-hidden="true">42.</strong> 第四十一战：得陇望蜀</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十二战：班超通西域（全）小冰期下汉匈博弈的个人英雄主义巅峰.html"><strong aria-hidden="true">43.</strong> 第四十二战：班超通西域</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十三战：党锢之祸（全）东汉王莽们和死太监集团的皇权角逐巅峰战.html"><strong aria-hidden="true">44.</strong> 第四十三战：党锢之祸</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十四战：黄巾起义（全）大乱四百年的开端.html"><strong aria-hidden="true">45.</strong> 第四十四战：黄巾起义</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十五战：189年汉末崩塌（全）顶级谋篇布局下的“为他人作嫁衣裳”.html"><strong aria-hidden="true">46.</strong> 第四十五战：189年汉末崩塌</a></li><li class="chapter-item expanded affix "><li class="part-title">五、三国争霸</li><li class="chapter-item expanded "><a href="../三国争霸/第四十六战：群雄讨董（全）璀璨纷杂的时代开篇.html"><strong aria-hidden="true">47.</strong> 第四十六战：群雄讨董</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十七战：兖州风云（全）年少时的无心插柳，成荫后的阶级背叛.html"><strong aria-hidden="true">48.</strong> 第四十七战：兖州风云</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十八战：挟天子令诸侯（全）曹操巅峰升级的公元196年.html"><strong aria-hidden="true">49.</strong> 第四十八战：挟天子令诸侯</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十九战：官渡之战（全）汉末双神决战到最后一秒的巅峰对决.html"><strong aria-hidden="true">50.</strong> 第四十九战：官渡之战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十战：火烧赤壁（全）曹操不会放过的刘备，士族不会放过的孙权.html"><strong aria-hidden="true">51.</strong> 第五十战：火烧赤壁</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十一战：刘备入川（全）曹操换房本之路上的“点炮”盛宴.html"><strong aria-hidden="true">52.</strong> 第五十一战：刘备入川</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十二战：汉中会战（全）汉末诸神黄昏的上半集.html"><strong aria-hidden="true">53.</strong> 第五十二战：汉中会战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十三战：襄樊惊天大逆转（全）孙权背刺逻辑；关公威震华夏；糜芳叛变之谜.html"><strong aria-hidden="true">54.</strong> 第五十三战：襄樊惊天大逆转</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十四战：夷陵之战（全）先主伐吴始末，永安举国托孤.html"><strong aria-hidden="true">55.</strong> 第五十四战：夷陵之战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十五战：失街亭（全）一步也不能走错的弱者悲哀.html"><strong aria-hidden="true">56.</strong> 第五十五战：失街亭</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十六战：秋风五丈原（全）大梦谁先觉，平生我自知，秋风星落日，光耀天地间.html"><strong aria-hidden="true">57.</strong> 第五十六战：秋风五丈原</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十七战：高平陵之变（全）三百年大悲哀的逻辑原点.html"><strong aria-hidden="true">58.</strong> 第五十七战：高平陵之变</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十八战：淮南三叛（全）人事、利益、威慑、恐吓、荣耀······的政治博弈算法.html"><strong aria-hidden="true">59.</strong> 第五十八战：淮南三叛</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十九战：二士争蜀（全）赚得英雄头似雪，万般回首化尘埃.html"><strong aria-hidden="true">60.</strong> 第五十九战：二士争蜀</a></li><li class="chapter-item expanded affix "><li class="part-title">六、两晋悲歌</li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十战：西晋平吴（全）十分伶俐都使尽，远在儿孙近在身.html"><strong aria-hidden="true">61.</strong> 第六十战：西晋平吴</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十一战：凛冬将至（全）草蛇灰线，伏脉千里的长城内外.html"><strong aria-hidden="true">62.</strong> 第六十一战：凛冬将至</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十二战：八王之乱时无英雄显竖子.html"><strong aria-hidden="true">63.</strong> 第六十二战：八王之乱时无英雄显竖子</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十三战：永嘉之乱（全）善恶到头终有报，只争来早与来迟.html"><strong aria-hidden="true">64.</strong> 第六十三战：永嘉之乱</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十四战：石勒霸北（全）超越种族永远靠的是仇恨，团结群众永远靠的是阶级.html"><strong aria-hidden="true">65.</strong> 第六十四战：石勒霸北</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第65战：东晋立国（全）“光腚北士”与“散装江东”博弈下的门阀政治开端.html"><strong aria-hidden="true">66.</strong> 第65战：东晋立国</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第66战：王敦、苏峻之乱（全）多股真气的冲突下，走火入魔的门阀政治自救之路.html"><strong aria-hidden="true">67.</strong> 第66战：王敦、苏峻之乱</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第67战：桓温灭蜀（1）“血亲复仇”千百年来对于古代社会的深远意义.html"><strong aria-hidden="true">68.</strong> 第67战：桓温灭蜀</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十八战：石虎肆虐（全）超长待机的五胡“狮驼岭”吃人算法之谜.html"><strong aria-hidden="true">69.</strong> 第六十八战：石虎肆虐</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第69战：冉闵屠羯（全）少年闵的奇幻漂流.html"><strong aria-hidden="true">70.</strong> 第69战：冉闵屠羯</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第70战：桓温北伐（上）风云际会后的北国兴与衰.html"><strong aria-hidden="true">71.</strong> 第70战：桓温北伐</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第71战：雄主的膨胀之路（全）天欲福之，必开其慧；天欲毁之，必助其狂.html"><strong aria-hidden="true">72.</strong> 第71战：雄主的膨胀之路</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第72战：淝水之战（全）“摆拍仁主”与“网红门阀”的春秋笔法.html"><strong aria-hidden="true">73.</strong> 第72战：淝水之战</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第73战：兴复大燕（全）：燃烧的北境，爆炸的关中.html"><strong aria-hidden="true">74.</strong> 第73战：兴复大燕</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第74战：拓跋珪复国之谜（全）借我借我一双慧眼吧······.html"><strong aria-hidden="true">75.</strong> 第74战：拓跋珪复国之谜</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第75战：参合悲（全）眼看他起朱楼，眼看他宴宾客，眼看他楼塌了.html"><strong aria-hidden="true">76.</strong> 第75战：参合悲</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第76战：桓玄篡晋（两晋季终章）早悟夜宴终有散，当初赌甚英雄汉.html"><strong aria-hidden="true">77.</strong> 第76战：桓玄篡晋</a></li><li class="chapter-item expanded affix "><li class="part-title">七、南北归一</li><li class="chapter-item expanded "><a href="../南北归一/《南北归一》序：北人南下，为六朝盛衰之总纲！.html"><strong aria-hidden="true">78.</strong> 《南北归一》序</a></li><li class="chapter-item expanded "><a href="../南北归一/第77战：气吞万里如虎（1）每段英雄之旅的开始，都是不拼就死的悲哀.html"><strong aria-hidden="true">79.</strong> 第77战：气吞万里如虎</a></li><li class="chapter-item expanded "><a href="../南北归一/第78战：刘老虎的西征梦（1）《东游记》开场.html"><strong aria-hidden="true">80.</strong> 第78战：刘老虎的西征梦</a></li><li class="chapter-item expanded "><a href="../南北归一/第79战：拓跋珪的心魔（1）“代人集团”登场，弱化版的汉初丰沛集团.html"><strong aria-hidden="true">81.</strong> 第79战：拓跋珪的心魔</a></li><li class="chapter-item expanded "><a href="../南北归一/第80战：后青春的诗（1）刘裕托孤的算盘.html"><strong aria-hidden="true">82.</strong> 第80战：后青春的诗</a></li><li class="chapter-item expanded "><a href="../南北归一/第81战：南龙有悔，北龙在天（1）“亢龙”伐“飞龙”，结局早定.html"><strong aria-hidden="true">83.</strong> 第81战：南龙有悔，北龙在天</a></li><li class="chapter-item expanded "><a href="../南北归一/第82战：冰血暴.html"><strong aria-hidden="true">84.</strong> 第82战：冰血暴</a></li><li class="chapter-item expanded "><a href="../南北归一/第83战：女王的棋局（1）被史官掩盖的北魏版“巫蛊之祸”.html"><strong aria-hidden="true">85.</strong> 第83战：女王的棋局</a></li><li class="chapter-item expanded "><a href="../南北归一/第84战：隐秘的元宏（1）不会哭，咋上权力牌桌？.html"><strong aria-hidden="true">86.</strong> 第84战：隐秘的元宏</a></li><li class="chapter-item expanded "><a href="../南北归一/第85战：时来天地皆同力（1）雍州教父而立之年的奇幻漂流.html"><strong aria-hidden="true">87.</strong> 第85战：时来天地皆同力</a></li><li class="chapter-item expanded "><a href="../南北归一/第86战：六镇之乱（1）北魏统一天下的窗口突然被打开了.html"><strong aria-hidden="true">88.</strong> 第86战：六镇之乱</a></li><li class="chapter-item expanded "><a href="../南北归一/第87战：后三国开篇.html"><strong aria-hidden="true">89.</strong> 第87战：后三国开篇</a></li><li class="chapter-item expanded "><a href="../南北归一/第八十九战：运去英雄不自由.html"><strong aria-hidden="true">90.</strong> 第八十九战：运去英雄不自由</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十战：最后的三国.html"><strong aria-hidden="true">91.</strong> 第九十战：最后的三国</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十一战：东西合拢.html"><strong aria-hidden="true">92.</strong> 第九十一战：东西合拢</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十二战：南北归一.html"><strong aria-hidden="true">93.</strong> 第九十二战：南北归一</a></li><li class="chapter-item expanded affix "><li class="part-title">深度系列</li><li class="chapter-item expanded "><a href="../深度系列/深度系列.html"><strong aria-hidden="true">94.</strong> 深度系列</a></li><li class="chapter-item expanded "><a href="../深度系列/神留言回答.html"><strong aria-hidden="true">95.</strong> 神留言回答</a></li><li class="chapter-item expanded "><a href="../深度系列/改变未来.html" class="active"><strong aria-hidden="true">96.</strong> 改变未来</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">渤海小吏的封建脉络百战</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="改变未来"><a class="header" href="#改变未来">改变未来</a></h1>
+<h2 id="生命最后一百天关公怎样才能帮蜀汉逆天改命"><a class="header" href="#生命最后一百天关公怎样才能帮蜀汉逆天改命">生命最后一百天，关公怎样才能帮蜀汉逆天改命？</a></h2>
+<p><strong>壹：玉泉山显圣</strong></p>
+<p>589年，隋灭陈，天下一统。</p>
+<p>592年，天台宗创始人智顗弘法一生后回到故乡荆州，行至当阳玉泉山，一日夜里看到空中一人，骑赤兔马，提青龙刀，左有一白面将军、右有一黑脸虬髯之人相随，一齐按落云头来到智顗面前。</p>
+<p>智顗：来者可是关将军？</p>
+<p>关公：大师识得关某？</p>
+<p>智顗：君侯生前忠义，死后封神，护持此地百姓功德甚厚，老僧祖籍荆州，岂不识得。</p>
+<p>关公：闻大师落叶归根弘法此处，特献出此地护持正法，也求大师点化解我迷茫。（注：关公护法此有缘由，后智顗请封关公为“伽蓝神”，关公自此第一次有了宗教性编制）</p>
+<p>智顗：君侯大圣大智，何忧未解？</p>
+<p>关公：我死后望气而观，明明刘氏仍有余气，借此气运那京口刘裕二百年后气吞万里开启南朝，炎汉由盛转衰皆因我而起，我主昭烈皇帝结局太过凄凉，后孔明北伐耗尽心血终难只手将天补，距我殒命已370余年，历代门阀酸吏，陈腐文人皆说我大意失荆州，实在心有不甘！</p>
+<p>智顗：天下大势，合久必分，分久必合，千年田，八百主，拿你当年所守荆州来说，这三百余年换了多少主人？这天下得与失，兴与亡，自有定数，如今南北归一，天下早已非当年模样，何苦执着与此？</p>
+<p>关公：想我当年早已将曹仁打的困守樊城，曹公七月派于禁率七军三万人驰援襄樊，却被我于八月水淹七军，降于禁斩庞德，九月曹魏邺城魏讽谋反，秘结其党谋划袭击邺城；河南尹梁县、弘农郡陆浑，颍川郡郏县等地纷纷起事响应于我！</p>
+<p>皆因那糜芳军贪误事，断我军需致使樊城不破，我主汉中王授我苻节、斧钺全权主掌荆襄生杀大权让那贼子心虚叛降孙权，致使我北伐大业功亏一篑，若无此贼，炎汉必兴！（注：刘备赢汉中之战后，授关公荆襄生杀之权，此为江陵二号人物糜芳叛降之转折。<strong>《三国志-关羽传》二十四年，先主为汉中王，拜羽为前将军，假节钺）</strong></p>
+<p>智顗：君侯可否知道，那糜芳叛降，孙权背刺皆为君候命中定数。</p>
+<p>君侯阳间为人忠义磊落，为官造福一方，为将不杀降凌弱，所以死后为神，英魂不损，但数十年戎马沙场，手下杀债毕竟太多，<strong>己亥年12月本为君侯寿终之时，阳寿已尽</strong>，被下属盟友出卖背刺实乃恶报轻受，就算无此劫难，君侯殒命当阳之日也正为君候寿终之时。</p>
+<p><strong>君侯威震华夏之日，其实距那寿终只有百日光阴了</strong>，纵无那糜芳叛降，孙权背刺，君侯这百日又能如何逆天改命啊！</p>
+<p>关公：若无那糜芳卖国，孙权背刺，哪怕仅有那百日光阴，也足够我扭转乾坤！</p>
+<p>智顗：三百七十年了，此冤不解，看来君侯会永陷此无间轮回。</p>
+<p>君侯生前忠义无双，为官为将皆护国安民，这是功；</p>
+<p>君侯死后忠义护法，保境安澜，这是德；</p>
+<p>君侯量大才高却依旧执着于己亥年八月那场大霖雨，这是因；</p>
+<p>君侯与我相遇于此，则是莫大之缘。</p>
+<p>功，德，因，缘具足，该当老僧助君破此迷障，也罢，仗我佛甚深法力带你回到那己亥年八月的襄樊战场，了君侯未了之遗憾，看君候是否真的能改动天数，延那蜀汉气运。</p>
+<p><strong>贰：破徐晃，定宛城</strong></p>
+<p>关公待再问智顗，却忽见脚下一震堕入虚空，再一睁眼，发现自己已坐于船中，关平向他禀报：于禁及三万魏军已遵父亲安排乘船由偏将押回江陵发落。</p>
+<p>关公大手一挥道：关平！拿汉中王授予我之符节与斧钺赶快追上行船，你亲自押此三万俘虏回江陵！</p>
+<p>关平不解：父亲，我押此军回江陵，那此地军务交付于谁？</p>
+<p>关公：你眼下有三件要务，办好即为北伐第一功。</p>
+<p>1、持此节钺回江陵收捕糜芳及其属下，然后迅速渡江去公安收捕傅士仁，你亲自守好江陵，派心腹接手公安，严防孙权贼子偷袭。</p>
+<p>2、勿取东吴湘关之米，派人将糜芳傅士仁及这三万俘虏送往蜀中，我与你修书一封送往汉中王手中讲明原委。<strong>（《资治通鉴》：羽得于禁等人马数万，粮食乏绝，擅取权湘关羽关米。权闻之，遂发兵袭羽）</strong></p>
+<p>3、把江陵的所有军械全部调往襄樊，不得拖限时间。</p>
+<p>平儿，此三件事皆非儿戏，事关国运，定要件件办好。</p>
+<p>关平领命而去。</p>
+<p>关公在心中开启了盘算，持此节钺如汉中王亲临，主荆州之杀伐，糜芳军贪误事也皆因此节钺才鱼死网破通敌叛降，收捕糜芳傅士仁之后，孙权吕蒙自然胆寒，江陵为吾亲筑之城，无内贼，外虏不可破也，眼下我有一劲敌要处理。</p>
+<p>徐公明要来了！</p>
+<p>我灭于禁后曹操便派了徐晃来援！**（《三国志.太祖纪》：秋七月，以夫人卞氏为王后。遣于禁助曹仁击关羽。八月，汉水溢，灌禁军，军没，****羽获禁，遂围仁。****使徐晃救之。**<strong>九月，相国锺繇坐西曹掾魏讽反免）</strong></p>
+<p>此时徐晃刚刚从汉中战场撤下来，所率皆新卒，接到战令后自宛城南下屯于阳陵陂。**（*<em>《三国志.徐晃传》*<em>复遣晃助曹仁讨关羽，屯宛。会汉水暴隘，于禁等没。羽围仁於樊，又围将军吕常於襄阳。晃所将多新卒，以羽难与争锋，遂前至阳陵陂屯）</em></em></p>
+<p>徐晃此时根本无力与我争锋，曹公后面不断给他派兵令他兵马齐聚方可与我对阵。<strong>（《三国志.徐晃传》太祖复还，遣将军徐商、吕建等诣晃，令曰：须兵马集至，乃俱前）</strong></p>
+<p>三百多年前，我八月便已困住曹仁围城打援，设下鹿角十重等曹魏南下，实际上徐晃直到十月才敢来与我对战。</p>
+<p>九月，关公命曹魏投降过来的荆州刺史胡修（治所新野）会师攻打徐晃，命南乡太守傅方（治所河南淅川县西南）去兵临宛城。<strong>（《晋书.宣帝纪》及蜀将羽围曹仁于樊，于禁等七军皆没，修、方果降羽）</strong></p>
+<p>徐晃自宛城南下行至新野，忽见大量战船自南而来，船头大旗赫然一个“关”字。（注：新野为白河南下襄樊枢纽）</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143228511.jpeg" alt="图片" /></p>
+<p>又见荆州刺史胡修率兵前来，高喊“公明速降”。</p>
+<p>徐晃所将新卒不战而崩，徐晃禁止不住，溃不成军，关公挥师追击，徐晃逃往宛城却遇傅方前来截堵，最终放弃宛城逃奔洛阳。</p>
+<p>关公大兵临于宛城，一年前就已造反响应关公的宛城不战而降。<strong>（《三国志.武帝纪》:(二十三年)冬十月，<strong><strong>宛守将侯音等反，执南阳太守，劫略吏民，保宛</strong></strong>；《曹瞒传》：是时南阳间苦繇役，<strong><strong>音於是执太守东里衮，与吏民共反，与关羽连和</strong></strong>）</strong></p>
+<p>自江陵到宛城，白河与汉水的水路连成了一片，宛城的归属，已经预示着南阳盆地被关公收入囊中。</p>
+<p>再算上去年埋下的孙狼等游击队开始纷纷蹦了出来，河南尹梁县、弘农郡陆浑，颍川郡郏县等地陆续起事响应关公！<strong>（《三国志.关羽传》：梁、郏、陆浑群盗或遥受羽印号，为之支党，羽威震华夏）</strong></p>
+<p>关公威震华夏！</p>
+<p>曹操开始思考南面迁都，司马懿献计，命孙权偷袭江陵，孙权自糜芳傅士仁被关平收捕后哀莫大于心死，建议曹操再添一把力，让关公把江陵城防调空，江陵城硬攻实在难打。</p>
+<p>注：当初曹仁在赤壁大败后守江陵城近一年，本来就不好打，关公后来在原城防基础上又建了南城。<strong>（《元和郡县图志》：江陵府城，州城本有中隔，以北旧城也，以南关羽所筑）</strong></p>
+<p>此城极坚，非内贼，外虏不可下，历史上的孙权偷袭江陵，曹操派人告诉关公，关公自信道：那城是我所造的！打不动！<strong>（水经注》:旧城，关羽所筑。羽北围曹仁，吕蒙袭而据之。羽曰：此城吾所筑，不可攻也）</strong></p>
+<p>曹操看到孙权所言极度失落，此时宛城已失，水路已经贯通，南阳地区已经非我所有，关羽不冲出来，我已经没有办法再添油战术的增兵南阳了。</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143228378.jpeg" alt="图片" /></p>
+<p>曹操开始正式考虑许昌的汉献帝迁都问题了！</p>
+<p>就在关公拿下宛城之时，南面传来战报，曹仁数千军弃樊城而出，围城汉军因兵少难以阻拦，曹仁奔襄阳会和守将吕常卡死了南北交通。</p>
+<p>关公无奈南下再战曹仁，走前对宛城守将道：曹贼必不敢派大军前来，我水军来去迅速，斩曹仁后便来与汝会和。</p>
+<p>曹仁据襄阳坚守不降，关公顿兵于此无可奈何，于是修书成都，言自己身老体衰速派良将接手荆襄。</p>
+<p>转眼百日到，12月一夜，关公无疾而终。</p>
+<p>关公再看眼前，已回到当阳玉泉山，对面智顗笑道：君侯此番如何？</p>
+<p>关公道：此番江陵未失，魏精锐被吾送至蜀中，我大胜破宛，华夏震动，只有那曹仁小儿困守襄阳，我亦修书汉中王，速派猛将接吾局面。</p>
+<p>智顗道：将军预知后事如何？</p>
+<p>关公道：求大师开示。</p>
+<p><strong>叁：关、曹之寿，汉、魏兴衰</strong></p>
+<p>智顗挥一挥衣袖，眼前展开了梦境，只见那关公病亡之后，曹操迅速来抢宛城，宛城不战而降，因襄阳始终未克，汉军亦退回江陵，局面回到了北伐之前。</p>
+<p>关公以为那三万魏军入蜀后能被消化成己方战力，却发现刘备刚刚结束了长达一年多的汉中之战，自蜀北上为物流噩梦，此战打的整个蜀汉男子当战女子当运已经民困国乏，根本无力养此三万精壮，虽孔明长袖善舞，但此三万北兵最终病饿折损大半，并未增加蜀中实力。<strong>（《三国志.杨洪传》先主争汉中，急书发兵···方今之事，男子当战，女子当运，发兵何疑）</strong></p>
+<p>关公死后，江陵交于张飞之手，两年后，范强，张达受东吴陆逊引诱杀张飞降吴，刘备仓促兴兵来夺荆州，依旧没有躲过那223年的夷陵大火。</p>
+<p><strong>智顗道：君侯可知，那汉魏国运实则皆取决于你与孟德二人之寿数啊！</strong></p>
+<p><strong>孟德先于君候寿终，则黄河以南非魏之所有；</strong></p>
+<p><strong>君侯先于孟德寿终，则华夏震动注定平息；</strong></p>
+<p><strong>孟德寿尽于君侯殒命一月之后，自有兴魏衰刘之天意，不可强求啊！</strong></p>
+<p>关公叹道：此番北伐已达极致，便再有一次，亦不可能如此番顺利，看来北伐之路不通，求大师再赐一次机会。</p>
+<p>智顗笑道：向北不通，且看君侯此番运筹。</p>
+<p>关公又回到了那219年八月，关平前来对他说七军俘虏之事。</p>
+<p>关公道：平儿，召全军回江陵。</p>
+<p>关平：父亲，此时势如破竹形势大好，为何撤军？</p>
+<p>关公道：吾自有定夺。</p>
+<p>关公来到江陵亲手处决了糜芳傅士仁，随后修书一封命关平亲至成都呈于刘备。</p>
+<p>书中关公主要表达了两件事：</p>
+<p>1、年老体衰，旧病复发，恐无法支撑时日，速派重将接手荆州。</p>
+<p>2、糜芳傅士仁通敌叛国已被我处理，孙权贼子始终未放弃策反荆州，需时刻小心。</p>
+<p>关公随后又修书一封与张飞，告诫翼德切勿鞭挞士卒，汉中王曾戒于贤弟，得罪之人不可留于身边，你手下那范强张达二人千万小心，为兄老衰，死前之语切记！<strong>（《三国志.张飞传》：先主常戒之曰：“卿刑杀既过差，又日鞭挝健儿，而令在左右，此取祸之道也。”飞犹不悛。先主伐吴，飞当率兵万人，自阆中会江州。临发，其帐下将张达、范强杀飞，持其首，顺流而奔孙权）</strong></p>
+<p>关公随后的时光整编训练北方俘兵，和孙权修书放低姿态，修整烽火台等防吴设施，12月从容病逝。</p>
+<p>再回来，关公问道：大师，此番如何？</p>
+<p>智顗道：将军大智大慧，未泄天机却将天大之事详述，此番还请眼见为实。</p>
+<p>智顗再次召唤梦境，只见关公死后依旧是张飞接班，但两年后张飞病逝，刘备亦不可谓不重视，安排了老成持重的李严接替张飞之位。（注：李严为刘备白帝托孤的二号人物，所以此处安排李严接班）</p>
+<p>又一年，刘备寿终，亮正严副，丞相兼益州牧，李严为荆州刺史。</p>
+<p>随后就是更高级别的丞相与李严内斗。（注：“亮正严副”为丞相主政前中期重要剧情）</p>
+<p>李严拿着荆州不断要挟丞相，在曹魏、孙吴处待价而沽，最终虽未夷陵大败，但丞相要留重兵屯于白帝时刻小心李严逼宫，最终依然北伐失利，街亭丧于马谡之手。</p>
+<p>公元234年，丞相病逝五丈原，李严听后大喜，火速整军逼近成都，却于半路病逝。（注：真实历史中，李严死于丞相病逝不久**。****《三国志.李严传》十二年，平闻亮卒，发病死。平常冀亮当自补复，策后人不能，故以激愤也**）</p>
+<p>孙权趁机西进，陆逊偷袭荆州得手，依旧是当年的历史模样。</p>
+<p>看到此处，关公叹息一声：天命啊！</p>
+<p>智顗道：一切都是最好的安排，此番君候之所为，不寄希望于己，却寄希望于他人，<strong>殊不知老僧已对君侯言明，汉魏之国运，取决于君侯与孟德之寿，他人皆左右不了这浩荡天运！</strong></p>
+<p>关公叹道：关某愚钝，未听出大师所言汉运在我之真意，求大师再带我回去，关某再想办法。</p>
+<p>智顗道：可一可二不可三啊。</p>
+<p>关公道：关某此番回来，无论结局如何皆不会再留恋这三百年前的种种恩怨，求吾师成全！</p>
+<p>智顗道：君侯赠土建寺之德甚厚，你我缘分非浅，我帮君侯选个回去的时间吧！</p>
+<p><strong>肆：本色于人性</strong> </p>
+<p>关公再一睁眼，只见船外暴雨倾盆，关平道：如父亲所料，如今大霖雨已下十余日，汉水暴涨，我等已在堤口安排了决堤之军，正对于禁所屯平鲁城**（《襄阳县志》：平鲁城在樊城西。东对樊城，周四里，南半沦水。关壮缪围于禁于此）**。</p>
+<p>于禁那三万精锐转眼就将为我瓮中之鳖。<strong>（《水经注》：会沔水泛溢三丈有馀，城陷；《三国志·于禁传》：秋，大霖雨，汉水溢，平地水数丈，禁等七军皆没）</strong></p>
+<p>关公心道：这是回到了水淹七军之前。</p>
+<p>望着船外的涛涛江水，关公陷入了沉思，就算擒于禁、斩庞德，水淹七军，又能如何呢？</p>
+<p>第一番回去，战略目标达成已为极致，国力如此，手下兵力有限，已经是无法复制的奇迹了，但曹仁顽抗到底的钉在了襄阳，我根本无法兵入中原找那曹公决一死战。</p>
+<p>第二番回去，智顗大师已重申，汉魏国运为吾与曹公之寿，曹公见不到，这国运终究难改。</p>
+<p>关公叹了一声道：此番已无可能！天命终究难为，我想了三百年都没有结果，此时也是枉然，唉！淹了那于禁之后我即挥师猛进，不管这曹仁于后了，就算后援粮草被断，吾亦拼死向前找那曹贼决一死战，大不了再走一次麦城！一死报我主而已！</p>
+<p>关公这一声长叹，惊得身边众将呼道：前将军刚才之言属下未明真意，如今大胜在即，何言一死报主之语啊！</p>
+<p>关公这才发现，自说自话之时，身边众将皆在身边。</p>
+<p>突然间，关公被自己这句“一死报主”惊到。</p>
+<p>我为何不假思索的就说出了“一死报主”？</p>
+<p>电光火石间，关公心道：再走一千遍麦城，我依然会忠义赴死；再给一千次机会，糜芳傅士仁依然会军贪误事，<strong>人性是改不了的！</strong></p>
+<p><strong>再围一千次樊城，他曹仁也依旧会顽抗到底！</strong></p>
+<p><strong>但再围一千次于禁，却会收获一千次“我等愿降！</strong></p>
+<p>我错了！三百年来我始终抱着水淹七军的巨大优势死死走不出来！我在汉水暴涨之时决堤的方向是冲向于禁驻扎的平鲁城，而不是曹仁的樊城！！！</p>
+<p>平鲁城和樊城皆已年久失修，平鲁城被决堤之水冲垮，于禁七军皆没；那樊城虽未被冲，却也在水泡之后处处崩坏！<strong>（《三国志.满宠传》：城不没者数板；羽急攻樊城，樊城得水，往往崩坏，众皆失色）</strong></p>
+<p>如果决堤方向是樊城，则樊城必然也会冲垮！</p>
+<p>曹仁伏诛，那于禁于此汪洋又能敌我何！</p>
+<p>曹仁几千人困守樊城已经军中无粮，完全是意志力在斗争，那于禁三万人被水围城后粮草尽丧又能挺多久！**（《三国志.曹仁传》仁人马数千人守城，城不没者数板。羽乘船临城，围数重，外内断绝，粮食欲尽，救兵不至）
+**</p>
+<p>三百七十年前他会投降，这次陷入绝境后他还是会投降！</p>
+<p>关公道：速喊关平前来！调整决堤方向！</p>
+<p>于禁那三万人非吾之劲敌，速淹樊城！</p>
+<p>此时此刻，如果有一个办法，让我们将脑补水淹樊城的惊心动魄，亲自演变成现实呢？</p>
+<p>通过挖掘，将地势改造成一个悬在樊城头上的水库，在那场十余日的大霖雨后，决堤将这“水神”版的撞城锤轰隆隆的砸向樊城呢？</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143228956.gif" alt="图片" /></p>
+<p>气象破万军——借风雨，变地形，今天我们有机会通过腾讯旗下的旗舰级大世界沙盘战略手游《鸿图之下》，去还原一千八百年前的那场惊心动魄的巅峰对决。<strong>（一定看完，有惊喜）</strong></p>
+<p>作为腾讯首款由虚幻4引擎打造的策略手游，依托于引擎强大的计算能力，<strong>力求还原出真实地形、天气、昼夜变化，打造真实战场，模拟出真实的战争体验。</strong></p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143228470.jpeg" alt="图片" /></p>
+<p>《鸿图之下》即将于明天11月13日推出年度剧本《水淹七军》，开启真实沙盘模拟真实历史战争的巅峰赛季，年度剧本玩法融入《水淹七军》真实历史，咱们可与关二爷一同改写天命。</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143228426.jpeg" alt="图片" /></p>
+<p>在此次《水淹七军》的剧本中，所有地格都将拥有一个新属性——地势，根据地势值的不同，分为洼地、平地、高地三种地形。</p>
+<p>地格的地势是可变的，主公们可以派出军团对自己占领的地格进行挖掘和填平，从而改变地形，平地可以通过挖掘变为洼地，洼地可以通过填平变为平地。</p>
+<p>更为真实的是，如果兵力数量过低，将无法实现挖掘操作。</p>
+<p>毕竟军团是无法完完全全的由战斗队转变为工程队的，需要有日常的兵力守卫军团安全，所以兵力有限时是无法变动地形的。</p>
+<p><strong>这些考虑，都是为了力求真实战场的还原。</strong></p>
+<p>而且《水淹七军》剧本还将出现雨天的天气，下雨持续超过一定时间后，不同地势的地格上将会产生积水，高地洼地的水量会随着天气的变化而变化，从而与整个地势相影响，形成最终的水势。</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143228612.png" alt="图片" /></p>
+<p>水势分三种，无水、浅水和深水，**在持续在浅水和深水状态时，会不断掉补给，**因为真实世界中，粮草遇到了水淹确确实实就是梦魇，会腐烂变质的，<strong>而且在浅水和深水状态，这个地方是无法造拒马和要塞的防御装置的。</strong></p>
+<p>甚至为了在天时方面力图真实，在《水淹七军》的剧本中，连天气系统都进行了全面革新，新增了雨季、旱季两种季节设定。</p>
+<p>除了战场力求真实，鸿图还推出了SP关羽，<strong>赤面白须造型</strong>从各方面细节力图最为真实的<strong>还原水淹七军老年关公造型</strong>。</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143229763.png" alt="图片" /></p>
+<p>除此之外，腾讯还请来了94版关公扮演者陆树铭老师来打造此次战役宣传片，将情怀拉满。</p>
+<p>，时长00:30</p>
+<p>又找来了从来不写原创广告的我，破例写了这篇剧本型文宣。</p>
+<p>这一切一切的投入和用心，都是品质和匠心的体现。</p>
+<p>除了《水淹七军》剧本，鸿图还打造了《群雄逐鹿》、《火烧乌巢》等多款佳作剧本，敬等大家前来解锁。</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143228585.jpeg" alt="图片" /></p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143228548.jpeg" alt="图片" /></p>
+<p><strong>伍：关将军，别来无恙否？</strong></p>
+<p>关公决堤攻击目标变为樊城之后，樊城城破被毁，曹仁死战不降，最终和满宠、庞德三将壮烈殉国。</p>
+<p>关公急攻于禁，许以封侯之利，于禁因粮草皆被大水泡坏无力支撑最终投降。</p>
+<p>九月，关公留偏军围住襄阳，派关平押于禁等七军前往江陵处决糜芳傅士仁，自将主力迎击自宛城南下的徐晃而来！</p>
+<p>亲爱的们，这是我的第一个架空性历史剧本改编，如果大家觉得好的话，请多多关注咱们的“鸿图之下”，毕竟是人家付了成本，咱们大家才看到的这篇故事。</p>
+<p>最后留个小彩蛋，咱们这篇文章的点赞加转发如果总数超过了3000，我后面会把关公和曹操面对面的最后一战给大家写出来。</p>
+<h2 id="公元219年冬宛下兵到关云长在此逆天改命续集"><a class="header" href="#公元219年冬宛下兵到关云长在此逆天改命续集">公元219年，冬，宛下兵到！关云长在此！（逆天改命续集）</a></h2>
+<p>此文为**“生命最后一百天，关公怎样才能帮蜀汉逆天改命？”**的续集，未看过的朋友可以先点下图链接观看上文后，再看今天的内容。</p>
+<p><a href="http://mp.weixin.qq.com/s?__biz=MzUyMzUyNzM4Ng==&amp;mid=2247504630&amp;idx=1&amp;sn=c54f805d30ac2c2ff116a4e045d2adfd&amp;chksm=fa39a743cd4e2e55a09c3e24463df3dd399c9b3c37c89207296197cd280ed5995e0cdadc3c60&amp;scene=21#wechat_redirect"><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143312916.jpeg" alt="图片" /></a></p>
+<p><strong>壹：又一个曹仁</strong></p>
+<p>公元219年八月，关公将决堤攻击目标变为樊城之后，樊城城破被毁，曹仁死战不降，最终和满宠、庞德三将壮烈殉国。</p>
+<p>关公急攻于禁，许以封侯之利，于禁因粮草军械皆被大水泡坏无力支撑最终投降。</p>
+<p>九月，关公留偏军围住襄阳，派关平押于禁等七军前往江陵处决糜芳傅士仁，自率主力迎击自宛城南下支援曹仁的徐晃。（真实历史中，此时徐晃刚刚从汉中战场撤下来，所率皆新卒，接到战令后自宛城南下支援，故据此史料改编。**<em>*《三国志.徐晃传》*<em>复遣晃助曹仁讨关羽，屯宛。会汉水暴隘，于禁等没。羽围仁於樊，又围将军吕常於襄阳。晃所将多新卒，以羽难与争锋，遂前至阳陵陂屯）</em></em></p>
+<p>行至新野，关公听到前方来报。</p>
+<p>一口怒气涌上，脑中一阵眩晕。</p>
+<p>关公在水淹曹仁后命曹魏投降过来的荆州刺史胡修（治所新野）会师攻打徐晃，命南乡太守傅方（治所河南淅川县西南）去兵临宛城截住徐晃退路**。****（《晋书.宣帝纪》及蜀将羽围曹仁于樊，于禁等七军皆没，修、方果降羽）**</p>
+<p>徐晃此时自宛城南下增援，行至新野忽见荆州刺史胡修率兵前来，高喊“曹仁已死，于禁已降，我和傅方已降了关将军，此时公明你已前后死路，速降。（注：新野为白河南下襄樊枢纽）</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143311572.jpeg" alt="图片" /></p>
+<p>徐晃所率新卒不战而崩，徐晃禁止不住，溃不成军，逃往宛城，半路中遇傅方前来截堵，但由于关公围于禁于平鲁城中耽误时日，此时仅二降将围堵徐晃，徐晃最终率残兵逃入宛城。</p>
+<p>胡修与傅方笑道徐晃困守孤城易取，但关公却心如死灰。</p>
+<p>我解决了一个麻烦，却又来了一个更大的麻烦！</p>
+<p>这徐晃，是又一个曹仁！</p>
+<p>天不佑炎刘，我就算收襄樊于全功，宛城终究有下一个钉子等着我。</p>
+<p>关公心中已颓，打算做最后一试，命诸军大造攻城器械准备猛攻宛城，引曹操亲自救援，并传令孟达刘封自上庸率军支援宛城。</p>
+<p><strong>贰：四面楚歌的曹操</strong></p>
+<p>关公顿兵宛城之时，曹操如关公一样绝望。</p>
+<p>关公在218年年埋下的孙狼等游击队开始纷纷蹦了出来，河南尹梁县、弘农郡陆浑，颍川郡郏县等地陆续起事响应关公。<strong>（《三国志.关羽传》：梁、郏、陆浑群盗或遥受羽印号，为之支党，羽威震华夏）</strong></p>
+<p>自许昌以南，大量野生势力开始加入关公粉丝团。<strong>（《资治通鉴》：陆浑民孙狼等作乱，杀县主簿，南附关羽。羽授狼印，给兵，还为寇贼，自许以南，往往遥应****羽，羽威震华夏</strong>）</p>
+<p>洪河以南，除孤城宛城之外，已非曹魏所有。（此处借鉴满宠劝曹仁固守时描述关公势力的史料。<strong>《三国志.满宠传》：闻羽遣别将已在郏下，自许以南，百姓扰扰，羽所以不敢遂进者，恐吾军掎其后耳。<strong><strong>今若遁去，洪河以南，非复国家有也</strong></strong>）</strong></p>
+<p>关公威震华夏！</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143311868.jpeg" alt="图片" /></p>
+<p>曹操开始思考将汉献帝迁都河北大本营，司马懿分析局面并非不可收拾，献计去挑唆孙权偷袭江陵，则中原之危自解。<strong>（《晋书.宣帝纪》及蜀将羽围曹仁于樊，于禁等七军皆没，修、方果降羽，而仁围甚急焉。是时汉帝都许昌，魏武以为近贼，欲徙河北。帝谏曰：禁等为水所没，非战守之所失，于国家大计未有所损，而便迁都，既示敌以弱，又淮沔之人大不安矣。孙权、刘备，外亲内疏，羽之得意，权所不愿也。可喻权所，令掎其后，则樊围自解。魏武从之）</strong></p>
+<p>曹操从之，给孙权派出了使臣后开始马不停蹄的自长安往洛阳赶。（根据《三国志.武帝纪》记载，曹操自夏五月至长安后直到冬十月才军还洛阳，孙权回信的使臣十月才至洛阳，所以曹操迁都之议的地点在长安）</p>
+<p>返程洛阳途中，令曹操更加脑袋疼的恐怖事件出现了！</p>
+<p>他的大本营邺城出现造反叛乱事件！</p>
+<p>他魏国的相国，老干部锺繇手下的西曹掾魏讽谋反！<strong>（《三国志.武帝纪》：九月，相国锺繇坐西曹掾魏讽反免）</strong></p>
+<p>魏讽是沛国人，属于曹操半个老乡，而且影响力非常大，在邺城相当有影响，被颍川此时的带头大哥钟繇征辟。<strong>（《世语》：讽字子京，沛人，有惑众才，倾动鄴都，锺繇由是辟焉）</strong></p>
+<p><strong>钟繇征辟魏讽这个沛国人的本心很可能是因为这是曹操的老乡，是他谯沛系的自己人，以此来表态度，诉忠心。</strong></p>
+<p>在关公襄樊大胜，曹操人在长安之时，魏讽秘密纠结党徒，与长乐卫尉陈祎谋划袭击邺城，就在发动政变之前，陈祎害怕向曹丕坦白，曹丕随后铁腕处理诛杀了魏讽，被牵连处死的有数千人，革命元勋钟繇因此案被免掉官职！<strong>（《世语》：大军未反，讽潜结徒党，又与长乐卫尉陈祎谋袭邺。未及期，惧而告之。太子丕诛讽，连坐死者数千人，钟繇坐免官）</strong></p>
+<p>邺城，这个曹魏的首都此时风声鹤唳！</p>
+<p>此次受牵连的官员中，张泉（张绣子）、刘廙兄弟（刘表故吏）、宋忠父子（刘表故吏）、王粲之子（刘表故吏），<strong>和荆州方面全都有着历史关系！</strong></p>
+<p><strong>真实历史中，极度风起云涌的219年秋。</strong></p>
+<p><strong>曹操寿命的影响在真实历史中极度被低估。</strong></p>
+<p>仗着曹丕的高光表现，曹操没有在老窝现眼，不过此时他就算真的想给献帝迁都，也不能往河北迁了！</p>
+<p>邺城作为权力中枢爆发了如此深度的叛乱，牵扯人数高达数千人！河北还真的安全吗？还有没有隐藏的势力没有蹦出来？</p>
+<p>更可怕的是，魏讽是沛人啊！</p>
+<p>献帝绝对不能迁都河北！</p>
+<p>十月，曹操军至洛阳，孙权的信使也来了。<strong>（《三国志.武帝纪》：冬十月，军还洛阳。孙权遣使上书，以讨关羽自效）</strong></p>
+<p>孙权自糜芳傅士仁被关平收捕后哀莫大于心死，表态自己想进步的心情是迫切的，但人家江陵现在是铁桶，希望魏王再添一把力，让关公把江陵城防调空我才好下手。</p>
+<p>吴老二指望不上了。</p>
+<p>曹操去洛阳参观了自己梦开始的地方，那个洛阳北部尉的公堂，当年自己做五色棒给老爹惹祸的画面从脑海中浮现出来，一晃四十多年过去了。（<strong>曹瞒传曰：王更脩治北部尉廨，令过于旧</strong>）</p>
+<p>他深深的感到了生命在迅速的流失，内心无比惆怅，难道自己的一生基业就要就此土崩瓦解了吗？</p>
+<p>曹操喊来司马懿，问道：孙权已经指望不上了，关羽现在军况如何？卿有何良策？</p>
+<p>司马懿道：魏王，此时情况看似紧急，但徐晃仍然将关羽绊在宛城，汉军凶猛却并没有冲出南阳盆地，邺城危机已被太子解除，局面并非不可收拾，孙权贼子首鼠两端，张辽等合肥诸将暂不可撤，但兖州、豫州尚有州军，请丞相速召兖、豫二州拱卫许昌严防关羽偷袭，令派手中诸营援救宛城。</p>
+<p>曹操从其言，命殷署、硃盖等十二营增援宛城。（历史上确有此十二营兵，曹操曾调十二营兵前去支援徐晃解樊城之围。<strong>《三国志·徐晃传》太祖复还，遣将军徐商、吕建等诣晃，令曰：须兵马集至，乃俱前…太祖前后遣殷署、硃盖等凡十二营诣晃）</strong></p>
+<p>命兖州刺史裴潜与吕贡调州军进驻许昌。（兖州军和豫州军历史上也真的驰援过襄樊战场。<strong>《三国志.温恢传》於是有樊城之事。诏书召潜及豫州刺史吕贡等，潜等援之）</strong></p>
+<p>危机四伏的曹操调出了最后的家底，此时宛城的关公随着时间的推移同样越来越绝望。</p>
+<p><strong>叁：拿《汉书》来！</strong></p>
+<p>徐晃名将，宛城坚城，智顗大师言说“汉魏国运实则取决于我与孟德二人之寿数，孟德先于我寿命终，则黄河以南非魏之所有；我先于孟德寿终，则华夏震动注定平息！”</p>
+<p>眼下我连宛城都离不开，如何去和曹操有个了断！</p>
+<p>孟德寿尽于我殒命一月之后，看来真的是自有兴魏衰刘之天意，不可强求。</p>
+<p>这时帐外道：“孟达刘封二将军求见”。</p>
+<p>关公引见孟达刘封，道：如今形势大好，特烦请二将军共建功勋，兴复中原，二将军远来辛苦，如今宛城城破在即，且回营休息，明日再商军务。</p>
+<p>孟达刘封二人退下后，关公心道：如今我已切断和曹魏往来之路，孟达此贼在形势大好且没有退路的情况下前来宛城并不意外，待我找机会治此贼攻城不利之罪，为汉中王除此大患。</p>
+<p>可国运在我与孟德之寿，纵杀此贼，于事无补啊！</p>
+<p>我煌煌炎汉不是没有逆天改命过啊！</p>
+<p>想当年光武皇帝只手补天再续了这两百年炎汉国祚，那是何等英雄！</p>
+<p>当年昆阳城下，光武皇帝三千人逆转王莽数十万大军！</p>
+<p>等等！昆阳！</p>
+<p>关公走到作战图前，发现昆阳此时就在不远！</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143311731.jpeg" alt="图片" /></p>
+<p>宛城，昆阳，为何如此熟悉！</p>
+<p>关公惊呼左右，拿《汉书》来！</p>
+<p>关公翻到了《汉书.王莽传》，看到了后汉起家的昆阳之战，看到了光武兄刘伯升在昆阳围城时被后来云台二十八将第六名的岑彭绊于宛城之下······</p>
+<p>那一夜，关公定下计较。</p>
+<p><strong>肆：消失的关公</strong></p>
+<p>第二天，关公召来孟达刘封安排：昨夜收到消息，曹操正亲率大军驰援而来，明日关某将开赴中原击敌于南阳之外，宛城已近油尽灯枯，二位将军围困徐晃于此，拿下宛城之日，便是我军囊括南阳之时，望二位将军勉励为国。</p>
+<p>孟达刘封退下后，关公叫令使道：速去传令孙狼等梁、郏、陆浑诸将，勿在扰于洛阳周边，速去昆阳城与大军会和。</p>
+<p>传令兵走后，关公正色对麾下都督赵累道：你现在领一万军星夜出发，给我占住昆阳，接纳孙狼众将，我率大军随后前来！（赵累史上确有其人，为关公败走麦城后最终仅剩亲随之一。<strong>《三国志·吴主传》：权先使朱然、潘璋断其径路。十二月，璋司马马忠获羽及其子平、都督赵累等於章乡</strong>）</p>
+<p>“昆阳？此城并无显赫之处，小城而已，何故扑于此城？”何不全军直奔许昌？赵累问道。</p>
+<p>关公道：曹操此时也派兵星夜南下，快去占住此城，我自有计较！</p>
+<p>赵累领命告退。</p>
+<p>关公叫住赵累道：且慢，你此去打我旗号，入城后坚固城防不要出战，但将我关字旗广插于城头，此城若固，此为北伐第一功！</p>
+<p>赵累前去。</p>
+<p>十月底，赵累来到了昆水北岸的昆阳城，广插关字旗。</p>
+<p>未二日，曹操南援徐晃之十二营兵顿于昆阳，遣使洛阳报告曹操。</p>
+<p>曹操听闻关公已至昆阳，惊问左右：兖州、豫州之兵现于何处？</p>
+<p>司马懿道：半月前已派出急递，算来此时已至许昌。</p>
+<p>随后司马懿又道：如今洛下群盗均已南奔昆阳投奔关羽，看来关羽对献帝确实有所图谋，正凝聚力量准备偷袭许昌！</p>
+<p>曹操道：传令昆阳诸营给我拖住关羽，将昆阳城一草一木之变化均传报回来！传令许昌，命裴潜等切勿西进，牢牢守住许昌严防内乱，关羽兵至切勿与其交锋，孤将亲率大军与关羽决战！</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143314106.gif" alt="图片" /></p>
+<p>十一月中旬，曹操军至昆阳城下。</p>
+<p>刚刚安营扎寨不久，突然传来急递。</p>
+<p>洛阳附近出现关字旗！</p>
+<p>有偏军自洛水西来！</p>
+<p>曹操大惊道：何故到处都是关羽！</p>
+<p>难不成关羽走了赤眉当年故道？（自宛城西北至武关（商南县西南丹江上），随后方向正北进入卢氏后能分别插入弘农与洛阳）</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143311883.jpeg" alt="图片" /></p>
+<p>此路为公元24年赤眉西进讨玄汉故道，因道路难走故罕为大军所选。<strong>（《资治通鉴》：崇等计议，虑众东向必散，不如西攻长安。于是崇、安自武关，宣等从陆浑关，两道俱入；赤眉二部俱会弘农）</strong></p>
+<p>公元450年刘宋刘义隆北伐时，雍州军由柳元景率领再次重走了当年的赤眉故道，打北魏措手不及，下图黑线为柳元景进军图。<strong>（《资治通鉴》闰月，庞法起等诸军入卢氏，斩县令李封，以赵难为卢氏令，使帅其众为乡导。柳元景自百丈崖从诸军于卢氏。法起等进攻弘农）</strong></p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143311868-1905191.jpeg" alt="图片" /></p>
+<p>司马懿道：魏王勿忧，此路沿途村落稀少，无补给供应，以关羽临时北来之军，断无可能大军至此，必为小股偏军扰乱魏王，关羽之图定然还是许昌！魏王可遣二公子曹彰率关中军移屯洛阳，则洛阳之忧自解。（曹操东进洛阳之时，留曹彰驻屯长安。<strong>《三国志.曹彰传》太祖东还，以彰行越骑将军，留长安）</strong></p>
+<p>曹彰也被关公调动出来了。</p>
+<p>曹操随后召之前置于此地之十二营军主问道：孤南下时日，关羽有何动作？</p>
+<p>并无动作，只见固守城池，五日前子夜，见城中窜出一骑被我军截住，只搜出一味中药“当归”。</p>
+<p>“当归？”</p>
+<p>曹操疑惑再问：你见到关羽了吗？</p>
+<p>初至昆阳城下之时，见一红脸长髯之人现于城头，这十余日并未再见。</p>
+<p>曹操疑道：难道关羽病了？</p>
+<p>曹操再问：宛城现在什么情况？</p>
+<p>汉军已经占领叶县（后古城），封死了南阳盆地，宛城所有信息已断十余日。</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143311766.jpeg" alt="图片" /></p>
+<p>沉吟半晌，曹操道：明日攻城！</p>
+<p>十一月十五日，曹操军临昆阳城下喝到：云长安在？</p>
+<p>城头赵累答话道：我家将军此时已拿下洛阳，你不知道吗？</p>
+<p>曹操笑道：我知你主公人在城中，喊云长回话！</p>
+<p>赵累道：汉贼不两立，多说无益！</p>
+<p>曹操大怒，下令攻城。</p>
+<p>魏军围昆阳数重，云车十余丈瞰临城中，旗帜蔽野，积弩乱发，矢下如雨，但汉军英勇，昆阳城金汤坚固。</p>
+<p>一晃半月有余，时间已经进入闰十一月，昆阳城不下，关公人未见。</p>
+<p>曹操极度狐疑，关羽到底人在何处！难道真的在洛阳？</p>
+<p>司马懿道：曹彰公子已自长安驰援洛阳，昨日还传来洛阳一切正常的信报，就算关羽人在洛阳附近此时也已经后勤断绝进入死地，他关羽放水淹樊城，如今我们决滍水（今沙河）淹昆阳！</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143312215.jpeg" alt="图片" /></p>
+<p>又五日，魏军掘开滍水，水淹昆阳。</p>
+<p><strong>伍：竟然是他！</strong></p>
+<p>闰十一月初八夜，得知曹军防水淹城，在曹操顿兵昆阳近一月后，关公于叶县点兵！</p>
+<p>关公上告苍穹，当年光武皇帝于昆阳城下挫王莽数十万之众，再续了炎汉二百年国运。</p>
+<p>如今炎汉之运全系于我与孟德，我已将孟德绊于昆阳半月有余。</p>
+<p>当年光武皇帝就是从外面搬兵杀回的昆阳。<strong>（《汉书.王莽传》会世祖悉发郾、定陵兵数千人来救昆阳）</strong></p>
+<p>在这后汉的龙兴之地，让我与孟德做个了结吧！</p>
+<p>云长已尽全力，此番再战，无论成败，定不再留恋于此尘世间的种种过往！</p>
+<p>闰十一月初九，晨，冬雷炸响！</p>
+<p>曹操出帐疑道：冬日惊雷，不寻常啊！</p>
+<p>忽然间，远处尘土飞扬，战马嘶鸣，紧跟着听到震天动地的呐喊：徐晃首级在此！宛下兵到！</p>
+<p>曹军紧急布阵依托营盘接战，见敌阵为首一将赤面长髯，手举青龙刀怒吼道：关云长在此！谁来决一死战！</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143319364.gif" alt="图片" /></p>
+<p>昆水冬日水浅徒步可过，关公率汉军直接趟过昆水冲击魏军中坚。（刘秀当年在六月夏天都可涉昆水而过。<strong>《后汉书.光武帝纪》六月己卯，光武遂与营部俱进，自将步骑千余，前去大军四五里而陈······光武乃与敢死者三千人，从城西水上冲其中坚）</strong></p>
+<p>汉军突入魏营，关公麾下诸将自灭曹仁擒于禁后胆气益壮，无不一当百，关公更是一马当先冲突于前，当年万军从中斩颜良英雄尚在！</p>
+<p>曹军崩乱，昆阳城里赵累也鼓噪于城头，昆阳城中守军虽陷于水中不得出，但城上将士震呼动天地。</p>
+<p>大风雷，屋瓦飞，大雨下，昆阳剧本重演！</p>
+<p>关公仰天长啸：降此风雨，天不绝汉！</p>
+<p>魏兵大溃，走者相腾践。</p>
+<p>此战魏军被赶至滍水者不可胜数，溺死者万数，水为之不流。</p>
+<p>曹操率精骑兵数百逃走，关公追击跟上，越追越紧，曹操已不及百步。</p>
+<p>万急时，斜刺里杀出一队兵马拦住去路，为首一将叫道：休伤吾主！</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143314461.gif" alt="图片" /></p>
+<p>关公打眼望去，敌阵为首者，司马懿。</p>
+<p>曹操趁此机会脱阵遁去。</p>
+<p><strong>司马懿时任军司马，手握营兵，非胡乱加戏。****（《晋书.宣帝纪》****魏国既建，迁太子中庶子。每与大谋，辄有奇策，为太子所信重，与陈群、吴质、硃乐号曰四友。****迁为军司马，****言于魏武曰：昔箕子陈谋，以食为首。今天下不耕者盖二十余万，非经国远筹也。虽戎甲未卷，自宜且耕且守。魏武纳之，于是务农积谷，国用丰赡。帝又言荆州刺史胡修粗暴，南乡太守傅方骄奢，并不可居边。魏武不之察。及蜀将羽围曹仁于樊，于禁等七军皆没，修、方果降羽，而仁围甚急焉。是时汉帝都许昌，魏武以为近贼，欲徙河北。帝谏曰···</strong>）</p>
+<p>关公勒住兵马，望着远去的曹操，看着横拦杀出的司马懿，一时间恍惚了。</p>
+<p>千算万算，这珍珑棋局演算了千万遍，没有想到最终救命曹操的，居然是他司马懿！</p>
+<p>忽然间，又是一声冬雷炸响，数百年谜团瞬间从心中豁然开朗，关公顿悟道：我常道那贼子是糜芳傅士仁，恨那贼子是孙权吕蒙，<strong>却从未想过，曹操本已决心迁都河北，一切的翻盘，败走麦城的一切缘起其实是司马懿对曹操的献计！****（《晋书.宣帝纪》及蜀将羽围曹仁于樊，于禁等七军皆没，修、方果降羽，而仁围甚急焉。是时汉帝都许昌，魏武以为近贼，欲徙河北。帝谏曰：禁等为水所没，非战守之所失，于国家大计未有所损，而便迁都，既示敌以弱，又淮沔之人大不安矣。孙权、刘备，外亲内疏，羽之得意，权所不愿也。可喻权所，令掎其后，则樊围自解。魏武从之）</strong></p>
+<p><strong>我哪里是以一己之力去逆天改命啊！</strong></p>
+<p><strong>我这是在独抗魏晋两国之运啊！</strong></p>
+<p>关公心中长叹道：冥冥中自有天注定，逆转未来至此，却让我在此见到未来！</p>
+<p>关公阵间喝道：司马懿何在！</p>
+<p>司马懿阵中回道：关将军襄樊之战威震华夏，功高震主之势已成，再往前已是万丈深渊，将军三思！</p>
+<p>关公笑道：论韬光养晦，关某自是不能比你“风痹”多年的司马仲达，关某有一句话相送。</p>
+<p>司马懿道：请讲。</p>
+<p>关公道：<strong>背盟弃誓者，天必诛之！</strong></p>
+<p>司马懿不明就里，欲再问，只听关公道：斩司马懿者赏千金！</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143313618.gif" alt="图片" /></p>
+<p>此战关公尽获其军实辎重、车甲珍宝，不可胜算，曹操逃往洛阳，司马懿死战得脱。</p>
+<p>赵累等诸将争相道：君候，兵发洛阳吧！</p>
+<p>关公道：大胜至此已为极致，洛阳城坚，关中援军必星夜赶至，况且你我所处之地为曹魏根基之颍川，我军后勤难以为继，北上后许昌之军也定然会断我后路，届时军心必乱。（颍川为荀彧、钟繇、陈群等颍川集团祖源，为曹操创业之基，曹丕继位后专门下诏书表达过对颍川的深情。<strong>《三国志.文帝纪》复颍川郡一年田租。魏书载诏曰：颍川，先帝所由起兵征伐也。官渡之役，四方瓦解，远近顾望，而此郡守义，丁壮荷戈，老弱负粮。昔汉祖以秦中为国本，光武恃河内为王基，今朕复於此登坛受禅，天以此郡翼成大魏</strong>）</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143313131.jpeg" alt="图片" /></p>
+<p>曹贼此番败走军心崩溃，且于昆阳收拾物资，将曹贼车驾服饰及近臣首级送往宛城收降徐晃，我于昆阳看局势如何吧。</p>
+<p>曹操经此大败，惊魂沮丧急火攻心，逃回洛阳时已重病不能下床。</p>
+<p>曹彰对曹植道：魏王召我于此，欲立汝也！曹植道：不可，忘了袁氏兄弟的结局了吗？此时父亲重病于此，我兄弟更当竭心尽力共抗时艰。<strong>（魏略：彰至，谓临菑侯植曰：先王召我者，欲立汝也。植曰：不可。不见袁氏兄弟乎！）</strong></p>
+<p>曹彰手中有关中带来的生力军，开始起想法，接手洛阳城防。（此非胡乱加戏，历史上曹操死后曹彰确有异心。<strong>《三国志·贾逵传》：时鄢陵侯彰行越骑将军，从长安来赴，问逵先王玺绶所在）</strong></p>
+<p>数日后，曹军各路败兵归于洛阳，听说曹操重病，曹彰野心，军心败乱，人人自危。</p>
+<p>曹操自起家之时的青州军兵团擅自击鼓离去。<strong>（魏略：时太子在鄴，鄢陵侯未到，士民颇苦劳役，又有疾疠，於是军中骚动。群寮恐天下有变，欲不发丧。逵建议为不可秘，乃发哀，令内外皆入临，临讫，各安叙不得动。而青州军擅击鼓相引去）</strong></p>
+<p>洛阳土崩瓦解之势出现。</p>
+<p>219年十二月，关公于昆阳听到曹操重病生死未卜、曹彰手握洛阳宫禁，青州兵擅自离去等消息接二连三传来。</p>
+<p>天下已变，我进已无力，再于此地反而会惹其同仇敌忾。</p>
+<p>是时候离开了，关公率军夜出昆阳南奔宛城。</p>
+<p>十二月，夜，关公薨于途中。</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143313940.gif" alt="图片" /></p>
+<p>关公再一睁眼，见智顗笑道：君候，别来无恙。</p>
+<p>关公道：谢吾师给关某三次机会重返当年，解我三百年愚痴大怨。</p>
+<p>智顗道：君候此番还有遗憾吗？</p>
+<p>关公道：关某在昆阳城外见到司马懿之时已明白，江山天定，盛衰有凭，共业已铸，世运难改，王霸雄图，血海深恨，尽归尘土，就算关某再回去一百次，依旧改变不了这汉衰魏兴三分天下归司马。</p>
+<p>关某悟性实在短浅，尽人力后，方知天命，撞破南墙才了然此万物皆空。</p>
+<p>智顗道：君候不想知道此番回来后事吗？</p>
+<p>关公道：已不重要。</p>
+<p>智顗道：君候昆阳城外震天动地的那九个字，让这世事产生了巨大涟漪！</p>
+<p>关公疑问道：九个字？</p>
+<p>难道司马懿······</p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143316549.gif" alt="图片" /></p>
+<p><strong>后记</strong></p>
+<p>这个小剧本，上下两篇全部是根据正史真实史料进行逻辑推理的开放性写法，加起来一万四千字，全程带着镣铐跳舞，算是给自己上难度的一个剧本性小尝试，为这个号丰富一个新维度。</p>
+<p>本篇续集是为了兑现上文“转发”破三千的承诺，这里再给腾讯做一下宣传，这个剧本缘起于腾讯旗下的旗舰级大世界沙盘战略手游《鸿图之下》的年度巨制《水淹七军》，如果大家觉得好的话，可以多多关注“鸿图之下”，<strong>点击左下角“阅读原文”进行游戏下载试玩。</strong></p>
+<p>还是那句话，人家前面付了成本，咱们大家才看到了这篇一本正经引经据典去胡说八道的故事。</p>
+<p>终结了旧坑，又开了新坑。</p>
+<p>关于那九个字的后文，我们看**“在看数”<strong>和</strong>“转发量”**。</p>
+<p>这次把目标定高点，也给我自己多争取点时间，如果咱们这篇文章的**“在看”+“转发”**的总数超过了5000，我会找时间给大家开启下一个历史剧本的改编<img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143313677.png" alt="图片" /></p>
+<p><img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143316431.gif" alt="图片" /></p>
+<p>亲人们，小吏给大家拜早年了<img src="../img/%E6%94%B9%E5%8F%98%E6%9C%AA%E6%9D%A5.assets/640-20220507143313996.png" alt="图片" /></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../深度系列/神留言回答.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../深度系列/神留言回答.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

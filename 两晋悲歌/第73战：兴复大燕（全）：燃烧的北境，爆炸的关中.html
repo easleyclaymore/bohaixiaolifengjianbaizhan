@@ -1,0 +1,927 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>第73战：兴复大燕 - 渤海小吏的封建脉络百战</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../序.html">序</a></li><li class="chapter-item expanded affix "><li class="part-title">一、秦并天下</li><li class="chapter-item expanded "><a href="../秦并天下/第一战：三家分晋（加量修订版）韩赵魏崛起，自春秋来到战国.html"><strong aria-hidden="true">1.</strong> 第一战：三家分晋</a></li><li class="chapter-item expanded "><a href="../秦并天下/第二战：马陵之战（国防成本修订版）战略方向错误导致的魏盛转衰.html"><strong aria-hidden="true">2.</strong> 第二战：马陵之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第三战：商鞅变法（变法始末修订版）秦并天下的战争机器，开动起来了.html"><strong aria-hidden="true">3.</strong> 第三战：商鞅变法</a></li><li class="chapter-item expanded "><a href="../秦并天下/第四战：“合纵”与“连横”（“战国纵横家书”辨别修订版）诸子百家走四方的美好时代.html"><strong aria-hidden="true">4.</strong> 第四战：“合纵”与“连横”</a></li><li class="chapter-item expanded "><a href="../秦并天下/第五战：秦并巴蜀（蜀道修订篇）百年一遇的机会，你怎么选？.html"><strong aria-hidden="true">5.</strong> 第五战：秦并巴蜀</a></li><li class="chapter-item expanded "><a href="../秦并天下/第六战：胡服骑射（全）赵国崛起的关键三十年.html"><strong aria-hidden="true">6.</strong> 第六战：胡服骑射</a></li><li class="chapter-item expanded "><a href="../秦并天下/第七战：伊阙之战（豫西重镇修订版）杀神登场.html"><strong aria-hidden="true">7.</strong> 第七战：伊阙之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第八战：乐毅破齐（全）远东第一大国的疯狂与没落.html"><strong aria-hidden="true">8.</strong> 第八战：乐毅破齐</a></li><li class="chapter-item expanded "><a href="../秦并天下/第九战：鄢郢之战（全）杀神横扫汉江平原.html"><strong aria-hidden="true">9.</strong> 第九战：鄢郢之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十战：秦为什么冒险发动长平之战.html"><strong aria-hidden="true">10.</strong> 第十战：长平之战</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十一战：嫪毐之乱（全）秦灭六国的隐藏大线.html"><strong aria-hidden="true">11.</strong> 第十一战：嫪毐之乱</a></li><li class="chapter-item expanded "><a href="../秦并天下/第十二战：王翦灭楚（全）秦国搬开最后的大石.html"><strong aria-hidden="true">12.</strong> 第十二战：王翦灭楚</a></li><li class="chapter-item expanded affix "><li class="part-title">二、楚汉双雄</li><li class="chapter-item expanded "><a href="../楚汉双雄/第十三战：揭竿大泽乡（全）秦“崩”在了哪？.html"><strong aria-hidden="true">13.</strong> 第十三战：揭竿大泽乡</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十四战：破釜沉舟（全）力拔山兮气盖世！.html"><strong aria-hidden="true">14.</strong> 第十四战：破釜沉舟</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十五战：先入关者为王上（全）刘主任的西行漫记.html"><strong aria-hidden="true">15.</strong> 第十五战：先入关者为王上</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十六战：鸿门宴（修订版）刘邦集团的内在升级.html"><strong aria-hidden="true">16.</strong> 第十六战：鸿门宴</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十七战：暗度陈仓（全）月下追回来的“汉中对”.html"><strong aria-hidden="true">17.</strong> 第十七战：暗度陈仓</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十八战：彭城大屠杀（全）楚霸王的闪电战.html"><strong aria-hidden="true">18.</strong> 第十八战：彭城大屠杀</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第十九战：背水一战（全）兵仙的一路向北.html"><strong aria-hidden="true">19.</strong> 第十九战：背水一战</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第二十战：拉锯荥阳（全）东奔西走的霸王.html"><strong aria-hidden="true">20.</strong> 第二十战：拉锯荥阳</a></li><li class="chapter-item expanded "><a href="../楚汉双雄/第二十一战：会战垓下（全）兵仙与霸王的巅峰对决.html"><strong aria-hidden="true">21.</strong> 第二十一战：会战垓下</a></li><li class="chapter-item expanded affix "><li class="part-title">三、强汉开疆</li><li class="chapter-item expanded "><a href="../强汉开疆/第二十二战：白登之围（全）疑雾重重的汉初顶级大案.html"><strong aria-hidden="true">22.</strong> 第二十二战：白登之围</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十三战：灭诸王（全）既然离别难免，今生何必相会.html"><strong aria-hidden="true">23.</strong> 第二十三战：灭诸王</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十四战：诸吕之变（全）摄政女皇的伟大与悲哀.html"><strong aria-hidden="true">24.</strong> 第二十四战：诸吕之变</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十五战：七国之乱（全）文景之治的缺憾美.html"><strong aria-hidden="true">25.</strong> 第二十五战：七国之乱</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十六战：马邑阴谋（全）儒教、长城、草原的逻辑.html"><strong aria-hidden="true">26.</strong> 第二十六战：马邑阴谋</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十七战：漠南无王庭（全）跨时代的伟大战术革命.html"><strong aria-hidden="true">27.</strong> 第二十七战：漠南无王庭</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十八战：打通河西走廊（全）匈奴梦魇的冠军侯.html"><strong aria-hidden="true">28.</strong> 第二十八战：打通河西走廊</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第二十九战：漠北大决战（修订版）农耕民族的荣耀之巅.html"><strong aria-hidden="true">29.</strong> 第二十九战：漠北大决战</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十战：定南疆灭朝鲜（全）专治各种不服.html"><strong aria-hidden="true">30.</strong> 第三十战：定南疆灭朝鲜</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十一战：征大宛（全）汗血马的蝴蝶效应.html"><strong aria-hidden="true">31.</strong> 第三十一战：征大宛</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十二战：孤愤之战（全）史家之绝唱，无韵之离骚.html"><strong aria-hidden="true">32.</strong> 第三十二战：孤愤之战</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十三战：巫蛊之乱（全）生生世世莫生帝王家.html"><strong aria-hidden="true">33.</strong> 第三十三战：巫蛊之乱</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十四战：霍光废帝（全）大司马大将军的反噬.html"><strong aria-hidden="true">34.</strong> 第三十四战：霍光废帝</a></li><li class="chapter-item expanded "><a href="../强汉开疆/第三十五战：王莽篡汉（全）戏精的艺术人生.html"><strong aria-hidden="true">35.</strong> 第三十五战：王莽篡汉</a></li><li class="chapter-item expanded "><a href="../强汉开疆/“强汉开疆”篇总结（1）西汉的脉络梳理.html"><strong aria-hidden="true">36.</strong> “强汉开疆”篇总结</a></li><li class="chapter-item expanded affix "><li class="part-title">四、光武中兴</li><li class="chapter-item expanded "><a href="../光武中兴/第三十六战：王莽复古（全）陨灭三千万人的“德之贼”表演.html"><strong aria-hidden="true">37.</strong> 第三十六战：王莽复古</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十七战：昆阳大逆转（全）天选之子的神话之战.html"><strong aria-hidden="true">38.</strong> 第三十七战：昆阳大逆转</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十八战：河北惊魂记（全）二十八宿召唤神龙.html"><strong aria-hidden="true">39.</strong> 第三十八战：河北惊魂记</a></li><li class="chapter-item expanded "><a href="../光武中兴/第三十九战：两京堵赤眉（全）汉末最强匪帮退场.html"><strong aria-hidden="true">40.</strong> 第三十九战：两京堵赤眉</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十战：定关东（全）东南西北的将星闪耀.html"><strong aria-hidden="true">41.</strong> 第四十战：定关东</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十一战：得陇望蜀（全）陇山难，蜀山悲，天下定.html"><strong aria-hidden="true">42.</strong> 第四十一战：得陇望蜀</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十二战：班超通西域（全）小冰期下汉匈博弈的个人英雄主义巅峰.html"><strong aria-hidden="true">43.</strong> 第四十二战：班超通西域</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十三战：党锢之祸（全）东汉王莽们和死太监集团的皇权角逐巅峰战.html"><strong aria-hidden="true">44.</strong> 第四十三战：党锢之祸</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十四战：黄巾起义（全）大乱四百年的开端.html"><strong aria-hidden="true">45.</strong> 第四十四战：黄巾起义</a></li><li class="chapter-item expanded "><a href="../光武中兴/第四十五战：189年汉末崩塌（全）顶级谋篇布局下的“为他人作嫁衣裳”.html"><strong aria-hidden="true">46.</strong> 第四十五战：189年汉末崩塌</a></li><li class="chapter-item expanded affix "><li class="part-title">五、三国争霸</li><li class="chapter-item expanded "><a href="../三国争霸/第四十六战：群雄讨董（全）璀璨纷杂的时代开篇.html"><strong aria-hidden="true">47.</strong> 第四十六战：群雄讨董</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十七战：兖州风云（全）年少时的无心插柳，成荫后的阶级背叛.html"><strong aria-hidden="true">48.</strong> 第四十七战：兖州风云</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十八战：挟天子令诸侯（全）曹操巅峰升级的公元196年.html"><strong aria-hidden="true">49.</strong> 第四十八战：挟天子令诸侯</a></li><li class="chapter-item expanded "><a href="../三国争霸/第四十九战：官渡之战（全）汉末双神决战到最后一秒的巅峰对决.html"><strong aria-hidden="true">50.</strong> 第四十九战：官渡之战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十战：火烧赤壁（全）曹操不会放过的刘备，士族不会放过的孙权.html"><strong aria-hidden="true">51.</strong> 第五十战：火烧赤壁</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十一战：刘备入川（全）曹操换房本之路上的“点炮”盛宴.html"><strong aria-hidden="true">52.</strong> 第五十一战：刘备入川</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十二战：汉中会战（全）汉末诸神黄昏的上半集.html"><strong aria-hidden="true">53.</strong> 第五十二战：汉中会战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十三战：襄樊惊天大逆转（全）孙权背刺逻辑；关公威震华夏；糜芳叛变之谜.html"><strong aria-hidden="true">54.</strong> 第五十三战：襄樊惊天大逆转</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十四战：夷陵之战（全）先主伐吴始末，永安举国托孤.html"><strong aria-hidden="true">55.</strong> 第五十四战：夷陵之战</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十五战：失街亭（全）一步也不能走错的弱者悲哀.html"><strong aria-hidden="true">56.</strong> 第五十五战：失街亭</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十六战：秋风五丈原（全）大梦谁先觉，平生我自知，秋风星落日，光耀天地间.html"><strong aria-hidden="true">57.</strong> 第五十六战：秋风五丈原</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十七战：高平陵之变（全）三百年大悲哀的逻辑原点.html"><strong aria-hidden="true">58.</strong> 第五十七战：高平陵之变</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十八战：淮南三叛（全）人事、利益、威慑、恐吓、荣耀······的政治博弈算法.html"><strong aria-hidden="true">59.</strong> 第五十八战：淮南三叛</a></li><li class="chapter-item expanded "><a href="../三国争霸/第五十九战：二士争蜀（全）赚得英雄头似雪，万般回首化尘埃.html"><strong aria-hidden="true">60.</strong> 第五十九战：二士争蜀</a></li><li class="chapter-item expanded affix "><li class="part-title">六、两晋悲歌</li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十战：西晋平吴（全）十分伶俐都使尽，远在儿孙近在身.html"><strong aria-hidden="true">61.</strong> 第六十战：西晋平吴</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十一战：凛冬将至（全）草蛇灰线，伏脉千里的长城内外.html"><strong aria-hidden="true">62.</strong> 第六十一战：凛冬将至</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十二战：八王之乱时无英雄显竖子.html"><strong aria-hidden="true">63.</strong> 第六十二战：八王之乱时无英雄显竖子</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十三战：永嘉之乱（全）善恶到头终有报，只争来早与来迟.html"><strong aria-hidden="true">64.</strong> 第六十三战：永嘉之乱</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十四战：石勒霸北（全）超越种族永远靠的是仇恨，团结群众永远靠的是阶级.html"><strong aria-hidden="true">65.</strong> 第六十四战：石勒霸北</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第65战：东晋立国（全）“光腚北士”与“散装江东”博弈下的门阀政治开端.html"><strong aria-hidden="true">66.</strong> 第65战：东晋立国</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第66战：王敦、苏峻之乱（全）多股真气的冲突下，走火入魔的门阀政治自救之路.html"><strong aria-hidden="true">67.</strong> 第66战：王敦、苏峻之乱</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第67战：桓温灭蜀（1）“血亲复仇”千百年来对于古代社会的深远意义.html"><strong aria-hidden="true">68.</strong> 第67战：桓温灭蜀</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第六十八战：石虎肆虐（全）超长待机的五胡“狮驼岭”吃人算法之谜.html"><strong aria-hidden="true">69.</strong> 第六十八战：石虎肆虐</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第69战：冉闵屠羯（全）少年闵的奇幻漂流.html"><strong aria-hidden="true">70.</strong> 第69战：冉闵屠羯</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第70战：桓温北伐（上）风云际会后的北国兴与衰.html"><strong aria-hidden="true">71.</strong> 第70战：桓温北伐</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第71战：雄主的膨胀之路（全）天欲福之，必开其慧；天欲毁之，必助其狂.html"><strong aria-hidden="true">72.</strong> 第71战：雄主的膨胀之路</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第72战：淝水之战（全）“摆拍仁主”与“网红门阀”的春秋笔法.html"><strong aria-hidden="true">73.</strong> 第72战：淝水之战</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第73战：兴复大燕（全）：燃烧的北境，爆炸的关中.html" class="active"><strong aria-hidden="true">74.</strong> 第73战：兴复大燕</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第74战：拓跋珪复国之谜（全）借我借我一双慧眼吧······.html"><strong aria-hidden="true">75.</strong> 第74战：拓跋珪复国之谜</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第75战：参合悲（全）眼看他起朱楼，眼看他宴宾客，眼看他楼塌了.html"><strong aria-hidden="true">76.</strong> 第75战：参合悲</a></li><li class="chapter-item expanded "><a href="../两晋悲歌/第76战：桓玄篡晋（两晋季终章）早悟夜宴终有散，当初赌甚英雄汉.html"><strong aria-hidden="true">77.</strong> 第76战：桓玄篡晋</a></li><li class="chapter-item expanded affix "><li class="part-title">七、南北归一</li><li class="chapter-item expanded "><a href="../南北归一/《南北归一》序：北人南下，为六朝盛衰之总纲！.html"><strong aria-hidden="true">78.</strong> 《南北归一》序</a></li><li class="chapter-item expanded "><a href="../南北归一/第77战：气吞万里如虎（1）每段英雄之旅的开始，都是不拼就死的悲哀.html"><strong aria-hidden="true">79.</strong> 第77战：气吞万里如虎</a></li><li class="chapter-item expanded "><a href="../南北归一/第78战：刘老虎的西征梦（1）《东游记》开场.html"><strong aria-hidden="true">80.</strong> 第78战：刘老虎的西征梦</a></li><li class="chapter-item expanded "><a href="../南北归一/第79战：拓跋珪的心魔（1）“代人集团”登场，弱化版的汉初丰沛集团.html"><strong aria-hidden="true">81.</strong> 第79战：拓跋珪的心魔</a></li><li class="chapter-item expanded "><a href="../南北归一/第80战：后青春的诗（1）刘裕托孤的算盘.html"><strong aria-hidden="true">82.</strong> 第80战：后青春的诗</a></li><li class="chapter-item expanded "><a href="../南北归一/第81战：南龙有悔，北龙在天（1）“亢龙”伐“飞龙”，结局早定.html"><strong aria-hidden="true">83.</strong> 第81战：南龙有悔，北龙在天</a></li><li class="chapter-item expanded "><a href="../南北归一/第82战：冰血暴.html"><strong aria-hidden="true">84.</strong> 第82战：冰血暴</a></li><li class="chapter-item expanded "><a href="../南北归一/第83战：女王的棋局（1）被史官掩盖的北魏版“巫蛊之祸”.html"><strong aria-hidden="true">85.</strong> 第83战：女王的棋局</a></li><li class="chapter-item expanded "><a href="../南北归一/第84战：隐秘的元宏（1）不会哭，咋上权力牌桌？.html"><strong aria-hidden="true">86.</strong> 第84战：隐秘的元宏</a></li><li class="chapter-item expanded "><a href="../南北归一/第85战：时来天地皆同力（1）雍州教父而立之年的奇幻漂流.html"><strong aria-hidden="true">87.</strong> 第85战：时来天地皆同力</a></li><li class="chapter-item expanded "><a href="../南北归一/第86战：六镇之乱（1）北魏统一天下的窗口突然被打开了.html"><strong aria-hidden="true">88.</strong> 第86战：六镇之乱</a></li><li class="chapter-item expanded "><a href="../南北归一/第87战：后三国开篇.html"><strong aria-hidden="true">89.</strong> 第87战：后三国开篇</a></li><li class="chapter-item expanded "><a href="../南北归一/第八十九战：运去英雄不自由.html"><strong aria-hidden="true">90.</strong> 第八十九战：运去英雄不自由</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十战：最后的三国.html"><strong aria-hidden="true">91.</strong> 第九十战：最后的三国</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十一战：东西合拢.html"><strong aria-hidden="true">92.</strong> 第九十一战：东西合拢</a></li><li class="chapter-item expanded "><a href="../南北归一/第九十二战：南北归一.html"><strong aria-hidden="true">93.</strong> 第九十二战：南北归一</a></li><li class="chapter-item expanded affix "><li class="part-title">深度系列</li><li class="chapter-item expanded "><a href="../深度系列/深度系列.html"><strong aria-hidden="true">94.</strong> 深度系列</a></li><li class="chapter-item expanded "><a href="../深度系列/神留言回答.html"><strong aria-hidden="true">95.</strong> 神留言回答</a></li><li class="chapter-item expanded "><a href="../深度系列/改变未来.html"><strong aria-hidden="true">96.</strong> 改变未来</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">渤海小吏的封建脉络百战</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p><strong>壹：忽如一夜春风来，千树万树梨花开</strong></p>
+<p>每个改朝换代的新兴政权通常都会对前朝的后裔极度的提防，缺德的灭其族裔，厚道点的给个政治犯的待遇养起来。</p>
+<p>要么斩草除根，要么行住坐卧全都要打报告。</p>
+<p>总之，不能给一丁点的政治空间。</p>
+<p><strong>因为他家是有经验东山再起的，那套建立起一个政权的逻辑和套路他的祖上跑通过，而且他家曾经是有巨大流量的，他家的政治大旗是有很多遗老遗少认同的。</strong></p>
+<p>随便一个军阀造反，说服力很低。</p>
+<p>但要是兴复一个曾经的政权，这就相当容易让人遐想。</p>
+<p><strong>不光是他家本身的号召力，还会有很多别有用心者去蹭他家的流量！</strong></p>
+<p>372年二月，苻坚给了前燕最大的国家级垃圾慕容评范阳太守的官做，随后安排前燕诸王全都去边郡做官了。**（坚乃出评为范阳太守，燕之诸王悉补边郡）
+**</p>
+<p>苻坚认为不给军权就没问题，对慕容氏的宽大会对南边的东晋起到很好的示范效果，但却忽略了一个巨大的问题。</p>
+<p><strong>政治权力是世界上最恐怖也最具有放大效果的能力。</strong></p>
+<p>你给一个普通人巨大的政治能力，其实并不太可怕，他顶多变成个大贪官。</p>
+<p>你给一个世家大族巨大的政治权力就比较可怕了，有个十几二十年人家会给你端出一个政治网络。</p>
+<p>你要是给了前朝皇族巨大的政治权力，他会怎样演变呢？</p>
+<p><strong>他对于建立一个皇权以及轰塌一个皇权的理解程度甚至会比你还深刻，你觉得他会*<em>带给你什么惊喜呢？*</em></strong></p>
+<p>早在373年，就已经出现天象之变了，苻融开始劝他哥哥人家是当过皇帝的！你给他慕容家的政治资源太多了！**（有彗星出于尾箕，长十余丈，经太微，扫东井；自四月始见，及秋冬不灭；陽平公融上疏曰：“东胡跨据六州，南面称帝，陛下劳师累年，然后得之，本非慕义而来。今陛下亲而幸之，使其父兄子弟森然满朝，执权履职，势倾勋旧。臣愚以为狼虎之心，终不可养，星变如此，愿少留意）
+**</p>
+<p>其后以王猛为首的各种各样的示警纷至沓来，全都在说一件事：慕容鲜卑应该渐渐除之！</p>
+<p>苻坚以绝对的自信和道德修养顶住了这群“小人之心”的揣测。</p>
+<p><strong>欲望这东西，永远要跟着现状走的。</strong></p>
+<p>你天天拿他当政治犯看管，他要是每天能吃好喝好晒太阳，他就会很满足。</p>
+<p>你给他一方太守去做，他看着辖区的人力税收等等资源，就会回忆起桌底下的老照片，无数回忆连接，然后将头发梳成大人模样，再穿上一身帅气西装，开始畅想有一天再见面时，那些错过的大雨一定比想像美。</p>
+<p>前燕的亡国夜空中，最闪亮的那颗星叫慕容垂</p>
+<p>他在首都市长的京兆尹岗位上一干十多年。</p>
+<p><strong>从司马家族的政变教训上来讲，他确实没有什么主观能动性。</strong></p>
+<p><strong>但从兴复故土的角度来讲，慕容垂的内功可不是司马师那阴养死士三千那么简单了。</strong></p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141717152.gif" alt="图片" /></p>
+<p>淝水战败后，几乎地球人都知道要复国的慕容家并没有第一个开炮。</p>
+<p>哪怕命运曾经神奇的给过他们巨大的诱惑。</p>
+<p>已经老狐狸修炼成精的慕容垂在犯这叛国大罪前，给自己捞足了道德指标。</p>
+<p>淝水战败后，东晋展开战略反攻，晋随郡太守夏侯澄于漳口（漳水注入涢水之口，在今湖北应城市东）斩姜成，慕容暐直接就弃众逃跑了。<strong>（初，慕容暐屯郧城，姜成等守漳口，晋随郡太守夏侯澄攻姜成，斩之，暐弃其众奔还）</strong></p>
+<p>慕容垂则再次展现一个伟大将领的顶级素质，在人心惶惶的大溃败下统军有方，部队三万人全须全影成建制，苻坚收败兵千余骑去投奔他才算真正把心塌下点来。<strong>（诸军悉溃，惟慕容垂一军独全，坚以千余骑赴之）</strong></p>
+<p>这个时刻，慕容垂的世子慕容宝对他爹说：当年咱们家国倾覆，天命人心虽然时刻想着咱们，但时运未至都搁那瘪着，现在秦主兵败前来投我，这是老天在给机会兴复我大燕啊！机不可失啊！立大功者不拘小节，行大仁者不念小惠，秦跟咱们是国仇家恨，您不能因为他对您有恩就忘了社稷之重啊！</p>
+<p>慕容垂说：你说的很对，但他现在赤心投命于我，我不能害他！老天如果抛弃了他不愁他不亡！还是急人之难保护他以报答当年他的收留恩德，他日也可义取天下。</p>
+<p>慕容垂的幼弟慕容德说：当年秦强而并燕，现在秦弱而图之这是咱报仇雪耻，跟负心没关系，兄长如果不杀他，底线是这三万人不能给他！</p>
+<p>慕容垂的党羽多人劝杀苻坚但慕容垂坚持把兵权还给了苻坚，唯一支持慕容垂的是三子慕容农。</p>
+<p>慕容农道：险境不害人，道义足以感天动地，我听说图谶预言：燕国复兴应当在河阳，尚未成熟强摘瓜和瓜熟蒂落往往只差十天，但口感却差远了！<strong>（农闻秘记曰：燕复兴当在河阳。夫取果于未熟与自落，不过晚旬日之间，然其难易美恶，相去远矣）</strong></p>
+<p>慕容垂最后拍板一锤定音：当年我被慕容评追杀，逃亡于秦，秦主恩礼备至。后被王猛所阴，结果秦主仍以国士之礼待我，此恩绝不能忘！如果秦数已尽，大运在我，又何必担心这眼下得失。</p>
+<p>关西之地太乱了，肯定不是我们的用武之地，自有大乱扰之。我当先恢复关东，兴复祖业。君子不趁乱取利，不事先为祸，我们静观其变。随后把兵交给了苻坚。<strong>（关西之地，会非吾有，自当有扰之者，吾可端拱而定关东。君子不怙乱，不为祸先，且可观之。乃以兵属坚）</strong></p>
+<p>慕容垂仅仅是个大好人吗？</p>
+<p>时年58岁的慕容垂已经算明白了后面的发展趋势，关中民族园自有要苻坚命的人！</p>
+<p>一定要让苻坚回长安去牵制乱哄哄的关中蛤蟆坑，关东才是我的用武之地。</p>
+<p>后面的发展，也开始一张张揭开了慕容垂这十多年暗下内功后所埋下的底牌。</p>
+<p>苻坚一边退一边收集离散，到了洛阳时已经召集了十余万部队，行政和指挥中心也搭建起来了，算是缓过了一口气。</p>
+<p>慕容垂仁至义尽随苻坚走到渑池后对他进言道：“北方边远之地的百姓听说大军不利，已经有为祸作乱的了，我请求尊奉诏书去镇抚招纳他们，顺便去拜祭下先祖的陵庙。”<strong>（坚至渑池，垂请至邺展拜陵墓，因张国威刑，以安戎狄）</strong></p>
+<p>苻坚同意了。</p>
+<p>权翼劝谏苻坚说：“国家刚刚大败，四方离心，现在应该把名将都召集起来，强干弱枝的安定四方，慕容垂勇略过人堪称当世韩白！祖上就是关东豪杰，这支雄鹰每听到狂风骤起就会有飞上云霄的志向！现在正该把他关到笼子里，咋能放他走呢？</p>
+<p>苻坚此时已经被大败彻底打成了天命论者，叹道：“我没听同志们的话，天怒人怨导致了大败，如果天命有兴废，不是人力所能改变的。君无戏言，我已经答应他了。</p>
+<p>苻坚没听权翼的劝告但还是留了后手，派了三千兵护送慕容垂。<strong>（坚不从，遣其将李蛮、闵亮、尹国率众三千送垂）</strong></p>
+<p>这个护送，其实也是监督。</p>
+<p>苻坚也知道此次大败后天下震动，随后又派骁骑将军石越率三千精骑戍邺城，派骠骑将军张蚝率五千羽林军戍并州，派镇军将军毛当率领四千兵戍洛阳。</p>
+<p>苻坚挤出了三路兵由三个万人敌去帮自己的孩子们守邺城、太原、洛阳三个关中重镇，并兑现了自己的承诺放慕容垂东去。</p>
+<p>他不知道，某种意义上讲，前秦的最终覆灭虽然没有亡在慕容垂手上，但却是从此时此刻开始正式大崩塌的。</p>
+<p>因为关东幅员万里，最终闹腾起来的，仅仅是慕容垂一个人。</p>
+<p>慕容垂最终牵制并消灭了苻家在关东的所有力量。</p>
+<p>慕容垂抵达安阳后，遣参军田山修书送于驻邺城的苻丕表明来意。</p>
+<p>**
+**</p>
+<p>苻丕怀疑慕容垂有想法，但仍然亲自去迎接了慕容垂。**（丕闻垂北来，疑其欲为乱，然犹身自迎之）
+**</p>
+<p>因为他想先下手为强。<strong>（丕谋袭击垂</strong>）</p>
+<p>但他的侍郎姜让劝说：您先别忙动手，先派人把他看起来随时向长安汇报，听最高指示。<strong>（侍郎天水姜让谏曰：“垂反形未著，而明公擅杀之，非臣子之义；不如待以上宾之礼，严兵卫之，密表情状，听敕而后图之）</strong></p>
+<p>慕容垂非常幸运的躲过了一劫。</p>
+<p>双方在邺城西面的宾馆相见后慕容垂对苻丕说了淮南败状，其参军赵秋劝慕容垂摆个鸿门宴，喝酒时把苻丕拿下顺势占据邺城起兵，但慕容垂没听。</p>
+<p>恰好这时丁零首领翟斌起兵叛秦图谋洛阳，苻坚随后通过驿站传令命慕容垂统兵去讨伐丁零人。<strong>（会丁零翟斌起来叛秦，谋攻豫州牧平原公晖于洛陽，秦王坚驿书使垂将兵讨之）</strong></p>
+<p>慕容垂不害苻坚的绵绵红利开始出现，苻坚没有忘了这员“忠心耿耿”的虎将，在慕容垂被苻丕防的很死的时候给了军权。</p>
+<p>苻丕非常高兴，整好把他安排远点，省的他在身边我天天睡不好觉。</p>
+<p>但辅镇邺城的虎将石越对苻丕说：“国军新败，民心未定，负罪逃亡闹事人很多，所以听说丁零人一带头，仅仅十多天就已经数千人响应。慕容垂是燕国德高望重之人，给他军队是为虎添翼啊！”<strong>（石越言于丕曰：王师新败，民心未安，负罪亡匿之徒，思乱者众，故丁零一唱，旬日之中，众已数千，此其验也。慕容垂，燕之宿望，有兴复旧业之心，今复资之以兵，此为虎傅翼也）</strong></p>
+<p>苻丕说：慕容垂在咱身边那才是肘腋之患，还是给他派远处去好，况且丁零翟斌为人凶悖，必不肯为慕容垂之下，让他俩掐去吧！</p>
+<p>最终苻丕给了慕容垂二千弱兵，派苻飞龙率一千氐族精骑协助慕容垂。<strong>（乃以羸兵二千及铠仗之弊者给垂，又遣广武将军苻飞龙帅氐骑一千为垂之副）</strong></p>
+<p>苻丕对苻飞龙说：你的目标是慕容垂，盯好了他。</p>
+<p>慕容垂走前请求入邺城拜谒宗庙，苻丕不同意，慕容垂穿上便服偷进了邺城去拜庙，但被守卫拦住，结果前面各种厚道的慕容垂愤怒杀了守庙官吏，还烧了人家的办公室。<strong>（垂请入邺城拜庙，丕不许。乃潜服而入，亭吏禁之，垂怒，斩吏烧亭而去）</strong></p>
+<p>慕容垂用夸张造型表明，老子看祖宗的心情是强烈迫切的，挡我者死！</p>
+<p><strong>潜台词是：我为了看祖宗跟苻家闹掰了，同志们该站队了！</strong></p>
+<p>石越听说这个新闻后马上向苻丕进言：“慕容垂这是不拿你当回事啊！反迹很明显了！动手吧！这是个绝佳的机会，扣上个帽子弄死就行！</p>
+<p>之前还打算摆鸿门宴的苻丕现在又没有反应了，开始温情道：“我爹在在淮南大败时，慕容垂鞍前马后的伺候守卫，冲这个就得高看一眼，此功不能忘！<strong>（淮南之败，众散亲离，而垂侍卫圣躬，诚不可忘）</strong></p>
+<p>前后都是他，前面的话也仅仅是说辞，苻丕只是害怕慕容垂在他身边，避免冲突，赶紧轰走他。</p>
+<p>他对于这位历经半个世纪风霜的枭雄理解的太浅了。</p>
+<p>石越说：慕容垂对故国尚且不忠，咋可能对我们忠呢！过了今天就再也除不掉他了！</p>
+<p>苻丕还是说那样不合适，气的石越私下大骂：这特么爷俩都是看小不看大的二百五！我肯定要当鲜卑人的俘虏了！</p>
+<p>**苻丕没有再往深想一层，为什么慕容垂敢在你眼皮子底下搞这种政治作秀呢？
+**</p>
+<p><strong>他必定有恃无恐！</strong></p>
+<p><strong>再往后想一层：我的周边安全吗······</strong></p>
+<p>慕容垂把三子慕容农和慕容恪两子慕容楷、慕容绍留在邺城当人质后出征，到安阳的汤池时，闵亮、李毗从邺城赶了上来，把苻丕安排苻飞龙的目的告诉了慕容垂。<strong>（垂留慕容农、慕容楷、慕容绍于邺，行至安陽之汤池，闵亮、李毗自邺来，以丕与苻飞龙所谋告垂）</strong></p>
+<p>这还用得着告诉啊！</p>
+<p>继大闹燕庙后慕容垂再次愤怒，把苻丕监军企图暗害他的丑陋行径揭发了出来：我尽忠于苻氏！但苻丕却专门想图谋我们父子，我岂能善罢甘休！<strong>（垂因激怒其众曰：“吾尽忠于苻氏，而彼专欲图吾父子，吾虽欲已，得乎）</strong></p>
+<p>注意慕容垂再次愤怒的地点，离邺城太近了，他真的有恃无恐。</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141714501.jpeg" alt="图片" /></p>
+<p>慕容垂借口兵力不足，停在河内招兵，十天已有八千兵众来投。<strong>（乃托言兵少，停河内募兵，旬日间，有众八千）****（注意慕容垂的招兵速度）</strong></p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141714522.jpeg" alt="图片" /></p>
+<p>看到慕容垂在河内不动弹，洛阳的苻晖遣使催促慕容垂进兵，慕容垂对苻飞龙说：现在离贼军已经不远，咱们昼夜兼行杀过去怎么样？</p>
+<p>苻飞龙同意了。</p>
+<p>383年12月27，夜，慕容垂派长子慕容宝统前军，自己和少子慕容隆领后军，苻飞龙走中间，随后一声鼓响，苻飞龙的一千氐族精骑被突然兵变暗杀了。</p>
+<p>随后慕容垂下令军中军官家在长安者全都可以走，并给苻坚带了一封信，说明自己动手的被动原因。</p>
+<p>转过天来12月28日，慕容垂渡黄河后烧毁渡桥，**此时慕容垂已经拥兵三万，<strong>留辽东鲜卑可足浑谭在河内的沙城招兵。派田山到邺城秘告慕容农等起兵响应。</strong>（<strong><strong>慕容垂济河焚桥，有众三万</strong></strong>，留辽东鲜卑可足浑谭集兵于河内之沙城。垂遣田山如邺，密告慕容农等使起兵相应）****（再次注意慕容垂的招兵速度）
+**</p>
+<p>慕容农等收到来信后天已入夜，慕容绍先出城到了不远处的蒲池，偷了苻丕的数百匹骏马等待慕容农、慕容楷的越狱。<strong>（时日已暮，农与慕容楷留宿邺中；慕容绍先出，至蒲池，盗丕骏马数百匹以待农、楷）</strong></p>
+<p>12月29日清晨，慕容农、慕容楷率数十亲信身着便服出邺城，奔赴列人县（肥乡县东北）。<strong>（农、楷将数十骑微服出邺，遂同奔列人）</strong></p>
+<p>直到384年的正月初一，苻丕欢欢喜喜过大年时，在宴客的时候才发现慕容农全跑了，三天后的正月初四才知道慕容农在列人县起兵造反了。<strong>（春，正月，乙酉朔，秦长乐公丕大会宾客，请慕容农不得，始觉有变；遣人四出求之，三日，乃知其在列人，已起兵矣）</strong></p>
+<p>一个高度需要怀疑的群体，苻丕放松到了这个程度！</p>
+<p>其实仔细回顾慕容垂的所谓“复国大业”，是件概率极低的再创业事件。</p>
+<p>**起步的这些环节极度幸运。
+**</p>
+<p><strong>这也是为啥古往今来能复国的案例属于绝对的小事件。</strong></p>
+<p>抛开慕容家在河北的所谓“人望”和“底蕴”，再抛开苻坚在大败后天下大势土崩瓦解的“合不久就分”，单论慕容垂这个人在早期复国的前几步来讲，是极险的。</p>
+<p>苻家接二连三的犯下了致命错误。</p>
+<p>苻坚放了慕容垂，没问题，因为人家对你够意思。</p>
+<p>慕容垂的胃口大到可以在苻坚无抵抗能力的时候把兵权全都交出去以此招揽人心占领道德制高点，从苻坚的角度看，这是个不离不弃的忠臣自然没问题。</p>
+<p>但到了苻丕这，他几乎要为苻家失去关东负最重要的责任。</p>
+<p>1、慕容垂在的时候你没反应，你居然敢去赴宴，人家跟你爹有共妻的交情，人家跟你呢？<strong>万一是鸿门宴呢？</strong></p>
+<p>2、慕容垂杀守灵官的时候，你没反应。<strong>此时天下已经出现了崩盘之势，整个河北对于你的无动于衷会解读成你怂了，这会极大的助长蠢蠢欲动们的叛离之心！</strong></p>
+<p>3、慕容垂杀苻飞龙、私自招兵在河内折腾的风生水起，<strong>但你的情报系统为零。</strong></p>
+<p>4、慕容垂的三个人质从你眼皮底下溜走跑出去了六天后才知道行踪！<strong>人质你是咋看管的！</strong></p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141714480.jpeg" alt="图片" /></p>
+<p><strong>这四个环节，苻丕只要任何一环作为了，都不会放眼看着慕容垂最终壮大成了河北的最强符号力量。</strong></p>
+<p><strong>苻丕的轻信麻木与无能，最终将让苻家失去本不应该失去的万里河东！</strong></p>
+<p>慕容垂渡过黄河焚烧了河桥开始喊出了自己复国的口号：我忍辱负重多年，如今要兴复祖业，乱我法者必罚，奉我命者必赏，天下大定之日封爵荫子，必不相负！</p>
+<p>丁零翟斌那边在冒头站出来后得到了慕容凤及燕故臣之子燕郡王腾、辽西段延等听说翟斌起兵后各率部曲前去投奔。</p>
+<p>不久苻晖派毛当前来征讨翟斌。</p>
+<p>慕容凤道：我今天要雪先王之耻！请为将军斩此氐奴！</p>
+<p>慕容凤随后披甲直进，丁零之众跟随于后，慕容凤阵斩毛当并攻克陵云台，收万余人甲仗兵器。</p>
+<p>此时慕容垂杀了苻飞龙的消息已经传来了，于是慕容凤等人开始劝翟斌奉慕容垂为盟主。</p>
+<p>慕容垂以救洛阳的名义打算去偷袭，但苻晖听说他杀了苻飞龙于是不让慕容垂进城，慕容垂忽悠不成功后，接受了翟斌等人的加盟，并被翟斌等人劝加皇帝尊号。</p>
+<p>慕容垂说：慕容暐是咱们的领导，以诸君之力平定关东后咱们把皇帝接回来，我是不能当这个皇帝的。洛阳这位置四面受敌，北阻大河，难以控驭燕、赵，非形胜之便，不如北取邺都，据之而制天下！</p>
+<p>同志们高票同意。</p>
+<p>就这样慕容垂之众挥师向东，遣王腾起浮桥于石门，准备渡过黄河。</p>
+<p>走到荥阳，前秦的荥阳太守原扶馀王馀蔚和昌黎鲜卑卫驹各帅其众前来加盟，随后同志们再次请慕容垂称帝。</p>
+<p>众望所归下，慕容垂依司马睿江左故事，称大将军、大都督、燕王，承制行事，群下称臣，文表奏疏，封拜官爵。</p>
+<p>弟慕容德为车骑大将军，封回原范阳王之爵；</p>
+<p>慕容恪长子慕容楷为征西大将军，袭其父太原王之爵；</p>
+<p>翟斌为建义大将军，封河南王；</p>
+<p>馀蔚为征东将军、统府左司马，封扶馀王；</p>
+<p>卫驹为鹰扬将军，慕容凤为建策将军，其余各有封爵。</p>
+<p>此时此刻，慕容垂已经聚集了20多万兵众了，开始自石门渡黄河奔邺城而去。<strong>（帅众二十余万，自石门济河，长驱向邺）</strong></p>
+<p>慕容垂迅速扩充实力开始北进的同时，慕容农的复国小分队也在列人县（邯郸肥乡区东北）成功打开局面。</p>
+<p>慕容农逃离邺城后并没有走南下的道路，而是北上去了列人县，来到了乌桓首领鲁利那。<strong>（慕容农之奔列人也，止于乌桓鲁利家）</strong></p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141714496.jpeg" alt="图片" /></p>
+<p>鲁利给慕容农备宴，慕容农笑了笑没有吃。</p>
+<p>鲁利对他媳妇说：贵人来了！咱家穷没有啥好吃的，可咋办！**（谓其妻曰：恶奴，郎贵人，家贫无以馔之，柰何）
+**</p>
+<p>注意这句古语原文，鲁利对他媳妇说：<strong>恶奴，郎贵人</strong>。</p>
+<p>这个**“恶奴”**不是骂他媳妇倒霉娘们的意思，而是慕容农的小字叫“恶奴”。</p>
+<p>这意味着鲁利对慕容农相当熟悉。</p>
+<p>他媳妇说：贵人有雄才大志，如今突然来到必有非常之事，人家才不是为了吃喝，你先去外面安排好探哨做好防备，听听贵人要来干啥？</p>
+<p>把吃的撤了以后，慕容农露出了此行的目的：我想起兵于列人，你愿意跟我干吗？<strong>（农谓利曰：吾欲集兵列人以图兴复，卿能从我乎）</strong></p>
+<p>鲁利道：生死相随！<strong>（利曰：死生唯郎是从）</strong></p>
+<p>慕容农随后又去找了乌桓张骧：我家大王已经起事，丁零翟斌等全都加盟了，远近响应，对你有啥启发吗？<strong>（农乃诣乌桓张骧，说之曰：“家王已举大事，翟斌等咸相推奉，远近响应，故来相告耳）</strong></p>
+<p>张骧道：得旧主而奉之，怎敢不尽死力！<strong>（得旧主而奉之，敢不尽死）</strong></p>
+<p>慕容农离开关东已经14年了，他当初离开关东的时候不会超过15岁。（他二哥慕容宝369年时15岁）</p>
+<p><strong>鲁利相当明确的认出了他，并对妻子喊出了他的小名，极大概率说明他在慕容农长大的这些年见过他。</strong></p>
+<p><strong>慕容农逃离邺城后相当地址明确的来到了列人，相当单刀直入的说明了此行的来意，也相当畅通顺利的得到了列人的两个乌桓老大的铁心承诺和加盟。</strong></p>
+<p><strong>这基本说明了，这个列人县是慕容垂早早就阴养在这里的“死士三千”！</strong></p>
+<p>那么下个问题来了，371年正月时，苻坚迁徙了关东豪杰及杂夷部族十万户到关中地区，把乌桓人安置在冯翊、北地，把丁零人翟斌的部众安置在了新安。<strong>（徙关东豪杰及诸杂夷十万户于关中，处乌丸杂类于冯翊、北地，丁零翟斌于新安）</strong></p>
+<p>史书中相当明确的写明了“<strong>处乌丸杂类于冯翊、北地</strong>”。</p>
+<p>**乌桓是被苻坚明文拆迁到关中的族类，咋现在冒出在了列人县？
+**</p>
+<p>接着往后看吧，惊喜越来越多。</p>
+<p>这两个乌桓大佬说通后，慕容农收编了列人乌桓自治县的人民起义了，随后又派了慕容垂的参军赵秋去游说屠各人毕聪。<strong>（于是农驱列人居民为士卒，斩桑榆为兵，裂裳为旗，<strong><strong>使赵秋说屠各毕聪</strong></strong>）</strong></p>
+<p><strong>又一个相当地址人物明确的招募！</strong></p>
+<p>毕聪随后带着屠各的兄弟们和东夷的馀和、敕勃部以及易阳（邯郸永年区）乌桓的刘大部，各率部众数千前来响应。<strong>（聪与屠各卜胜、张延、李白、郭超及东夷馀和、敕勃、易陽乌桓刘大各帅部众数千赴之）</strong></p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141714479.jpeg" alt="图片" /></p>
+<p><strong>这是有预谋的起事，根本没废话，慕容垂的这个符号一出现就揭竿而起了。</strong></p>
+<p>慕容农随后被推举为“持节、都督河北诸军事、骠骑大将军”，慕容农由于慕容垂还没到不敢封赏将士，但被赵秋劝阻，认为此时正值干事创业的黄金阶段，军中无赏赐，士卒不英勇，大家现在来投奔我们是想立战功在下一次创业大潮中分红的，应该现在就对他们封爵授官，扩大我们的基本面嘛！</p>
+<p>慕容农随后封张骧辅国将军，刘大安远将军，鲁利建威将军，率兵偷袭了馆陶，收其军械将这货杂牌军武装了，然后又派兰汗（慕容垂从舅）等将略取康台牧马数千匹。<strong>（农自将攻破馆陶，收其军资器械，遣兰汗、段赞、赵秋，慕舆略取康台牧马数千匹）</strong></p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141714598.jpeg" alt="图片" /></p>
+<p>成功迈出了第一步后，慕容农的起义军也迅速的达到了数万人。<strong>（于是步骑云集，众至数万）</strong></p>
+<p>**同样注意慕容农的这个招兵速度。
+**</p>
+<p>打出规模后，慕容农又西招乌桓库辱官部于上党，东引鲜卑乞特部于东阿，两个部落又各率众数万响应，慕容农的革命军在短短的几天时间内已经到了十余万的地步。<strong>（农西招库辱官伟于上党，东引乞特归于东阿，各率众数万赴之，众至十余万）</strong></p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141714555.jpeg" alt="图片" /></p>
+<p><strong>这都是在邺城的眼皮子底下完成的！</strong></p>
+<p><strong>知道为啥慕容垂有恃无恐了吧！</strong></p>
+<p>十二月二十八，慕容农潜逃。</p>
+<p>正月初七，等苻丕派石越率兵前来讨伐的时候，慕容农已经势不可挡。</p>
+<p>短短十天的时间里，慕容垂在河内，慕容农在邺北，爷俩同时爆发出了核裂变般的扩兵速度！</p>
+<p>这些扩兵的主力是谁呢？</p>
+<p><strong>后面慕容垂打邺城时给出了主力配置，是丁零和乌桓人。****（燕王垂引丁零、乌桓之众二十余万为飞梯地道以攻邺）</strong></p>
+<p>丁零是意外收获，<strong>慕容垂这些年阴养的复国主力，是乌桓人。</strong></p>
+<p>前面我们说了，乌桓不是被拆迁到了冯翊和北地郡吗？</p>
+<p><strong>丁零人被拆迁到了新安，起事的时候也是在新安，说明并非是所有的异族都被允许回到了河北故土。</strong></p>
+<p>那慕容垂阴养的这些“死士”们都是怎么回到河北的呢？</p>
+<p>史书无载。</p>
+<p>我们只知道，慕容泓（慕容垂侄子）是北地太守，冯翊太守不详，但“<strong>燕之诸王悉补边郡</strong>”！</p>
+<p><strong>苻坚也许仅仅牢牢的盯住了鲜卑人的动向，却忽略了其他边缘族裔的动向。</strong></p>
+<p><strong>真正的枭雄，即便你给他拴上了链子，但你只要给了他发挥能动性的空间，他就会不经意间于无声处听惊雷的让你感受到费解和绝望！</strong></p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141717336.gif" alt="图片" /></p>
+<p>**贰：“礼遇弥重”，智者屠龙的杀人技
+**</p>
+<p>384年正月初七，石越率万余步骑抵达列人城西。</p>
+<p>此时距离慕容农越狱不到十天，但人家已经兵有有数万，石越的先锋部队刚刚抵达就被赵秋和参军綦毋滕（匈奴族）率先击败，随后参军赵谦对慕容农说：石越的铠甲兵器虽然精良但人心惊惧，咱们现在应该迅速攻击他们。</p>
+<p>慕容农说：“白天交战我军看到他们的精良铠甲会害怕，还是等看不清他们时再说吧。</p>
+<p>慕容农命令士兵严阵以待，石越那边也不进攻，修栅栏自守。</p>
+<p>慕容农看到这个情形哈哈大笑：石越武器精良却不趁着锐气来打我们，他们没戏了。</p>
+<p>石越和当年前秦全胜之时率五千骑兵泅渡汉水闪电战抢外城的心气完全不同了。</p>
+<p>夜幕降临，石越的精兵被慕容农的牙门将刘木（匈奴族）仅仅率领四百人就冲垮了，慕容农在大军追击时不仅大败秦军还斩杀了石越。<strong>（向暮，农鼓噪出，陈于城西，牙门刘木请先攻越栅，农笑曰：“凡人见美食，谁不欲之，何得独请！然汝猛锐可嘉，当以先锋惠汝。”木乃帅壮士四百腾栅而入，秦兵披靡；农督大众随之，大败秦兵，斩越，送首于垂）</strong></p>
+<p>这位虎将以一种近乎屈辱的方式谢幕了。</p>
+<p>人心散了，队伍不好带了。</p>
+<p>石越作为前秦的勇力担当，作为苻坚钦点的邺城守护神，他的阵亡也使得河北各方面势力开始再也按不住了。<strong>（越与毛当，皆秦之骁将也，故秦王坚使助二子镇守；既而相继败没，人情騷动，所在盗贼群起）</strong></p>
+<p>正月二十六日，慕容垂率大军抵达邺城，慕容农也带领军队前来回合。</p>
+<p>慕容垂在邺城下开始第一波大分红，改秦建元二十年为燕元年，官员服饰及朝廷礼仪全都如前燕旧制，以前燕原岷山公库官伟为左长史，前燕原尚书段崇为右长史，立长子慕容宝为太子，封堂弟慕容拔等亲戚十七人为王，其余的宗族亲属及有功之臣被封为公的有三十七人，被封为侯、伯、子、男的有八十九人。</p>
+<p>不久，可足浑谭也自河内招兵两万人攻下野王后引兵会于邺城。<strong>（可足浑谭集兵得二万余人，攻野王，拔之，引兵会攻邺）</strong></p>
+<p>原燕国旧臣平幼、平睿兄弟等率数万兵众也来参与邺城合围。<strong>（平幼及其弟睿、规亦帅从数万会垂于邺）</strong></p>
+<p>在这种大兵压境的情况下，苻丕的应对措施是派姜让强烈谴责慕容垂，并劝他：犯了错改了就好，现在还不晚。</p>
+<p>慕容垂对这种幽默言论给予了尊重，对使臣表示我还记得他爹的恩德，他可以带部队返回长安，咱们今后睦邻友好，他要是不识时务，我就动全部兵力攻打，到时他想跑也来不及了。</p>
+<p>姜让比较愤怒，当场就嘚嘚了一大堆，替苻丕当场表了态，中心思想就是你挺大岁数的臭不要脸到老成了反动派，咱战场上见吧！</p>
+<p>慕容垂送走愤青后又给苻坚送了一封信，希望苻坚能令苻丕弃城回长安，信中说了八件事：</p>
+<p>1、你当初现眼的时候我没有落井下石，苍天作证。<strong>（陛下单马奔臣，臣奉卫匪贰，岂陛下圣明鉴臣单心，皇天后土实亦知之）</strong></p>
+<p>2、你儿子的能力镇不住关东，他不仅不让我进城连我祖上的庙都不让我拜祭。<strong>（臣奉诏北巡，受制长乐。然丕外失众心，内多猜忌，今臣野次外庭，不听谒庙）</strong></p>
+<p>3、你儿子对我先下的手。<strong>（丁零逆竖寇逼豫州，丕迫臣单赴，限以师程，惟给弊卒二千，尽无兵杖，复令飞龙潜为刺客）</strong></p>
+<p>4、你另一个儿子不让我进洛阳。<strong>（及至洛阳，平原公晖复不信纳）</strong></p>
+<p>5、我进退都不是，里外不是人，然后被逼成了盟主，然后莫名其妙的全世界都来响应我，武王伐纣，垓下会战都没见过来那么多人，我就这么受欢迎。<strong>（臣窃惟进无淮阴功高之虑，退无李广失利之愆，惧有青蝇，交乱白黑，丁零夷夏以臣忠而见疑，乃推臣为盟主。臣受托善始，不遂令终，泣望西京，挥涕即迈。军次石门，所在云赴，虽复周武之会于孟津，汉祖之集于垓下，不期之众，实有甚焉）</strong></p>
+<p>6、我是多么想让苻丕去投奔您呀，但这小子非要跟我开战，然后没咋地石越就死了，我一人之力就归者如云，这是天意啊！<strong>（欲令长乐公尽众赴难，以礼发遣，而丕固守匹夫之志，不达变通之理。臣息农收集故营，以备不虞，而石越倾邺城之众，轻相掩袭，兵阵未交，越已陨首。臣既单车悬轸，归者如云，斯实天苻，非臣之力）</strong></p>
+<p>7、我只取关东，西向称臣。<strong>（且邺者臣国旧都，应即惠及，然后西面受制，永守东藩，上成陛下遇臣之意，下全愚臣感报之诚）</strong></p>
+<p>8、快让你儿子献城吧，否则刀剑无眼弄死他咱俩谁也不好看，运有推移，去来常事，您别太执着。</p>
+<p>苻坚的回信就一条中心思想：你个负心汉，当初你混不下去来投奔我时待你咋样，现在搁这放屁纯属臭不要脸。</p>
+<p>这是一封双方事后都后悔了的政治沟通。</p>
+<p>后悔在了时间。</p>
+<p>慕容垂要是将这封信晚送上两个月，结果很可能将是另一种回答了。</p>
+<p>这座邺城的归属让他失去了相当宝贵的一年时间并衍生出了很多蝴蝶效应。</p>
+<p>苻坚要是按住这封信给慕容垂以希望再拖上几个月，很可能自己的人生也是另一种结局了。</p>
+<p>公元384年正月，关中火药库还在等待那根引线，苻坚尚不知道自己即便全部收缩回全部力量也不一定摆得平这次危机。</p>
+<p>慕容垂的这封来信其实表达了两个意思：</p>
+<p>1、我只兴复故土。</p>
+<p>2、恩情我认，老大我也认，我是你的藩国。</p>
+<p>再过几个月，苻坚再回顾这封信，会有相当不同的看法。</p>
+<p>正月二十八，慕容垂攻打邺城，一天时间就拿下外城，苻丕退守中城。此时此刻看到邺城外城失守，关东各地郡县开始有很多地方往慕容垂这送人质了。<strong>（燕王垂攻邺，拔其外郭，长乐公丕退守中城。关东六州郡县多送任请降于燕）</strong></p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141716870.gif" alt="图片" /></p>
+<p>此时关东坞堡体们的政治走向在长达一个世纪的血与火后早已经变成了全看风力的墙头草，送人质已经不算啥了，很多时候多生孩子就是为了送出去当人质的。</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141715098.gif" alt="图片" /></p>
+<p>谁也不得罪的活下去，对这片多灾多难的土地最重要。</p>
+<p>慕容垂得到外城其实并不意味着什么，因为邺城太大了，外城是苻丕主动让出去的。</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141714644.jpeg" alt="图片" /></p>
+<p>所谓邺有三台之固，其城防最值钱的地方就是地势高，城墙高的西北角了。</p>
+<p>二月，慕容垂开始引二十余万丁零乌桓大军飞梯地道全方位攻邺，但根本拿不下来，此时的邺城城防展现出了只要我拼死抵抗，你就不可能拿得下的华北第一坚城属性，于是慕容垂筑长围开始了围城。<strong>（燕王垂引丁零、乌桓之众二十余万为飞梯地道以攻邺，不拔；乃筑长围守之）</strong></p>
+<p>看到慕容垂拿不下苻丕，据馆陶的东胡王晏部公然声援邺城，此时周边尚处于观望状态的各民族坞堡体数量也颇为不少，慕容垂分兵慕容楷慕容绍兄弟前往征讨。<strong>（东胡王晏据馆陶，为邺中声援，鲜卑、乌桓及郡县民据坞壁不从燕者尚众；燕王垂遣太原王楷与镇南将军陈留王绍讨之）</strong></p>
+<p>慕容楷对弟弟说：这些本来都是咱大燕的子民，现在我们刚刚开始复国大业，人心还都没有唤醒，应该软化温暖，不能强硬吓唬，我屯兵于辟阳以壮声势，你去说降这帮不合作的。</p>
+<p>随后慕容绍率数百骑兵游说王晏，王晏被说动了，随后剩下观望的壁垒们也都交了租子。<strong>（绍帅骑数百往说王晏，为陈祸福，晏随绍诣楷降，于是鲜卑、乌桓及坞民降者数十万口）</strong></p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141716038.gif" alt="图片" /></p>
+<p>慕容楷随后从这新入伙的队伍里拉来了十余万的兵源赞助，带着新归降的王晏部一块会攻邺城。<strong>（楷留其老弱，置守宰以抚之，发其丁壮十余万，与王晏诣邺）</strong></p>
+<p>四月，久攻不下的慕容垂听从右司马封衡的建议引漳水灌城。<strong>（燕王垂以邺城犹固，会僚佐议之。右司马封衡请引漳水灌之；从之）</strong></p>
+<p>五月，信都守将苻定、高城守将苻绍皆降于燕。</p>
+<p>六月，慕容麟攻常山，守将苻亮、苻谟投降。</p>
+<p>七月，慕容麟攻克中山，声威大振。</p>
+<p>慕容麟又出现了，这位坑爹害兄的畜生在苻坚灭燕后被慕容垂抓住，虎毒不食子，最终慕容垂只杀了慕容麟的母亲没忍心杀掉慕容麟，只把他放逐在外，很少再见。<strong>（垂杀其母，然犹不忍杀之，置之外舍，希得侍见）</strong></p>
+<p>十多年过去了，慕容垂对这个逆子的恨开始慢慢消祛，等慕容垂这次谋划大业，这小子终于不再胳膊肘往外拐了，给慕容垂出了好多主意，慕容垂也因此开始渐渐给这小子平台和机会。<strong>（垂杀苻飞龙，麟屡进策启发垂意，于是奇之，宠待同于诸子，署为抚军将军）</strong></p>
+<p><strong>对于不可承受之重的背叛，不能再给第二次机会，改了也不是好同志！</strong></p>
+<p>**江山易改，本性难移。
+**</p>
+<p>**
+**</p>
+<p>**人性中的那些劣根，改不掉的。
+**</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141718082.gif" alt="图片" /></p>
+<p>八月，由于邺城久攻不下，出了血本的丁零翟斌开始不断向慕容垂要待遇。<strong>（燕翟斌恃功骄纵，邀求无厌；又以邺城久不下，潜有贰心）</strong></p>
+<p>太子慕容宝继弄死苻坚的建议后又开始劝他爹弄死翟斌。<strong>（太子宝请除之）</strong></p>
+<p>这位小可爱可能忘了他爹在河南当着苍天厚土的面发过誓。</p>
+<p>人家要待遇要好处你就要弄死人家？</p>
+<p>在你眼中这政治游戏也太简单了吧。</p>
+<p>慕容垂此时此刻一定很想自己的死在东北大儿子，手把手的无奈教育道：河南之盟，不可负也，做了他的前提是他本人自绝于人民，现在捕风捉影的干掉人家，同志们会离心离德，咱们现在正处于干事创业阶段，广告不是这样打的，眼光要放长远些，他就算有预谋，我碾压他的智慧防着呢。<strong>（燕王垂曰：“河南之盟，不可负也；若其为难，罪由于斌。今事未有形而杀之，人必谓我忌惮其功能；吾方收揽豪杰以隆大业，不可示人以狭，失天下之望也。藉彼有谋，吾以智防之，无能为也）</strong></p>
+<p>不久慕容德、慕容绍、慕容农也都看出来了丁零人有异动，开始提醒慕容垂早做防范。<strong>（范陽王德、陈留王绍、骠骑大将军农皆曰：翟斌兄弟恃功而骄，必为国患）</strong></p>
+<p>这个时候慕容垂祭出了他一生品味后的浓缩智慧：骄则速败，怎能为患。他有大功，要让他自己膨胀自毙。<strong>随后待遇和恩礼越来越厚的给到了翟斌。****（垂曰：骄则速败，焉能为患。彼有大功，当听其自毙耳。<strong><strong>礼遇弥重</strong></strong>）</strong></p>
+<p>啥叫智慧，这就是。</p>
+<p>**天欲其亡，必让其狂。
+**</p>
+<p>**
+**</p>
+<p><strong>某种意义上，慕容垂在扮演老天的角色。</strong></p>
+<p><strong>领导有的时候会给予某个要打掉的人不适合他能力和底蕴的恩赏与待遇，然后静静的看着他膨胀骄纵自绝于人民，随后再替天行道的拿掉他。</strong></p>
+<p>**“德不配位，必有灾殃”是个永远躲不过去的命题。
+**</p>
+<p>**它不仅仅是时刻提醒自己的座右铭，同时也是智者屠龙的杀人技。
+**</p>
+<p>恃宠而骄的翟斌有一次暗示丁零势力及其他同党请求让他出任尚书令。<strong>（斌讽丁零及其党请斌为尚书令）</strong></p>
+<p>慕容垂说：“以翟王的功劳应该位居宰相，现在尚书台省尚未建立，此官不可仓促而设。<strong>（垂曰：翟王之功，宜居上辅；但台既未建，此官不可遽置耳）</strong></p>
+<p>慕容垂在点了太多次头之后，开始了摇头。</p>
+<p>这话按理讲没问题对吧，但已经被骄纵到招不开的翟斌大怒，随后开始和苻丕通谋，并决开了灌邺城的堤防把漳水放走了。<strong>（斌怒，密与前秦长乐公丕通谋，使丁零决堤溃水</strong>）</p>
+<p>你当初第一个挑头反秦，你在慕容垂这是从龙元勋，你在邺城已经下了大本，结果你现在因为一个要求没满足就开始了反叛。</p>
+<p>要是突然一盆凉水浇浇你，你的脑子会清楚些吗？</p>
+<p>估计很难。</p>
+<p>**“礼遇弥重”**这招是相当好用的。</p>
+<p>有的人几顿饱饭就能被冲昏头脑。</p>
+<p>有的人几百几千万就会觉得天下无敌。</p>
+<p>苻坚人杰如此，在老天级别的**“礼遇弥重”**下也开始不知道自己姓啥。</p>
+<p>**每个人都会膨胀，都会有不知道自己姓啥的时候，<strong><strong>区别在于根器不同，承受能力和自省能力不同。</strong></strong>
+**</p>
+<p>**
+**</p>
+<p>**多多修炼自己，多多提升自己的级别，省的有一天“礼遇弥重”砸过来的时候自己被有意或无意的捧杀。
+**</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141715236.jpeg" alt="图片" /></p>
+<p>**
+**</p>
+<p><strong>人有多大器量，接多大福报。</strong></p>
+<p><strong>一个小马扎上放一吨的重量，那马扎肯定粉粉碎。</strong></p>
+<p>事情后来败露，慕容垂杀掉了翟斌及他的弟弟翟檀、翟敏，其余的人全都赦免。<strong>（事觉，垂杀斌及其弟檀、敏，余皆赦之）</strong></p>
+<p>翟斌的侄子翟真夜里率丁零部北走邯郸，后来引兵打算救邺城之围正式和慕容垂开战，被慕容宝击破还屯邯郸，后来就是在河北大地上后燕和丁零长达数年的撕扯相杀。</p>
+<p>八月的时候，邺城中饲料已经没了开始削松木喂马，慕容垂这围城大半年后也变成了强弩之末，慕容垂说这城不围了，放开道路让他西归就当报他父亲之恩了，腾出手来我们先解决丁零问题。<strong>（邺中刍粮俱尽，削松木以饲马。燕王垂谓诸将曰：“苻丕穷寇，必无降理；不如退屯新城，开丕西归之路，以谢秦王畴昔之恩，且为讨翟真之计）</strong></p>
+<p>慕容垂这一撤，十月，苻丕联盟了丁零翟真，又遣阳平太守邵兴率数千骑兵招集冀州故郡县。</p>
+<p>这个时候，河北各地又以为秦国缓过来了，燕国不行了，开始观望成败又都不听慕容垂的话了，赵郡人赵粟等起兵柏乡以应邵兴。<strong>（是时，燕军疲弊，秦势复振，冀州郡县皆观望成败，赵郡人赵粟等起兵柏乡以应兴）</strong></p>
+<p>随后慕容垂又派慕容隆和慕容农这俩儿子去平叛，慕容农抓了邵兴，慕容隆击溃了赵粟等人，随后河北诸郡又归顺了后燕。<strong>（隆遂击赵粟等，皆破之，冀州郡县复从燕）</strong></p>
+<p>在这大乱百年后，整个河北的归属某种意义上就是邺城、中山、襄国、信都这几个关键城市在谁手上，整个华北大地上几乎没有政治粘性，政治土质极差，根本存不住水。</p>
+<p>在这百年乱世后，淮河南北产生了截然不同的两种政治土壤，南方变成了寸土必争的众志成城，北国则是墙头之草的随风摇曳。</p>
+<p>这天下大乱虽然已经演化了近百年，但距离重组成功还是差的太远了。</p>
+<p>滚滚长江东逝水，浪花淘尽英雄，百年沧桑匆匆过，此时挥斥方筹的慕容垂尚不知道，这前赴后继的五胡时代，即将走向终章了。</p>
+<p>邺城争夺战僵持了一年后，385年3月，苻丕向东晋请降，联系上了已经打到黄河以南的刘牢之。**（时苻坚子丕据邺，为慕容垂所逼，请降，牢之引兵救之）
+**</p>
+<p>刘牢之率北府军援救邺城，邺城外，慕容垂输掉了当世第一战神的桂冠，撤围退屯新城。<strong>（晋龙骧将军刘牢之率众救苻丕，至邺，垂逆战，败绩，遂撤邺围，退屯新城）</strong></p>
+<p>刘牢之拿出了淝水战场的劲头，都没来得及搭理苻丕就追出去了，苻丕看到淝水英雄赶跑了大魔王，于是也带兵跟着追出去了。<strong>（牢之不告秦长乐公丕，即引兵追之。丕闻之，发兵继进）</strong></p>
+<p>慕容垂继续跑，刘牢之继续追，燕军连战连败。<strong>（垂自新城北走，牢之追垂，连战皆败）</strong></p>
+<p>刘牢之一路狂追二百里，在五桥泽，北府军发现了大量辎重，将士们开始争夺战利品，阵型出现了松动，这个时候慕容垂开始电光火石间收网，伏击齐出，几乎全歼了刘牢之的北伐军。<strong>（牢之与沛郡太守田次之追之，行二百里，至五桥泽中，争趣辎重，稍乱，为垂所击，牢之败绩，士卒歼焉）</strong></p>
+<p>慕容垂的胃口比较大，他连刘牢之逃跑的退路都让慕容德和慕容隆给堵死了，刘牢之最后仗着马好排量大艰难跳过了五丈涧，又赶上了苻丕救援才得以幸免。<strong>（德及隆引兵要之于五丈桥，牢之驰马跳五丈涧，会苻丕救至而免）</strong></p>
+<p>北府军和后燕军谁的战力强呢？</p>
+<p>肯定是北府军，不然慕容垂直接在邺城下就逆战狂屠了，哪用得着这么费劲。</p>
+<p>刘牢之和慕容垂的能力谁强呢？</p>
+<p>这就不用问了，<strong>人家慕容垂“礼遇弥重”这招已经使入化境了。</strong></p>
+<p>让你骄傲，给你诱惑，让你自己露出破绽。</p>
+<p>你随时可以停住脚步哦，但你为什么没停住呢？你为啥还是被我牵着走呢？</p>
+<p><strong>这中间的差距，可不是一句大意了就能盖过去的。</strong></p>
+<p>慕容垂击败北府军后，和东晋在黄河一线的对峙趋于稳态，苻丕随后又坚持了半年，于385年八月终于带领男女六万口撤出了邺城投奔晋阳。</p>
+<p>385年冬，慕容农光复龙城，虽然河北大地仍然有丁零等顽抗势力作对，但慕容垂的复国大业在两年后基本回到了当年梦开始的样子。</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141716412.jpeg" alt="图片" /></p>
+<p>386年，慕容垂定都中山，即皇帝位，改元“建兴”。</p>
+<p>388年四月，慕容垂立夫人段氏为皇后，太子慕容宝领大单于。**（丁亥，燕主垂立夫人段氏为皇后，以太子宝领大单于）
+**</p>
+<p>**
+**</p>
+<p>**慕容垂在全部恢复祖制的同时，重新设立了前燕入主中原后取消的大单于一岗。
+**</p>
+<p>**
+**</p>
+<p><strong>因为股东占比变了。</strong></p>
+<p>这两篇文章全程看下来，大家也能清晰的了解到慕容垂复国的底色。</p>
+<p>前燕入关拿下关东，靠的是自家百年积淀的老底子，兵是自己族人部落，政治结构是宗亲为骨兼以大量汉人参与，基本上没有什么杂胡杂夷的事。</p>
+<p>所以终前燕一朝，基本没有看到其他少数民族势力为前燕卖命。</p>
+<p><strong>后燕兴起，靠的则是以乌桓为主的关东杂夷。</strong></p>
+<p><strong>慕容垂在前秦当官的这14年收揽了大量郁郁不得志的杂胡部落为己所用，在前秦淝水战败后的大背景下，利用自己流量极强的战神符号几乎是凭一己之力祸动起来了整个关东大地。</strong></p>
+<p><strong>慕容垂的成功，更像是“重走石赵路”。</strong></p>
+<p>各部杂胡在后燕的政权中占据了巨大的比重，兴复大燕的过程中，除了慕容垂的宗族子弟外，大量的各部首领参与其中，在建国分封后，诸胡也构成于后燕的最高统治阶层，后燕给予这些杂胡极高的政治地位，二者结成了紧密的政治同盟。</p>
+<p>诸胡梦回石赵的同时，却怎么也没想到，这个梦会如此短暂。</p>
+<p>后燕没过多少年就又一次面临了生死存亡，当考验来临之时，很多杂胡势力表现出了整个五胡时代从未见过的为他族卖命的忠诚。</p>
+<p>最早被慕容农招募于上党的库傉官部，其族长库傉官伟官至后燕的太师，其部在后燕后来首都沦陷退出河北的时候仍然顽强不降，在398年的三月和七月分别爆发了大起义。<strong>（三月，渔阳群盗库傉官韬聚众反；七月，渔阳乌丸库傉官韬复聚党为寇）</strong></p>
+<p>作为慕容农在列人县招募的乌桓头领，张骧后来虽然迫于形势投降北魏，但却最终叛逃而归继续参加后燕的抗魏活动，其子张超后来仍然据党三千余家占据南皮和北魏顽强开战。<strong>（乌丸张骧子超，收合亡命，聚党三千余家，据勃海之南皮,自号征东大将军、乌刃王，抄掠诸郡）</strong></p>
+<p>最鲜明的对比，当年前秦打来后开城门背叛前燕的夫余国势力**（燕散骑侍郎余蔚帅夫余、高句丽及上党质子五百余人，夜开邺城北门纳秦兵）<strong>，在后燕首都中山告急的时候，展现出了巨大的同呼吸共命运姿态，当时北魏强悍，龙城的部队都不敢南下，馀崇坚决表示要为国死社稷，并作为先锋部队在渔阳击破了北魏的千余骑兵振奋士气。</strong>（时道路不通，伟欲使轻军前行通道，侦魏强弱，且张声势；诸将皆畏避不欲行。馀崇奋曰：“今巨寇滔天，京都危逼，匹夫犹思致命以救君父，诸君荷国宠 任，而更惜生乎！若社稷倾覆，臣节不立，死有余辱；诸君安居于此，崇请当之。”伟喜，简给步骑五百人。崇进至渔陽，遇魏千余骑。崇谓其众曰：“彼众我寡，不击则不得免。”乃鼓噪直进，崇手杀十余人。魏骑溃去，崇亦引还，斩首获生，具言敌中阔狭，众心稍振）**</p>
+<p><strong>说到底，没有永恒的朋友，只有永恒的利益。</strong></p>
+<p>和关东地区的清晰主线不同，关中地区在苻坚书记回去后最终成为了极其混乱的地狱修罗场。</p>
+<p>苻坚不知道，也许当初的关东，才是他应该败退的地方······</p>
+<p>**叁：“火烧上方谷”的历史原型
+**</p>
+<p>**
+**</p>
+<p>383年12月，苻坚抵达长安，痛哭了他的好弟弟苻融后进城，大赦天下。</p>
+<p>雄狮倒地，群狼扑上，关中诸胡开始纷纷走上独立自由发展之路。</p>
+<p>关西地区最早脱离苻坚领导的，是鲜卑乞伏部。</p>
+<p>乞伏鲜卑最早的根是在漠北，后南下太阴山，司马炎刚继位的时候首领乞伏佑邻率户五万迁居高平川，后来一直又辗转迁到苑川，石勒霸北后南下迁徙到了陇西度坚山（今甘肃靖远县西）。</p>
+<p>这支鲜卑，又称陇西鲜卑。</p>
+<p>再后来前秦爆发，时任领导乞伏司繁在371年兵败后投降前秦。</p>
+<p>376年，乞伏司繁去世，其子乞伏国仁接替父职镇守勇士川（今甘肃榆中夏官营一带）。</p>
+<p>又过了几年，苻坚在打淝水之战前夕，命乞伏国仁为前将军统先锋骑兵。</p>
+<p>在苻坚动身前，乞伏国仁的叔父乞伏步颓就在陇西叛乱了，苻坚说先锋你先别干了，派大侄子乞伏国仁回师讨伐他叔。</p>
+<p>这次叛乱，是一次预谋。</p>
+<p>乞伏步颓听说大侄子回来后沿路迎接，乞伏国仁在接风宴上振臂高呼说出了预言：苻氏当年趁着石赵内乱窃取名号，穷兵黩武，占据八州。霸业成后不用德政，疲敝天下骚扰百姓，现在中原民生凋敝，天怒人怨，怎么可能成功！物极必反，祸盈而覆，这是天道！我看他此次南下必定失败，我族成就大业的机会来了！**（国仁置酒高会，攘袂大言曰：“苻氏往因赵石之乱，遂妄窃名号，穷兵极武，跨僣八州。疆宇既宁，宜绥以德，方虚广威声，勤心远略，骚动苍生，疲弊中国，违天怒人，将何以济！且物极则亏、祸盈而覆者，天之道也。以吾量之，是役也，难以免矣。当与诸君成一方之业）
+**</p>
+<p>乞伏国仁的话透露出了两个意思：</p>
+<p><strong>1、苻坚的失败趋势已经太明显了。</strong></p>
+<p>这个崩盘的概率甚至大到了让他冒险在淝水之战前就蹦了出来。</p>
+<p>苻坚为人厚道不假，但前秦这些年“<strong>勤心远略，骚动苍生，疲弊中国</strong>”是真的谈不上什么德政的。</p>
+<p><strong>2、时代的车轮走到今天，苻坚霸北的摧枯拉朽让所有少数民族全都看到了希望。</strong></p>
+<p>你比我能强到哪啊？你不就趁着当年后赵大乱捡的便宜嘛！</p>
+<p>现在你要大乱了，你能做到我也能做到！</p>
+<p>苻坚在淝水战败的消息传来后，乞伏国仁开始起兵并胁迫不服的周边各部族，吞并部众达到十多万人，成为了苻坚听到的第一个闹心消息。<strong>（及坚败，国仁遂迫胁诸部，有不从者，击而并之，众至十余万）</strong></p>
+<p>很快，第二个也传来了。</p>
+<p>其实乞伏鲜卑不算啥，可怕的是另一个鲜卑！</p>
+<p>慕容垂在关东反了。</p>
+<p>十年前，有人闯入长安光明殿大喊：**“甲申、乙西，鱼羊食人，悲哉无复造！”
+**</p>
+<p>神奇的预言啊！</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141716312.gif" alt="图片" /></p>
+<p>甲申、乙酉年，鱼羊吃人的惨像不可描述。</p>
+<p>鱼、羊，合起来是“鲜卑”的“鲜”。</p>
+<p>好巧好巧，时间即将来到384年。</p>
+<p>这一年，是甲申年。</p>
+<p>慕容垂于这一年的正月在关东建立后燕。</p>
+<p>不过这并非“<strong>鱼羊食人</strong>”的正解。</p>
+<p>真正的“<strong>鱼羊食人</strong>”，是苻坚当年的枕边人，慕容冲。</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141716302.gif" alt="图片" /></p>
+<p>前面我们说了，384年正月的时候，慕容垂围住邺城后给苻坚写了一封热情洋溢的来信，把自己摘的很干净的同时表达了自己的诉求——只复故国，还认大哥。</p>
+<p>苻坚表达了自己的鄙视。</p>
+<p>此时此刻的苻坚，还没有意识到慕容垂的符号流量有多么的可怕。</p>
+<p>三月，前秦的北地长史慕容泓听说慕容垂建立后燕声势浩大的开始攻打邺城，于是逃奔到了关东。<strong>（慕容暐弟燕故济北王泓先为北地长史，闻垂攻邺，亡命奔关东</strong>）</p>
+<p>但慕容泓收拢了数千鲜卑牧奴后又回到了关中，驻扎在了华阴。<strong>（收诸马牧鲜卑，众至数千，还屯华阴</strong>）</p>
+<p>都出了关了，还带着股本，股本还是值钱的骑兵，你咋不去慕容垂那入股呢？</p>
+<p>因为慕容泓是慕容暐的弟弟。</p>
+<p>他爹慕容儁给这位叔叔改了名，他妈可足浑氏是坑害这位叔叔的直接操刀手。</p>
+<p>慕容泓打算再看看，万一关中有啥变化呢。</p>
+<p>很快，苻坚派了将军强永前来剿匪，但被慕容泓击败。</p>
+<p>**
+**</p>
+<p><strong>苻坚没有意识到问题的严重性，此时一定要派最牛的将领狠狠的把慕容泓捏到泥里，最大程度上的杀鸡儆猴震慑住大败后的国际局势。</strong></p>
+<p><strong>结果慕容泓这一胜不得了，很多力量不再潜伏投奔而来，慕容泓的星星之火开始燎原了！****（坚遣将军强永率骑击之，为泓所败，泓众遂盛）</strong></p>
+<p>此战后，慕容泓自称使持节、都督陕西诸军事、大将军、雍州牧、济北王，推慕容垂为丞相、都督陕东诸军事、领大司马、冀州牧、吴王。</p>
+<p>其实这很不理智。</p>
+<p>因为早在两个月前，慕容垂已经在荥阳自称大将军、大都督、燕王，承制行事了。</p>
+<p>你刚刚赢了一战就自封了慕容垂已经占上的大将军，还私自做主让人家的燕王变成了吴王，这就堵死了自己的东归的路。</p>
+<p>慕容鲜卑的人才梯队储备堪称整个两晋五胡第一档，但这家族内卷的习惯也如跗骨之蛆般深深的钉在了他家的基因中。</p>
+<p>苻坚此时已不像两个月前那么得理不饶人了，对权翼说：我没听你的话，让鲜卑猖狂到了这个地步，关东我已经放弃了，现在慕容泓咋办呢？<strong>（吾不从卿言，鲜卑至是。关东之地，吾不复与之争，将若泓何？）</strong></p>
+<p>权翼道：慕容垂不用担心，他远着呢，现在燕王室全在京师，鲜卑之众尽在近郊，赶紧派重将讨伐打灭他们！</p>
+<p>苻坚随后以苻睿为都督中外诸军事，以左将军窦冲为长史，龙骧将军姚苌为司马，配兵五万讨伐慕容泓。</p>
+<p>慕容泓听说前秦五万大军来了，两边一权衡，觉得可能慕容垂那正是用人之际不会跟他一般见识还是这边更可怕决定向关东逃跑。<strong>（泓闻其至也，惧，率众将奔关东</strong>）</p>
+<p>但苻睿对于这帮鲜卑反贼比较气愤，尤其是生他爹的气，早就告诉你得打，非得人家反了才动手，憋了这么多年了，终于能打了，想跑没门！（<strong>睿驰兵要之）</strong></p>
+<p>姚苌这时就劝苻睿说：“人家鲜卑人搁关中蹲那么多年了，现在全都想着要回家，正好把他们赶出去啊！关中现在能省点心就省点心吧！他们自知陷于穷途末路，必定与我们拼命，万一再战败了咱就全完了！现在只能击鼓紧随把他们吓唬出关中，千万不能打！”</p>
+<p>苻睿不理，可能使命感比较强，怕给关东的哥哥们添麻烦，结果堵住了慕容泓的退路逼他在华泽交战。</p>
+<p>这一打，慕容泓觉得自己草率了，走特么什么走！</p>
+<p>自己短暂聚集的乌合之众不仅大败秦军，还阵斩苻睿。</p>
+<p>姚苌派他的龙骧长史赵都到苻坚那里谢罪，苻坚大怒杀了报丧的同志。</p>
+<p>这一杀不要紧，吓得姚苌也回地方了。<strong>（叡死之。苌遣龙骧长史赵都诣坚谢罪，坚怒，杀之。苌惧，奔于渭北）</strong></p>
+<p>姚苌来到了渭北，在这碰到了自己的“王猛”。</p>
+<p>渭北的羌人尹纬自小有大志，魁梧豪爽，每次看书到出将入相的环节就扔书长叹。</p>
+<p>因为他家“成分”有问题，他的族人并州刺史尹赤曾经投降过姚襄，所以尹家人从此全都被苻坚取消了公务员录取资格。</p>
+<p>尹纬直到晚年才走后门干了个吏部令史，但老骥伏枥依然志在千里，后来终于在淝水之战前夕看到彗星见于东井，尹纬预测出来苻坚要灭了，大喜拜天，流涕长叹。</p>
+<p>他的好朋友略阳桓识比较纳闷：大哥你是咋了？这又哭又乐的。</p>
+<p>尹纬说：“天时如此正是霸王龙飞之秋，但咱没有名头立不起号来无法参加这即将到来风起云涌的时代大潮啊！</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141717920.gif" alt="图片" /></p>
+<p>后来听说姚苌逃奔渭北了，喜从天降的尹纬立刻和族人尹详、密友庞演等四处演说，召唤了西州亲族赵曜、王钦卢、牛双、狄广、张乾等率羌、汉五万余户共推姚苌为盟主。</p>
+<p>姚苌想客气客气，但尹纬此时已经厌倦了被寂寞追着跑，找个差不多的人就想托付终老，说道：“现在秦亡之兆已见，以将军威灵命世，必能匡济时艰，所以豪杰驱驰，咸同推仰，明公不可看到生灵溺水而不救啊！</p>
+<p>爷们别犹豫了，是否刻骨铭心并没那么重要，咱抓紧在平淡中体会造反的味道吧！</p>
+<p>终于等到你，还好我没放弃！</p>
+<p>就你了！快带我们创业吧！</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141717862.gif" alt="图片" /></p>
+<p>姚苌之所以会成为羌族人心中的众望所归，是因为他和慕容家一样，也是早有准备。</p>
+<p>姚苌总说，他哥姚襄没死的时候曾梦见他龙抱加身，各部酋长肃然侍立，他哥还亲口认证，说这小子将来也许能兴我族裔。</p>
+<p>他伐蜀的时候，有一天在水边睡午觉（也不怕鳄鱼吃了他），突然出现神光附体，好多人又都看见了。<strong>（初，苌随杨安伐蜀，尝昼寝水旁，上有神光焕然，左右咸异之）</strong></p>
+<p>他进军梓潼的时候又做梦了，梦见一个天神叫他早日回乡代秦为主。</p>
+<p>淝水之战前夕苻坚又以当年他政变前的封号“龙骧将军”授予他，亲口鼓励他要好好干！</p>
+<p>这是奉旨造反啊！</p>
+<p>姚苌是品牌营销大家。</p>
+<p>姚苌在羌族人民的推荐下，自称大将军、大单于、万年秦王，大赦，改元“白雀”，史称“后秦”。</p>
+<p>以天水尹详、南安庞演为左右长史，南安姚晃、尹纬为左右司马，天水狄伯支等为从事中郎，姜训、阎遵为掾属，王据、焦世等为参军，王钦卢、姚方成、王破虏、杨难、尹嵩、裴骑、赵曜、狄广、党删等为帅。</p>
+<p>羌人也加入关中大乱来了。</p>
+<p>至此，慕容鲜卑、姚羌和苻氐的关中斗地主正式开打。</p>
+<p>慕容垂抢先杀向了关东占据了有利身位也导致了关中的“西燕”开始跟苻坚死磕。</p>
+<p>尤其是当年的那个和姐姐一块进宫被苻坚调教的12岁小男孩！</p>
+<p>平阳太守慕容冲在平阳也起兵了，拥兵二万开始进军攻打蒲阪。</p>
+<p>慕容冲的位置更好，其实去投奔慕容垂更方便，但他也是慕容儁的儿子回关东的风险巨大，同样更因为自己少年时那屈辱的记忆。</p>
+<p>人家堂堂燕国皇子大司马，亲眼看着姐姐被那啥。</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141717819.gif" alt="图片" /></p>
+<p>然后居然自己也被那啥······</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141718751.gif" alt="图片" /></p>
+<p>苻坚派窦冲去讨伐随后成功大败慕容冲，但慕容冲却率领八千鲜卑骑兵成功投奔到了哥哥慕容泓那。</p>
+<p>慕容泓此时已经聚众十多万了，派使者告诉苻坚：天意兴复大燕，吴王慕容垂已经平定关东，你快把我哥哥慕容暐还给我们，我们这就回邺都，与秦国以虎牢为界，永远友好邻邦。你儿子不是我杀的，是他自己冲猛了被乱兵所害。<strong>（泓众至十余万，遣使谓坚曰：&quot;秦为无道，灭我社稷。今天诱其衷，使秦师倾败，将欲兴复大燕。吴王已定关东，可速资备大驾，奉送家兄皇帝并宗室功臣之家。泓当率关中燕人，翼卫皇帝，还返邺都，与秦以武牢为界，分王天下，永为邻好，不复为秦之患也。钜鹿公轻戆锐进，为乱兵所害，非泓之意）</strong></p>
+<p>苻坚继续大怒，叫来还在手中的慕容暐骂道：你们慕容家都是人面兽心！</p>
+<p>慕容暐叩头流血后苻坚又原谅了他：父子兄弟无相及也，你还是好同志的。随后命他写信劝降慕容泓、慕容冲以及慕容垂，表示只要回了长安就一定宽恕反叛之罪。<strong>（命暐以书招喻垂及泓、冲，使息兵还长安，恕其反叛之咎）</strong></p>
+<p>苻坚在接二连三的挫败后恼羞成怒的已经失去判断力了。</p>
+<p>你把正根慕容暐放回去啊！他们可是慕容家呀！他们哥仨首先就会对皇位打个你死我活！创造条件让他们回去跟慕容垂闹啊！你让他互相伤害呀！</p>
+<p>还写信劝降，人家不可能投降的！你控制着慕容暐就是逼那哥俩打长安，借你的手杀了他们哥哥！</p>
+<p>慕容暐这个时候已经活明白了，秘派使者对慕容泓说：“我是笼中之人，肯定回不去了，我是咱家的罪人，你们别再想我了，加油干吧！让慕容垂做相国，慕容冲做太宰大司马，你做大将军司徒，秉承我的旨意封爵授官，听到我的死讯后你立刻即皇帝位！</p>
+<p>384年四月，慕容泓收到哥哥大义凛然的自白书后开始进军长安，改年号为“燕兴”。</p>
+<p>到了五月时，姚苌进屯岭北，北地、新平、安定的十余万户羌人开始归附姚苌。</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141717497.jpeg" alt="图片" /></p>
+<p>姚苌在北，慕容泓在西，苻坚最终做出决策，先灭姚羌！</p>
+<p>估计是瞅准了羌族人民历史战绩从来就没漂亮过的缘故。</p>
+<p>苻坚这次统步骑两万御驾亲征，扎营赵氏坞(北地境内)。<strong>（秦王坚自帅步骑二万以击后秦，军于赵氏坞）</strong></p>
+<p>羌族人民一如既往的表现出了自己有史以来的少数民族最弱战力表现，十万之众被两万的前秦军给困死了。</p>
+<p>苻坚派杨壁以骑兵三千横截姚苌归路，命徐成、窦冲等轮番冲击姚苌，羌军节节败退被苻坚围在了死地冲不出来，苻坚在包围圈合围后又于同官水(今雷家沟一带)上筑堰，截断了姚苌水源。</p>
+<p>眼瞅万年秦国连仨月都熬不过去了。</p>
+<p>姚苌军处北地势高，难以挖井，后秦军被断了水源后姚苌命其弟姚尹买募集精锐两万为敢死队冲杀秦阵，然后被干死了一万三，姚尹也被窦冲斩杀。<strong>（苌军渴甚，遣其弟镇北尹买率劲卒二万决堰。窦冲率众败其军于鹳雀渠，斩尹买及首级万三千）</strong></p>
+<p>被围了一个月，后秦军中出现了大量的渴死士卒，眼瞅姚苌就要作为五胡版马谡成为历史的笑柄。</p>
+<p>眼瞅苻坚将在史书上以战神的身份再添上一大笔，两万围死十万，韩白再世啊！</p>
+<p>这个时候，老天爷开始改戏了。</p>
+<p>或者说“苻氐”真的已经天数已尽，而“姚羌”这个一打就死的小强却有着自己要演的一段剧本。</p>
+<p>天降大雨。</p>
+<p>后秦营中水涨三尺，营外却只有细雨萌萌，后秦军势大振！<strong>（苌众危惧，人有渴死者。俄而降雨于苌营，营中水三尺，周营百步之外，寸余而已，于是苌军大振）</strong></p>
+<p>这种视觉效果最终摧垮了只剩最后一口气的苻秦！</p>
+<p>氐人看到如此剧烈的视觉反差后彻底泄气了。</p>
+<p>苻坚书记也就此认命了，撤案而叹：老天爷没有心啊！<strong>（坚方食，去案怒曰：&quot;天其无心，何故降泽贼营）</strong></p>
+<p>本来想拿羌人找找自信的，谁知道最后老天跟我来了这么一出！</p>
+<p>还记得《三国演义》中的丞相在上方谷火烧司马懿吗？</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141719891.gif" alt="图片" /></p>
+<p>艺术来源于生活，高于生活，罗贯中先生大概率是借鉴的这段历史。</p>
+<p>电视剧中，咱丞相的那股悲壮，大概就是苻坚此时的状态吧。</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141719681.gif" alt="图片" /></p>
+<p>秦军士气一落千丈，“万年秦”的七万大军开始倾巢出动击败苻坚，一举俘获了杨璧、毛盛、徐成等数十名高级将领。<strong>（姚苌留其弟征虏绪守杨渠川大营，率众七万来攻坚。坚遣杨璧等击之，为苌所败，获杨璧、毛盛、徐成及前军齐午等数十人）</strong></p>
+<p>诸将请求乘胜追击夺取长安，但姚苌还是比较明白的，这一战胜的极其偶然，兔子急了还咬人呢，还是看慕容家再跟苻坚耗耗吧。</p>
+<p>姚苌跟诸将上课：慕容家起兵最后肯定会东归的，因为他们全都是关东人，咋会总在秦川待着呢？咱们还是先移兵岭北，广收资实，积蓄实力，等燕灭秦东归后咱们再垂拱取之，兵不血刃夺天下多好！</p>
+<p>可别再让咱羌人打仗了，这活实在不太适合咱们爷们干。</p>
+<p>在苻坚和姚苌对战的时候，慕容泓那发生了内乱，大股东高盖等人认为慕容泓的威望不如慕容冲而且执法严苛（主要是后面这点），于是兵变杀了慕容泓，共推慕容冲为皇太弟。</p>
+<p>七月，慕容冲大军推进到距长安二百里处。</p>
+<p>眼看关中就要不行了，洛阳的苻晖开始放弃洛阳，率洛阳陕城的七万大军回援关中；益州刺史王广也遣将军王蚝率蜀汉之众来赴国难。</p>
+<p>苻坚得到有生力量后派抚军将军苻方戍守骊山，命苻晖为都督中外诸军事、车骑大将军率五万洛阳军阻击慕容冲，苻琳为中军将军，率兵三万为苻晖后继。</p>
+<p>两军会战于郑西(陕西华县西)。</p>
+<p>慕容冲玩了把邪的，他命妇女同志们各自缝制一囊，里面盛满尘土，然后骑着牛马身穿彩衣竖起旗杆藏在阵后。</p>
+<p>等会战之时，幕容冲命令后面的娘子军制造大量扬尘，吓的前秦军以为后面来了好几十万，秦军大败。</p>
+<p>苻晖败后，慕容冲挥军追杀，在灞上又战败了苻坚少子苻琳与前将军姜宇率领的三万阻击军团，姜宁阵前被斩，苻琳中流矢而死，幕容冲部队推进至阿房城(秦始皇阿房宫遗址)。</p>
+<p>九月，慕容冲杀到长安城下。</p>
+<p>苻坚登城看兵势，叹道：“这老些人都是从哪冒出来的呢！<strong>（慕容冲进逼长安，坚登城观之，叹曰：&quot;此虏何从出也？其强若斯！）</strong></p>
+<p>苻坚拿出皇帝的尊严在城楼上讥讽道：我不是让你们这帮鲜卑奴去给我放牧嘛！咋过来送死了呢？<strong>（大言责冲曰：尔辈群奴正可牧牛羊，何为送死）</strong></p>
+<p>慕容冲道：奴隶当够了！旧世界打个落花流水我们要做世界的主人！<strong>（冲曰：奴则奴矣，既厌奴苦，复欲取尔见代）</strong></p>
+<p>苻坚随后派使者又送了个锦袍过去，递了个口信：送你这袍子，表明我心意，朕对你恩情如何，咋突然间负心如此！<strong>（今送一袍，以明本怀。朕于卿恩分如何，而于一朝忽为此变！）</strong></p>
+<p>咱也不知道他这是个啥心态。</p>
+<p>是我这些年可没亏待你啊？</p>
+<p>还是瞅瞅当年你跟我玩角色扮演时穿的那件衣服，我还不知道你小子！再不退兵我可把硬盘公布了啊！</p>
+<p>慕容冲的回答比较官方：一个破袍子收买不了我，赶紧放我哥哥我就宽恕你们苻家人。<strong>（孤今心在天下，岂顾一袍小惠。苟能知命，便可君臣束手，早送皇帝，自当宽贷苻氏，以酬曩好，终不使既往之施独美于前）</strong></p>
+<p>苻坚又大怒了：可恨我没听王猛、苻融的话啊！让这帮白脸贼猖狂放肆到如此地步！<strong>（坚大怒曰：吾不用王景略、阳平公之言，使白虏敢至于此）</strong></p>
+<p>啥也别说了，你可不是个听劝的人，回去翻翻前秦最后一届人大会议纪要吧。</p>
+<p>关中乱局中，苻坚、姚苌、慕容冲同时也在信仰层面再寻新高地，隐居终南山的术士王嘉据说是活神仙，有异术，能预知未来，三方面全都在请他出山。</p>
+<p>最终苻坚在此局扳回一城，十一月，王嘉进入长安。</p>
+<p>王嘉入长安被关中人解读为天命开始再次眷顾苻坚，三辅地区又有四万多人归附苻坚，为他雪中送炭般的给到了支持。<strong>（十一月，嘉入长安，众闻之，以为坚有福，故圣人助之，三辅堡壁及四山氐、羌归坚者四万余人）</strong></p>
+<p>十二月，慕容暐告诉苻坚说：他儿子刚结婚，您到我家来坐坐吧。</p>
+<p>都这个时候了，苻坚居然又答应了。</p>
+<p>此时已经分不清楚苻坚是傻还是厚道了。</p>
+<p>慕容垂、慕容冲这当年都是乖如小猫的，现在呢？慕容暐和他们有什么区别吗？</p>
+<p>慕容暐打算为城外的弟弟做出自己的最后贡献，在宴席中埋伏了士兵。</p>
+<p>结果那天大雨苻坚没去成，随后事情泄露。</p>
+<p>苻坚又一次发出了祥林嫂之问：你们家人咋就这么狼心狗肺呢！你扪心自问我待你们咋样？</p>
+<p>慕容暐被问的大脸通红说了几句车轱辘话，倒是慕容肃鼓起了最后的倔强：“宗族国家事关重大，还谈什么感情义气！”<strong>（肃曰：家国事重，何论意气！）</strong></p>
+<p>苻坚随后杀了长安城中的所有鲜卑人。<strong>（坚先杀肃，乃杀及其宗族，城内鲜卑无少长、男女，皆杀之）</strong></p>
+<p>此时民族间仇恨已入化境，在大饥荒的末世加成下，秦军一个月后打退了慕容冲的攻城，随后秦军把八百多鲜卑人尸体全都吃了。<strong>（冲遣尚书令高盖夜袭长安，入其南城，左将军窦冲、前禁将军李辩等击破之，斩首八百级，分其尸而食之）</strong></p>
+<p>氐人和鲜卑变成了不死不休的民族矛盾。</p>
+<p>**古往今来所谓的民族融合，通常都是大迁徙、大离散、大tusha后的文化统一。
+**</p>
+<p><strong>过去是民族，今天是国家。</strong></p>
+<p><strong>过去是这样，今天仍然是这样，国与国之间永远没有例外。</strong></p>
+<p>**人家吃肉，你顶多能喝汤，你要是也想改善生存方式，那就是不死不休的国运之战。
+**</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141718681.gif" alt="图片" /></p>
+<p>**永远没有什么我和你，心连心，同住地球村
+**</p>
+<p>**
+**</p>
+<p><strong>更多的倒是我虐你，心扎心，同撕地球村</strong></p>
+<p>**
+**</p>
+<p>**肆：一边在坠落，一边在升起
+**</p>
+<p>**
+**</p>
+<p>385年正月，苻坚的两个对手完成了巨大蜕变。</p>
+<p>姚苌在这个月基本拿下了岭北全境，成为了俯瞰关中平原的岭北白眼狼。<strong>（后秦王苌留诸将攻新平，自引兵击安定，擒秦安西将军勃海公珍，岭北诸城悉降之）</strong></p>
+<p>慕容冲则在阿房称帝，改元“更始”。</p>
+<p>他如果有点文化，就会知道这不是个吉祥的年号。</p>
+<p>上一个玄汉“更始”，绿林军挺了两年零七个月；</p>
+<p>这次的慕容“更始”，连绿林军的一半都没撑过来。</p>
+<p>27岁的慕容冲做了皇帝后开始飘了。<strong>（及冲称尊号，有自得之志，赏罚不均，政令不明</strong>）</p>
+<p>年13岁的慕容宝庶长子慕容盛对慕容垂的幼子，也就是自己的小叔叔慕容柔说：即便做十人之长，也必定是那十个人里能耐最大的，然后这位置才能坐的住，现在慕容冲本事没有，功业未就，骄奢傲慢已经十分严重了，估计没嘛戏。<strong>（谓叔父柔曰：“今中山王智不先众，才不出下，恩未施人，先自骄大，以盛观之，鲜不覆败）</strong></p>
+<p>搞政治这东西啊，真的挺看天赋的。</p>
+<p>他爹慕容宝，挺大岁数的人了说的那话还跟二傻子似的了，这13岁的儿子看啥事就看的这么明白。</p>
+<p>慕容盛不是小时了了的昙花一现，后来他看出来了自己的血缘在西燕阵营里相当危险又对慕容柔说：咱们现在天天是在刀尖上跳舞，受人猜忌的时候，表现的傻会被人怀疑，表现的能耐那就更是自寻死路，咱得跑，不能坐而待毙。<strong>（谓柔曰：“今崎岖于锋刃之间，在疑忌之际，愚则为人所猜，智则危甚巢幕，当如鸿鹄高飞，一举万里，不可坐待罟网也）</strong></p>
+<p>人家不是光说说而已，14岁的慕容盛后来带着小叔叔慕容柔和二弟慕容会真的开始了逃亡之路，然后路上遇到了盗贼，慕容盛说我水里淹不死，火里烧不坏，你们是不是来送死！<strong>（于是与柔及弟会间行东归于慕容垂。遇盗陕中，盛曰：“我六尺之躯，入水不溺，在火不焦，汝欲当吾锋乎）</strong></p>
+<p>后来慕容盛露了手弓箭，给群盗镇住了，最后唬的土匪不仅没挣着钱，还赔钱赞助了路费送这仨走的。**（盗曰：郎贵人之子，故相试耳。资而遣之）
+**</p>
+<p>那帮没在慕容盛信任范围的同支子孙们，因为没有逃跑在一年多后全部被西燕干掉了。<strong>（岁余，永诛俊、垂之子孙，男女无遗）</strong></p>
+<p>慕容盛的少年英武让很多人想起了一个故人，慕容垂当年的最牛接班人，慕容令。<strong>（骁勇刚毅，有伯父全之风烈）</strong>（慕容令《晋书》又被称为慕容全）</p>
+<p>慕容宝别看干啥都挺废物的，但生了俩牛儿子，他二儿子慕容会比慕容盛更牛，是慕容垂后来钦定的接班人。**（雄俊有器艺，燕主垂爱之；宝之伐魏也，垂命会摄东宫事、总录，礼遇一如太子）
+**</p>
+<p>老天从来不吝惜给慕容家天才。</p>
+<p>也总会恰到好处的在关键位置上安排个蠢材。</p>
+<p>正月过年，苻坚朝宴群臣。</p>
+<p>整整一年天天坏消息的群臣们难得趁着单位聚餐吃了顿饱饭，但这顿饭也是过路财神，回家后要把肉吐出来给家里老婆孩子们吃。<strong>（正月，秦王坚朝飨群臣。时长安饥，人相食，诸将归，吐肉以饲妻子）</strong></p>
+<p>长安城内拜完年后紧接着氐人和鲜卑们也又拿起了大刀长矛互相拜晚年了，苻坚继去年被一泡大雨浇灭了士气后再度御驾亲征，亲率部队在仇班渠和雀桑大败慕容冲，但随后又在白渠被慕容冲给包围了，苻坚本人还差点成了战俘，多亏了邓迈等冒死冲慕容冲军阵才给老大救了回来**。****（尝为冲军所围，殿中上将军邓迈···于是与毛长乐等蒙兽皮，奋矛而击冲军。冲军溃，坚获免）**</p>
+<p>**
+**</p>
+<p>二月，苻坚和慕容冲再战城西，大破之追至阿房城，诸将请乘胜入城，被打出了心理阴影的苻坚害怕被慕容冲埋伏，鸣金收兵而还。<strong>（诸将请乘胜入城，坚惧为冲所获，乃击金以止军）</strong></p>
+<p>这是上天最后一次给苻坚拿下慕容冲的机会。</p>
+<p>慕容冲随后数次和苻坚的儿子苻晖交战，多次大败之，苻坚责备道：你是我最有才的儿子！带着这么多队伍弄不过那个白脸贼！生你是干啥用的！</p>
+<p>三月，苻晖愤怒自杀。</p>
+<p>苻晖死后，苻坚再派左将军苟池和右将军俱石子与慕容冲战于骊山，苟池兵败被斩，俱石子逃奔关东。</p>
+<p>左右将军，一战也全折进去了。</p>
+<p>苻坚扔出了最后底牌，派领军将军杨定率两千五百铁骑冲击慕容冲，大破之。</p>
+<p>杨定俘鲜卑万余人而还，苻坚大怒将其全部坑杀。<strong>（俘掠鲜卑万余而还。坚怒，悉坑之）</strong></p>
+<p>苻坚如此仁主不会不明白“杀降不祥”对于他的摆拍算法和后世之名意味着什么，但此时两民族已经不死不休，你放了俘虏转过天来就继续拿刀杀你来了，他也终于“活明白”了。</p>
+<p>时来天地皆同力，你大运在的那20年太顺了。</p>
+<p>运去英雄不自由，所有的路此时无论怎么走也都是死路了。</p>
+<p>杀降的苻坚自此直到生命的最后一刻，再也没有打过一次胜仗。</p>
+<p>在这个月份，385年三月，苻坚所有身家仅剩的最后一笔外汇开始从西域农村合作联社往回打款了。</p>
+<p>两年前派去镇服西域的吕光不负众望，把不服村霸们打了一遍，此时西域三十余村长，不对，三十余国王惮于吕光威名尽皆遣使纳贡。</p>
+<p>胜利后的吕光开始乐不思秦，西域富庶的异域风情让吕光打算在这不回去了。<strong>（吕光以龟兹饶乐，欲留居之）</strong></p>
+<p>这个时候，上天让他此次西行的真正目的显露出来了。</p>
+<p>一位天竺沙门对吕光说：<strong>此凶亡之地，不足留也；将军但东归，中道自有福地可居！</strong></p>
+<p>吕光得到预言承诺后和将士们召开了民主生活会，最终决定回归东土。</p>
+<p>苻坚当初告诉他**“勿极武穷兵，过深残掠”<strong>，但看吕光</strong>“以驼二万余头致外国珍宝及奇伎异戏、殊禽怪兽千有余品，骏马万余匹”**的战利品和他乐不思秦的态度，估计是没拿领导的话当回事。</p>
+<p>苻坚安排的西征梦，最终随着他大一统的崩盘并没有能够锦上添花，但却对中国文化产生了不可估量的蝴蝶效应。</p>
+<p>那位预言吕光**“中道自有福地可居”**的僧人，叫鸠摩罗什。</p>
+<p>中国史上第一次的大规模外来文化大融合，就要开启了。</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141718006.jpeg" alt="图片" /></p>
+<p>苻坚的这次有心栽花最终变成了无心插柳，他也没能等这棵参天大树郁郁成荫的佛光普照，鸠摩罗什劝吕光东归的这个时间点非常有意思。</p>
+<p>可能大师自有神通，等到西征军刚刚踏上凉州土地的时侯，吕光已经彻彻底底的没有了道德压力。</p>
+<p>这场关中乱炖的三国杀，要见眉目了。</p>
+<p>秦燕混战在打到385年五月的时候，苻坚快不行了，氐族的老底子快打光了。</p>
+<p>慕容冲攻长安，苻坚身自督战，身上被乱箭射的流血淋漓。</p>
+<p>此时的关中已经千里无人烟。<strong>（冲纵兵暴掠，关中士民流散，道路断绝，千里无烟）</strong></p>
+<p>慕容冲由于军粮没有着落放纵军队掠夺，关中有三十多个坞堡营垒推举出了平远将军赵敖互相结盟，冒死派兵送粮去支援苻坚，但大多都被西燕军截杀了。</p>
+<p>苻坚再次展现出厚道一面：说大家别冒死支援了，你们已经展现出你们的忠义，别再白白落入虎口了，你们为了国家要保重自己，畜粮练兵，以待天时，善者终不会永远困顿，一定会否极泰来的！</p>
+<p>三辅各坞堡继续被苻坚感动，派使者向苻坚请命要放火为内应烧西燕军。</p>
+<p>苻坚遣骑七百响应，结果放火后风向变了，大火开始反烧，这七百敢死队几乎全军覆没，苻坚为这七百勇士设祭哭之。</p>
+<p>苻坚此时能拿出来的筹码要以“百”为单位计算了。</p>
+<p>不久，苻坚的最后猛将杨定在城西被慕容冲生擒，苻坚失去了所有的指望。<strong>（卫将军杨定与冲战于城西，为冲所擒。定，秦之骁将也。坚大惧）</strong></p>
+<p>苻坚开始依据谶书《古苻传贾录》中的“帝出五将久长得”，做逃跑准备了。</p>
+<p>他对太子苻宏说：“这是老天在给我指路，你要好好守城，勿与贼寇争锋，我去陇地兵运粮给你。</p>
+<p>苻坚率数百骑兵与张夫人、中山公苻诜和两个女儿苻宝、苻锦奔往五将山（陕西岐山县东北），并向各州郡约定在初冬时共救长安。</p>
+<p>此时的苻坚已经上天无路，遁地无门。</p>
+<p>南逃东晋吗？这个脸往哪放呢？</p>
+<p>东逃关中吗？此时河北已经易主，邺城被围了一年，晋阳倒是还有希望，但被东西二燕夹击又能挺多久呢？</p>
+<p>他最终逃的这个地方，离他亲口鼓励创业的姚苌有点近。</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141718011.jpeg" alt="图片" /></p>
+<p>苻宏在苻坚走后不久就率数千骑兵与母亲、妻子、宗室向西逃到了下辨，南秦州刺史杨壁拒绝接纳，苻宏又逃到武都，投靠氐族豪强强熙，最终借道投降了东晋，前秦百官全部逃散，司隶校尉权翼等数百人投奔了后秦。</p>
+<p>慕容冲杀进了长安，纵兵大肆抢掠，长安又一次成为死城。<strong>（慕容冲入据长安，从兵大掠，死者不可胜计）</strong></p>
+<p>由于苻坚的逃跑地点跟新闻一样，他抵达五将山时，姚苌派骁骑将军吴忠包围了他，他的所有亲卫逃散，苻坚被抓，囚至新平。</p>
+<p>苻坚被囚的这个月，他一生中真正意义上唯一败北的“对手”，或者说他的毕生流量收割者，谢安，也不行了。</p>
+<p>去年384年苻坚在长安开始自卫反击战的时候，谢安起兵北伐。</p>
+<p>东路谢玄率北府兵自广陵北上，一路收复了兖州、青州、司州、豫州；中路和西路的桓氏出兵攻克了鲁阳和洛阳，并收复了梁州和益州。</p>
+<p>整个黄河秦岭以南回归了东晋怀抱。</p>
+<p>随着谢安达到人生巅峰，皇帝的弟弟，22岁的会稽王司马道子开始弄权，陷害谢安。<strong>（以时会稽王道子专权，而奸谄颇相扇构；而好利险诐之徒，以安功名盛极，而构会之，嫌隙遂成）</strong></p>
+<p>385年四月时，66岁的老政治家谢安借口救援苻坚，主动交出手上权力，自请出镇广陵的步丘，建新城远离建康。<strong>（安出镇广陵之步丘，筑垒曰新城以避之）</strong></p>
+<p>比司马道子年长了四十多岁，在威望达于顶点之时被挤跑，谢安成为了第一个被已经孱弱了七十多年的东晋皇权挤跑的门阀掌门人。</p>
+<p>是皇帝司马曜和他弟弟司马道子多么厉害吗？</p>
+<p>从后面表现来看，远非如此。</p>
+<p><strong>谢安在人生顶点时被挤出核心圈和一个人有着巨大关系。</strong></p>
+<p><strong>公元384年六月初一，东晋后半程真正的皇权代表崇德太后褚蒜子病逝。</strong></p>
+<p>自360年谢安东山再起去桓温那报道到383年底打赢淝水之战，谢安的这位外甥女，也是他这辈子最大的贵人扶上马送了他二十四年后终于完成了自己的历史使命。</p>
+<p>谢安的那份从容和淡定，其实真的不适合刀光剑影的政治舞台。</p>
+<p>**权臣褒义代表如丞相；
+**</p>
+<p>**
+**</p>
+<p>**权臣中性代表如霍光；
+**</p>
+<p>**
+**</p>
+<p>**权臣贬义代表如桓温，
+**</p>
+<p>**
+**</p>
+<p><strong>这些处于权力巅峰几十年不堕的平稳着陆者，都是几十年如一日的如履薄冰，克欲克己。</strong></p>
+<p>谢安秋游赌别墅的同时，司马道子就趁机分录了尚书事。<strong>（八月，苻坚帅众渡淮，遣征讨都督谢石、冠军将军谢玄、辅国将军谢琰、西中郎将桓伊等距之。九月，诏司徒、琅邪王道子录尚书六条事）</strong></p>
+<p>**一人之下万人之上的代价，是时时刻刻要盯着易躲的明枪和难防的暗箭。
+**</p>
+<p><strong>这是份苦修的工作，不可能会有潇洒的生活。</strong></p>
+<p>谢安小儿辈大破贼的背后，是宫内外甥女太后的坐镇和战场上侄子带着流亡北将们的血肉横飞。</p>
+<p><strong>岁月静好的潇洒背后，永远有人在负重前行。</strong></p>
+<p>**
+**</p>
+<p>**谢安其命、其运、其福，不可复制。
+**</p>
+<p><strong>谢安之后再无谢安。</strong></p>
+<p>褚蒜子的离世，意味着谢家的剧本到头了。</p>
+<p>随着谢家的谢幕，江左的百年门阀时代也即将走向终章。</p>
+<p>旧时王谢的堂前燕，真的要飞入寻常百姓家了。</p>
+<p>下一个轰轰烈烈的时代，那个气吞万里如虎的京口英雄，就要来了。</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141719562-1126639.gif" alt="图片" /></p>
+<p>谢安携全家出镇新城后开始造泛海大船，准备天下大定后自水道回到当年自己梦开始的东山。</p>
+<p>不久，谢安病重。</p>
+<p>谢安病中返回建康，车驾进入建康的西州门时谢安叹道：从前桓温执政时，我常常担心不知哪天就被干掉了。有一天我突然梦到自己坐着桓温的车驾走了十六里地，然后看见一只白鸡后停了下来。<strong>（自以本志不遂，深自慨失，因怅然谓所亲曰：“昔桓温在时，吾常惧不全。忽梦乘温舆行十六里，见一白鸡而止）</strong></p>
+<p>坐桓温的车驾，大概是预兆我将代他执掌朝政。<strong>（乘温舆者，代其位也）</strong></p>
+<p>十六里可能就是十六年吧。</p>
+<p>算来，我已经掌大权十六年了，白鸡属酉，如今太岁在酉，此大凶之兆，我估计是好不了了。<strong>（十六里，止今十六年矣。白鸡主酉，今太岁在酉，吾病殆不起乎）</strong></p>
+<p>唉，那句“<strong>昔桓温在时，吾常惧不全</strong>”也算是谢安谢幕前的内心独白。</p>
+<p>哪有什么谈笑风生后的**“时天子幼弱，外有强臣，安与坦之尽忠辅卫，卒安晋室”<strong>，有的只是那远远遥拜桓老虎后战战兢兢的</strong>“未有君拜于前，臣揖于后”**而已。</p>
+<p><strong>谢安几百年出不了一个的特殊人生际遇，导致了他的身后之名注定不再由他控制，潇洒从容渐渐成为了一种符号，成为了后世“失败者”和“郁郁不得志们”讽刺权臣，叹息朝政时的文化符号。</strong></p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141718057.jpeg" alt="图片" /></p>
+<p><strong>庙堂之高的真像是什么对于市井和江湖无足轻重，街头巷尾们也更愿意接受聪明潇洒碾压冷峻权威的自娱自乐。</strong></p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141718203.jpeg" alt="图片" /></p>
+<p>天塌下来自有大人去顶，明天太阳照常升起。</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141718305.jpeg" alt="图片" /></p>
+<p>385年八月二十二日，谢安病逝建康，享年六十六岁。</p>
+<p>东晋朝堂哀悼三日，赐东园秘器、朝服一具，衣一袭、钱百万、布千匹、蜡五百斤，赠太傅，谥号&quot;文靖&quot;，葬礼如桓温故事，追封庐陵郡公。</p>
+<p>两日后，司徒琅邪王司马道子兼扬州刺史、录尚书、都督中外诸军事。</p>
+<p>至此，司马道子代表的皇族，自东晋开国以来，终于第一次正式拿回了大权。</p>
+<p>谢安这一生，四十多出仕，前面玩了大半辈子，但却在四十多岁的年纪迎来了历史找到他的剧本。</p>
+<p>他注定要在桓温死后撑起这段关键衔接的时间。</p>
+<p>他这辈子，好像始终在和稀泥。</p>
+<p>但每一把稀泥，和的水平都相当之高。</p>
+<p>司马家、桓家、北府、门阀豪强，在他的治下从未有过内耗。</p>
+<p>他和桓冲这两位东晋伟才很好的接过了桓温交过来的权杖，带领江左和荆州扛住了北国这凝聚了整个世纪的雷霆一击。</p>
+<p>35年后，刘裕代晋称帝，东晋百年门阀政治中，还有封爵的只有五家。</p>
+<p>分别是王导、陶侃、温峤、谢安和谢玄的子孙。</p>
+<p>陶侃多次定乱有功，为臣大功不僭越，晚年封印归乡。</p>
+<p>温峤在王敦乱中做卧底，在苏峻乱中堪称盟军的总联络员，谥号“忠武”。</p>
+<p>谢玄组建北府开启了下个时代，淝水战再保南方百年平安。</p>
+<p>这三位将首，立重勋于国，无暴虐之迹，子孙爵位绵延，当之无愧。</p>
+<p>王导和谢安，两人均是在南朝最风雨飘摇之时稳定船头的。</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141718390.jpeg" alt="图片" /></p>
+<p><strong>这五人，间接中，不知挽救多少生灵。</strong></p>
+<p><strong>冥冥中，自有天意。</strong></p>
+<p>就在谢安过世三天后，两晋五胡的第一雄主苻坚也迎来了人生中的最后一站。</p>
+<p>姚苌派人找苻坚要传国玉玺，说：姚苌应历数该接天命，把玉玺交出来吧。<strong>（苌求传国玺于坚曰：&quot;苌次膺苻历，可以为惠）</strong></p>
+<p>苻坚怒目骂道：小羌敢逼天子！玺已送晋，不可得也！五胡次序，无汝羌名！</p>
+<p>姚苌后来又派尹纬劝苻坚把君位禅让，苻坚道：“禅让是圣贤的事情，姚苌是叛贼，他也配！</p>
+<p>苻坚与尹纬谈论一番，最终说了遗憾：你是王猛那样的宰相才，我却不知你这样的人才，也是该灭亡了。</p>
+<p>苻坚杀了女儿苻宝、苻锦，随后多次大骂姚苌求死。</p>
+<p>公元385年八月二十五日，姚苌派人把苻坚缢死在新平佛寺内，张夫人、中山公苻诜自杀。</p>
+<p>这位平燕定蜀，擒代吞凉，跨三分之二，居九州之七的氐族雄才，这位《晋书》官方认证**“虽五胡之盛，莫之比也”**的五胡之首，结束了他跌宕起伏的一生。</p>
+<p>苻坚死后，北方再次陷入群雄割据状态。</p>
+<p>苻丕在邺城此时坚持不下去了，率领六万多人投奔了晋阳的张蚝、王腾，听到苻坚驾崩后即皇帝位，算是接过了前秦的国号。</p>
+<p>随后苻家在河北、关中的残余势力仍然没有认输，后来苻登更是军中为苻坚立像和姚苌父子不死不休的闹到了十年之后。</p>
+<p>苻坚本鬼也没有就此退出历史舞台，和谋杀他的罪魁姚苌展开了人鬼情未了。</p>
+<p>苻登方面每次作战都向苻坚神像请示，姚苌数次大败，输急眼早就不要脸的姚苌随后掘出了苻坚的尸体鞭尸无数，然后扒了苻坚的衣服拿满刺的荆棘裹起来随便扔到了乱葬岗。<strong>（苌复如秦州，为苻登所败······苌乃掘苻坚尸，鞭挞无数，裸剥衣裳，荐之以棘，坎土而埋之）</strong></p>
+<p>后来这货被苻登打的实在抬不起头来了，也在军中给立苻坚立像忏悔：陛下啊，是我哥哥让我杀你复仇的，不是我的罪过啊，是您老人家命我龙骧建业造反的，您别在缠着我了。<strong>（臣兄襄敕臣复仇，新平之祸，臣行襄之命，非臣罪也。苻登，陛下疏属，犹欲复仇，况臣敢忘其兄乎？且陛下命臣以龙骧建业，臣敢违之？今为陛下立像，陛下勿追计臣过也）</strong></p>
+<p>很快姚苌发现给苻坚立像不灵，继续各种输，军营里还大闹灵异事件，随后又把苻坚神像的头砍了给苻登送去又“杀”了人家一次。</p>
+<p>还是那句话，中国人的信仰灵者为先，磕完头不好使转天就翻脸。</p>
+<p>姚苌临死前，梦到苻坚带着天兵天将突入营中，姚苌开始带着宫人和鬼兵战斗，在交战中，自己人一矛捅进了姚苌的生殖器。<strong>（梦苻坚将天官使者、鬼兵数百突入营中，苌惧，走入宫，宫人迎苌刺鬼，误中苌阴，鬼相谓曰：&quot;正中死处）</strong></p>
+<p>蛋疼的姚苌死前已经二级神经病，发狂道：杀陛下的是我哥哥，非臣之罪，饶了我吧······<strong>（苌遂狂言，或称：臣苌，杀陛下者兄襄，非臣之罪，愿不枉臣）</strong></p>
+<p>下作的姚苌以一个相当丑陋的姿态留在了中国的史书记忆里。</p>
+<p><strong>因为“恩将仇报”和“刨坟掘墓”在华夏土地上永远不会被原谅。</strong></p>
+<p>本质上干掉苻坚的慕容冲，则在中国历史上并没有什么黑暗的印象留下。</p>
+<p><strong>因为“万恶淫为首”，你苻坚罪有应得。</strong></p>
+<p><strong>这片土地，自有它的规则。</strong></p>
+<p>九月，乞伏国仁听到苻坚已死的消息传来，自称大都督、大将军、大单于、领秦、河二州牧，建元曰“建义”，建立西秦。</p>
+<p>十月，西燕皇帝慕容冲令高盖率众五万与后秦开战，姚羌罕见的打了大胜仗，西燕大败后，苻坚的猛将杨定逃奔陇右，重新聚集旧部。</p>
+<p>十一月，杨定徒居历城，自称龙骧将军（造反开光将号）、仇池公，向东晋称藩，不久又攻取天水、略阳，自称秦州刺史，陇西王，恢复了仇池国。</p>
+<p>386年二月，祸祸关中多时的慕容冲仍然不愿东归，但族人已经思乡心切，左将军韩延利用军民情绪杀慕容冲。</p>
+<p><strong>慕容冲的“更始”大业燃烧了一年后身死收场，自此这个年号再无一各政权敢用。</strong></p>
+<p><strong>这片土地的方方面面，永远是经验至上，灵者为先。</strong></p>
+<p>慕容冲死后，鲜卑贵族段随被共推为燕王，但不久段随因无慕容家威望也被颠覆，左仆射慕容恒、尚书慕容永杀韩延和段随，立前燕宜都王慕容桓之子慕容顗为燕王。</p>
+<p>三月，三十余万鲜卑人收拾行李离开长安开始了东归之路。<strong>（率鲜卑男女三十余万口，乘舆服御，礼乐器物去长安而东）</strong></p>
+<p>途中西燕内斗不断，慕容韬杀了慕容顗立慕容瑶为帝；慕容永又杀了慕容瑶立慕容忠(慕容泓的儿子)为帝，后来慕容忠也被杀，慕容永被推为大将军、大单于、河东王、在河东击败了逃到了并州的苻丕，在山西南部立下了脚跟。</p>
+<p>九月，苻坚被杀的消息终于传到凉州，吕光此时刚刚平定完凉州的割据造反，苻坚被姚苌杀的消息在这个时候才传回凉州，吕光哭怒哀嚎，下令三军缟素为苻坚服丧，谥苻坚为文昭皇帝。</p>
+<p>十月，吕光宣布改元太安，十二月，吕光自称使持节、侍中、中外大都督、督陇右、河西诸军事、大将军、凉州牧、酒泉公，建立后凉。</p>
+<p>此时中国北方并立了后燕、西燕、前秦、后秦、西秦、后凉、仇池等等一大堆异族政权，彻底乱套了。</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141718581.jpeg" alt="图片" /></p>
+<p>苻坚死前怒目骂出了那句历史上非常著名的话：<strong>五胡次序，无汝羌名！</strong></p>
+<p>所谓的“五胡乱华”中的“五胡”也是自此而来。</p>
+<p>所谓的“五胡”究竟是哪“五胡”呢？</p>
+<p>真的是所谓很多书中解释的“匈奴、鲜卑、羯、氐、羌”吗？</p>
+<p>苻坚说的确实是没错的。</p>
+<p>“五胡次序”，确实是“无汝羌名”的！</p>
+<p>羌人自始至终没有独自引领这个时代。</p>
+<p>继匈奴汉、羯赵、鲜卑慕容、氐苻后，还有这最后一胡，没有登场！</p>
+<p>这最后一胡，终于终结了中国北方长达百余年的胡马乱局。</p>
+<p>这最后一“胡”，成为了鲜卑人的内战。</p>
+<p>当年那个国家被灭后五岁入长安的娃娃，如今已经长大了。</p>
+<p><img src="../img/%E7%AC%AC73%E6%88%98%EF%BC%9A%E5%85%B4%E5%A4%8D%E5%A4%A7%E7%87%95%EF%BC%88%E5%85%A8%EF%BC%89%EF%BC%9A%E7%87%83%E7%83%A7%E7%9A%84%E5%8C%97%E5%A2%83%EF%BC%8C%E7%88%86%E7%82%B8%E7%9A%84%E5%85%B3%E4%B8%AD.assets/640-20220428141719562.gif" alt="图片" /></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../两晋悲歌/第72战：淝水之战（全）“摆拍仁主”与“网红门阀”的春秋笔法.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../两晋悲歌/第74战：拓跋珪复国之谜（全）借我借我一双慧眼吧······.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../两晋悲歌/第72战：淝水之战（全）“摆拍仁主”与“网红门阀”的春秋笔法.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../两晋悲歌/第74战：拓跋珪复国之谜（全）借我借我一双慧眼吧······.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
